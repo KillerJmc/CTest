@@ -10,3 +10,6 @@ D:/Programs/JetBrains/CProjects/CTest/cmake-build-debug/com/jmc/test/clms/CMakeF
 D:/Programs/JetBrains/CProjects/CTest/cmake-build-debug/com/jmc/test/main/CMakeFiles/edit_cache.dir
 D:/Programs/JetBrains/CProjects/CTest/cmake-build-debug/com/jmc/test/main/CMakeFiles/com_jmc_test_main.dir
 D:/Programs/JetBrains/CProjects/CTest/cmake-build-debug/com/jmc/test/main/CMakeFiles/rebuild_cache.dir
+D:/Programs/JetBrains/CProjects/CTest/cmake-build-debug/com/jmc/test/learn/CMakeFiles/rebuild_cache.dir
+D:/Programs/JetBrains/CProjects/CTest/cmake-build-debug/com/jmc/test/learn/CMakeFiles/com_jmc_test_learn.dir
+D:/Programs/JetBrains/CProjects/CTest/cmake-build-debug/com/jmc/test/learn/CMakeFiles/edit_cache.dir

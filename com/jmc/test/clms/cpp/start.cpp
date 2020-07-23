@@ -111,7 +111,7 @@ void start()
 	}
 }
 
-int main()
+void man()
 {
 	init();
 	start();

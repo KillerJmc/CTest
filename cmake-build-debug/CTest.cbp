@@ -5,7 +5,7 @@
 		<Option title="CTest"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="msvc8"/>
-		<Option virtualFolders="CMake Files\;CMake Files\com\;CMake Files\com\jmc\;CMake Files\com\jmc\io\;CMake Files\com\jmc\test\;CMake Files\com\jmc\test\clms\;CMake Files\com\jmc\test\main\;"/>
+		<Option virtualFolders="CMake Files\;CMake Files\com\;CMake Files\com\jmc\;CMake Files\com\jmc\io\;CMake Files\com\jmc\test\;CMake Files\com\jmc\test\clms\;CMake Files\com\jmc\test\main\;CMake Files\com\jmc\test\learn\;"/>
 		<Build>
 			<Target title="all">
 				<Option working_dir="D:/Programs/JetBrains/CProjects/CTest/cmake-build-debug"/>
@@ -27,6 +27,7 @@
 					<Add directory="D:/Programs/JetBrains/CProjects/CTest/com/jmc/io/headers"/>
 					<Add directory="D:/Programs/JetBrains/CProjects/CTest/com/jmc/test/clms/headers"/>
 					<Add directory="D:/Programs/JetBrains/CProjects/CTest/com/jmc/test/main/headers"/>
+					<Add directory="D:/Programs/JetBrains/CProjects/CTest/com/jmc/test/learn/headers"/>
 					<Add directory="D:\Programs\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801\ATLMFC\include"/>
 					<Add directory="D:\Programs\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801\include"/>
 					<Add directory="D:\Windows Kits\10\include\10.0.18362.0\ucrt"/>
@@ -52,6 +53,7 @@
 					<Add directory="D:/Programs/JetBrains/CProjects/CTest/com/jmc/io/headers"/>
 					<Add directory="D:/Programs/JetBrains/CProjects/CTest/com/jmc/test/clms/headers"/>
 					<Add directory="D:/Programs/JetBrains/CProjects/CTest/com/jmc/test/main/headers"/>
+					<Add directory="D:/Programs/JetBrains/CProjects/CTest/com/jmc/test/learn/headers"/>
 					<Add directory="D:\Programs\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801\ATLMFC\include"/>
 					<Add directory="D:\Programs\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801\include"/>
 					<Add directory="D:\Windows Kits\10\include\10.0.18362.0\ucrt"/>
@@ -225,6 +227,56 @@
 					<DistClean command="nmake /NOLOGO /f D:\Programs\JetBrains\CProjects\CTest\cmake-build-debug\com\jmc\test\main\Makefile VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="com_jmc_test_learn">
+				<Option output="D:/Programs/JetBrains/CProjects/CTest/cmake-build-debug/com/jmc/test/learn/com_jmc_test_learn.lib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Programs/JetBrains/CProjects/CTest/cmake-build-debug/com/jmc/test/learn"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="D:/Programs/JetBrains/CProjects/CTest/com/jmc/io/headers"/>
+					<Add directory="D:/Programs/JetBrains/CProjects/CTest/com/jmc/test/clms/headers"/>
+					<Add directory="D:/Programs/JetBrains/CProjects/CTest/com/jmc/test/main/headers"/>
+					<Add directory="D:\Programs\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801\ATLMFC\include"/>
+					<Add directory="D:\Programs\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801\include"/>
+					<Add directory="D:\Windows Kits\10\include\10.0.18362.0\ucrt"/>
+					<Add directory="D:\Windows Kits\10\include\10.0.18362.0\shared"/>
+					<Add directory="D:\Windows Kits\10\include\10.0.18362.0\um"/>
+					<Add directory="D:\Windows Kits\10\include\10.0.18362.0\winrt"/>
+					<Add directory="D:\Windows Kits\10\include\10.0.18362.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f D:\Programs\JetBrains\CProjects\CTest\cmake-build-debug\com\jmc\test\learn\Makefile VERBOSE=1 com_jmc_test_learn"/>
+					<CompileFile command="nmake /NOLOGO /f D:\Programs\JetBrains\CProjects\CTest\cmake-build-debug\com\jmc\test\learn\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f D:\Programs\JetBrains\CProjects\CTest\cmake-build-debug\com\jmc\test\learn\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f D:\Programs\JetBrains\CProjects\CTest\cmake-build-debug\com\jmc\test\learn\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="com_jmc_test_learn/fast">
+				<Option output="D:/Programs/JetBrains/CProjects/CTest/cmake-build-debug/com/jmc/test/learn/com_jmc_test_learn.lib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Programs/JetBrains/CProjects/CTest/cmake-build-debug/com/jmc/test/learn"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="D:/Programs/JetBrains/CProjects/CTest/com/jmc/io/headers"/>
+					<Add directory="D:/Programs/JetBrains/CProjects/CTest/com/jmc/test/clms/headers"/>
+					<Add directory="D:/Programs/JetBrains/CProjects/CTest/com/jmc/test/main/headers"/>
+					<Add directory="D:\Programs\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801\ATLMFC\include"/>
+					<Add directory="D:\Programs\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801\include"/>
+					<Add directory="D:\Windows Kits\10\include\10.0.18362.0\ucrt"/>
+					<Add directory="D:\Windows Kits\10\include\10.0.18362.0\shared"/>
+					<Add directory="D:\Windows Kits\10\include\10.0.18362.0\um"/>
+					<Add directory="D:\Windows Kits\10\include\10.0.18362.0\winrt"/>
+					<Add directory="D:\Windows Kits\10\include\10.0.18362.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f D:\Programs\JetBrains\CProjects\CTest\cmake-build-debug\com\jmc\test\learn\Makefile VERBOSE=1 com_jmc_test_learn/fast"/>
+					<CompileFile command="nmake /NOLOGO /f D:\Programs\JetBrains\CProjects\CTest\cmake-build-debug\com\jmc\test\learn\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f D:\Programs\JetBrains\CProjects\CTest\cmake-build-debug\com\jmc\test\learn\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f D:\Programs\JetBrains\CProjects\CTest\cmake-build-debug\com\jmc\test\learn\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 		</Build>
 		<Unit filename="D:/Programs/JetBrains/CProjects/CTest/com/jmc/io/cpp/file.cpp">
 			<Option target="CTest"/>
@@ -250,7 +302,219 @@
 			<Option target="CTest"/>
 			<Option target="com_jmc_test_clms"/>
 		</Unit>
+		<Unit filename="D:/Programs/JetBrains/CProjects/CTest/com/jmc/test/learn/cpp/algorithm.cpp">
+			<Option target="CTest"/>
+			<Option target="com_jmc_test_learn"/>
+		</Unit>
+		<Unit filename="D:/Programs/JetBrains/CProjects/CTest/com/jmc/test/learn/cpp/alias.cpp">
+			<Option target="CTest"/>
+			<Option target="com_jmc_test_learn"/>
+		</Unit>
+		<Unit filename="D:/Programs/JetBrains/CProjects/CTest/com/jmc/test/learn/cpp/arr.cpp">
+			<Option target="CTest"/>
+			<Option target="com_jmc_test_learn"/>
+		</Unit>
+		<Unit filename="D:/Programs/JetBrains/CProjects/CTest/com/jmc/test/learn/cpp/arr2.cpp">
+			<Option target="CTest"/>
+			<Option target="com_jmc_test_learn"/>
+		</Unit>
+		<Unit filename="D:/Programs/JetBrains/CProjects/CTest/com/jmc/test/learn/cpp/arr3.cpp">
+			<Option target="CTest"/>
+			<Option target="com_jmc_test_learn"/>
+		</Unit>
+		<Unit filename="D:/Programs/JetBrains/CProjects/CTest/com/jmc/test/learn/cpp/cin.cpp">
+			<Option target="CTest"/>
+			<Option target="com_jmc_test_learn"/>
+		</Unit>
+		<Unit filename="D:/Programs/JetBrains/CProjects/CTest/com/jmc/test/learn/cpp/class.cpp">
+			<Option target="CTest"/>
+			<Option target="com_jmc_test_learn"/>
+		</Unit>
+		<Unit filename="D:/Programs/JetBrains/CProjects/CTest/com/jmc/test/learn/cpp/const.cpp">
+			<Option target="CTest"/>
+			<Option target="com_jmc_test_learn"/>
+		</Unit>
+		<Unit filename="D:/Programs/JetBrains/CProjects/CTest/com/jmc/test/learn/cpp/decltype.cpp">
+			<Option target="CTest"/>
+			<Option target="com_jmc_test_learn"/>
+		</Unit>
+		<Unit filename="D:/Programs/JetBrains/CProjects/CTest/com/jmc/test/learn/cpp/default_parms.cpp">
+			<Option target="CTest"/>
+			<Option target="com_jmc_test_learn"/>
+		</Unit>
+		<Unit filename="D:/Programs/JetBrains/CProjects/CTest/com/jmc/test/learn/cpp/deque.cpp">
+			<Option target="CTest"/>
+			<Option target="com_jmc_test_learn"/>
+		</Unit>
+		<Unit filename="D:/Programs/JetBrains/CProjects/CTest/com/jmc/test/learn/cpp/exception.cpp">
+			<Option target="CTest"/>
+			<Option target="com_jmc_test_learn"/>
+		</Unit>
+		<Unit filename="D:/Programs/JetBrains/CProjects/CTest/com/jmc/test/learn/cpp/exception2.cpp">
+			<Option target="CTest"/>
+			<Option target="com_jmc_test_learn"/>
+		</Unit>
+		<Unit filename="D:/Programs/JetBrains/CProjects/CTest/com/jmc/test/learn/cpp/extends.cpp">
+			<Option target="CTest"/>
+			<Option target="com_jmc_test_learn"/>
+		</Unit>
+		<Unit filename="D:/Programs/JetBrains/CProjects/CTest/com/jmc/test/learn/cpp/extends2.cpp">
+			<Option target="CTest"/>
+			<Option target="com_jmc_test_learn"/>
+		</Unit>
+		<Unit filename="D:/Programs/JetBrains/CProjects/CTest/com/jmc/test/learn/cpp/extends3.cpp">
+			<Option target="CTest"/>
+			<Option target="com_jmc_test_learn"/>
+		</Unit>
+		<Unit filename="D:/Programs/JetBrains/CProjects/CTest/com/jmc/test/learn/cpp/extends4.cpp">
+			<Option target="CTest"/>
+			<Option target="com_jmc_test_learn"/>
+		</Unit>
+		<Unit filename="D:/Programs/JetBrains/CProjects/CTest/com/jmc/test/learn/cpp/file_.cpp">
+			<Option target="CTest"/>
+			<Option target="com_jmc_test_learn"/>
+		</Unit>
+		<Unit filename="D:/Programs/JetBrains/CProjects/CTest/com/jmc/test/learn/cpp/file_2.cpp">
+			<Option target="CTest"/>
+			<Option target="com_jmc_test_learn"/>
+		</Unit>
+		<Unit filename="D:/Programs/JetBrains/CProjects/CTest/com/jmc/test/learn/cpp/fixed.cpp">
+			<Option target="CTest"/>
+			<Option target="com_jmc_test_learn"/>
+		</Unit>
+		<Unit filename="D:/Programs/JetBrains/CProjects/CTest/com/jmc/test/learn/cpp/friend.cpp">
+			<Option target="CTest"/>
+			<Option target="com_jmc_test_learn"/>
+		</Unit>
+		<Unit filename="D:/Programs/JetBrains/CProjects/CTest/com/jmc/test/learn/cpp/init_list.cpp">
+			<Option target="CTest"/>
+			<Option target="com_jmc_test_learn"/>
+		</Unit>
+		<Unit filename="D:/Programs/JetBrains/CProjects/CTest/com/jmc/test/learn/cpp/javaStyle.cpp">
+			<Option target="CTest"/>
+			<Option target="com_jmc_test_learn"/>
+		</Unit>
+		<Unit filename="D:/Programs/JetBrains/CProjects/CTest/com/jmc/test/learn/cpp/lambda.cpp">
+			<Option target="CTest"/>
+			<Option target="com_jmc_test_learn"/>
+		</Unit>
+		<Unit filename="D:/Programs/JetBrains/CProjects/CTest/com/jmc/test/learn/cpp/list.cpp">
+			<Option target="CTest"/>
+			<Option target="com_jmc_test_learn"/>
+		</Unit>
+		<Unit filename="D:/Programs/JetBrains/CProjects/CTest/com/jmc/test/learn/cpp/main.cpp">
+			<Option target="CTest"/>
+			<Option target="com_jmc_test_learn"/>
+		</Unit>
+		<Unit filename="D:/Programs/JetBrains/CProjects/CTest/com/jmc/test/learn/cpp/map.cpp">
+			<Option target="CTest"/>
+			<Option target="com_jmc_test_learn"/>
+		</Unit>
+		<Unit filename="D:/Programs/JetBrains/CProjects/CTest/com/jmc/test/learn/cpp/memory.cpp">
+			<Option target="CTest"/>
+			<Option target="com_jmc_test_learn"/>
+		</Unit>
+		<Unit filename="D:/Programs/JetBrains/CProjects/CTest/com/jmc/test/learn/cpp/news.cpp">
+			<Option target="CTest"/>
+			<Option target="com_jmc_test_learn"/>
+		</Unit>
+		<Unit filename="D:/Programs/JetBrains/CProjects/CTest/com/jmc/test/learn/cpp/operator.cpp">
+			<Option target="CTest"/>
+			<Option target="com_jmc_test_learn"/>
+		</Unit>
+		<Unit filename="D:/Programs/JetBrains/CProjects/CTest/com/jmc/test/learn/cpp/override&amp;final.cpp">
+			<Option target="CTest"/>
+			<Option target="com_jmc_test_learn"/>
+		</Unit>
+		<Unit filename="D:/Programs/JetBrains/CProjects/CTest/com/jmc/test/learn/cpp/pair.cpp">
+			<Option target="CTest"/>
+			<Option target="com_jmc_test_learn"/>
+		</Unit>
+		<Unit filename="D:/Programs/JetBrains/CProjects/CTest/com/jmc/test/learn/cpp/ptr.cpp">
+			<Option target="CTest"/>
+			<Option target="com_jmc_test_learn"/>
+		</Unit>
+		<Unit filename="D:/Programs/JetBrains/CProjects/CTest/com/jmc/test/learn/cpp/ptr2.cpp">
+			<Option target="CTest"/>
+			<Option target="com_jmc_test_learn"/>
+		</Unit>
+		<Unit filename="D:/Programs/JetBrains/CProjects/CTest/com/jmc/test/learn/cpp/ptr3.cpp">
+			<Option target="CTest"/>
+			<Option target="com_jmc_test_learn"/>
+		</Unit>
+		<Unit filename="D:/Programs/JetBrains/CProjects/CTest/com/jmc/test/learn/cpp/rand.cpp">
+			<Option target="CTest"/>
+			<Option target="com_jmc_test_learn"/>
+		</Unit>
+		<Unit filename="D:/Programs/JetBrains/CProjects/CTest/com/jmc/test/learn/cpp/rvalue.cpp">
+			<Option target="CTest"/>
+			<Option target="com_jmc_test_learn"/>
+		</Unit>
+		<Unit filename="D:/Programs/JetBrains/CProjects/CTest/com/jmc/test/learn/cpp/set.cpp">
+			<Option target="CTest"/>
+			<Option target="com_jmc_test_learn"/>
+		</Unit>
+		<Unit filename="D:/Programs/JetBrains/CProjects/CTest/com/jmc/test/learn/cpp/stack&amp;queue.cpp">
+			<Option target="CTest"/>
+			<Option target="com_jmc_test_learn"/>
+		</Unit>
+		<Unit filename="D:/Programs/JetBrains/CProjects/CTest/com/jmc/test/learn/cpp/static.cpp">
+			<Option target="CTest"/>
+			<Option target="com_jmc_test_learn"/>
+		</Unit>
+		<Unit filename="D:/Programs/JetBrains/CProjects/CTest/com/jmc/test/learn/cpp/string.cpp">
+			<Option target="CTest"/>
+			<Option target="com_jmc_test_learn"/>
+		</Unit>
+		<Unit filename="D:/Programs/JetBrains/CProjects/CTest/com/jmc/test/learn/cpp/string2.cpp">
+			<Option target="CTest"/>
+			<Option target="com_jmc_test_learn"/>
+		</Unit>
+		<Unit filename="D:/Programs/JetBrains/CProjects/CTest/com/jmc/test/learn/cpp/struct.cpp">
+			<Option target="CTest"/>
+			<Option target="com_jmc_test_learn"/>
+		</Unit>
+		<Unit filename="D:/Programs/JetBrains/CProjects/CTest/com/jmc/test/learn/cpp/template.cpp">
+			<Option target="CTest"/>
+			<Option target="com_jmc_test_learn"/>
+		</Unit>
+		<Unit filename="D:/Programs/JetBrains/CProjects/CTest/com/jmc/test/learn/cpp/template2.cpp">
+			<Option target="CTest"/>
+			<Option target="com_jmc_test_learn"/>
+		</Unit>
+		<Unit filename="D:/Programs/JetBrains/CProjects/CTest/com/jmc/test/learn/cpp/template3.cpp">
+			<Option target="CTest"/>
+			<Option target="com_jmc_test_learn"/>
+		</Unit>
+		<Unit filename="D:/Programs/JetBrains/CProjects/CTest/com/jmc/test/learn/cpp/template4.cpp">
+			<Option target="CTest"/>
+			<Option target="com_jmc_test_learn"/>
+		</Unit>
+		<Unit filename="D:/Programs/JetBrains/CProjects/CTest/com/jmc/test/learn/cpp/thread.cpp">
+			<Option target="CTest"/>
+			<Option target="com_jmc_test_learn"/>
+		</Unit>
+		<Unit filename="D:/Programs/JetBrains/CProjects/CTest/com/jmc/test/learn/cpp/thread2.cpp">
+			<Option target="CTest"/>
+			<Option target="com_jmc_test_learn"/>
+		</Unit>
+		<Unit filename="D:/Programs/JetBrains/CProjects/CTest/com/jmc/test/learn/cpp/try.cpp">
+			<Option target="CTest"/>
+			<Option target="com_jmc_test_learn"/>
+		</Unit>
+		<Unit filename="D:/Programs/JetBrains/CProjects/CTest/com/jmc/test/learn/cpp/typedef.cpp">
+			<Option target="CTest"/>
+			<Option target="com_jmc_test_learn"/>
+		</Unit>
+		<Unit filename="D:/Programs/JetBrains/CProjects/CTest/com/jmc/test/learn/cpp/vectors.cpp">
+			<Option target="CTest"/>
+			<Option target="com_jmc_test_learn"/>
+		</Unit>
 		<Unit filename="D:/Programs/JetBrains/CProjects/CTest/com/jmc/test/main/cpp/main.cpp">
+			<Option target="CTest"/>
+			<Option target="com_jmc_test_main"/>
+		</Unit>
+		<Unit filename="D:/Programs/JetBrains/CProjects/CTest/com/jmc/test/main/cpp/tools.cpp">
 			<Option target="CTest"/>
 			<Option target="com_jmc_test_main"/>
 		</Unit>
@@ -265,6 +529,9 @@
 		</Unit>
 		<Unit filename="D:/Programs/JetBrains/CProjects/CTest/com/jmc/test/main/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\com\jmc\test\main\"/>
+		</Unit>
+		<Unit filename="D:/Programs/JetBrains/CProjects/CTest/com/jmc/test/learn/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\com\jmc\test\learn\"/>
 		</Unit>
 	</Project>
 </CodeBlocks_project_file>

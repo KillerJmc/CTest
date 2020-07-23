@@ -34,6 +34,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/3.16.5/CMakeSystem.cmake"
   "../com/jmc/io/CMakeLists.txt"
   "../com/jmc/test/clms/CMakeLists.txt"
+  "../com/jmc/test/learn/CMakeLists.txt"
   "../com/jmc/test/main/CMakeLists.txt"
   )
 
@@ -49,6 +50,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "com/jmc/io/CMakeFiles/CMakeDirectoryInformation.cmake"
   "com/jmc/test/clms/CMakeFiles/CMakeDirectoryInformation.cmake"
   "com/jmc/test/main/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "com/jmc/test/learn/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
@@ -57,4 +59,5 @@ set(CMAKE_DEPEND_INFO_FILES
   "com/jmc/io/CMakeFiles/com_jmc_io.dir/DependInfo.cmake"
   "com/jmc/test/clms/CMakeFiles/com_jmc_test_clms.dir/DependInfo.cmake"
   "com/jmc/test/main/CMakeFiles/com_jmc_test_main.dir/DependInfo.cmake"
+  "com/jmc/test/learn/CMakeFiles/com_jmc_test_learn.dir/DependInfo.cmake"
   )

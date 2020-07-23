@@ -58,6 +58,7 @@ all: CMakeFiles\CTest.dir\all
 all: com\jmc\io\all
 all: com\jmc\test\clms\all
 all: com\jmc\test\main\all
+all: com\jmc\test\learn\all
 
 .PHONY : all
 
@@ -65,6 +66,7 @@ all: com\jmc\test\main\all
 preinstall: com\jmc\io\preinstall
 preinstall: com\jmc\test\clms\preinstall
 preinstall: com\jmc\test\main\preinstall
+preinstall: com\jmc\test\learn\preinstall
 
 .PHONY : preinstall
 
@@ -73,6 +75,7 @@ clean: CMakeFiles\CTest.dir\clean
 clean: com\jmc\io\clean
 clean: com\jmc\test\clms\clean
 clean: com\jmc\test\main\clean
+clean: com\jmc\test\learn\clean
 
 .PHONY : clean
 
@@ -113,6 +116,24 @@ com\jmc\test\clms\clean: com\jmc\test\clms\CMakeFiles\com_jmc_test_clms.dir\clea
 .PHONY : com\jmc\test\clms\clean
 
 #=============================================================================
+# Directory level rules for directory com\jmc\test\learn
+
+# Recursive "all" directory target.
+com\jmc\test\learn\all: com\jmc\test\learn\CMakeFiles\com_jmc_test_learn.dir\all
+
+.PHONY : com\jmc\test\learn\all
+
+# Recursive "preinstall" directory target.
+com\jmc\test\learn\preinstall:
+
+.PHONY : com\jmc\test\learn\preinstall
+
+# Recursive "clean" directory target.
+com\jmc\test\learn\clean: com\jmc\test\learn\CMakeFiles\com_jmc_test_learn.dir\clean
+
+.PHONY : com\jmc\test\learn\clean
+
+#=============================================================================
 # Directory level rules for directory com\jmc\test\main
 
 # Recursive "all" directory target.
@@ -137,12 +158,12 @@ com\jmc\test\main\clean: com\jmc\test\main\CMakeFiles\com_jmc_test_main.dir\clea
 CMakeFiles\CTest.dir\all:
 	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\depend
 	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\Programs\JetBrains\CProjects\CTest\cmake-build-debug\CMakeFiles --progress-num=1,2,3,4,5,6,7,8 "Built target CTest"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\Programs\JetBrains\CProjects\CTest\cmake-build-debug\CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48 "Built target CTest"
 .PHONY : CMakeFiles\CTest.dir\all
 
 # Build rule for subdir invocation for target.
 CMakeFiles\CTest.dir\rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\Programs\JetBrains\CProjects\CTest\cmake-build-debug\CMakeFiles 8
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\Programs\JetBrains\CProjects\CTest\cmake-build-debug\CMakeFiles 48
 	$(MAKE) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\all
 	$(CMAKE_COMMAND) -E cmake_progress_start D:\Programs\JetBrains\CProjects\CTest\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles\CTest.dir\rule
@@ -164,7 +185,7 @@ CMakeFiles\CTest.dir\clean:
 com\jmc\io\CMakeFiles\com_jmc_io.dir\all:
 	$(MAKE) -f com\jmc\io\CMakeFiles\com_jmc_io.dir\build.make /nologo -$(MAKEFLAGS) com\jmc\io\CMakeFiles\com_jmc_io.dir\depend
 	$(MAKE) -f com\jmc\io\CMakeFiles\com_jmc_io.dir\build.make /nologo -$(MAKEFLAGS) com\jmc\io\CMakeFiles\com_jmc_io.dir\build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\Programs\JetBrains\CProjects\CTest\cmake-build-debug\CMakeFiles --progress-num=9,10 "Built target com_jmc_io"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\Programs\JetBrains\CProjects\CTest\cmake-build-debug\CMakeFiles --progress-num=49,50 "Built target com_jmc_io"
 .PHONY : com\jmc\io\CMakeFiles\com_jmc_io.dir\all
 
 # Build rule for subdir invocation for target.
@@ -191,12 +212,12 @@ com\jmc\io\CMakeFiles\com_jmc_io.dir\clean:
 com\jmc\test\clms\CMakeFiles\com_jmc_test_clms.dir\all:
 	$(MAKE) -f com\jmc\test\clms\CMakeFiles\com_jmc_test_clms.dir\build.make /nologo -$(MAKEFLAGS) com\jmc\test\clms\CMakeFiles\com_jmc_test_clms.dir\depend
 	$(MAKE) -f com\jmc\test\clms\CMakeFiles\com_jmc_test_clms.dir\build.make /nologo -$(MAKEFLAGS) com\jmc\test\clms\CMakeFiles\com_jmc_test_clms.dir\build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\Programs\JetBrains\CProjects\CTest\cmake-build-debug\CMakeFiles --progress-num=11,12,13,14,15,16 "Built target com_jmc_test_clms"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\Programs\JetBrains\CProjects\CTest\cmake-build-debug\CMakeFiles --progress-num=51,52,53,54,55 "Built target com_jmc_test_clms"
 .PHONY : com\jmc\test\clms\CMakeFiles\com_jmc_test_clms.dir\all
 
 # Build rule for subdir invocation for target.
 com\jmc\test\clms\CMakeFiles\com_jmc_test_clms.dir\rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\Programs\JetBrains\CProjects\CTest\cmake-build-debug\CMakeFiles 6
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\Programs\JetBrains\CProjects\CTest\cmake-build-debug\CMakeFiles 5
 	$(MAKE) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) com\jmc\test\clms\CMakeFiles\com_jmc_test_clms.dir\all
 	$(CMAKE_COMMAND) -E cmake_progress_start D:\Programs\JetBrains\CProjects\CTest\cmake-build-debug\CMakeFiles 0
 .PHONY : com\jmc\test\clms\CMakeFiles\com_jmc_test_clms.dir\rule
@@ -218,12 +239,12 @@ com\jmc\test\clms\CMakeFiles\com_jmc_test_clms.dir\clean:
 com\jmc\test\main\CMakeFiles\com_jmc_test_main.dir\all:
 	$(MAKE) -f com\jmc\test\main\CMakeFiles\com_jmc_test_main.dir\build.make /nologo -$(MAKEFLAGS) com\jmc\test\main\CMakeFiles\com_jmc_test_main.dir\depend
 	$(MAKE) -f com\jmc\test\main\CMakeFiles\com_jmc_test_main.dir\build.make /nologo -$(MAKEFLAGS) com\jmc\test\main\CMakeFiles\com_jmc_test_main.dir\build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\Programs\JetBrains\CProjects\CTest\cmake-build-debug\CMakeFiles --progress-num=17,18 "Built target com_jmc_test_main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\Programs\JetBrains\CProjects\CTest\cmake-build-debug\CMakeFiles --progress-num=98,99,100 "Built target com_jmc_test_main"
 .PHONY : com\jmc\test\main\CMakeFiles\com_jmc_test_main.dir\all
 
 # Build rule for subdir invocation for target.
 com\jmc\test\main\CMakeFiles\com_jmc_test_main.dir\rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\Programs\JetBrains\CProjects\CTest\cmake-build-debug\CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\Programs\JetBrains\CProjects\CTest\cmake-build-debug\CMakeFiles 3
 	$(MAKE) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) com\jmc\test\main\CMakeFiles\com_jmc_test_main.dir\all
 	$(CMAKE_COMMAND) -E cmake_progress_start D:\Programs\JetBrains\CProjects\CTest\cmake-build-debug\CMakeFiles 0
 .PHONY : com\jmc\test\main\CMakeFiles\com_jmc_test_main.dir\rule
@@ -237,6 +258,33 @@ com_jmc_test_main: com\jmc\test\main\CMakeFiles\com_jmc_test_main.dir\rule
 com\jmc\test\main\CMakeFiles\com_jmc_test_main.dir\clean:
 	$(MAKE) -f com\jmc\test\main\CMakeFiles\com_jmc_test_main.dir\build.make /nologo -$(MAKEFLAGS) com\jmc\test\main\CMakeFiles\com_jmc_test_main.dir\clean
 .PHONY : com\jmc\test\main\CMakeFiles\com_jmc_test_main.dir\clean
+
+#=============================================================================
+# Target rules for target com/jmc/test/learn/CMakeFiles/com_jmc_test_learn.dir
+
+# All Build rule for target.
+com\jmc\test\learn\CMakeFiles\com_jmc_test_learn.dir\all:
+	$(MAKE) -f com\jmc\test\learn\CMakeFiles\com_jmc_test_learn.dir\build.make /nologo -$(MAKEFLAGS) com\jmc\test\learn\CMakeFiles\com_jmc_test_learn.dir\depend
+	$(MAKE) -f com\jmc\test\learn\CMakeFiles\com_jmc_test_learn.dir\build.make /nologo -$(MAKEFLAGS) com\jmc\test\learn\CMakeFiles\com_jmc_test_learn.dir\build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\Programs\JetBrains\CProjects\CTest\cmake-build-debug\CMakeFiles --progress-num=56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,97 "Built target com_jmc_test_learn"
+.PHONY : com\jmc\test\learn\CMakeFiles\com_jmc_test_learn.dir\all
+
+# Build rule for subdir invocation for target.
+com\jmc\test\learn\CMakeFiles\com_jmc_test_learn.dir\rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\Programs\JetBrains\CProjects\CTest\cmake-build-debug\CMakeFiles 42
+	$(MAKE) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) com\jmc\test\learn\CMakeFiles\com_jmc_test_learn.dir\all
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\Programs\JetBrains\CProjects\CTest\cmake-build-debug\CMakeFiles 0
+.PHONY : com\jmc\test\learn\CMakeFiles\com_jmc_test_learn.dir\rule
+
+# Convenience name for target.
+com_jmc_test_learn: com\jmc\test\learn\CMakeFiles\com_jmc_test_learn.dir\rule
+
+.PHONY : com_jmc_test_learn
+
+# clean rule for target.
+com\jmc\test\learn\CMakeFiles\com_jmc_test_learn.dir\clean:
+	$(MAKE) -f com\jmc\test\learn\CMakeFiles\com_jmc_test_learn.dir\build.make /nologo -$(MAKEFLAGS) com\jmc\test\learn\CMakeFiles\com_jmc_test_learn.dir\clean
+.PHONY : com\jmc\test\learn\CMakeFiles\com_jmc_test_learn.dir\clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

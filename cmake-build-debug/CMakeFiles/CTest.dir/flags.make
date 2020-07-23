@@ -6,5 +6,5 @@ CXX_FLAGS = /DWIN32 /D_WINDOWS /GR /EHsc /Zi /Ob0 /Od /RTC1   -std:c++latest
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -ID:\Programs\JetBrains\CProjects\CTest\com\jmc\io\headers -ID:\Programs\JetBrains\CProjects\CTest\com\jmc\test\clms\headers -ID:\Programs\JetBrains\CProjects\CTest\com\jmc\test\main\headers 
+CXX_INCLUDES = -ID:\Programs\JetBrains\CProjects\CTest\com\jmc\io\headers -ID:\Programs\JetBrains\CProjects\CTest\com\jmc\test\clms\headers -ID:\Programs\JetBrains\CProjects\CTest\com\jmc\test\main\headers -ID:\Programs\JetBrains\CProjects\CTest\com\jmc\test\learn\headers 
 

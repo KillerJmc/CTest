@@ -173,6 +173,39 @@ cpp\main.cpp.s:
 	cd D:\Programs\JetBrains\CProjects\CTest\cmake-build-debug\com\jmc\test\main
 .PHONY : cpp\main.cpp.s
 
+cpp\tools.obj: cpp\tools.cpp.obj
+
+.PHONY : cpp\tools.obj
+
+# target to build an object file
+cpp\tools.cpp.obj:
+	cd D:\Programs\JetBrains\CProjects\CTest\cmake-build-debug
+	$(MAKE) -f com\jmc\test\main\CMakeFiles\com_jmc_test_main.dir\build.make /nologo -$(MAKEFLAGS) com\jmc\test\main\CMakeFiles\com_jmc_test_main.dir\cpp\tools.cpp.obj
+	cd D:\Programs\JetBrains\CProjects\CTest\cmake-build-debug\com\jmc\test\main
+.PHONY : cpp\tools.cpp.obj
+
+cpp\tools.i: cpp\tools.cpp.i
+
+.PHONY : cpp\tools.i
+
+# target to preprocess a source file
+cpp\tools.cpp.i:
+	cd D:\Programs\JetBrains\CProjects\CTest\cmake-build-debug
+	$(MAKE) -f com\jmc\test\main\CMakeFiles\com_jmc_test_main.dir\build.make /nologo -$(MAKEFLAGS) com\jmc\test\main\CMakeFiles\com_jmc_test_main.dir\cpp\tools.cpp.i
+	cd D:\Programs\JetBrains\CProjects\CTest\cmake-build-debug\com\jmc\test\main
+.PHONY : cpp\tools.cpp.i
+
+cpp\tools.s: cpp\tools.cpp.s
+
+.PHONY : cpp\tools.s
+
+# target to generate assembly for a file
+cpp\tools.cpp.s:
+	cd D:\Programs\JetBrains\CProjects\CTest\cmake-build-debug
+	$(MAKE) -f com\jmc\test\main\CMakeFiles\com_jmc_test_main.dir\build.make /nologo -$(MAKEFLAGS) com\jmc\test\main\CMakeFiles\com_jmc_test_main.dir\cpp\tools.cpp.s
+	cd D:\Programs\JetBrains\CProjects\CTest\cmake-build-debug\com\jmc\test\main
+.PHONY : cpp\tools.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -185,6 +218,9 @@ help:
 	@echo ... cpp/main.obj
 	@echo ... cpp/main.i
 	@echo ... cpp/main.s
+	@echo ... cpp/tools.obj
+	@echo ... cpp/tools.i
+	@echo ... cpp/tools.s
 .PHONY : help
 
 
