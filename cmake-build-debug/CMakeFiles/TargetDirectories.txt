@@ -1,0 +1,12 @@
+D:/Programs/JetBrains/CProjects/CTest/cmake-build-debug/CMakeFiles/CTest.dir
+D:/Programs/JetBrains/CProjects/CTest/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/Programs/JetBrains/CProjects/CTest/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+D:/Programs/JetBrains/CProjects/CTest/cmake-build-debug/com/jmc/io/CMakeFiles/edit_cache.dir
+D:/Programs/JetBrains/CProjects/CTest/cmake-build-debug/com/jmc/io/CMakeFiles/com_jmc_io.dir
+D:/Programs/JetBrains/CProjects/CTest/cmake-build-debug/com/jmc/io/CMakeFiles/rebuild_cache.dir
+D:/Programs/JetBrains/CProjects/CTest/cmake-build-debug/com/jmc/test/clms/CMakeFiles/com_jmc_test_clms.dir
+D:/Programs/JetBrains/CProjects/CTest/cmake-build-debug/com/jmc/test/clms/CMakeFiles/edit_cache.dir
+D:/Programs/JetBrains/CProjects/CTest/cmake-build-debug/com/jmc/test/clms/CMakeFiles/rebuild_cache.dir
+D:/Programs/JetBrains/CProjects/CTest/cmake-build-debug/com/jmc/test/main/CMakeFiles/edit_cache.dir
+D:/Programs/JetBrains/CProjects/CTest/cmake-build-debug/com/jmc/test/main/CMakeFiles/com_jmc_test_main.dir
+D:/Programs/JetBrains/CProjects/CTest/cmake-build-debug/com/jmc/test/main/CMakeFiles/rebuild_cache.dir
