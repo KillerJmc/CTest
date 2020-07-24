@@ -40,19 +40,19 @@ NULL=nul
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "D:\Programs\JetBrains\CLion 2020.1.3\bin\cmake\win\bin\cmake.exe"
+CMAKE_COMMAND = "D:\Programs\JetBrains\CLion 2020.1\bin\cmake\win\bin\cmake.exe"
 
 # The command to remove a file.
-RM = "D:\Programs\JetBrains\CLion 2020.1.3\bin\cmake\win\bin\cmake.exe" -E remove -f
+RM = "D:\Programs\JetBrains\CLion 2020.1\bin\cmake\win\bin\cmake.exe" -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = D:\Programs\JetBrains\CProjects\CTest
+CMAKE_SOURCE_DIR = D:\Programs\JetBrains\Projects\CProjects\CTest
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = D:\Programs\JetBrains\CProjects\CTest\cmake-build-debug
+CMAKE_BINARY_DIR = D:\Programs\JetBrains\Projects\CProjects\CTest\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -60,7 +60,7 @@ CMAKE_BINARY_DIR = D:\Programs\JetBrains\CProjects\CTest\cmake-build-debug
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	echo >nul && "D:\Programs\JetBrains\CLion 2020.1.3\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available."
+	echo >nul && "D:\Programs\JetBrains\CLion 2020.1\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available."
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -71,7 +71,7 @@ edit_cache\fast: edit_cache
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	echo >nul && "D:\Programs\JetBrains\CLion 2020.1.3\bin\cmake\win\bin\cmake.exe" -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	echo >nul && "D:\Programs\JetBrains\CLion 2020.1\bin\cmake\win\bin\cmake.exe" -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -81,9 +81,9 @@ rebuild_cache\fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\Programs\JetBrains\CProjects\CTest\cmake-build-debug\CMakeFiles D:\Programs\JetBrains\CProjects\CTest\cmake-build-debug\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\Programs\JetBrains\Projects\CProjects\CTest\cmake-build-debug\CMakeFiles D:\Programs\JetBrains\Projects\CProjects\CTest\cmake-build-debug\CMakeFiles\progress.marks
 	$(MAKE) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) all
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\Programs\JetBrains\CProjects\CTest\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\Programs\JetBrains\Projects\CProjects\CTest\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -134,7 +134,7 @@ com_jmc_io: cmake_check_build_system
 
 # fast build rule for target.
 com_jmc_io\fast:
-	$(MAKE) -f com\jmc\io\CMakeFiles\com_jmc_io.dir\build.make /nologo -$(MAKEFLAGS) com\jmc\io\CMakeFiles\com_jmc_io.dir\build
+	$(MAKE) -f src\com\jmc\io\CMakeFiles\com_jmc_io.dir\build.make /nologo -$(MAKEFLAGS) src\com\jmc\io\CMakeFiles\com_jmc_io.dir\build
 .PHONY : com_jmc_io\fast
 
 #=============================================================================
@@ -147,7 +147,7 @@ com_jmc_test_clms: cmake_check_build_system
 
 # fast build rule for target.
 com_jmc_test_clms\fast:
-	$(MAKE) -f com\jmc\test\clms\CMakeFiles\com_jmc_test_clms.dir\build.make /nologo -$(MAKEFLAGS) com\jmc\test\clms\CMakeFiles\com_jmc_test_clms.dir\build
+	$(MAKE) -f src\com\jmc\test\clms\CMakeFiles\com_jmc_test_clms.dir\build.make /nologo -$(MAKEFLAGS) src\com\jmc\test\clms\CMakeFiles\com_jmc_test_clms.dir\build
 .PHONY : com_jmc_test_clms\fast
 
 #=============================================================================
@@ -160,7 +160,7 @@ com_jmc_test_main: cmake_check_build_system
 
 # fast build rule for target.
 com_jmc_test_main\fast:
-	$(MAKE) -f com\jmc\test\main\CMakeFiles\com_jmc_test_main.dir\build.make /nologo -$(MAKEFLAGS) com\jmc\test\main\CMakeFiles\com_jmc_test_main.dir\build
+	$(MAKE) -f src\com\jmc\test\main\CMakeFiles\com_jmc_test_main.dir\build.make /nologo -$(MAKEFLAGS) src\com\jmc\test\main\CMakeFiles\com_jmc_test_main.dir\build
 .PHONY : com_jmc_test_main\fast
 
 #=============================================================================
@@ -173,1628 +173,1628 @@ com_jmc_test_learn: cmake_check_build_system
 
 # fast build rule for target.
 com_jmc_test_learn\fast:
-	$(MAKE) -f com\jmc\test\learn\CMakeFiles\com_jmc_test_learn.dir\build.make /nologo -$(MAKEFLAGS) com\jmc\test\learn\CMakeFiles\com_jmc_test_learn.dir\build
+	$(MAKE) -f src\com\jmc\test\learn\CMakeFiles\com_jmc_test_learn.dir\build.make /nologo -$(MAKEFLAGS) src\com\jmc\test\learn\CMakeFiles\com_jmc_test_learn.dir\build
 .PHONY : com_jmc_test_learn\fast
 
-com\jmc\io\cpp\file.obj: com\jmc\io\cpp\file.cpp.obj
+src\com\jmc\io\cpp\file.obj: src\com\jmc\io\cpp\file.cpp.obj
 
-.PHONY : com\jmc\io\cpp\file.obj
-
-# target to build an object file
-com\jmc\io\cpp\file.cpp.obj:
-	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\com\jmc\io\cpp\file.cpp.obj
-.PHONY : com\jmc\io\cpp\file.cpp.obj
-
-com\jmc\io\cpp\file.i: com\jmc\io\cpp\file.cpp.i
-
-.PHONY : com\jmc\io\cpp\file.i
-
-# target to preprocess a source file
-com\jmc\io\cpp\file.cpp.i:
-	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\com\jmc\io\cpp\file.cpp.i
-.PHONY : com\jmc\io\cpp\file.cpp.i
-
-com\jmc\io\cpp\file.s: com\jmc\io\cpp\file.cpp.s
-
-.PHONY : com\jmc\io\cpp\file.s
-
-# target to generate assembly for a file
-com\jmc\io\cpp\file.cpp.s:
-	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\com\jmc\io\cpp\file.cpp.s
-.PHONY : com\jmc\io\cpp\file.cpp.s
-
-com\jmc\test\clms\cpp\admin.obj: com\jmc\test\clms\cpp\admin.cpp.obj
-
-.PHONY : com\jmc\test\clms\cpp\admin.obj
+.PHONY : src\com\jmc\io\cpp\file.obj
 
 # target to build an object file
-com\jmc\test\clms\cpp\admin.cpp.obj:
-	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\com\jmc\test\clms\cpp\admin.cpp.obj
-.PHONY : com\jmc\test\clms\cpp\admin.cpp.obj
+src\com\jmc\io\cpp\file.cpp.obj:
+	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\src\com\jmc\io\cpp\file.cpp.obj
+.PHONY : src\com\jmc\io\cpp\file.cpp.obj
 
-com\jmc\test\clms\cpp\admin.i: com\jmc\test\clms\cpp\admin.cpp.i
+src\com\jmc\io\cpp\file.i: src\com\jmc\io\cpp\file.cpp.i
 
-.PHONY : com\jmc\test\clms\cpp\admin.i
+.PHONY : src\com\jmc\io\cpp\file.i
 
 # target to preprocess a source file
-com\jmc\test\clms\cpp\admin.cpp.i:
-	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\com\jmc\test\clms\cpp\admin.cpp.i
-.PHONY : com\jmc\test\clms\cpp\admin.cpp.i
+src\com\jmc\io\cpp\file.cpp.i:
+	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\src\com\jmc\io\cpp\file.cpp.i
+.PHONY : src\com\jmc\io\cpp\file.cpp.i
 
-com\jmc\test\clms\cpp\admin.s: com\jmc\test\clms\cpp\admin.cpp.s
+src\com\jmc\io\cpp\file.s: src\com\jmc\io\cpp\file.cpp.s
 
-.PHONY : com\jmc\test\clms\cpp\admin.s
+.PHONY : src\com\jmc\io\cpp\file.s
 
 # target to generate assembly for a file
-com\jmc\test\clms\cpp\admin.cpp.s:
-	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\com\jmc\test\clms\cpp\admin.cpp.s
-.PHONY : com\jmc\test\clms\cpp\admin.cpp.s
+src\com\jmc\io\cpp\file.cpp.s:
+	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\src\com\jmc\io\cpp\file.cpp.s
+.PHONY : src\com\jmc\io\cpp\file.cpp.s
 
-com\jmc\test\clms\cpp\global_vars.obj: com\jmc\test\clms\cpp\global_vars.cpp.obj
+src\com\jmc\test\clms\cpp\admin.obj: src\com\jmc\test\clms\cpp\admin.cpp.obj
 
-.PHONY : com\jmc\test\clms\cpp\global_vars.obj
+.PHONY : src\com\jmc\test\clms\cpp\admin.obj
 
 # target to build an object file
-com\jmc\test\clms\cpp\global_vars.cpp.obj:
-	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\com\jmc\test\clms\cpp\global_vars.cpp.obj
-.PHONY : com\jmc\test\clms\cpp\global_vars.cpp.obj
+src\com\jmc\test\clms\cpp\admin.cpp.obj:
+	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\src\com\jmc\test\clms\cpp\admin.cpp.obj
+.PHONY : src\com\jmc\test\clms\cpp\admin.cpp.obj
 
-com\jmc\test\clms\cpp\global_vars.i: com\jmc\test\clms\cpp\global_vars.cpp.i
+src\com\jmc\test\clms\cpp\admin.i: src\com\jmc\test\clms\cpp\admin.cpp.i
 
-.PHONY : com\jmc\test\clms\cpp\global_vars.i
+.PHONY : src\com\jmc\test\clms\cpp\admin.i
 
 # target to preprocess a source file
-com\jmc\test\clms\cpp\global_vars.cpp.i:
-	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\com\jmc\test\clms\cpp\global_vars.cpp.i
-.PHONY : com\jmc\test\clms\cpp\global_vars.cpp.i
+src\com\jmc\test\clms\cpp\admin.cpp.i:
+	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\src\com\jmc\test\clms\cpp\admin.cpp.i
+.PHONY : src\com\jmc\test\clms\cpp\admin.cpp.i
 
-com\jmc\test\clms\cpp\global_vars.s: com\jmc\test\clms\cpp\global_vars.cpp.s
+src\com\jmc\test\clms\cpp\admin.s: src\com\jmc\test\clms\cpp\admin.cpp.s
 
-.PHONY : com\jmc\test\clms\cpp\global_vars.s
+.PHONY : src\com\jmc\test\clms\cpp\admin.s
 
 # target to generate assembly for a file
-com\jmc\test\clms\cpp\global_vars.cpp.s:
-	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\com\jmc\test\clms\cpp\global_vars.cpp.s
-.PHONY : com\jmc\test\clms\cpp\global_vars.cpp.s
+src\com\jmc\test\clms\cpp\admin.cpp.s:
+	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\src\com\jmc\test\clms\cpp\admin.cpp.s
+.PHONY : src\com\jmc\test\clms\cpp\admin.cpp.s
 
-com\jmc\test\clms\cpp\start.obj: com\jmc\test\clms\cpp\start.cpp.obj
+src\com\jmc\test\clms\cpp\global_vars.obj: src\com\jmc\test\clms\cpp\global_vars.cpp.obj
 
-.PHONY : com\jmc\test\clms\cpp\start.obj
+.PHONY : src\com\jmc\test\clms\cpp\global_vars.obj
 
 # target to build an object file
-com\jmc\test\clms\cpp\start.cpp.obj:
-	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\com\jmc\test\clms\cpp\start.cpp.obj
-.PHONY : com\jmc\test\clms\cpp\start.cpp.obj
+src\com\jmc\test\clms\cpp\global_vars.cpp.obj:
+	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\src\com\jmc\test\clms\cpp\global_vars.cpp.obj
+.PHONY : src\com\jmc\test\clms\cpp\global_vars.cpp.obj
 
-com\jmc\test\clms\cpp\start.i: com\jmc\test\clms\cpp\start.cpp.i
+src\com\jmc\test\clms\cpp\global_vars.i: src\com\jmc\test\clms\cpp\global_vars.cpp.i
 
-.PHONY : com\jmc\test\clms\cpp\start.i
+.PHONY : src\com\jmc\test\clms\cpp\global_vars.i
 
 # target to preprocess a source file
-com\jmc\test\clms\cpp\start.cpp.i:
-	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\com\jmc\test\clms\cpp\start.cpp.i
-.PHONY : com\jmc\test\clms\cpp\start.cpp.i
+src\com\jmc\test\clms\cpp\global_vars.cpp.i:
+	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\src\com\jmc\test\clms\cpp\global_vars.cpp.i
+.PHONY : src\com\jmc\test\clms\cpp\global_vars.cpp.i
 
-com\jmc\test\clms\cpp\start.s: com\jmc\test\clms\cpp\start.cpp.s
+src\com\jmc\test\clms\cpp\global_vars.s: src\com\jmc\test\clms\cpp\global_vars.cpp.s
 
-.PHONY : com\jmc\test\clms\cpp\start.s
+.PHONY : src\com\jmc\test\clms\cpp\global_vars.s
 
 # target to generate assembly for a file
-com\jmc\test\clms\cpp\start.cpp.s:
-	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\com\jmc\test\clms\cpp\start.cpp.s
-.PHONY : com\jmc\test\clms\cpp\start.cpp.s
+src\com\jmc\test\clms\cpp\global_vars.cpp.s:
+	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\src\com\jmc\test\clms\cpp\global_vars.cpp.s
+.PHONY : src\com\jmc\test\clms\cpp\global_vars.cpp.s
 
-com\jmc\test\clms\cpp\stu.obj: com\jmc\test\clms\cpp\stu.cpp.obj
+src\com\jmc\test\clms\cpp\start.obj: src\com\jmc\test\clms\cpp\start.cpp.obj
 
-.PHONY : com\jmc\test\clms\cpp\stu.obj
+.PHONY : src\com\jmc\test\clms\cpp\start.obj
 
 # target to build an object file
-com\jmc\test\clms\cpp\stu.cpp.obj:
-	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\com\jmc\test\clms\cpp\stu.cpp.obj
-.PHONY : com\jmc\test\clms\cpp\stu.cpp.obj
+src\com\jmc\test\clms\cpp\start.cpp.obj:
+	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\src\com\jmc\test\clms\cpp\start.cpp.obj
+.PHONY : src\com\jmc\test\clms\cpp\start.cpp.obj
 
-com\jmc\test\clms\cpp\stu.i: com\jmc\test\clms\cpp\stu.cpp.i
+src\com\jmc\test\clms\cpp\start.i: src\com\jmc\test\clms\cpp\start.cpp.i
 
-.PHONY : com\jmc\test\clms\cpp\stu.i
+.PHONY : src\com\jmc\test\clms\cpp\start.i
 
 # target to preprocess a source file
-com\jmc\test\clms\cpp\stu.cpp.i:
-	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\com\jmc\test\clms\cpp\stu.cpp.i
-.PHONY : com\jmc\test\clms\cpp\stu.cpp.i
+src\com\jmc\test\clms\cpp\start.cpp.i:
+	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\src\com\jmc\test\clms\cpp\start.cpp.i
+.PHONY : src\com\jmc\test\clms\cpp\start.cpp.i
 
-com\jmc\test\clms\cpp\stu.s: com\jmc\test\clms\cpp\stu.cpp.s
+src\com\jmc\test\clms\cpp\start.s: src\com\jmc\test\clms\cpp\start.cpp.s
 
-.PHONY : com\jmc\test\clms\cpp\stu.s
+.PHONY : src\com\jmc\test\clms\cpp\start.s
 
 # target to generate assembly for a file
-com\jmc\test\clms\cpp\stu.cpp.s:
-	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\com\jmc\test\clms\cpp\stu.cpp.s
-.PHONY : com\jmc\test\clms\cpp\stu.cpp.s
+src\com\jmc\test\clms\cpp\start.cpp.s:
+	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\src\com\jmc\test\clms\cpp\start.cpp.s
+.PHONY : src\com\jmc\test\clms\cpp\start.cpp.s
 
-com\jmc\test\clms\cpp\teacher.obj: com\jmc\test\clms\cpp\teacher.cpp.obj
+src\com\jmc\test\clms\cpp\stu.obj: src\com\jmc\test\clms\cpp\stu.cpp.obj
 
-.PHONY : com\jmc\test\clms\cpp\teacher.obj
+.PHONY : src\com\jmc\test\clms\cpp\stu.obj
 
 # target to build an object file
-com\jmc\test\clms\cpp\teacher.cpp.obj:
-	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\com\jmc\test\clms\cpp\teacher.cpp.obj
-.PHONY : com\jmc\test\clms\cpp\teacher.cpp.obj
+src\com\jmc\test\clms\cpp\stu.cpp.obj:
+	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\src\com\jmc\test\clms\cpp\stu.cpp.obj
+.PHONY : src\com\jmc\test\clms\cpp\stu.cpp.obj
 
-com\jmc\test\clms\cpp\teacher.i: com\jmc\test\clms\cpp\teacher.cpp.i
+src\com\jmc\test\clms\cpp\stu.i: src\com\jmc\test\clms\cpp\stu.cpp.i
 
-.PHONY : com\jmc\test\clms\cpp\teacher.i
+.PHONY : src\com\jmc\test\clms\cpp\stu.i
 
 # target to preprocess a source file
-com\jmc\test\clms\cpp\teacher.cpp.i:
-	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\com\jmc\test\clms\cpp\teacher.cpp.i
-.PHONY : com\jmc\test\clms\cpp\teacher.cpp.i
+src\com\jmc\test\clms\cpp\stu.cpp.i:
+	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\src\com\jmc\test\clms\cpp\stu.cpp.i
+.PHONY : src\com\jmc\test\clms\cpp\stu.cpp.i
 
-com\jmc\test\clms\cpp\teacher.s: com\jmc\test\clms\cpp\teacher.cpp.s
+src\com\jmc\test\clms\cpp\stu.s: src\com\jmc\test\clms\cpp\stu.cpp.s
 
-.PHONY : com\jmc\test\clms\cpp\teacher.s
+.PHONY : src\com\jmc\test\clms\cpp\stu.s
 
 # target to generate assembly for a file
-com\jmc\test\clms\cpp\teacher.cpp.s:
-	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\com\jmc\test\clms\cpp\teacher.cpp.s
-.PHONY : com\jmc\test\clms\cpp\teacher.cpp.s
+src\com\jmc\test\clms\cpp\stu.cpp.s:
+	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\src\com\jmc\test\clms\cpp\stu.cpp.s
+.PHONY : src\com\jmc\test\clms\cpp\stu.cpp.s
 
-com\jmc\test\learn\cpp\algorithm.obj: com\jmc\test\learn\cpp\algorithm.cpp.obj
+src\com\jmc\test\clms\cpp\teacher.obj: src\com\jmc\test\clms\cpp\teacher.cpp.obj
 
-.PHONY : com\jmc\test\learn\cpp\algorithm.obj
+.PHONY : src\com\jmc\test\clms\cpp\teacher.obj
 
 # target to build an object file
-com\jmc\test\learn\cpp\algorithm.cpp.obj:
-	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\algorithm.cpp.obj
-.PHONY : com\jmc\test\learn\cpp\algorithm.cpp.obj
+src\com\jmc\test\clms\cpp\teacher.cpp.obj:
+	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\src\com\jmc\test\clms\cpp\teacher.cpp.obj
+.PHONY : src\com\jmc\test\clms\cpp\teacher.cpp.obj
 
-com\jmc\test\learn\cpp\algorithm.i: com\jmc\test\learn\cpp\algorithm.cpp.i
+src\com\jmc\test\clms\cpp\teacher.i: src\com\jmc\test\clms\cpp\teacher.cpp.i
 
-.PHONY : com\jmc\test\learn\cpp\algorithm.i
+.PHONY : src\com\jmc\test\clms\cpp\teacher.i
 
 # target to preprocess a source file
-com\jmc\test\learn\cpp\algorithm.cpp.i:
-	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\algorithm.cpp.i
-.PHONY : com\jmc\test\learn\cpp\algorithm.cpp.i
+src\com\jmc\test\clms\cpp\teacher.cpp.i:
+	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\src\com\jmc\test\clms\cpp\teacher.cpp.i
+.PHONY : src\com\jmc\test\clms\cpp\teacher.cpp.i
 
-com\jmc\test\learn\cpp\algorithm.s: com\jmc\test\learn\cpp\algorithm.cpp.s
+src\com\jmc\test\clms\cpp\teacher.s: src\com\jmc\test\clms\cpp\teacher.cpp.s
 
-.PHONY : com\jmc\test\learn\cpp\algorithm.s
+.PHONY : src\com\jmc\test\clms\cpp\teacher.s
 
 # target to generate assembly for a file
-com\jmc\test\learn\cpp\algorithm.cpp.s:
-	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\algorithm.cpp.s
-.PHONY : com\jmc\test\learn\cpp\algorithm.cpp.s
+src\com\jmc\test\clms\cpp\teacher.cpp.s:
+	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\src\com\jmc\test\clms\cpp\teacher.cpp.s
+.PHONY : src\com\jmc\test\clms\cpp\teacher.cpp.s
 
-com\jmc\test\learn\cpp\alias.obj: com\jmc\test\learn\cpp\alias.cpp.obj
+src\com\jmc\test\learn\cpp\algorithm.obj: src\com\jmc\test\learn\cpp\algorithm.cpp.obj
 
-.PHONY : com\jmc\test\learn\cpp\alias.obj
+.PHONY : src\com\jmc\test\learn\cpp\algorithm.obj
 
 # target to build an object file
-com\jmc\test\learn\cpp\alias.cpp.obj:
-	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\alias.cpp.obj
-.PHONY : com\jmc\test\learn\cpp\alias.cpp.obj
+src\com\jmc\test\learn\cpp\algorithm.cpp.obj:
+	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\algorithm.cpp.obj
+.PHONY : src\com\jmc\test\learn\cpp\algorithm.cpp.obj
 
-com\jmc\test\learn\cpp\alias.i: com\jmc\test\learn\cpp\alias.cpp.i
+src\com\jmc\test\learn\cpp\algorithm.i: src\com\jmc\test\learn\cpp\algorithm.cpp.i
 
-.PHONY : com\jmc\test\learn\cpp\alias.i
+.PHONY : src\com\jmc\test\learn\cpp\algorithm.i
 
 # target to preprocess a source file
-com\jmc\test\learn\cpp\alias.cpp.i:
-	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\alias.cpp.i
-.PHONY : com\jmc\test\learn\cpp\alias.cpp.i
+src\com\jmc\test\learn\cpp\algorithm.cpp.i:
+	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\algorithm.cpp.i
+.PHONY : src\com\jmc\test\learn\cpp\algorithm.cpp.i
 
-com\jmc\test\learn\cpp\alias.s: com\jmc\test\learn\cpp\alias.cpp.s
+src\com\jmc\test\learn\cpp\algorithm.s: src\com\jmc\test\learn\cpp\algorithm.cpp.s
 
-.PHONY : com\jmc\test\learn\cpp\alias.s
+.PHONY : src\com\jmc\test\learn\cpp\algorithm.s
 
 # target to generate assembly for a file
-com\jmc\test\learn\cpp\alias.cpp.s:
-	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\alias.cpp.s
-.PHONY : com\jmc\test\learn\cpp\alias.cpp.s
+src\com\jmc\test\learn\cpp\algorithm.cpp.s:
+	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\algorithm.cpp.s
+.PHONY : src\com\jmc\test\learn\cpp\algorithm.cpp.s
 
-com\jmc\test\learn\cpp\arr.obj: com\jmc\test\learn\cpp\arr.cpp.obj
+src\com\jmc\test\learn\cpp\alias.obj: src\com\jmc\test\learn\cpp\alias.cpp.obj
 
-.PHONY : com\jmc\test\learn\cpp\arr.obj
+.PHONY : src\com\jmc\test\learn\cpp\alias.obj
 
 # target to build an object file
-com\jmc\test\learn\cpp\arr.cpp.obj:
-	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\arr.cpp.obj
-.PHONY : com\jmc\test\learn\cpp\arr.cpp.obj
+src\com\jmc\test\learn\cpp\alias.cpp.obj:
+	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\alias.cpp.obj
+.PHONY : src\com\jmc\test\learn\cpp\alias.cpp.obj
 
-com\jmc\test\learn\cpp\arr.i: com\jmc\test\learn\cpp\arr.cpp.i
+src\com\jmc\test\learn\cpp\alias.i: src\com\jmc\test\learn\cpp\alias.cpp.i
 
-.PHONY : com\jmc\test\learn\cpp\arr.i
+.PHONY : src\com\jmc\test\learn\cpp\alias.i
 
 # target to preprocess a source file
-com\jmc\test\learn\cpp\arr.cpp.i:
-	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\arr.cpp.i
-.PHONY : com\jmc\test\learn\cpp\arr.cpp.i
+src\com\jmc\test\learn\cpp\alias.cpp.i:
+	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\alias.cpp.i
+.PHONY : src\com\jmc\test\learn\cpp\alias.cpp.i
 
-com\jmc\test\learn\cpp\arr.s: com\jmc\test\learn\cpp\arr.cpp.s
+src\com\jmc\test\learn\cpp\alias.s: src\com\jmc\test\learn\cpp\alias.cpp.s
 
-.PHONY : com\jmc\test\learn\cpp\arr.s
+.PHONY : src\com\jmc\test\learn\cpp\alias.s
 
 # target to generate assembly for a file
-com\jmc\test\learn\cpp\arr.cpp.s:
-	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\arr.cpp.s
-.PHONY : com\jmc\test\learn\cpp\arr.cpp.s
+src\com\jmc\test\learn\cpp\alias.cpp.s:
+	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\alias.cpp.s
+.PHONY : src\com\jmc\test\learn\cpp\alias.cpp.s
 
-com\jmc\test\learn\cpp\arr2.obj: com\jmc\test\learn\cpp\arr2.cpp.obj
+src\com\jmc\test\learn\cpp\arr.obj: src\com\jmc\test\learn\cpp\arr.cpp.obj
 
-.PHONY : com\jmc\test\learn\cpp\arr2.obj
+.PHONY : src\com\jmc\test\learn\cpp\arr.obj
 
 # target to build an object file
-com\jmc\test\learn\cpp\arr2.cpp.obj:
-	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\arr2.cpp.obj
-.PHONY : com\jmc\test\learn\cpp\arr2.cpp.obj
+src\com\jmc\test\learn\cpp\arr.cpp.obj:
+	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\arr.cpp.obj
+.PHONY : src\com\jmc\test\learn\cpp\arr.cpp.obj
 
-com\jmc\test\learn\cpp\arr2.i: com\jmc\test\learn\cpp\arr2.cpp.i
+src\com\jmc\test\learn\cpp\arr.i: src\com\jmc\test\learn\cpp\arr.cpp.i
 
-.PHONY : com\jmc\test\learn\cpp\arr2.i
+.PHONY : src\com\jmc\test\learn\cpp\arr.i
 
 # target to preprocess a source file
-com\jmc\test\learn\cpp\arr2.cpp.i:
-	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\arr2.cpp.i
-.PHONY : com\jmc\test\learn\cpp\arr2.cpp.i
+src\com\jmc\test\learn\cpp\arr.cpp.i:
+	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\arr.cpp.i
+.PHONY : src\com\jmc\test\learn\cpp\arr.cpp.i
 
-com\jmc\test\learn\cpp\arr2.s: com\jmc\test\learn\cpp\arr2.cpp.s
+src\com\jmc\test\learn\cpp\arr.s: src\com\jmc\test\learn\cpp\arr.cpp.s
 
-.PHONY : com\jmc\test\learn\cpp\arr2.s
+.PHONY : src\com\jmc\test\learn\cpp\arr.s
 
 # target to generate assembly for a file
-com\jmc\test\learn\cpp\arr2.cpp.s:
-	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\arr2.cpp.s
-.PHONY : com\jmc\test\learn\cpp\arr2.cpp.s
+src\com\jmc\test\learn\cpp\arr.cpp.s:
+	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\arr.cpp.s
+.PHONY : src\com\jmc\test\learn\cpp\arr.cpp.s
 
-com\jmc\test\learn\cpp\arr3.obj: com\jmc\test\learn\cpp\arr3.cpp.obj
+src\com\jmc\test\learn\cpp\arr2.obj: src\com\jmc\test\learn\cpp\arr2.cpp.obj
 
-.PHONY : com\jmc\test\learn\cpp\arr3.obj
+.PHONY : src\com\jmc\test\learn\cpp\arr2.obj
 
 # target to build an object file
-com\jmc\test\learn\cpp\arr3.cpp.obj:
-	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\arr3.cpp.obj
-.PHONY : com\jmc\test\learn\cpp\arr3.cpp.obj
+src\com\jmc\test\learn\cpp\arr2.cpp.obj:
+	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\arr2.cpp.obj
+.PHONY : src\com\jmc\test\learn\cpp\arr2.cpp.obj
 
-com\jmc\test\learn\cpp\arr3.i: com\jmc\test\learn\cpp\arr3.cpp.i
+src\com\jmc\test\learn\cpp\arr2.i: src\com\jmc\test\learn\cpp\arr2.cpp.i
 
-.PHONY : com\jmc\test\learn\cpp\arr3.i
+.PHONY : src\com\jmc\test\learn\cpp\arr2.i
 
 # target to preprocess a source file
-com\jmc\test\learn\cpp\arr3.cpp.i:
-	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\arr3.cpp.i
-.PHONY : com\jmc\test\learn\cpp\arr3.cpp.i
+src\com\jmc\test\learn\cpp\arr2.cpp.i:
+	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\arr2.cpp.i
+.PHONY : src\com\jmc\test\learn\cpp\arr2.cpp.i
 
-com\jmc\test\learn\cpp\arr3.s: com\jmc\test\learn\cpp\arr3.cpp.s
+src\com\jmc\test\learn\cpp\arr2.s: src\com\jmc\test\learn\cpp\arr2.cpp.s
 
-.PHONY : com\jmc\test\learn\cpp\arr3.s
+.PHONY : src\com\jmc\test\learn\cpp\arr2.s
 
 # target to generate assembly for a file
-com\jmc\test\learn\cpp\arr3.cpp.s:
-	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\arr3.cpp.s
-.PHONY : com\jmc\test\learn\cpp\arr3.cpp.s
+src\com\jmc\test\learn\cpp\arr2.cpp.s:
+	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\arr2.cpp.s
+.PHONY : src\com\jmc\test\learn\cpp\arr2.cpp.s
 
-com\jmc\test\learn\cpp\cin.obj: com\jmc\test\learn\cpp\cin.cpp.obj
+src\com\jmc\test\learn\cpp\arr3.obj: src\com\jmc\test\learn\cpp\arr3.cpp.obj
 
-.PHONY : com\jmc\test\learn\cpp\cin.obj
+.PHONY : src\com\jmc\test\learn\cpp\arr3.obj
 
 # target to build an object file
-com\jmc\test\learn\cpp\cin.cpp.obj:
-	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\cin.cpp.obj
-.PHONY : com\jmc\test\learn\cpp\cin.cpp.obj
+src\com\jmc\test\learn\cpp\arr3.cpp.obj:
+	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\arr3.cpp.obj
+.PHONY : src\com\jmc\test\learn\cpp\arr3.cpp.obj
 
-com\jmc\test\learn\cpp\cin.i: com\jmc\test\learn\cpp\cin.cpp.i
+src\com\jmc\test\learn\cpp\arr3.i: src\com\jmc\test\learn\cpp\arr3.cpp.i
 
-.PHONY : com\jmc\test\learn\cpp\cin.i
+.PHONY : src\com\jmc\test\learn\cpp\arr3.i
 
 # target to preprocess a source file
-com\jmc\test\learn\cpp\cin.cpp.i:
-	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\cin.cpp.i
-.PHONY : com\jmc\test\learn\cpp\cin.cpp.i
+src\com\jmc\test\learn\cpp\arr3.cpp.i:
+	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\arr3.cpp.i
+.PHONY : src\com\jmc\test\learn\cpp\arr3.cpp.i
 
-com\jmc\test\learn\cpp\cin.s: com\jmc\test\learn\cpp\cin.cpp.s
+src\com\jmc\test\learn\cpp\arr3.s: src\com\jmc\test\learn\cpp\arr3.cpp.s
 
-.PHONY : com\jmc\test\learn\cpp\cin.s
+.PHONY : src\com\jmc\test\learn\cpp\arr3.s
 
 # target to generate assembly for a file
-com\jmc\test\learn\cpp\cin.cpp.s:
-	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\cin.cpp.s
-.PHONY : com\jmc\test\learn\cpp\cin.cpp.s
+src\com\jmc\test\learn\cpp\arr3.cpp.s:
+	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\arr3.cpp.s
+.PHONY : src\com\jmc\test\learn\cpp\arr3.cpp.s
 
-com\jmc\test\learn\cpp\class.obj: com\jmc\test\learn\cpp\class.cpp.obj
+src\com\jmc\test\learn\cpp\cin.obj: src\com\jmc\test\learn\cpp\cin.cpp.obj
 
-.PHONY : com\jmc\test\learn\cpp\class.obj
+.PHONY : src\com\jmc\test\learn\cpp\cin.obj
 
 # target to build an object file
-com\jmc\test\learn\cpp\class.cpp.obj:
-	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\class.cpp.obj
-.PHONY : com\jmc\test\learn\cpp\class.cpp.obj
+src\com\jmc\test\learn\cpp\cin.cpp.obj:
+	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\cin.cpp.obj
+.PHONY : src\com\jmc\test\learn\cpp\cin.cpp.obj
 
-com\jmc\test\learn\cpp\class.i: com\jmc\test\learn\cpp\class.cpp.i
+src\com\jmc\test\learn\cpp\cin.i: src\com\jmc\test\learn\cpp\cin.cpp.i
 
-.PHONY : com\jmc\test\learn\cpp\class.i
+.PHONY : src\com\jmc\test\learn\cpp\cin.i
 
 # target to preprocess a source file
-com\jmc\test\learn\cpp\class.cpp.i:
-	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\class.cpp.i
-.PHONY : com\jmc\test\learn\cpp\class.cpp.i
+src\com\jmc\test\learn\cpp\cin.cpp.i:
+	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\cin.cpp.i
+.PHONY : src\com\jmc\test\learn\cpp\cin.cpp.i
 
-com\jmc\test\learn\cpp\class.s: com\jmc\test\learn\cpp\class.cpp.s
+src\com\jmc\test\learn\cpp\cin.s: src\com\jmc\test\learn\cpp\cin.cpp.s
 
-.PHONY : com\jmc\test\learn\cpp\class.s
+.PHONY : src\com\jmc\test\learn\cpp\cin.s
 
 # target to generate assembly for a file
-com\jmc\test\learn\cpp\class.cpp.s:
-	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\class.cpp.s
-.PHONY : com\jmc\test\learn\cpp\class.cpp.s
+src\com\jmc\test\learn\cpp\cin.cpp.s:
+	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\cin.cpp.s
+.PHONY : src\com\jmc\test\learn\cpp\cin.cpp.s
 
-com\jmc\test\learn\cpp\const.obj: com\jmc\test\learn\cpp\const.cpp.obj
+src\com\jmc\test\learn\cpp\class.obj: src\com\jmc\test\learn\cpp\class.cpp.obj
 
-.PHONY : com\jmc\test\learn\cpp\const.obj
+.PHONY : src\com\jmc\test\learn\cpp\class.obj
 
 # target to build an object file
-com\jmc\test\learn\cpp\const.cpp.obj:
-	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\const.cpp.obj
-.PHONY : com\jmc\test\learn\cpp\const.cpp.obj
+src\com\jmc\test\learn\cpp\class.cpp.obj:
+	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\class.cpp.obj
+.PHONY : src\com\jmc\test\learn\cpp\class.cpp.obj
 
-com\jmc\test\learn\cpp\const.i: com\jmc\test\learn\cpp\const.cpp.i
+src\com\jmc\test\learn\cpp\class.i: src\com\jmc\test\learn\cpp\class.cpp.i
 
-.PHONY : com\jmc\test\learn\cpp\const.i
+.PHONY : src\com\jmc\test\learn\cpp\class.i
 
 # target to preprocess a source file
-com\jmc\test\learn\cpp\const.cpp.i:
-	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\const.cpp.i
-.PHONY : com\jmc\test\learn\cpp\const.cpp.i
+src\com\jmc\test\learn\cpp\class.cpp.i:
+	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\class.cpp.i
+.PHONY : src\com\jmc\test\learn\cpp\class.cpp.i
 
-com\jmc\test\learn\cpp\const.s: com\jmc\test\learn\cpp\const.cpp.s
+src\com\jmc\test\learn\cpp\class.s: src\com\jmc\test\learn\cpp\class.cpp.s
 
-.PHONY : com\jmc\test\learn\cpp\const.s
+.PHONY : src\com\jmc\test\learn\cpp\class.s
 
 # target to generate assembly for a file
-com\jmc\test\learn\cpp\const.cpp.s:
-	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\const.cpp.s
-.PHONY : com\jmc\test\learn\cpp\const.cpp.s
+src\com\jmc\test\learn\cpp\class.cpp.s:
+	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\class.cpp.s
+.PHONY : src\com\jmc\test\learn\cpp\class.cpp.s
 
-com\jmc\test\learn\cpp\decltype.obj: com\jmc\test\learn\cpp\decltype.cpp.obj
+src\com\jmc\test\learn\cpp\const.obj: src\com\jmc\test\learn\cpp\const.cpp.obj
 
-.PHONY : com\jmc\test\learn\cpp\decltype.obj
+.PHONY : src\com\jmc\test\learn\cpp\const.obj
 
 # target to build an object file
-com\jmc\test\learn\cpp\decltype.cpp.obj:
-	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\decltype.cpp.obj
-.PHONY : com\jmc\test\learn\cpp\decltype.cpp.obj
+src\com\jmc\test\learn\cpp\const.cpp.obj:
+	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\const.cpp.obj
+.PHONY : src\com\jmc\test\learn\cpp\const.cpp.obj
 
-com\jmc\test\learn\cpp\decltype.i: com\jmc\test\learn\cpp\decltype.cpp.i
+src\com\jmc\test\learn\cpp\const.i: src\com\jmc\test\learn\cpp\const.cpp.i
 
-.PHONY : com\jmc\test\learn\cpp\decltype.i
+.PHONY : src\com\jmc\test\learn\cpp\const.i
 
 # target to preprocess a source file
-com\jmc\test\learn\cpp\decltype.cpp.i:
-	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\decltype.cpp.i
-.PHONY : com\jmc\test\learn\cpp\decltype.cpp.i
+src\com\jmc\test\learn\cpp\const.cpp.i:
+	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\const.cpp.i
+.PHONY : src\com\jmc\test\learn\cpp\const.cpp.i
 
-com\jmc\test\learn\cpp\decltype.s: com\jmc\test\learn\cpp\decltype.cpp.s
+src\com\jmc\test\learn\cpp\const.s: src\com\jmc\test\learn\cpp\const.cpp.s
 
-.PHONY : com\jmc\test\learn\cpp\decltype.s
+.PHONY : src\com\jmc\test\learn\cpp\const.s
 
 # target to generate assembly for a file
-com\jmc\test\learn\cpp\decltype.cpp.s:
-	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\decltype.cpp.s
-.PHONY : com\jmc\test\learn\cpp\decltype.cpp.s
+src\com\jmc\test\learn\cpp\const.cpp.s:
+	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\const.cpp.s
+.PHONY : src\com\jmc\test\learn\cpp\const.cpp.s
 
-com\jmc\test\learn\cpp\default_parms.obj: com\jmc\test\learn\cpp\default_parms.cpp.obj
+src\com\jmc\test\learn\cpp\decltype.obj: src\com\jmc\test\learn\cpp\decltype.cpp.obj
 
-.PHONY : com\jmc\test\learn\cpp\default_parms.obj
+.PHONY : src\com\jmc\test\learn\cpp\decltype.obj
 
 # target to build an object file
-com\jmc\test\learn\cpp\default_parms.cpp.obj:
-	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\default_parms.cpp.obj
-.PHONY : com\jmc\test\learn\cpp\default_parms.cpp.obj
+src\com\jmc\test\learn\cpp\decltype.cpp.obj:
+	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\decltype.cpp.obj
+.PHONY : src\com\jmc\test\learn\cpp\decltype.cpp.obj
 
-com\jmc\test\learn\cpp\default_parms.i: com\jmc\test\learn\cpp\default_parms.cpp.i
+src\com\jmc\test\learn\cpp\decltype.i: src\com\jmc\test\learn\cpp\decltype.cpp.i
 
-.PHONY : com\jmc\test\learn\cpp\default_parms.i
+.PHONY : src\com\jmc\test\learn\cpp\decltype.i
 
 # target to preprocess a source file
-com\jmc\test\learn\cpp\default_parms.cpp.i:
-	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\default_parms.cpp.i
-.PHONY : com\jmc\test\learn\cpp\default_parms.cpp.i
+src\com\jmc\test\learn\cpp\decltype.cpp.i:
+	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\decltype.cpp.i
+.PHONY : src\com\jmc\test\learn\cpp\decltype.cpp.i
 
-com\jmc\test\learn\cpp\default_parms.s: com\jmc\test\learn\cpp\default_parms.cpp.s
+src\com\jmc\test\learn\cpp\decltype.s: src\com\jmc\test\learn\cpp\decltype.cpp.s
 
-.PHONY : com\jmc\test\learn\cpp\default_parms.s
+.PHONY : src\com\jmc\test\learn\cpp\decltype.s
 
 # target to generate assembly for a file
-com\jmc\test\learn\cpp\default_parms.cpp.s:
-	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\default_parms.cpp.s
-.PHONY : com\jmc\test\learn\cpp\default_parms.cpp.s
+src\com\jmc\test\learn\cpp\decltype.cpp.s:
+	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\decltype.cpp.s
+.PHONY : src\com\jmc\test\learn\cpp\decltype.cpp.s
 
-com\jmc\test\learn\cpp\deque.obj: com\jmc\test\learn\cpp\deque.cpp.obj
+src\com\jmc\test\learn\cpp\default_parms.obj: src\com\jmc\test\learn\cpp\default_parms.cpp.obj
 
-.PHONY : com\jmc\test\learn\cpp\deque.obj
+.PHONY : src\com\jmc\test\learn\cpp\default_parms.obj
 
 # target to build an object file
-com\jmc\test\learn\cpp\deque.cpp.obj:
-	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\deque.cpp.obj
-.PHONY : com\jmc\test\learn\cpp\deque.cpp.obj
+src\com\jmc\test\learn\cpp\default_parms.cpp.obj:
+	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\default_parms.cpp.obj
+.PHONY : src\com\jmc\test\learn\cpp\default_parms.cpp.obj
 
-com\jmc\test\learn\cpp\deque.i: com\jmc\test\learn\cpp\deque.cpp.i
+src\com\jmc\test\learn\cpp\default_parms.i: src\com\jmc\test\learn\cpp\default_parms.cpp.i
 
-.PHONY : com\jmc\test\learn\cpp\deque.i
+.PHONY : src\com\jmc\test\learn\cpp\default_parms.i
 
 # target to preprocess a source file
-com\jmc\test\learn\cpp\deque.cpp.i:
-	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\deque.cpp.i
-.PHONY : com\jmc\test\learn\cpp\deque.cpp.i
+src\com\jmc\test\learn\cpp\default_parms.cpp.i:
+	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\default_parms.cpp.i
+.PHONY : src\com\jmc\test\learn\cpp\default_parms.cpp.i
 
-com\jmc\test\learn\cpp\deque.s: com\jmc\test\learn\cpp\deque.cpp.s
+src\com\jmc\test\learn\cpp\default_parms.s: src\com\jmc\test\learn\cpp\default_parms.cpp.s
 
-.PHONY : com\jmc\test\learn\cpp\deque.s
+.PHONY : src\com\jmc\test\learn\cpp\default_parms.s
 
 # target to generate assembly for a file
-com\jmc\test\learn\cpp\deque.cpp.s:
-	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\deque.cpp.s
-.PHONY : com\jmc\test\learn\cpp\deque.cpp.s
+src\com\jmc\test\learn\cpp\default_parms.cpp.s:
+	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\default_parms.cpp.s
+.PHONY : src\com\jmc\test\learn\cpp\default_parms.cpp.s
 
-com\jmc\test\learn\cpp\exception.obj: com\jmc\test\learn\cpp\exception.cpp.obj
+src\com\jmc\test\learn\cpp\deque.obj: src\com\jmc\test\learn\cpp\deque.cpp.obj
 
-.PHONY : com\jmc\test\learn\cpp\exception.obj
+.PHONY : src\com\jmc\test\learn\cpp\deque.obj
 
 # target to build an object file
-com\jmc\test\learn\cpp\exception.cpp.obj:
-	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\exception.cpp.obj
-.PHONY : com\jmc\test\learn\cpp\exception.cpp.obj
+src\com\jmc\test\learn\cpp\deque.cpp.obj:
+	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\deque.cpp.obj
+.PHONY : src\com\jmc\test\learn\cpp\deque.cpp.obj
 
-com\jmc\test\learn\cpp\exception.i: com\jmc\test\learn\cpp\exception.cpp.i
+src\com\jmc\test\learn\cpp\deque.i: src\com\jmc\test\learn\cpp\deque.cpp.i
 
-.PHONY : com\jmc\test\learn\cpp\exception.i
+.PHONY : src\com\jmc\test\learn\cpp\deque.i
 
 # target to preprocess a source file
-com\jmc\test\learn\cpp\exception.cpp.i:
-	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\exception.cpp.i
-.PHONY : com\jmc\test\learn\cpp\exception.cpp.i
+src\com\jmc\test\learn\cpp\deque.cpp.i:
+	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\deque.cpp.i
+.PHONY : src\com\jmc\test\learn\cpp\deque.cpp.i
 
-com\jmc\test\learn\cpp\exception.s: com\jmc\test\learn\cpp\exception.cpp.s
+src\com\jmc\test\learn\cpp\deque.s: src\com\jmc\test\learn\cpp\deque.cpp.s
 
-.PHONY : com\jmc\test\learn\cpp\exception.s
+.PHONY : src\com\jmc\test\learn\cpp\deque.s
 
 # target to generate assembly for a file
-com\jmc\test\learn\cpp\exception.cpp.s:
-	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\exception.cpp.s
-.PHONY : com\jmc\test\learn\cpp\exception.cpp.s
+src\com\jmc\test\learn\cpp\deque.cpp.s:
+	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\deque.cpp.s
+.PHONY : src\com\jmc\test\learn\cpp\deque.cpp.s
 
-com\jmc\test\learn\cpp\exception2.obj: com\jmc\test\learn\cpp\exception2.cpp.obj
+src\com\jmc\test\learn\cpp\exception.obj: src\com\jmc\test\learn\cpp\exception.cpp.obj
 
-.PHONY : com\jmc\test\learn\cpp\exception2.obj
+.PHONY : src\com\jmc\test\learn\cpp\exception.obj
 
 # target to build an object file
-com\jmc\test\learn\cpp\exception2.cpp.obj:
-	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\exception2.cpp.obj
-.PHONY : com\jmc\test\learn\cpp\exception2.cpp.obj
+src\com\jmc\test\learn\cpp\exception.cpp.obj:
+	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\exception.cpp.obj
+.PHONY : src\com\jmc\test\learn\cpp\exception.cpp.obj
 
-com\jmc\test\learn\cpp\exception2.i: com\jmc\test\learn\cpp\exception2.cpp.i
+src\com\jmc\test\learn\cpp\exception.i: src\com\jmc\test\learn\cpp\exception.cpp.i
 
-.PHONY : com\jmc\test\learn\cpp\exception2.i
+.PHONY : src\com\jmc\test\learn\cpp\exception.i
 
 # target to preprocess a source file
-com\jmc\test\learn\cpp\exception2.cpp.i:
-	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\exception2.cpp.i
-.PHONY : com\jmc\test\learn\cpp\exception2.cpp.i
+src\com\jmc\test\learn\cpp\exception.cpp.i:
+	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\exception.cpp.i
+.PHONY : src\com\jmc\test\learn\cpp\exception.cpp.i
 
-com\jmc\test\learn\cpp\exception2.s: com\jmc\test\learn\cpp\exception2.cpp.s
+src\com\jmc\test\learn\cpp\exception.s: src\com\jmc\test\learn\cpp\exception.cpp.s
 
-.PHONY : com\jmc\test\learn\cpp\exception2.s
+.PHONY : src\com\jmc\test\learn\cpp\exception.s
 
 # target to generate assembly for a file
-com\jmc\test\learn\cpp\exception2.cpp.s:
-	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\exception2.cpp.s
-.PHONY : com\jmc\test\learn\cpp\exception2.cpp.s
+src\com\jmc\test\learn\cpp\exception.cpp.s:
+	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\exception.cpp.s
+.PHONY : src\com\jmc\test\learn\cpp\exception.cpp.s
 
-com\jmc\test\learn\cpp\extends.obj: com\jmc\test\learn\cpp\extends.cpp.obj
+src\com\jmc\test\learn\cpp\exception2.obj: src\com\jmc\test\learn\cpp\exception2.cpp.obj
 
-.PHONY : com\jmc\test\learn\cpp\extends.obj
+.PHONY : src\com\jmc\test\learn\cpp\exception2.obj
 
 # target to build an object file
-com\jmc\test\learn\cpp\extends.cpp.obj:
-	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\extends.cpp.obj
-.PHONY : com\jmc\test\learn\cpp\extends.cpp.obj
+src\com\jmc\test\learn\cpp\exception2.cpp.obj:
+	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\exception2.cpp.obj
+.PHONY : src\com\jmc\test\learn\cpp\exception2.cpp.obj
 
-com\jmc\test\learn\cpp\extends.i: com\jmc\test\learn\cpp\extends.cpp.i
+src\com\jmc\test\learn\cpp\exception2.i: src\com\jmc\test\learn\cpp\exception2.cpp.i
 
-.PHONY : com\jmc\test\learn\cpp\extends.i
+.PHONY : src\com\jmc\test\learn\cpp\exception2.i
 
 # target to preprocess a source file
-com\jmc\test\learn\cpp\extends.cpp.i:
-	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\extends.cpp.i
-.PHONY : com\jmc\test\learn\cpp\extends.cpp.i
+src\com\jmc\test\learn\cpp\exception2.cpp.i:
+	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\exception2.cpp.i
+.PHONY : src\com\jmc\test\learn\cpp\exception2.cpp.i
 
-com\jmc\test\learn\cpp\extends.s: com\jmc\test\learn\cpp\extends.cpp.s
+src\com\jmc\test\learn\cpp\exception2.s: src\com\jmc\test\learn\cpp\exception2.cpp.s
 
-.PHONY : com\jmc\test\learn\cpp\extends.s
+.PHONY : src\com\jmc\test\learn\cpp\exception2.s
 
 # target to generate assembly for a file
-com\jmc\test\learn\cpp\extends.cpp.s:
-	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\extends.cpp.s
-.PHONY : com\jmc\test\learn\cpp\extends.cpp.s
+src\com\jmc\test\learn\cpp\exception2.cpp.s:
+	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\exception2.cpp.s
+.PHONY : src\com\jmc\test\learn\cpp\exception2.cpp.s
 
-com\jmc\test\learn\cpp\extends2.obj: com\jmc\test\learn\cpp\extends2.cpp.obj
+src\com\jmc\test\learn\cpp\extends.obj: src\com\jmc\test\learn\cpp\extends.cpp.obj
 
-.PHONY : com\jmc\test\learn\cpp\extends2.obj
+.PHONY : src\com\jmc\test\learn\cpp\extends.obj
 
 # target to build an object file
-com\jmc\test\learn\cpp\extends2.cpp.obj:
-	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\extends2.cpp.obj
-.PHONY : com\jmc\test\learn\cpp\extends2.cpp.obj
+src\com\jmc\test\learn\cpp\extends.cpp.obj:
+	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\extends.cpp.obj
+.PHONY : src\com\jmc\test\learn\cpp\extends.cpp.obj
 
-com\jmc\test\learn\cpp\extends2.i: com\jmc\test\learn\cpp\extends2.cpp.i
+src\com\jmc\test\learn\cpp\extends.i: src\com\jmc\test\learn\cpp\extends.cpp.i
 
-.PHONY : com\jmc\test\learn\cpp\extends2.i
+.PHONY : src\com\jmc\test\learn\cpp\extends.i
 
 # target to preprocess a source file
-com\jmc\test\learn\cpp\extends2.cpp.i:
-	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\extends2.cpp.i
-.PHONY : com\jmc\test\learn\cpp\extends2.cpp.i
+src\com\jmc\test\learn\cpp\extends.cpp.i:
+	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\extends.cpp.i
+.PHONY : src\com\jmc\test\learn\cpp\extends.cpp.i
 
-com\jmc\test\learn\cpp\extends2.s: com\jmc\test\learn\cpp\extends2.cpp.s
+src\com\jmc\test\learn\cpp\extends.s: src\com\jmc\test\learn\cpp\extends.cpp.s
 
-.PHONY : com\jmc\test\learn\cpp\extends2.s
+.PHONY : src\com\jmc\test\learn\cpp\extends.s
 
 # target to generate assembly for a file
-com\jmc\test\learn\cpp\extends2.cpp.s:
-	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\extends2.cpp.s
-.PHONY : com\jmc\test\learn\cpp\extends2.cpp.s
+src\com\jmc\test\learn\cpp\extends.cpp.s:
+	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\extends.cpp.s
+.PHONY : src\com\jmc\test\learn\cpp\extends.cpp.s
 
-com\jmc\test\learn\cpp\extends3.obj: com\jmc\test\learn\cpp\extends3.cpp.obj
+src\com\jmc\test\learn\cpp\extends2.obj: src\com\jmc\test\learn\cpp\extends2.cpp.obj
 
-.PHONY : com\jmc\test\learn\cpp\extends3.obj
+.PHONY : src\com\jmc\test\learn\cpp\extends2.obj
 
 # target to build an object file
-com\jmc\test\learn\cpp\extends3.cpp.obj:
-	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\extends3.cpp.obj
-.PHONY : com\jmc\test\learn\cpp\extends3.cpp.obj
+src\com\jmc\test\learn\cpp\extends2.cpp.obj:
+	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\extends2.cpp.obj
+.PHONY : src\com\jmc\test\learn\cpp\extends2.cpp.obj
 
-com\jmc\test\learn\cpp\extends3.i: com\jmc\test\learn\cpp\extends3.cpp.i
+src\com\jmc\test\learn\cpp\extends2.i: src\com\jmc\test\learn\cpp\extends2.cpp.i
 
-.PHONY : com\jmc\test\learn\cpp\extends3.i
+.PHONY : src\com\jmc\test\learn\cpp\extends2.i
 
 # target to preprocess a source file
-com\jmc\test\learn\cpp\extends3.cpp.i:
-	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\extends3.cpp.i
-.PHONY : com\jmc\test\learn\cpp\extends3.cpp.i
+src\com\jmc\test\learn\cpp\extends2.cpp.i:
+	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\extends2.cpp.i
+.PHONY : src\com\jmc\test\learn\cpp\extends2.cpp.i
 
-com\jmc\test\learn\cpp\extends3.s: com\jmc\test\learn\cpp\extends3.cpp.s
+src\com\jmc\test\learn\cpp\extends2.s: src\com\jmc\test\learn\cpp\extends2.cpp.s
 
-.PHONY : com\jmc\test\learn\cpp\extends3.s
+.PHONY : src\com\jmc\test\learn\cpp\extends2.s
 
 # target to generate assembly for a file
-com\jmc\test\learn\cpp\extends3.cpp.s:
-	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\extends3.cpp.s
-.PHONY : com\jmc\test\learn\cpp\extends3.cpp.s
+src\com\jmc\test\learn\cpp\extends2.cpp.s:
+	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\extends2.cpp.s
+.PHONY : src\com\jmc\test\learn\cpp\extends2.cpp.s
 
-com\jmc\test\learn\cpp\extends4.obj: com\jmc\test\learn\cpp\extends4.cpp.obj
+src\com\jmc\test\learn\cpp\extends3.obj: src\com\jmc\test\learn\cpp\extends3.cpp.obj
 
-.PHONY : com\jmc\test\learn\cpp\extends4.obj
+.PHONY : src\com\jmc\test\learn\cpp\extends3.obj
 
 # target to build an object file
-com\jmc\test\learn\cpp\extends4.cpp.obj:
-	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\extends4.cpp.obj
-.PHONY : com\jmc\test\learn\cpp\extends4.cpp.obj
+src\com\jmc\test\learn\cpp\extends3.cpp.obj:
+	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\extends3.cpp.obj
+.PHONY : src\com\jmc\test\learn\cpp\extends3.cpp.obj
 
-com\jmc\test\learn\cpp\extends4.i: com\jmc\test\learn\cpp\extends4.cpp.i
+src\com\jmc\test\learn\cpp\extends3.i: src\com\jmc\test\learn\cpp\extends3.cpp.i
 
-.PHONY : com\jmc\test\learn\cpp\extends4.i
+.PHONY : src\com\jmc\test\learn\cpp\extends3.i
 
 # target to preprocess a source file
-com\jmc\test\learn\cpp\extends4.cpp.i:
-	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\extends4.cpp.i
-.PHONY : com\jmc\test\learn\cpp\extends4.cpp.i
+src\com\jmc\test\learn\cpp\extends3.cpp.i:
+	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\extends3.cpp.i
+.PHONY : src\com\jmc\test\learn\cpp\extends3.cpp.i
 
-com\jmc\test\learn\cpp\extends4.s: com\jmc\test\learn\cpp\extends4.cpp.s
+src\com\jmc\test\learn\cpp\extends3.s: src\com\jmc\test\learn\cpp\extends3.cpp.s
 
-.PHONY : com\jmc\test\learn\cpp\extends4.s
+.PHONY : src\com\jmc\test\learn\cpp\extends3.s
 
 # target to generate assembly for a file
-com\jmc\test\learn\cpp\extends4.cpp.s:
-	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\extends4.cpp.s
-.PHONY : com\jmc\test\learn\cpp\extends4.cpp.s
+src\com\jmc\test\learn\cpp\extends3.cpp.s:
+	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\extends3.cpp.s
+.PHONY : src\com\jmc\test\learn\cpp\extends3.cpp.s
 
-com\jmc\test\learn\cpp\file_.obj: com\jmc\test\learn\cpp\file_.cpp.obj
+src\com\jmc\test\learn\cpp\extends4.obj: src\com\jmc\test\learn\cpp\extends4.cpp.obj
 
-.PHONY : com\jmc\test\learn\cpp\file_.obj
+.PHONY : src\com\jmc\test\learn\cpp\extends4.obj
 
 # target to build an object file
-com\jmc\test\learn\cpp\file_.cpp.obj:
-	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\file_.cpp.obj
-.PHONY : com\jmc\test\learn\cpp\file_.cpp.obj
+src\com\jmc\test\learn\cpp\extends4.cpp.obj:
+	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\extends4.cpp.obj
+.PHONY : src\com\jmc\test\learn\cpp\extends4.cpp.obj
 
-com\jmc\test\learn\cpp\file_.i: com\jmc\test\learn\cpp\file_.cpp.i
+src\com\jmc\test\learn\cpp\extends4.i: src\com\jmc\test\learn\cpp\extends4.cpp.i
 
-.PHONY : com\jmc\test\learn\cpp\file_.i
+.PHONY : src\com\jmc\test\learn\cpp\extends4.i
 
 # target to preprocess a source file
-com\jmc\test\learn\cpp\file_.cpp.i:
-	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\file_.cpp.i
-.PHONY : com\jmc\test\learn\cpp\file_.cpp.i
+src\com\jmc\test\learn\cpp\extends4.cpp.i:
+	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\extends4.cpp.i
+.PHONY : src\com\jmc\test\learn\cpp\extends4.cpp.i
 
-com\jmc\test\learn\cpp\file_.s: com\jmc\test\learn\cpp\file_.cpp.s
+src\com\jmc\test\learn\cpp\extends4.s: src\com\jmc\test\learn\cpp\extends4.cpp.s
 
-.PHONY : com\jmc\test\learn\cpp\file_.s
+.PHONY : src\com\jmc\test\learn\cpp\extends4.s
 
 # target to generate assembly for a file
-com\jmc\test\learn\cpp\file_.cpp.s:
-	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\file_.cpp.s
-.PHONY : com\jmc\test\learn\cpp\file_.cpp.s
+src\com\jmc\test\learn\cpp\extends4.cpp.s:
+	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\extends4.cpp.s
+.PHONY : src\com\jmc\test\learn\cpp\extends4.cpp.s
 
-com\jmc\test\learn\cpp\file_2.obj: com\jmc\test\learn\cpp\file_2.cpp.obj
+src\com\jmc\test\learn\cpp\file_.obj: src\com\jmc\test\learn\cpp\file_.cpp.obj
 
-.PHONY : com\jmc\test\learn\cpp\file_2.obj
+.PHONY : src\com\jmc\test\learn\cpp\file_.obj
 
 # target to build an object file
-com\jmc\test\learn\cpp\file_2.cpp.obj:
-	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\file_2.cpp.obj
-.PHONY : com\jmc\test\learn\cpp\file_2.cpp.obj
+src\com\jmc\test\learn\cpp\file_.cpp.obj:
+	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\file_.cpp.obj
+.PHONY : src\com\jmc\test\learn\cpp\file_.cpp.obj
 
-com\jmc\test\learn\cpp\file_2.i: com\jmc\test\learn\cpp\file_2.cpp.i
+src\com\jmc\test\learn\cpp\file_.i: src\com\jmc\test\learn\cpp\file_.cpp.i
 
-.PHONY : com\jmc\test\learn\cpp\file_2.i
+.PHONY : src\com\jmc\test\learn\cpp\file_.i
 
 # target to preprocess a source file
-com\jmc\test\learn\cpp\file_2.cpp.i:
-	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\file_2.cpp.i
-.PHONY : com\jmc\test\learn\cpp\file_2.cpp.i
+src\com\jmc\test\learn\cpp\file_.cpp.i:
+	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\file_.cpp.i
+.PHONY : src\com\jmc\test\learn\cpp\file_.cpp.i
 
-com\jmc\test\learn\cpp\file_2.s: com\jmc\test\learn\cpp\file_2.cpp.s
+src\com\jmc\test\learn\cpp\file_.s: src\com\jmc\test\learn\cpp\file_.cpp.s
 
-.PHONY : com\jmc\test\learn\cpp\file_2.s
+.PHONY : src\com\jmc\test\learn\cpp\file_.s
 
 # target to generate assembly for a file
-com\jmc\test\learn\cpp\file_2.cpp.s:
-	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\file_2.cpp.s
-.PHONY : com\jmc\test\learn\cpp\file_2.cpp.s
+src\com\jmc\test\learn\cpp\file_.cpp.s:
+	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\file_.cpp.s
+.PHONY : src\com\jmc\test\learn\cpp\file_.cpp.s
 
-com\jmc\test\learn\cpp\fixed.obj: com\jmc\test\learn\cpp\fixed.cpp.obj
+src\com\jmc\test\learn\cpp\file_2.obj: src\com\jmc\test\learn\cpp\file_2.cpp.obj
 
-.PHONY : com\jmc\test\learn\cpp\fixed.obj
+.PHONY : src\com\jmc\test\learn\cpp\file_2.obj
 
 # target to build an object file
-com\jmc\test\learn\cpp\fixed.cpp.obj:
-	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\fixed.cpp.obj
-.PHONY : com\jmc\test\learn\cpp\fixed.cpp.obj
+src\com\jmc\test\learn\cpp\file_2.cpp.obj:
+	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\file_2.cpp.obj
+.PHONY : src\com\jmc\test\learn\cpp\file_2.cpp.obj
 
-com\jmc\test\learn\cpp\fixed.i: com\jmc\test\learn\cpp\fixed.cpp.i
+src\com\jmc\test\learn\cpp\file_2.i: src\com\jmc\test\learn\cpp\file_2.cpp.i
 
-.PHONY : com\jmc\test\learn\cpp\fixed.i
+.PHONY : src\com\jmc\test\learn\cpp\file_2.i
 
 # target to preprocess a source file
-com\jmc\test\learn\cpp\fixed.cpp.i:
-	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\fixed.cpp.i
-.PHONY : com\jmc\test\learn\cpp\fixed.cpp.i
+src\com\jmc\test\learn\cpp\file_2.cpp.i:
+	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\file_2.cpp.i
+.PHONY : src\com\jmc\test\learn\cpp\file_2.cpp.i
 
-com\jmc\test\learn\cpp\fixed.s: com\jmc\test\learn\cpp\fixed.cpp.s
+src\com\jmc\test\learn\cpp\file_2.s: src\com\jmc\test\learn\cpp\file_2.cpp.s
 
-.PHONY : com\jmc\test\learn\cpp\fixed.s
+.PHONY : src\com\jmc\test\learn\cpp\file_2.s
 
 # target to generate assembly for a file
-com\jmc\test\learn\cpp\fixed.cpp.s:
-	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\fixed.cpp.s
-.PHONY : com\jmc\test\learn\cpp\fixed.cpp.s
+src\com\jmc\test\learn\cpp\file_2.cpp.s:
+	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\file_2.cpp.s
+.PHONY : src\com\jmc\test\learn\cpp\file_2.cpp.s
 
-com\jmc\test\learn\cpp\friend.obj: com\jmc\test\learn\cpp\friend.cpp.obj
+src\com\jmc\test\learn\cpp\fixed.obj: src\com\jmc\test\learn\cpp\fixed.cpp.obj
 
-.PHONY : com\jmc\test\learn\cpp\friend.obj
+.PHONY : src\com\jmc\test\learn\cpp\fixed.obj
 
 # target to build an object file
-com\jmc\test\learn\cpp\friend.cpp.obj:
-	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\friend.cpp.obj
-.PHONY : com\jmc\test\learn\cpp\friend.cpp.obj
+src\com\jmc\test\learn\cpp\fixed.cpp.obj:
+	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\fixed.cpp.obj
+.PHONY : src\com\jmc\test\learn\cpp\fixed.cpp.obj
 
-com\jmc\test\learn\cpp\friend.i: com\jmc\test\learn\cpp\friend.cpp.i
+src\com\jmc\test\learn\cpp\fixed.i: src\com\jmc\test\learn\cpp\fixed.cpp.i
 
-.PHONY : com\jmc\test\learn\cpp\friend.i
+.PHONY : src\com\jmc\test\learn\cpp\fixed.i
 
 # target to preprocess a source file
-com\jmc\test\learn\cpp\friend.cpp.i:
-	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\friend.cpp.i
-.PHONY : com\jmc\test\learn\cpp\friend.cpp.i
+src\com\jmc\test\learn\cpp\fixed.cpp.i:
+	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\fixed.cpp.i
+.PHONY : src\com\jmc\test\learn\cpp\fixed.cpp.i
 
-com\jmc\test\learn\cpp\friend.s: com\jmc\test\learn\cpp\friend.cpp.s
+src\com\jmc\test\learn\cpp\fixed.s: src\com\jmc\test\learn\cpp\fixed.cpp.s
 
-.PHONY : com\jmc\test\learn\cpp\friend.s
+.PHONY : src\com\jmc\test\learn\cpp\fixed.s
 
 # target to generate assembly for a file
-com\jmc\test\learn\cpp\friend.cpp.s:
-	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\friend.cpp.s
-.PHONY : com\jmc\test\learn\cpp\friend.cpp.s
+src\com\jmc\test\learn\cpp\fixed.cpp.s:
+	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\fixed.cpp.s
+.PHONY : src\com\jmc\test\learn\cpp\fixed.cpp.s
 
-com\jmc\test\learn\cpp\init_list.obj: com\jmc\test\learn\cpp\init_list.cpp.obj
+src\com\jmc\test\learn\cpp\friend.obj: src\com\jmc\test\learn\cpp\friend.cpp.obj
 
-.PHONY : com\jmc\test\learn\cpp\init_list.obj
+.PHONY : src\com\jmc\test\learn\cpp\friend.obj
 
 # target to build an object file
-com\jmc\test\learn\cpp\init_list.cpp.obj:
-	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\init_list.cpp.obj
-.PHONY : com\jmc\test\learn\cpp\init_list.cpp.obj
+src\com\jmc\test\learn\cpp\friend.cpp.obj:
+	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\friend.cpp.obj
+.PHONY : src\com\jmc\test\learn\cpp\friend.cpp.obj
 
-com\jmc\test\learn\cpp\init_list.i: com\jmc\test\learn\cpp\init_list.cpp.i
+src\com\jmc\test\learn\cpp\friend.i: src\com\jmc\test\learn\cpp\friend.cpp.i
 
-.PHONY : com\jmc\test\learn\cpp\init_list.i
+.PHONY : src\com\jmc\test\learn\cpp\friend.i
 
 # target to preprocess a source file
-com\jmc\test\learn\cpp\init_list.cpp.i:
-	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\init_list.cpp.i
-.PHONY : com\jmc\test\learn\cpp\init_list.cpp.i
+src\com\jmc\test\learn\cpp\friend.cpp.i:
+	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\friend.cpp.i
+.PHONY : src\com\jmc\test\learn\cpp\friend.cpp.i
 
-com\jmc\test\learn\cpp\init_list.s: com\jmc\test\learn\cpp\init_list.cpp.s
+src\com\jmc\test\learn\cpp\friend.s: src\com\jmc\test\learn\cpp\friend.cpp.s
 
-.PHONY : com\jmc\test\learn\cpp\init_list.s
+.PHONY : src\com\jmc\test\learn\cpp\friend.s
 
 # target to generate assembly for a file
-com\jmc\test\learn\cpp\init_list.cpp.s:
-	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\init_list.cpp.s
-.PHONY : com\jmc\test\learn\cpp\init_list.cpp.s
+src\com\jmc\test\learn\cpp\friend.cpp.s:
+	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\friend.cpp.s
+.PHONY : src\com\jmc\test\learn\cpp\friend.cpp.s
 
-com\jmc\test\learn\cpp\javaStyle.obj: com\jmc\test\learn\cpp\javaStyle.cpp.obj
+src\com\jmc\test\learn\cpp\init_list.obj: src\com\jmc\test\learn\cpp\init_list.cpp.obj
 
-.PHONY : com\jmc\test\learn\cpp\javaStyle.obj
+.PHONY : src\com\jmc\test\learn\cpp\init_list.obj
 
 # target to build an object file
-com\jmc\test\learn\cpp\javaStyle.cpp.obj:
-	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\javaStyle.cpp.obj
-.PHONY : com\jmc\test\learn\cpp\javaStyle.cpp.obj
+src\com\jmc\test\learn\cpp\init_list.cpp.obj:
+	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\init_list.cpp.obj
+.PHONY : src\com\jmc\test\learn\cpp\init_list.cpp.obj
 
-com\jmc\test\learn\cpp\javaStyle.i: com\jmc\test\learn\cpp\javaStyle.cpp.i
+src\com\jmc\test\learn\cpp\init_list.i: src\com\jmc\test\learn\cpp\init_list.cpp.i
 
-.PHONY : com\jmc\test\learn\cpp\javaStyle.i
+.PHONY : src\com\jmc\test\learn\cpp\init_list.i
 
 # target to preprocess a source file
-com\jmc\test\learn\cpp\javaStyle.cpp.i:
-	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\javaStyle.cpp.i
-.PHONY : com\jmc\test\learn\cpp\javaStyle.cpp.i
+src\com\jmc\test\learn\cpp\init_list.cpp.i:
+	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\init_list.cpp.i
+.PHONY : src\com\jmc\test\learn\cpp\init_list.cpp.i
 
-com\jmc\test\learn\cpp\javaStyle.s: com\jmc\test\learn\cpp\javaStyle.cpp.s
+src\com\jmc\test\learn\cpp\init_list.s: src\com\jmc\test\learn\cpp\init_list.cpp.s
 
-.PHONY : com\jmc\test\learn\cpp\javaStyle.s
+.PHONY : src\com\jmc\test\learn\cpp\init_list.s
 
 # target to generate assembly for a file
-com\jmc\test\learn\cpp\javaStyle.cpp.s:
-	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\javaStyle.cpp.s
-.PHONY : com\jmc\test\learn\cpp\javaStyle.cpp.s
+src\com\jmc\test\learn\cpp\init_list.cpp.s:
+	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\init_list.cpp.s
+.PHONY : src\com\jmc\test\learn\cpp\init_list.cpp.s
 
-com\jmc\test\learn\cpp\lambda.obj: com\jmc\test\learn\cpp\lambda.cpp.obj
+src\com\jmc\test\learn\cpp\javaStyle.obj: src\com\jmc\test\learn\cpp\javaStyle.cpp.obj
 
-.PHONY : com\jmc\test\learn\cpp\lambda.obj
+.PHONY : src\com\jmc\test\learn\cpp\javaStyle.obj
 
 # target to build an object file
-com\jmc\test\learn\cpp\lambda.cpp.obj:
-	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\lambda.cpp.obj
-.PHONY : com\jmc\test\learn\cpp\lambda.cpp.obj
+src\com\jmc\test\learn\cpp\javaStyle.cpp.obj:
+	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\javaStyle.cpp.obj
+.PHONY : src\com\jmc\test\learn\cpp\javaStyle.cpp.obj
 
-com\jmc\test\learn\cpp\lambda.i: com\jmc\test\learn\cpp\lambda.cpp.i
+src\com\jmc\test\learn\cpp\javaStyle.i: src\com\jmc\test\learn\cpp\javaStyle.cpp.i
 
-.PHONY : com\jmc\test\learn\cpp\lambda.i
+.PHONY : src\com\jmc\test\learn\cpp\javaStyle.i
 
 # target to preprocess a source file
-com\jmc\test\learn\cpp\lambda.cpp.i:
-	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\lambda.cpp.i
-.PHONY : com\jmc\test\learn\cpp\lambda.cpp.i
+src\com\jmc\test\learn\cpp\javaStyle.cpp.i:
+	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\javaStyle.cpp.i
+.PHONY : src\com\jmc\test\learn\cpp\javaStyle.cpp.i
 
-com\jmc\test\learn\cpp\lambda.s: com\jmc\test\learn\cpp\lambda.cpp.s
+src\com\jmc\test\learn\cpp\javaStyle.s: src\com\jmc\test\learn\cpp\javaStyle.cpp.s
 
-.PHONY : com\jmc\test\learn\cpp\lambda.s
+.PHONY : src\com\jmc\test\learn\cpp\javaStyle.s
 
 # target to generate assembly for a file
-com\jmc\test\learn\cpp\lambda.cpp.s:
-	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\lambda.cpp.s
-.PHONY : com\jmc\test\learn\cpp\lambda.cpp.s
+src\com\jmc\test\learn\cpp\javaStyle.cpp.s:
+	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\javaStyle.cpp.s
+.PHONY : src\com\jmc\test\learn\cpp\javaStyle.cpp.s
 
-com\jmc\test\learn\cpp\list.obj: com\jmc\test\learn\cpp\list.cpp.obj
+src\com\jmc\test\learn\cpp\lambda.obj: src\com\jmc\test\learn\cpp\lambda.cpp.obj
 
-.PHONY : com\jmc\test\learn\cpp\list.obj
+.PHONY : src\com\jmc\test\learn\cpp\lambda.obj
 
 # target to build an object file
-com\jmc\test\learn\cpp\list.cpp.obj:
-	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\list.cpp.obj
-.PHONY : com\jmc\test\learn\cpp\list.cpp.obj
+src\com\jmc\test\learn\cpp\lambda.cpp.obj:
+	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\lambda.cpp.obj
+.PHONY : src\com\jmc\test\learn\cpp\lambda.cpp.obj
 
-com\jmc\test\learn\cpp\list.i: com\jmc\test\learn\cpp\list.cpp.i
+src\com\jmc\test\learn\cpp\lambda.i: src\com\jmc\test\learn\cpp\lambda.cpp.i
 
-.PHONY : com\jmc\test\learn\cpp\list.i
+.PHONY : src\com\jmc\test\learn\cpp\lambda.i
 
 # target to preprocess a source file
-com\jmc\test\learn\cpp\list.cpp.i:
-	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\list.cpp.i
-.PHONY : com\jmc\test\learn\cpp\list.cpp.i
+src\com\jmc\test\learn\cpp\lambda.cpp.i:
+	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\lambda.cpp.i
+.PHONY : src\com\jmc\test\learn\cpp\lambda.cpp.i
 
-com\jmc\test\learn\cpp\list.s: com\jmc\test\learn\cpp\list.cpp.s
+src\com\jmc\test\learn\cpp\lambda.s: src\com\jmc\test\learn\cpp\lambda.cpp.s
 
-.PHONY : com\jmc\test\learn\cpp\list.s
+.PHONY : src\com\jmc\test\learn\cpp\lambda.s
 
 # target to generate assembly for a file
-com\jmc\test\learn\cpp\list.cpp.s:
-	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\list.cpp.s
-.PHONY : com\jmc\test\learn\cpp\list.cpp.s
+src\com\jmc\test\learn\cpp\lambda.cpp.s:
+	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\lambda.cpp.s
+.PHONY : src\com\jmc\test\learn\cpp\lambda.cpp.s
 
-com\jmc\test\learn\cpp\main.obj: com\jmc\test\learn\cpp\main.cpp.obj
+src\com\jmc\test\learn\cpp\list.obj: src\com\jmc\test\learn\cpp\list.cpp.obj
 
-.PHONY : com\jmc\test\learn\cpp\main.obj
+.PHONY : src\com\jmc\test\learn\cpp\list.obj
 
 # target to build an object file
-com\jmc\test\learn\cpp\main.cpp.obj:
-	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\main.cpp.obj
-.PHONY : com\jmc\test\learn\cpp\main.cpp.obj
+src\com\jmc\test\learn\cpp\list.cpp.obj:
+	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\list.cpp.obj
+.PHONY : src\com\jmc\test\learn\cpp\list.cpp.obj
 
-com\jmc\test\learn\cpp\main.i: com\jmc\test\learn\cpp\main.cpp.i
+src\com\jmc\test\learn\cpp\list.i: src\com\jmc\test\learn\cpp\list.cpp.i
 
-.PHONY : com\jmc\test\learn\cpp\main.i
+.PHONY : src\com\jmc\test\learn\cpp\list.i
 
 # target to preprocess a source file
-com\jmc\test\learn\cpp\main.cpp.i:
-	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\main.cpp.i
-.PHONY : com\jmc\test\learn\cpp\main.cpp.i
+src\com\jmc\test\learn\cpp\list.cpp.i:
+	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\list.cpp.i
+.PHONY : src\com\jmc\test\learn\cpp\list.cpp.i
 
-com\jmc\test\learn\cpp\main.s: com\jmc\test\learn\cpp\main.cpp.s
+src\com\jmc\test\learn\cpp\list.s: src\com\jmc\test\learn\cpp\list.cpp.s
 
-.PHONY : com\jmc\test\learn\cpp\main.s
+.PHONY : src\com\jmc\test\learn\cpp\list.s
 
 # target to generate assembly for a file
-com\jmc\test\learn\cpp\main.cpp.s:
-	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\main.cpp.s
-.PHONY : com\jmc\test\learn\cpp\main.cpp.s
+src\com\jmc\test\learn\cpp\list.cpp.s:
+	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\list.cpp.s
+.PHONY : src\com\jmc\test\learn\cpp\list.cpp.s
 
-com\jmc\test\learn\cpp\map.obj: com\jmc\test\learn\cpp\map.cpp.obj
+src\com\jmc\test\learn\cpp\main.obj: src\com\jmc\test\learn\cpp\main.cpp.obj
 
-.PHONY : com\jmc\test\learn\cpp\map.obj
+.PHONY : src\com\jmc\test\learn\cpp\main.obj
 
 # target to build an object file
-com\jmc\test\learn\cpp\map.cpp.obj:
-	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\map.cpp.obj
-.PHONY : com\jmc\test\learn\cpp\map.cpp.obj
+src\com\jmc\test\learn\cpp\main.cpp.obj:
+	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\main.cpp.obj
+.PHONY : src\com\jmc\test\learn\cpp\main.cpp.obj
 
-com\jmc\test\learn\cpp\map.i: com\jmc\test\learn\cpp\map.cpp.i
+src\com\jmc\test\learn\cpp\main.i: src\com\jmc\test\learn\cpp\main.cpp.i
 
-.PHONY : com\jmc\test\learn\cpp\map.i
+.PHONY : src\com\jmc\test\learn\cpp\main.i
 
 # target to preprocess a source file
-com\jmc\test\learn\cpp\map.cpp.i:
-	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\map.cpp.i
-.PHONY : com\jmc\test\learn\cpp\map.cpp.i
+src\com\jmc\test\learn\cpp\main.cpp.i:
+	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\main.cpp.i
+.PHONY : src\com\jmc\test\learn\cpp\main.cpp.i
 
-com\jmc\test\learn\cpp\map.s: com\jmc\test\learn\cpp\map.cpp.s
+src\com\jmc\test\learn\cpp\main.s: src\com\jmc\test\learn\cpp\main.cpp.s
 
-.PHONY : com\jmc\test\learn\cpp\map.s
+.PHONY : src\com\jmc\test\learn\cpp\main.s
 
 # target to generate assembly for a file
-com\jmc\test\learn\cpp\map.cpp.s:
-	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\map.cpp.s
-.PHONY : com\jmc\test\learn\cpp\map.cpp.s
+src\com\jmc\test\learn\cpp\main.cpp.s:
+	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\main.cpp.s
+.PHONY : src\com\jmc\test\learn\cpp\main.cpp.s
 
-com\jmc\test\learn\cpp\memory.obj: com\jmc\test\learn\cpp\memory.cpp.obj
+src\com\jmc\test\learn\cpp\map.obj: src\com\jmc\test\learn\cpp\map.cpp.obj
 
-.PHONY : com\jmc\test\learn\cpp\memory.obj
+.PHONY : src\com\jmc\test\learn\cpp\map.obj
 
 # target to build an object file
-com\jmc\test\learn\cpp\memory.cpp.obj:
-	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\memory.cpp.obj
-.PHONY : com\jmc\test\learn\cpp\memory.cpp.obj
+src\com\jmc\test\learn\cpp\map.cpp.obj:
+	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\map.cpp.obj
+.PHONY : src\com\jmc\test\learn\cpp\map.cpp.obj
 
-com\jmc\test\learn\cpp\memory.i: com\jmc\test\learn\cpp\memory.cpp.i
+src\com\jmc\test\learn\cpp\map.i: src\com\jmc\test\learn\cpp\map.cpp.i
 
-.PHONY : com\jmc\test\learn\cpp\memory.i
+.PHONY : src\com\jmc\test\learn\cpp\map.i
 
 # target to preprocess a source file
-com\jmc\test\learn\cpp\memory.cpp.i:
-	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\memory.cpp.i
-.PHONY : com\jmc\test\learn\cpp\memory.cpp.i
+src\com\jmc\test\learn\cpp\map.cpp.i:
+	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\map.cpp.i
+.PHONY : src\com\jmc\test\learn\cpp\map.cpp.i
 
-com\jmc\test\learn\cpp\memory.s: com\jmc\test\learn\cpp\memory.cpp.s
+src\com\jmc\test\learn\cpp\map.s: src\com\jmc\test\learn\cpp\map.cpp.s
 
-.PHONY : com\jmc\test\learn\cpp\memory.s
+.PHONY : src\com\jmc\test\learn\cpp\map.s
 
 # target to generate assembly for a file
-com\jmc\test\learn\cpp\memory.cpp.s:
-	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\memory.cpp.s
-.PHONY : com\jmc\test\learn\cpp\memory.cpp.s
+src\com\jmc\test\learn\cpp\map.cpp.s:
+	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\map.cpp.s
+.PHONY : src\com\jmc\test\learn\cpp\map.cpp.s
 
-com\jmc\test\learn\cpp\news.obj: com\jmc\test\learn\cpp\news.cpp.obj
+src\com\jmc\test\learn\cpp\memory.obj: src\com\jmc\test\learn\cpp\memory.cpp.obj
 
-.PHONY : com\jmc\test\learn\cpp\news.obj
+.PHONY : src\com\jmc\test\learn\cpp\memory.obj
 
 # target to build an object file
-com\jmc\test\learn\cpp\news.cpp.obj:
-	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\news.cpp.obj
-.PHONY : com\jmc\test\learn\cpp\news.cpp.obj
+src\com\jmc\test\learn\cpp\memory.cpp.obj:
+	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\memory.cpp.obj
+.PHONY : src\com\jmc\test\learn\cpp\memory.cpp.obj
 
-com\jmc\test\learn\cpp\news.i: com\jmc\test\learn\cpp\news.cpp.i
+src\com\jmc\test\learn\cpp\memory.i: src\com\jmc\test\learn\cpp\memory.cpp.i
 
-.PHONY : com\jmc\test\learn\cpp\news.i
+.PHONY : src\com\jmc\test\learn\cpp\memory.i
 
 # target to preprocess a source file
-com\jmc\test\learn\cpp\news.cpp.i:
-	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\news.cpp.i
-.PHONY : com\jmc\test\learn\cpp\news.cpp.i
+src\com\jmc\test\learn\cpp\memory.cpp.i:
+	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\memory.cpp.i
+.PHONY : src\com\jmc\test\learn\cpp\memory.cpp.i
 
-com\jmc\test\learn\cpp\news.s: com\jmc\test\learn\cpp\news.cpp.s
+src\com\jmc\test\learn\cpp\memory.s: src\com\jmc\test\learn\cpp\memory.cpp.s
 
-.PHONY : com\jmc\test\learn\cpp\news.s
+.PHONY : src\com\jmc\test\learn\cpp\memory.s
 
 # target to generate assembly for a file
-com\jmc\test\learn\cpp\news.cpp.s:
-	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\news.cpp.s
-.PHONY : com\jmc\test\learn\cpp\news.cpp.s
+src\com\jmc\test\learn\cpp\memory.cpp.s:
+	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\memory.cpp.s
+.PHONY : src\com\jmc\test\learn\cpp\memory.cpp.s
 
-com\jmc\test\learn\cpp\operator.obj: com\jmc\test\learn\cpp\operator.cpp.obj
+src\com\jmc\test\learn\cpp\news.obj: src\com\jmc\test\learn\cpp\news.cpp.obj
 
-.PHONY : com\jmc\test\learn\cpp\operator.obj
+.PHONY : src\com\jmc\test\learn\cpp\news.obj
 
 # target to build an object file
-com\jmc\test\learn\cpp\operator.cpp.obj:
-	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\operator.cpp.obj
-.PHONY : com\jmc\test\learn\cpp\operator.cpp.obj
+src\com\jmc\test\learn\cpp\news.cpp.obj:
+	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\news.cpp.obj
+.PHONY : src\com\jmc\test\learn\cpp\news.cpp.obj
 
-com\jmc\test\learn\cpp\operator.i: com\jmc\test\learn\cpp\operator.cpp.i
+src\com\jmc\test\learn\cpp\news.i: src\com\jmc\test\learn\cpp\news.cpp.i
 
-.PHONY : com\jmc\test\learn\cpp\operator.i
+.PHONY : src\com\jmc\test\learn\cpp\news.i
 
 # target to preprocess a source file
-com\jmc\test\learn\cpp\operator.cpp.i:
-	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\operator.cpp.i
-.PHONY : com\jmc\test\learn\cpp\operator.cpp.i
+src\com\jmc\test\learn\cpp\news.cpp.i:
+	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\news.cpp.i
+.PHONY : src\com\jmc\test\learn\cpp\news.cpp.i
 
-com\jmc\test\learn\cpp\operator.s: com\jmc\test\learn\cpp\operator.cpp.s
+src\com\jmc\test\learn\cpp\news.s: src\com\jmc\test\learn\cpp\news.cpp.s
 
-.PHONY : com\jmc\test\learn\cpp\operator.s
+.PHONY : src\com\jmc\test\learn\cpp\news.s
 
 # target to generate assembly for a file
-com\jmc\test\learn\cpp\operator.cpp.s:
-	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\operator.cpp.s
-.PHONY : com\jmc\test\learn\cpp\operator.cpp.s
+src\com\jmc\test\learn\cpp\news.cpp.s:
+	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\news.cpp.s
+.PHONY : src\com\jmc\test\learn\cpp\news.cpp.s
 
-com\jmc\test\learn\cpp\override&final.obj: com\jmc\test\learn\cpp\override&final.cpp.obj
+src\com\jmc\test\learn\cpp\operator.obj: src\com\jmc\test\learn\cpp\operator.cpp.obj
 
-.PHONY : com\jmc\test\learn\cpp\override&final.obj
+.PHONY : src\com\jmc\test\learn\cpp\operator.obj
 
 # target to build an object file
-com\jmc\test\learn\cpp\override&final.cpp.obj:
-	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) "CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\override&final.cpp.obj"
-.PHONY : com\jmc\test\learn\cpp\override&final.cpp.obj
+src\com\jmc\test\learn\cpp\operator.cpp.obj:
+	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\operator.cpp.obj
+.PHONY : src\com\jmc\test\learn\cpp\operator.cpp.obj
 
-com\jmc\test\learn\cpp\override&final.i: com\jmc\test\learn\cpp\override&final.cpp.i
+src\com\jmc\test\learn\cpp\operator.i: src\com\jmc\test\learn\cpp\operator.cpp.i
 
-.PHONY : com\jmc\test\learn\cpp\override&final.i
+.PHONY : src\com\jmc\test\learn\cpp\operator.i
 
 # target to preprocess a source file
-com\jmc\test\learn\cpp\override&final.cpp.i:
-	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) "CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\override&final.cpp.i"
-.PHONY : com\jmc\test\learn\cpp\override&final.cpp.i
+src\com\jmc\test\learn\cpp\operator.cpp.i:
+	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\operator.cpp.i
+.PHONY : src\com\jmc\test\learn\cpp\operator.cpp.i
 
-com\jmc\test\learn\cpp\override&final.s: com\jmc\test\learn\cpp\override&final.cpp.s
+src\com\jmc\test\learn\cpp\operator.s: src\com\jmc\test\learn\cpp\operator.cpp.s
 
-.PHONY : com\jmc\test\learn\cpp\override&final.s
+.PHONY : src\com\jmc\test\learn\cpp\operator.s
 
 # target to generate assembly for a file
-com\jmc\test\learn\cpp\override&final.cpp.s:
-	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) "CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\override&final.cpp.s"
-.PHONY : com\jmc\test\learn\cpp\override&final.cpp.s
+src\com\jmc\test\learn\cpp\operator.cpp.s:
+	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\operator.cpp.s
+.PHONY : src\com\jmc\test\learn\cpp\operator.cpp.s
 
-com\jmc\test\learn\cpp\pair.obj: com\jmc\test\learn\cpp\pair.cpp.obj
+src\com\jmc\test\learn\cpp\override&final.obj: src\com\jmc\test\learn\cpp\override&final.cpp.obj
 
-.PHONY : com\jmc\test\learn\cpp\pair.obj
+.PHONY : src\com\jmc\test\learn\cpp\override&final.obj
 
 # target to build an object file
-com\jmc\test\learn\cpp\pair.cpp.obj:
-	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\pair.cpp.obj
-.PHONY : com\jmc\test\learn\cpp\pair.cpp.obj
+src\com\jmc\test\learn\cpp\override&final.cpp.obj:
+	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) "CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\override&final.cpp.obj"
+.PHONY : src\com\jmc\test\learn\cpp\override&final.cpp.obj
 
-com\jmc\test\learn\cpp\pair.i: com\jmc\test\learn\cpp\pair.cpp.i
+src\com\jmc\test\learn\cpp\override&final.i: src\com\jmc\test\learn\cpp\override&final.cpp.i
 
-.PHONY : com\jmc\test\learn\cpp\pair.i
+.PHONY : src\com\jmc\test\learn\cpp\override&final.i
 
 # target to preprocess a source file
-com\jmc\test\learn\cpp\pair.cpp.i:
-	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\pair.cpp.i
-.PHONY : com\jmc\test\learn\cpp\pair.cpp.i
+src\com\jmc\test\learn\cpp\override&final.cpp.i:
+	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) "CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\override&final.cpp.i"
+.PHONY : src\com\jmc\test\learn\cpp\override&final.cpp.i
 
-com\jmc\test\learn\cpp\pair.s: com\jmc\test\learn\cpp\pair.cpp.s
+src\com\jmc\test\learn\cpp\override&final.s: src\com\jmc\test\learn\cpp\override&final.cpp.s
 
-.PHONY : com\jmc\test\learn\cpp\pair.s
+.PHONY : src\com\jmc\test\learn\cpp\override&final.s
 
 # target to generate assembly for a file
-com\jmc\test\learn\cpp\pair.cpp.s:
-	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\pair.cpp.s
-.PHONY : com\jmc\test\learn\cpp\pair.cpp.s
+src\com\jmc\test\learn\cpp\override&final.cpp.s:
+	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) "CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\override&final.cpp.s"
+.PHONY : src\com\jmc\test\learn\cpp\override&final.cpp.s
 
-com\jmc\test\learn\cpp\ptr.obj: com\jmc\test\learn\cpp\ptr.cpp.obj
+src\com\jmc\test\learn\cpp\pair.obj: src\com\jmc\test\learn\cpp\pair.cpp.obj
 
-.PHONY : com\jmc\test\learn\cpp\ptr.obj
+.PHONY : src\com\jmc\test\learn\cpp\pair.obj
 
 # target to build an object file
-com\jmc\test\learn\cpp\ptr.cpp.obj:
-	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\ptr.cpp.obj
-.PHONY : com\jmc\test\learn\cpp\ptr.cpp.obj
+src\com\jmc\test\learn\cpp\pair.cpp.obj:
+	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\pair.cpp.obj
+.PHONY : src\com\jmc\test\learn\cpp\pair.cpp.obj
 
-com\jmc\test\learn\cpp\ptr.i: com\jmc\test\learn\cpp\ptr.cpp.i
+src\com\jmc\test\learn\cpp\pair.i: src\com\jmc\test\learn\cpp\pair.cpp.i
 
-.PHONY : com\jmc\test\learn\cpp\ptr.i
+.PHONY : src\com\jmc\test\learn\cpp\pair.i
 
 # target to preprocess a source file
-com\jmc\test\learn\cpp\ptr.cpp.i:
-	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\ptr.cpp.i
-.PHONY : com\jmc\test\learn\cpp\ptr.cpp.i
+src\com\jmc\test\learn\cpp\pair.cpp.i:
+	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\pair.cpp.i
+.PHONY : src\com\jmc\test\learn\cpp\pair.cpp.i
 
-com\jmc\test\learn\cpp\ptr.s: com\jmc\test\learn\cpp\ptr.cpp.s
+src\com\jmc\test\learn\cpp\pair.s: src\com\jmc\test\learn\cpp\pair.cpp.s
 
-.PHONY : com\jmc\test\learn\cpp\ptr.s
+.PHONY : src\com\jmc\test\learn\cpp\pair.s
 
 # target to generate assembly for a file
-com\jmc\test\learn\cpp\ptr.cpp.s:
-	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\ptr.cpp.s
-.PHONY : com\jmc\test\learn\cpp\ptr.cpp.s
+src\com\jmc\test\learn\cpp\pair.cpp.s:
+	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\pair.cpp.s
+.PHONY : src\com\jmc\test\learn\cpp\pair.cpp.s
 
-com\jmc\test\learn\cpp\ptr2.obj: com\jmc\test\learn\cpp\ptr2.cpp.obj
+src\com\jmc\test\learn\cpp\ptr.obj: src\com\jmc\test\learn\cpp\ptr.cpp.obj
 
-.PHONY : com\jmc\test\learn\cpp\ptr2.obj
+.PHONY : src\com\jmc\test\learn\cpp\ptr.obj
 
 # target to build an object file
-com\jmc\test\learn\cpp\ptr2.cpp.obj:
-	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\ptr2.cpp.obj
-.PHONY : com\jmc\test\learn\cpp\ptr2.cpp.obj
+src\com\jmc\test\learn\cpp\ptr.cpp.obj:
+	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\ptr.cpp.obj
+.PHONY : src\com\jmc\test\learn\cpp\ptr.cpp.obj
 
-com\jmc\test\learn\cpp\ptr2.i: com\jmc\test\learn\cpp\ptr2.cpp.i
+src\com\jmc\test\learn\cpp\ptr.i: src\com\jmc\test\learn\cpp\ptr.cpp.i
 
-.PHONY : com\jmc\test\learn\cpp\ptr2.i
+.PHONY : src\com\jmc\test\learn\cpp\ptr.i
 
 # target to preprocess a source file
-com\jmc\test\learn\cpp\ptr2.cpp.i:
-	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\ptr2.cpp.i
-.PHONY : com\jmc\test\learn\cpp\ptr2.cpp.i
+src\com\jmc\test\learn\cpp\ptr.cpp.i:
+	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\ptr.cpp.i
+.PHONY : src\com\jmc\test\learn\cpp\ptr.cpp.i
 
-com\jmc\test\learn\cpp\ptr2.s: com\jmc\test\learn\cpp\ptr2.cpp.s
+src\com\jmc\test\learn\cpp\ptr.s: src\com\jmc\test\learn\cpp\ptr.cpp.s
 
-.PHONY : com\jmc\test\learn\cpp\ptr2.s
+.PHONY : src\com\jmc\test\learn\cpp\ptr.s
 
 # target to generate assembly for a file
-com\jmc\test\learn\cpp\ptr2.cpp.s:
-	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\ptr2.cpp.s
-.PHONY : com\jmc\test\learn\cpp\ptr2.cpp.s
+src\com\jmc\test\learn\cpp\ptr.cpp.s:
+	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\ptr.cpp.s
+.PHONY : src\com\jmc\test\learn\cpp\ptr.cpp.s
 
-com\jmc\test\learn\cpp\ptr3.obj: com\jmc\test\learn\cpp\ptr3.cpp.obj
+src\com\jmc\test\learn\cpp\ptr2.obj: src\com\jmc\test\learn\cpp\ptr2.cpp.obj
 
-.PHONY : com\jmc\test\learn\cpp\ptr3.obj
+.PHONY : src\com\jmc\test\learn\cpp\ptr2.obj
 
 # target to build an object file
-com\jmc\test\learn\cpp\ptr3.cpp.obj:
-	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\ptr3.cpp.obj
-.PHONY : com\jmc\test\learn\cpp\ptr3.cpp.obj
+src\com\jmc\test\learn\cpp\ptr2.cpp.obj:
+	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\ptr2.cpp.obj
+.PHONY : src\com\jmc\test\learn\cpp\ptr2.cpp.obj
 
-com\jmc\test\learn\cpp\ptr3.i: com\jmc\test\learn\cpp\ptr3.cpp.i
+src\com\jmc\test\learn\cpp\ptr2.i: src\com\jmc\test\learn\cpp\ptr2.cpp.i
 
-.PHONY : com\jmc\test\learn\cpp\ptr3.i
+.PHONY : src\com\jmc\test\learn\cpp\ptr2.i
 
 # target to preprocess a source file
-com\jmc\test\learn\cpp\ptr3.cpp.i:
-	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\ptr3.cpp.i
-.PHONY : com\jmc\test\learn\cpp\ptr3.cpp.i
+src\com\jmc\test\learn\cpp\ptr2.cpp.i:
+	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\ptr2.cpp.i
+.PHONY : src\com\jmc\test\learn\cpp\ptr2.cpp.i
 
-com\jmc\test\learn\cpp\ptr3.s: com\jmc\test\learn\cpp\ptr3.cpp.s
+src\com\jmc\test\learn\cpp\ptr2.s: src\com\jmc\test\learn\cpp\ptr2.cpp.s
 
-.PHONY : com\jmc\test\learn\cpp\ptr3.s
+.PHONY : src\com\jmc\test\learn\cpp\ptr2.s
 
 # target to generate assembly for a file
-com\jmc\test\learn\cpp\ptr3.cpp.s:
-	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\ptr3.cpp.s
-.PHONY : com\jmc\test\learn\cpp\ptr3.cpp.s
+src\com\jmc\test\learn\cpp\ptr2.cpp.s:
+	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\ptr2.cpp.s
+.PHONY : src\com\jmc\test\learn\cpp\ptr2.cpp.s
 
-com\jmc\test\learn\cpp\rand.obj: com\jmc\test\learn\cpp\rand.cpp.obj
+src\com\jmc\test\learn\cpp\ptr3.obj: src\com\jmc\test\learn\cpp\ptr3.cpp.obj
 
-.PHONY : com\jmc\test\learn\cpp\rand.obj
+.PHONY : src\com\jmc\test\learn\cpp\ptr3.obj
 
 # target to build an object file
-com\jmc\test\learn\cpp\rand.cpp.obj:
-	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\rand.cpp.obj
-.PHONY : com\jmc\test\learn\cpp\rand.cpp.obj
+src\com\jmc\test\learn\cpp\ptr3.cpp.obj:
+	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\ptr3.cpp.obj
+.PHONY : src\com\jmc\test\learn\cpp\ptr3.cpp.obj
 
-com\jmc\test\learn\cpp\rand.i: com\jmc\test\learn\cpp\rand.cpp.i
+src\com\jmc\test\learn\cpp\ptr3.i: src\com\jmc\test\learn\cpp\ptr3.cpp.i
 
-.PHONY : com\jmc\test\learn\cpp\rand.i
+.PHONY : src\com\jmc\test\learn\cpp\ptr3.i
 
 # target to preprocess a source file
-com\jmc\test\learn\cpp\rand.cpp.i:
-	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\rand.cpp.i
-.PHONY : com\jmc\test\learn\cpp\rand.cpp.i
+src\com\jmc\test\learn\cpp\ptr3.cpp.i:
+	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\ptr3.cpp.i
+.PHONY : src\com\jmc\test\learn\cpp\ptr3.cpp.i
 
-com\jmc\test\learn\cpp\rand.s: com\jmc\test\learn\cpp\rand.cpp.s
+src\com\jmc\test\learn\cpp\ptr3.s: src\com\jmc\test\learn\cpp\ptr3.cpp.s
 
-.PHONY : com\jmc\test\learn\cpp\rand.s
+.PHONY : src\com\jmc\test\learn\cpp\ptr3.s
 
 # target to generate assembly for a file
-com\jmc\test\learn\cpp\rand.cpp.s:
-	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\rand.cpp.s
-.PHONY : com\jmc\test\learn\cpp\rand.cpp.s
+src\com\jmc\test\learn\cpp\ptr3.cpp.s:
+	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\ptr3.cpp.s
+.PHONY : src\com\jmc\test\learn\cpp\ptr3.cpp.s
 
-com\jmc\test\learn\cpp\rvalue.obj: com\jmc\test\learn\cpp\rvalue.cpp.obj
+src\com\jmc\test\learn\cpp\rand.obj: src\com\jmc\test\learn\cpp\rand.cpp.obj
 
-.PHONY : com\jmc\test\learn\cpp\rvalue.obj
+.PHONY : src\com\jmc\test\learn\cpp\rand.obj
 
 # target to build an object file
-com\jmc\test\learn\cpp\rvalue.cpp.obj:
-	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\rvalue.cpp.obj
-.PHONY : com\jmc\test\learn\cpp\rvalue.cpp.obj
+src\com\jmc\test\learn\cpp\rand.cpp.obj:
+	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\rand.cpp.obj
+.PHONY : src\com\jmc\test\learn\cpp\rand.cpp.obj
 
-com\jmc\test\learn\cpp\rvalue.i: com\jmc\test\learn\cpp\rvalue.cpp.i
+src\com\jmc\test\learn\cpp\rand.i: src\com\jmc\test\learn\cpp\rand.cpp.i
 
-.PHONY : com\jmc\test\learn\cpp\rvalue.i
+.PHONY : src\com\jmc\test\learn\cpp\rand.i
 
 # target to preprocess a source file
-com\jmc\test\learn\cpp\rvalue.cpp.i:
-	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\rvalue.cpp.i
-.PHONY : com\jmc\test\learn\cpp\rvalue.cpp.i
+src\com\jmc\test\learn\cpp\rand.cpp.i:
+	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\rand.cpp.i
+.PHONY : src\com\jmc\test\learn\cpp\rand.cpp.i
 
-com\jmc\test\learn\cpp\rvalue.s: com\jmc\test\learn\cpp\rvalue.cpp.s
+src\com\jmc\test\learn\cpp\rand.s: src\com\jmc\test\learn\cpp\rand.cpp.s
 
-.PHONY : com\jmc\test\learn\cpp\rvalue.s
+.PHONY : src\com\jmc\test\learn\cpp\rand.s
 
 # target to generate assembly for a file
-com\jmc\test\learn\cpp\rvalue.cpp.s:
-	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\rvalue.cpp.s
-.PHONY : com\jmc\test\learn\cpp\rvalue.cpp.s
+src\com\jmc\test\learn\cpp\rand.cpp.s:
+	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\rand.cpp.s
+.PHONY : src\com\jmc\test\learn\cpp\rand.cpp.s
 
-com\jmc\test\learn\cpp\set.obj: com\jmc\test\learn\cpp\set.cpp.obj
+src\com\jmc\test\learn\cpp\rvalue.obj: src\com\jmc\test\learn\cpp\rvalue.cpp.obj
 
-.PHONY : com\jmc\test\learn\cpp\set.obj
+.PHONY : src\com\jmc\test\learn\cpp\rvalue.obj
 
 # target to build an object file
-com\jmc\test\learn\cpp\set.cpp.obj:
-	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\set.cpp.obj
-.PHONY : com\jmc\test\learn\cpp\set.cpp.obj
+src\com\jmc\test\learn\cpp\rvalue.cpp.obj:
+	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\rvalue.cpp.obj
+.PHONY : src\com\jmc\test\learn\cpp\rvalue.cpp.obj
 
-com\jmc\test\learn\cpp\set.i: com\jmc\test\learn\cpp\set.cpp.i
+src\com\jmc\test\learn\cpp\rvalue.i: src\com\jmc\test\learn\cpp\rvalue.cpp.i
 
-.PHONY : com\jmc\test\learn\cpp\set.i
+.PHONY : src\com\jmc\test\learn\cpp\rvalue.i
 
 # target to preprocess a source file
-com\jmc\test\learn\cpp\set.cpp.i:
-	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\set.cpp.i
-.PHONY : com\jmc\test\learn\cpp\set.cpp.i
+src\com\jmc\test\learn\cpp\rvalue.cpp.i:
+	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\rvalue.cpp.i
+.PHONY : src\com\jmc\test\learn\cpp\rvalue.cpp.i
 
-com\jmc\test\learn\cpp\set.s: com\jmc\test\learn\cpp\set.cpp.s
+src\com\jmc\test\learn\cpp\rvalue.s: src\com\jmc\test\learn\cpp\rvalue.cpp.s
 
-.PHONY : com\jmc\test\learn\cpp\set.s
+.PHONY : src\com\jmc\test\learn\cpp\rvalue.s
 
 # target to generate assembly for a file
-com\jmc\test\learn\cpp\set.cpp.s:
-	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\set.cpp.s
-.PHONY : com\jmc\test\learn\cpp\set.cpp.s
+src\com\jmc\test\learn\cpp\rvalue.cpp.s:
+	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\rvalue.cpp.s
+.PHONY : src\com\jmc\test\learn\cpp\rvalue.cpp.s
 
-com\jmc\test\learn\cpp\stack&queue.obj: com\jmc\test\learn\cpp\stack&queue.cpp.obj
+src\com\jmc\test\learn\cpp\set.obj: src\com\jmc\test\learn\cpp\set.cpp.obj
 
-.PHONY : com\jmc\test\learn\cpp\stack&queue.obj
+.PHONY : src\com\jmc\test\learn\cpp\set.obj
 
 # target to build an object file
-com\jmc\test\learn\cpp\stack&queue.cpp.obj:
-	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) "CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\stack&queue.cpp.obj"
-.PHONY : com\jmc\test\learn\cpp\stack&queue.cpp.obj
+src\com\jmc\test\learn\cpp\set.cpp.obj:
+	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\set.cpp.obj
+.PHONY : src\com\jmc\test\learn\cpp\set.cpp.obj
 
-com\jmc\test\learn\cpp\stack&queue.i: com\jmc\test\learn\cpp\stack&queue.cpp.i
+src\com\jmc\test\learn\cpp\set.i: src\com\jmc\test\learn\cpp\set.cpp.i
 
-.PHONY : com\jmc\test\learn\cpp\stack&queue.i
+.PHONY : src\com\jmc\test\learn\cpp\set.i
 
 # target to preprocess a source file
-com\jmc\test\learn\cpp\stack&queue.cpp.i:
-	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) "CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\stack&queue.cpp.i"
-.PHONY : com\jmc\test\learn\cpp\stack&queue.cpp.i
+src\com\jmc\test\learn\cpp\set.cpp.i:
+	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\set.cpp.i
+.PHONY : src\com\jmc\test\learn\cpp\set.cpp.i
 
-com\jmc\test\learn\cpp\stack&queue.s: com\jmc\test\learn\cpp\stack&queue.cpp.s
+src\com\jmc\test\learn\cpp\set.s: src\com\jmc\test\learn\cpp\set.cpp.s
 
-.PHONY : com\jmc\test\learn\cpp\stack&queue.s
+.PHONY : src\com\jmc\test\learn\cpp\set.s
 
 # target to generate assembly for a file
-com\jmc\test\learn\cpp\stack&queue.cpp.s:
-	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) "CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\stack&queue.cpp.s"
-.PHONY : com\jmc\test\learn\cpp\stack&queue.cpp.s
+src\com\jmc\test\learn\cpp\set.cpp.s:
+	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\set.cpp.s
+.PHONY : src\com\jmc\test\learn\cpp\set.cpp.s
 
-com\jmc\test\learn\cpp\static.obj: com\jmc\test\learn\cpp\static.cpp.obj
+src\com\jmc\test\learn\cpp\stack&queue.obj: src\com\jmc\test\learn\cpp\stack&queue.cpp.obj
 
-.PHONY : com\jmc\test\learn\cpp\static.obj
+.PHONY : src\com\jmc\test\learn\cpp\stack&queue.obj
 
 # target to build an object file
-com\jmc\test\learn\cpp\static.cpp.obj:
-	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\static.cpp.obj
-.PHONY : com\jmc\test\learn\cpp\static.cpp.obj
+src\com\jmc\test\learn\cpp\stack&queue.cpp.obj:
+	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) "CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\stack&queue.cpp.obj"
+.PHONY : src\com\jmc\test\learn\cpp\stack&queue.cpp.obj
 
-com\jmc\test\learn\cpp\static.i: com\jmc\test\learn\cpp\static.cpp.i
+src\com\jmc\test\learn\cpp\stack&queue.i: src\com\jmc\test\learn\cpp\stack&queue.cpp.i
 
-.PHONY : com\jmc\test\learn\cpp\static.i
+.PHONY : src\com\jmc\test\learn\cpp\stack&queue.i
 
 # target to preprocess a source file
-com\jmc\test\learn\cpp\static.cpp.i:
-	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\static.cpp.i
-.PHONY : com\jmc\test\learn\cpp\static.cpp.i
+src\com\jmc\test\learn\cpp\stack&queue.cpp.i:
+	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) "CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\stack&queue.cpp.i"
+.PHONY : src\com\jmc\test\learn\cpp\stack&queue.cpp.i
 
-com\jmc\test\learn\cpp\static.s: com\jmc\test\learn\cpp\static.cpp.s
+src\com\jmc\test\learn\cpp\stack&queue.s: src\com\jmc\test\learn\cpp\stack&queue.cpp.s
 
-.PHONY : com\jmc\test\learn\cpp\static.s
+.PHONY : src\com\jmc\test\learn\cpp\stack&queue.s
 
 # target to generate assembly for a file
-com\jmc\test\learn\cpp\static.cpp.s:
-	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\static.cpp.s
-.PHONY : com\jmc\test\learn\cpp\static.cpp.s
+src\com\jmc\test\learn\cpp\stack&queue.cpp.s:
+	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) "CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\stack&queue.cpp.s"
+.PHONY : src\com\jmc\test\learn\cpp\stack&queue.cpp.s
 
-com\jmc\test\learn\cpp\string.obj: com\jmc\test\learn\cpp\string.cpp.obj
+src\com\jmc\test\learn\cpp\static.obj: src\com\jmc\test\learn\cpp\static.cpp.obj
 
-.PHONY : com\jmc\test\learn\cpp\string.obj
+.PHONY : src\com\jmc\test\learn\cpp\static.obj
 
 # target to build an object file
-com\jmc\test\learn\cpp\string.cpp.obj:
-	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\string.cpp.obj
-.PHONY : com\jmc\test\learn\cpp\string.cpp.obj
+src\com\jmc\test\learn\cpp\static.cpp.obj:
+	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\static.cpp.obj
+.PHONY : src\com\jmc\test\learn\cpp\static.cpp.obj
 
-com\jmc\test\learn\cpp\string.i: com\jmc\test\learn\cpp\string.cpp.i
+src\com\jmc\test\learn\cpp\static.i: src\com\jmc\test\learn\cpp\static.cpp.i
 
-.PHONY : com\jmc\test\learn\cpp\string.i
+.PHONY : src\com\jmc\test\learn\cpp\static.i
 
 # target to preprocess a source file
-com\jmc\test\learn\cpp\string.cpp.i:
-	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\string.cpp.i
-.PHONY : com\jmc\test\learn\cpp\string.cpp.i
+src\com\jmc\test\learn\cpp\static.cpp.i:
+	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\static.cpp.i
+.PHONY : src\com\jmc\test\learn\cpp\static.cpp.i
 
-com\jmc\test\learn\cpp\string.s: com\jmc\test\learn\cpp\string.cpp.s
+src\com\jmc\test\learn\cpp\static.s: src\com\jmc\test\learn\cpp\static.cpp.s
 
-.PHONY : com\jmc\test\learn\cpp\string.s
+.PHONY : src\com\jmc\test\learn\cpp\static.s
 
 # target to generate assembly for a file
-com\jmc\test\learn\cpp\string.cpp.s:
-	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\string.cpp.s
-.PHONY : com\jmc\test\learn\cpp\string.cpp.s
+src\com\jmc\test\learn\cpp\static.cpp.s:
+	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\static.cpp.s
+.PHONY : src\com\jmc\test\learn\cpp\static.cpp.s
 
-com\jmc\test\learn\cpp\string2.obj: com\jmc\test\learn\cpp\string2.cpp.obj
+src\com\jmc\test\learn\cpp\string.obj: src\com\jmc\test\learn\cpp\string.cpp.obj
 
-.PHONY : com\jmc\test\learn\cpp\string2.obj
+.PHONY : src\com\jmc\test\learn\cpp\string.obj
 
 # target to build an object file
-com\jmc\test\learn\cpp\string2.cpp.obj:
-	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\string2.cpp.obj
-.PHONY : com\jmc\test\learn\cpp\string2.cpp.obj
+src\com\jmc\test\learn\cpp\string.cpp.obj:
+	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\string.cpp.obj
+.PHONY : src\com\jmc\test\learn\cpp\string.cpp.obj
 
-com\jmc\test\learn\cpp\string2.i: com\jmc\test\learn\cpp\string2.cpp.i
+src\com\jmc\test\learn\cpp\string.i: src\com\jmc\test\learn\cpp\string.cpp.i
 
-.PHONY : com\jmc\test\learn\cpp\string2.i
+.PHONY : src\com\jmc\test\learn\cpp\string.i
 
 # target to preprocess a source file
-com\jmc\test\learn\cpp\string2.cpp.i:
-	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\string2.cpp.i
-.PHONY : com\jmc\test\learn\cpp\string2.cpp.i
+src\com\jmc\test\learn\cpp\string.cpp.i:
+	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\string.cpp.i
+.PHONY : src\com\jmc\test\learn\cpp\string.cpp.i
 
-com\jmc\test\learn\cpp\string2.s: com\jmc\test\learn\cpp\string2.cpp.s
+src\com\jmc\test\learn\cpp\string.s: src\com\jmc\test\learn\cpp\string.cpp.s
 
-.PHONY : com\jmc\test\learn\cpp\string2.s
+.PHONY : src\com\jmc\test\learn\cpp\string.s
 
 # target to generate assembly for a file
-com\jmc\test\learn\cpp\string2.cpp.s:
-	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\string2.cpp.s
-.PHONY : com\jmc\test\learn\cpp\string2.cpp.s
+src\com\jmc\test\learn\cpp\string.cpp.s:
+	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\string.cpp.s
+.PHONY : src\com\jmc\test\learn\cpp\string.cpp.s
 
-com\jmc\test\learn\cpp\struct.obj: com\jmc\test\learn\cpp\struct.cpp.obj
+src\com\jmc\test\learn\cpp\string2.obj: src\com\jmc\test\learn\cpp\string2.cpp.obj
 
-.PHONY : com\jmc\test\learn\cpp\struct.obj
+.PHONY : src\com\jmc\test\learn\cpp\string2.obj
 
 # target to build an object file
-com\jmc\test\learn\cpp\struct.cpp.obj:
-	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\struct.cpp.obj
-.PHONY : com\jmc\test\learn\cpp\struct.cpp.obj
+src\com\jmc\test\learn\cpp\string2.cpp.obj:
+	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\string2.cpp.obj
+.PHONY : src\com\jmc\test\learn\cpp\string2.cpp.obj
 
-com\jmc\test\learn\cpp\struct.i: com\jmc\test\learn\cpp\struct.cpp.i
+src\com\jmc\test\learn\cpp\string2.i: src\com\jmc\test\learn\cpp\string2.cpp.i
 
-.PHONY : com\jmc\test\learn\cpp\struct.i
+.PHONY : src\com\jmc\test\learn\cpp\string2.i
 
 # target to preprocess a source file
-com\jmc\test\learn\cpp\struct.cpp.i:
-	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\struct.cpp.i
-.PHONY : com\jmc\test\learn\cpp\struct.cpp.i
+src\com\jmc\test\learn\cpp\string2.cpp.i:
+	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\string2.cpp.i
+.PHONY : src\com\jmc\test\learn\cpp\string2.cpp.i
 
-com\jmc\test\learn\cpp\struct.s: com\jmc\test\learn\cpp\struct.cpp.s
+src\com\jmc\test\learn\cpp\string2.s: src\com\jmc\test\learn\cpp\string2.cpp.s
 
-.PHONY : com\jmc\test\learn\cpp\struct.s
+.PHONY : src\com\jmc\test\learn\cpp\string2.s
 
 # target to generate assembly for a file
-com\jmc\test\learn\cpp\struct.cpp.s:
-	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\struct.cpp.s
-.PHONY : com\jmc\test\learn\cpp\struct.cpp.s
+src\com\jmc\test\learn\cpp\string2.cpp.s:
+	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\string2.cpp.s
+.PHONY : src\com\jmc\test\learn\cpp\string2.cpp.s
 
-com\jmc\test\learn\cpp\template.obj: com\jmc\test\learn\cpp\template.cpp.obj
+src\com\jmc\test\learn\cpp\struct.obj: src\com\jmc\test\learn\cpp\struct.cpp.obj
 
-.PHONY : com\jmc\test\learn\cpp\template.obj
+.PHONY : src\com\jmc\test\learn\cpp\struct.obj
 
 # target to build an object file
-com\jmc\test\learn\cpp\template.cpp.obj:
-	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\template.cpp.obj
-.PHONY : com\jmc\test\learn\cpp\template.cpp.obj
+src\com\jmc\test\learn\cpp\struct.cpp.obj:
+	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\struct.cpp.obj
+.PHONY : src\com\jmc\test\learn\cpp\struct.cpp.obj
 
-com\jmc\test\learn\cpp\template.i: com\jmc\test\learn\cpp\template.cpp.i
+src\com\jmc\test\learn\cpp\struct.i: src\com\jmc\test\learn\cpp\struct.cpp.i
 
-.PHONY : com\jmc\test\learn\cpp\template.i
+.PHONY : src\com\jmc\test\learn\cpp\struct.i
 
 # target to preprocess a source file
-com\jmc\test\learn\cpp\template.cpp.i:
-	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\template.cpp.i
-.PHONY : com\jmc\test\learn\cpp\template.cpp.i
+src\com\jmc\test\learn\cpp\struct.cpp.i:
+	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\struct.cpp.i
+.PHONY : src\com\jmc\test\learn\cpp\struct.cpp.i
 
-com\jmc\test\learn\cpp\template.s: com\jmc\test\learn\cpp\template.cpp.s
+src\com\jmc\test\learn\cpp\struct.s: src\com\jmc\test\learn\cpp\struct.cpp.s
 
-.PHONY : com\jmc\test\learn\cpp\template.s
+.PHONY : src\com\jmc\test\learn\cpp\struct.s
 
 # target to generate assembly for a file
-com\jmc\test\learn\cpp\template.cpp.s:
-	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\template.cpp.s
-.PHONY : com\jmc\test\learn\cpp\template.cpp.s
+src\com\jmc\test\learn\cpp\struct.cpp.s:
+	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\struct.cpp.s
+.PHONY : src\com\jmc\test\learn\cpp\struct.cpp.s
 
-com\jmc\test\learn\cpp\template2.obj: com\jmc\test\learn\cpp\template2.cpp.obj
+src\com\jmc\test\learn\cpp\template.obj: src\com\jmc\test\learn\cpp\template.cpp.obj
 
-.PHONY : com\jmc\test\learn\cpp\template2.obj
+.PHONY : src\com\jmc\test\learn\cpp\template.obj
 
 # target to build an object file
-com\jmc\test\learn\cpp\template2.cpp.obj:
-	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\template2.cpp.obj
-.PHONY : com\jmc\test\learn\cpp\template2.cpp.obj
+src\com\jmc\test\learn\cpp\template.cpp.obj:
+	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\template.cpp.obj
+.PHONY : src\com\jmc\test\learn\cpp\template.cpp.obj
 
-com\jmc\test\learn\cpp\template2.i: com\jmc\test\learn\cpp\template2.cpp.i
+src\com\jmc\test\learn\cpp\template.i: src\com\jmc\test\learn\cpp\template.cpp.i
 
-.PHONY : com\jmc\test\learn\cpp\template2.i
+.PHONY : src\com\jmc\test\learn\cpp\template.i
 
 # target to preprocess a source file
-com\jmc\test\learn\cpp\template2.cpp.i:
-	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\template2.cpp.i
-.PHONY : com\jmc\test\learn\cpp\template2.cpp.i
+src\com\jmc\test\learn\cpp\template.cpp.i:
+	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\template.cpp.i
+.PHONY : src\com\jmc\test\learn\cpp\template.cpp.i
 
-com\jmc\test\learn\cpp\template2.s: com\jmc\test\learn\cpp\template2.cpp.s
+src\com\jmc\test\learn\cpp\template.s: src\com\jmc\test\learn\cpp\template.cpp.s
 
-.PHONY : com\jmc\test\learn\cpp\template2.s
+.PHONY : src\com\jmc\test\learn\cpp\template.s
 
 # target to generate assembly for a file
-com\jmc\test\learn\cpp\template2.cpp.s:
-	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\template2.cpp.s
-.PHONY : com\jmc\test\learn\cpp\template2.cpp.s
+src\com\jmc\test\learn\cpp\template.cpp.s:
+	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\template.cpp.s
+.PHONY : src\com\jmc\test\learn\cpp\template.cpp.s
 
-com\jmc\test\learn\cpp\template3.obj: com\jmc\test\learn\cpp\template3.cpp.obj
+src\com\jmc\test\learn\cpp\template2.obj: src\com\jmc\test\learn\cpp\template2.cpp.obj
 
-.PHONY : com\jmc\test\learn\cpp\template3.obj
+.PHONY : src\com\jmc\test\learn\cpp\template2.obj
 
 # target to build an object file
-com\jmc\test\learn\cpp\template3.cpp.obj:
-	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\template3.cpp.obj
-.PHONY : com\jmc\test\learn\cpp\template3.cpp.obj
+src\com\jmc\test\learn\cpp\template2.cpp.obj:
+	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\template2.cpp.obj
+.PHONY : src\com\jmc\test\learn\cpp\template2.cpp.obj
 
-com\jmc\test\learn\cpp\template3.i: com\jmc\test\learn\cpp\template3.cpp.i
+src\com\jmc\test\learn\cpp\template2.i: src\com\jmc\test\learn\cpp\template2.cpp.i
 
-.PHONY : com\jmc\test\learn\cpp\template3.i
+.PHONY : src\com\jmc\test\learn\cpp\template2.i
 
 # target to preprocess a source file
-com\jmc\test\learn\cpp\template3.cpp.i:
-	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\template3.cpp.i
-.PHONY : com\jmc\test\learn\cpp\template3.cpp.i
+src\com\jmc\test\learn\cpp\template2.cpp.i:
+	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\template2.cpp.i
+.PHONY : src\com\jmc\test\learn\cpp\template2.cpp.i
 
-com\jmc\test\learn\cpp\template3.s: com\jmc\test\learn\cpp\template3.cpp.s
+src\com\jmc\test\learn\cpp\template2.s: src\com\jmc\test\learn\cpp\template2.cpp.s
 
-.PHONY : com\jmc\test\learn\cpp\template3.s
+.PHONY : src\com\jmc\test\learn\cpp\template2.s
 
 # target to generate assembly for a file
-com\jmc\test\learn\cpp\template3.cpp.s:
-	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\template3.cpp.s
-.PHONY : com\jmc\test\learn\cpp\template3.cpp.s
+src\com\jmc\test\learn\cpp\template2.cpp.s:
+	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\template2.cpp.s
+.PHONY : src\com\jmc\test\learn\cpp\template2.cpp.s
 
-com\jmc\test\learn\cpp\template4.obj: com\jmc\test\learn\cpp\template4.cpp.obj
+src\com\jmc\test\learn\cpp\template3.obj: src\com\jmc\test\learn\cpp\template3.cpp.obj
 
-.PHONY : com\jmc\test\learn\cpp\template4.obj
+.PHONY : src\com\jmc\test\learn\cpp\template3.obj
 
 # target to build an object file
-com\jmc\test\learn\cpp\template4.cpp.obj:
-	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\template4.cpp.obj
-.PHONY : com\jmc\test\learn\cpp\template4.cpp.obj
+src\com\jmc\test\learn\cpp\template3.cpp.obj:
+	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\template3.cpp.obj
+.PHONY : src\com\jmc\test\learn\cpp\template3.cpp.obj
 
-com\jmc\test\learn\cpp\template4.i: com\jmc\test\learn\cpp\template4.cpp.i
+src\com\jmc\test\learn\cpp\template3.i: src\com\jmc\test\learn\cpp\template3.cpp.i
 
-.PHONY : com\jmc\test\learn\cpp\template4.i
+.PHONY : src\com\jmc\test\learn\cpp\template3.i
 
 # target to preprocess a source file
-com\jmc\test\learn\cpp\template4.cpp.i:
-	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\template4.cpp.i
-.PHONY : com\jmc\test\learn\cpp\template4.cpp.i
+src\com\jmc\test\learn\cpp\template3.cpp.i:
+	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\template3.cpp.i
+.PHONY : src\com\jmc\test\learn\cpp\template3.cpp.i
 
-com\jmc\test\learn\cpp\template4.s: com\jmc\test\learn\cpp\template4.cpp.s
+src\com\jmc\test\learn\cpp\template3.s: src\com\jmc\test\learn\cpp\template3.cpp.s
 
-.PHONY : com\jmc\test\learn\cpp\template4.s
+.PHONY : src\com\jmc\test\learn\cpp\template3.s
 
 # target to generate assembly for a file
-com\jmc\test\learn\cpp\template4.cpp.s:
-	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\template4.cpp.s
-.PHONY : com\jmc\test\learn\cpp\template4.cpp.s
+src\com\jmc\test\learn\cpp\template3.cpp.s:
+	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\template3.cpp.s
+.PHONY : src\com\jmc\test\learn\cpp\template3.cpp.s
 
-com\jmc\test\learn\cpp\thread.obj: com\jmc\test\learn\cpp\thread.cpp.obj
+src\com\jmc\test\learn\cpp\template4.obj: src\com\jmc\test\learn\cpp\template4.cpp.obj
 
-.PHONY : com\jmc\test\learn\cpp\thread.obj
+.PHONY : src\com\jmc\test\learn\cpp\template4.obj
 
 # target to build an object file
-com\jmc\test\learn\cpp\thread.cpp.obj:
-	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\thread.cpp.obj
-.PHONY : com\jmc\test\learn\cpp\thread.cpp.obj
+src\com\jmc\test\learn\cpp\template4.cpp.obj:
+	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\template4.cpp.obj
+.PHONY : src\com\jmc\test\learn\cpp\template4.cpp.obj
 
-com\jmc\test\learn\cpp\thread.i: com\jmc\test\learn\cpp\thread.cpp.i
+src\com\jmc\test\learn\cpp\template4.i: src\com\jmc\test\learn\cpp\template4.cpp.i
 
-.PHONY : com\jmc\test\learn\cpp\thread.i
+.PHONY : src\com\jmc\test\learn\cpp\template4.i
 
 # target to preprocess a source file
-com\jmc\test\learn\cpp\thread.cpp.i:
-	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\thread.cpp.i
-.PHONY : com\jmc\test\learn\cpp\thread.cpp.i
+src\com\jmc\test\learn\cpp\template4.cpp.i:
+	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\template4.cpp.i
+.PHONY : src\com\jmc\test\learn\cpp\template4.cpp.i
 
-com\jmc\test\learn\cpp\thread.s: com\jmc\test\learn\cpp\thread.cpp.s
+src\com\jmc\test\learn\cpp\template4.s: src\com\jmc\test\learn\cpp\template4.cpp.s
 
-.PHONY : com\jmc\test\learn\cpp\thread.s
+.PHONY : src\com\jmc\test\learn\cpp\template4.s
 
 # target to generate assembly for a file
-com\jmc\test\learn\cpp\thread.cpp.s:
-	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\thread.cpp.s
-.PHONY : com\jmc\test\learn\cpp\thread.cpp.s
+src\com\jmc\test\learn\cpp\template4.cpp.s:
+	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\template4.cpp.s
+.PHONY : src\com\jmc\test\learn\cpp\template4.cpp.s
 
-com\jmc\test\learn\cpp\thread2.obj: com\jmc\test\learn\cpp\thread2.cpp.obj
+src\com\jmc\test\learn\cpp\thread.obj: src\com\jmc\test\learn\cpp\thread.cpp.obj
 
-.PHONY : com\jmc\test\learn\cpp\thread2.obj
+.PHONY : src\com\jmc\test\learn\cpp\thread.obj
 
 # target to build an object file
-com\jmc\test\learn\cpp\thread2.cpp.obj:
-	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\thread2.cpp.obj
-.PHONY : com\jmc\test\learn\cpp\thread2.cpp.obj
+src\com\jmc\test\learn\cpp\thread.cpp.obj:
+	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\thread.cpp.obj
+.PHONY : src\com\jmc\test\learn\cpp\thread.cpp.obj
 
-com\jmc\test\learn\cpp\thread2.i: com\jmc\test\learn\cpp\thread2.cpp.i
+src\com\jmc\test\learn\cpp\thread.i: src\com\jmc\test\learn\cpp\thread.cpp.i
 
-.PHONY : com\jmc\test\learn\cpp\thread2.i
+.PHONY : src\com\jmc\test\learn\cpp\thread.i
 
 # target to preprocess a source file
-com\jmc\test\learn\cpp\thread2.cpp.i:
-	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\thread2.cpp.i
-.PHONY : com\jmc\test\learn\cpp\thread2.cpp.i
+src\com\jmc\test\learn\cpp\thread.cpp.i:
+	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\thread.cpp.i
+.PHONY : src\com\jmc\test\learn\cpp\thread.cpp.i
 
-com\jmc\test\learn\cpp\thread2.s: com\jmc\test\learn\cpp\thread2.cpp.s
+src\com\jmc\test\learn\cpp\thread.s: src\com\jmc\test\learn\cpp\thread.cpp.s
 
-.PHONY : com\jmc\test\learn\cpp\thread2.s
+.PHONY : src\com\jmc\test\learn\cpp\thread.s
 
 # target to generate assembly for a file
-com\jmc\test\learn\cpp\thread2.cpp.s:
-	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\thread2.cpp.s
-.PHONY : com\jmc\test\learn\cpp\thread2.cpp.s
+src\com\jmc\test\learn\cpp\thread.cpp.s:
+	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\thread.cpp.s
+.PHONY : src\com\jmc\test\learn\cpp\thread.cpp.s
 
-com\jmc\test\learn\cpp\try.obj: com\jmc\test\learn\cpp\try.cpp.obj
+src\com\jmc\test\learn\cpp\thread2.obj: src\com\jmc\test\learn\cpp\thread2.cpp.obj
 
-.PHONY : com\jmc\test\learn\cpp\try.obj
+.PHONY : src\com\jmc\test\learn\cpp\thread2.obj
 
 # target to build an object file
-com\jmc\test\learn\cpp\try.cpp.obj:
-	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\try.cpp.obj
-.PHONY : com\jmc\test\learn\cpp\try.cpp.obj
+src\com\jmc\test\learn\cpp\thread2.cpp.obj:
+	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\thread2.cpp.obj
+.PHONY : src\com\jmc\test\learn\cpp\thread2.cpp.obj
 
-com\jmc\test\learn\cpp\try.i: com\jmc\test\learn\cpp\try.cpp.i
+src\com\jmc\test\learn\cpp\thread2.i: src\com\jmc\test\learn\cpp\thread2.cpp.i
 
-.PHONY : com\jmc\test\learn\cpp\try.i
+.PHONY : src\com\jmc\test\learn\cpp\thread2.i
 
 # target to preprocess a source file
-com\jmc\test\learn\cpp\try.cpp.i:
-	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\try.cpp.i
-.PHONY : com\jmc\test\learn\cpp\try.cpp.i
+src\com\jmc\test\learn\cpp\thread2.cpp.i:
+	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\thread2.cpp.i
+.PHONY : src\com\jmc\test\learn\cpp\thread2.cpp.i
 
-com\jmc\test\learn\cpp\try.s: com\jmc\test\learn\cpp\try.cpp.s
+src\com\jmc\test\learn\cpp\thread2.s: src\com\jmc\test\learn\cpp\thread2.cpp.s
 
-.PHONY : com\jmc\test\learn\cpp\try.s
+.PHONY : src\com\jmc\test\learn\cpp\thread2.s
 
 # target to generate assembly for a file
-com\jmc\test\learn\cpp\try.cpp.s:
-	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\try.cpp.s
-.PHONY : com\jmc\test\learn\cpp\try.cpp.s
+src\com\jmc\test\learn\cpp\thread2.cpp.s:
+	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\thread2.cpp.s
+.PHONY : src\com\jmc\test\learn\cpp\thread2.cpp.s
 
-com\jmc\test\learn\cpp\typedef.obj: com\jmc\test\learn\cpp\typedef.cpp.obj
+src\com\jmc\test\learn\cpp\try.obj: src\com\jmc\test\learn\cpp\try.cpp.obj
 
-.PHONY : com\jmc\test\learn\cpp\typedef.obj
+.PHONY : src\com\jmc\test\learn\cpp\try.obj
 
 # target to build an object file
-com\jmc\test\learn\cpp\typedef.cpp.obj:
-	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\typedef.cpp.obj
-.PHONY : com\jmc\test\learn\cpp\typedef.cpp.obj
+src\com\jmc\test\learn\cpp\try.cpp.obj:
+	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\try.cpp.obj
+.PHONY : src\com\jmc\test\learn\cpp\try.cpp.obj
 
-com\jmc\test\learn\cpp\typedef.i: com\jmc\test\learn\cpp\typedef.cpp.i
+src\com\jmc\test\learn\cpp\try.i: src\com\jmc\test\learn\cpp\try.cpp.i
 
-.PHONY : com\jmc\test\learn\cpp\typedef.i
+.PHONY : src\com\jmc\test\learn\cpp\try.i
 
 # target to preprocess a source file
-com\jmc\test\learn\cpp\typedef.cpp.i:
-	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\typedef.cpp.i
-.PHONY : com\jmc\test\learn\cpp\typedef.cpp.i
+src\com\jmc\test\learn\cpp\try.cpp.i:
+	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\try.cpp.i
+.PHONY : src\com\jmc\test\learn\cpp\try.cpp.i
 
-com\jmc\test\learn\cpp\typedef.s: com\jmc\test\learn\cpp\typedef.cpp.s
+src\com\jmc\test\learn\cpp\try.s: src\com\jmc\test\learn\cpp\try.cpp.s
 
-.PHONY : com\jmc\test\learn\cpp\typedef.s
+.PHONY : src\com\jmc\test\learn\cpp\try.s
 
 # target to generate assembly for a file
-com\jmc\test\learn\cpp\typedef.cpp.s:
-	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\typedef.cpp.s
-.PHONY : com\jmc\test\learn\cpp\typedef.cpp.s
+src\com\jmc\test\learn\cpp\try.cpp.s:
+	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\try.cpp.s
+.PHONY : src\com\jmc\test\learn\cpp\try.cpp.s
 
-com\jmc\test\learn\cpp\vectors.obj: com\jmc\test\learn\cpp\vectors.cpp.obj
+src\com\jmc\test\learn\cpp\typedef.obj: src\com\jmc\test\learn\cpp\typedef.cpp.obj
 
-.PHONY : com\jmc\test\learn\cpp\vectors.obj
+.PHONY : src\com\jmc\test\learn\cpp\typedef.obj
 
 # target to build an object file
-com\jmc\test\learn\cpp\vectors.cpp.obj:
-	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\vectors.cpp.obj
-.PHONY : com\jmc\test\learn\cpp\vectors.cpp.obj
+src\com\jmc\test\learn\cpp\typedef.cpp.obj:
+	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\typedef.cpp.obj
+.PHONY : src\com\jmc\test\learn\cpp\typedef.cpp.obj
 
-com\jmc\test\learn\cpp\vectors.i: com\jmc\test\learn\cpp\vectors.cpp.i
+src\com\jmc\test\learn\cpp\typedef.i: src\com\jmc\test\learn\cpp\typedef.cpp.i
 
-.PHONY : com\jmc\test\learn\cpp\vectors.i
+.PHONY : src\com\jmc\test\learn\cpp\typedef.i
 
 # target to preprocess a source file
-com\jmc\test\learn\cpp\vectors.cpp.i:
-	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\vectors.cpp.i
-.PHONY : com\jmc\test\learn\cpp\vectors.cpp.i
+src\com\jmc\test\learn\cpp\typedef.cpp.i:
+	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\typedef.cpp.i
+.PHONY : src\com\jmc\test\learn\cpp\typedef.cpp.i
 
-com\jmc\test\learn\cpp\vectors.s: com\jmc\test\learn\cpp\vectors.cpp.s
+src\com\jmc\test\learn\cpp\typedef.s: src\com\jmc\test\learn\cpp\typedef.cpp.s
 
-.PHONY : com\jmc\test\learn\cpp\vectors.s
+.PHONY : src\com\jmc\test\learn\cpp\typedef.s
 
 # target to generate assembly for a file
-com\jmc\test\learn\cpp\vectors.cpp.s:
-	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\vectors.cpp.s
-.PHONY : com\jmc\test\learn\cpp\vectors.cpp.s
+src\com\jmc\test\learn\cpp\typedef.cpp.s:
+	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\typedef.cpp.s
+.PHONY : src\com\jmc\test\learn\cpp\typedef.cpp.s
 
-com\jmc\test\main\cpp\main.obj: com\jmc\test\main\cpp\main.cpp.obj
+src\com\jmc\test\learn\cpp\vectors.obj: src\com\jmc\test\learn\cpp\vectors.cpp.obj
 
-.PHONY : com\jmc\test\main\cpp\main.obj
+.PHONY : src\com\jmc\test\learn\cpp\vectors.obj
 
 # target to build an object file
-com\jmc\test\main\cpp\main.cpp.obj:
-	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\com\jmc\test\main\cpp\main.cpp.obj
-.PHONY : com\jmc\test\main\cpp\main.cpp.obj
+src\com\jmc\test\learn\cpp\vectors.cpp.obj:
+	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\vectors.cpp.obj
+.PHONY : src\com\jmc\test\learn\cpp\vectors.cpp.obj
 
-com\jmc\test\main\cpp\main.i: com\jmc\test\main\cpp\main.cpp.i
+src\com\jmc\test\learn\cpp\vectors.i: src\com\jmc\test\learn\cpp\vectors.cpp.i
 
-.PHONY : com\jmc\test\main\cpp\main.i
+.PHONY : src\com\jmc\test\learn\cpp\vectors.i
 
 # target to preprocess a source file
-com\jmc\test\main\cpp\main.cpp.i:
-	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\com\jmc\test\main\cpp\main.cpp.i
-.PHONY : com\jmc\test\main\cpp\main.cpp.i
+src\com\jmc\test\learn\cpp\vectors.cpp.i:
+	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\vectors.cpp.i
+.PHONY : src\com\jmc\test\learn\cpp\vectors.cpp.i
 
-com\jmc\test\main\cpp\main.s: com\jmc\test\main\cpp\main.cpp.s
+src\com\jmc\test\learn\cpp\vectors.s: src\com\jmc\test\learn\cpp\vectors.cpp.s
 
-.PHONY : com\jmc\test\main\cpp\main.s
+.PHONY : src\com\jmc\test\learn\cpp\vectors.s
 
 # target to generate assembly for a file
-com\jmc\test\main\cpp\main.cpp.s:
-	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\com\jmc\test\main\cpp\main.cpp.s
-.PHONY : com\jmc\test\main\cpp\main.cpp.s
+src\com\jmc\test\learn\cpp\vectors.cpp.s:
+	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\vectors.cpp.s
+.PHONY : src\com\jmc\test\learn\cpp\vectors.cpp.s
 
-com\jmc\test\main\cpp\tools.obj: com\jmc\test\main\cpp\tools.cpp.obj
+src\com\jmc\test\main\cpp\main.obj: src\com\jmc\test\main\cpp\main.cpp.obj
 
-.PHONY : com\jmc\test\main\cpp\tools.obj
+.PHONY : src\com\jmc\test\main\cpp\main.obj
 
 # target to build an object file
-com\jmc\test\main\cpp\tools.cpp.obj:
-	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\com\jmc\test\main\cpp\tools.cpp.obj
-.PHONY : com\jmc\test\main\cpp\tools.cpp.obj
+src\com\jmc\test\main\cpp\main.cpp.obj:
+	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\src\com\jmc\test\main\cpp\main.cpp.obj
+.PHONY : src\com\jmc\test\main\cpp\main.cpp.obj
 
-com\jmc\test\main\cpp\tools.i: com\jmc\test\main\cpp\tools.cpp.i
+src\com\jmc\test\main\cpp\main.i: src\com\jmc\test\main\cpp\main.cpp.i
 
-.PHONY : com\jmc\test\main\cpp\tools.i
+.PHONY : src\com\jmc\test\main\cpp\main.i
 
 # target to preprocess a source file
-com\jmc\test\main\cpp\tools.cpp.i:
-	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\com\jmc\test\main\cpp\tools.cpp.i
-.PHONY : com\jmc\test\main\cpp\tools.cpp.i
+src\com\jmc\test\main\cpp\main.cpp.i:
+	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\src\com\jmc\test\main\cpp\main.cpp.i
+.PHONY : src\com\jmc\test\main\cpp\main.cpp.i
 
-com\jmc\test\main\cpp\tools.s: com\jmc\test\main\cpp\tools.cpp.s
+src\com\jmc\test\main\cpp\main.s: src\com\jmc\test\main\cpp\main.cpp.s
 
-.PHONY : com\jmc\test\main\cpp\tools.s
+.PHONY : src\com\jmc\test\main\cpp\main.s
 
 # target to generate assembly for a file
-com\jmc\test\main\cpp\tools.cpp.s:
-	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\com\jmc\test\main\cpp\tools.cpp.s
-.PHONY : com\jmc\test\main\cpp\tools.cpp.s
+src\com\jmc\test\main\cpp\main.cpp.s:
+	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\src\com\jmc\test\main\cpp\main.cpp.s
+.PHONY : src\com\jmc\test\main\cpp\main.cpp.s
+
+src\com\jmc\test\main\cpp\tools.obj: src\com\jmc\test\main\cpp\tools.cpp.obj
+
+.PHONY : src\com\jmc\test\main\cpp\tools.obj
+
+# target to build an object file
+src\com\jmc\test\main\cpp\tools.cpp.obj:
+	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\src\com\jmc\test\main\cpp\tools.cpp.obj
+.PHONY : src\com\jmc\test\main\cpp\tools.cpp.obj
+
+src\com\jmc\test\main\cpp\tools.i: src\com\jmc\test\main\cpp\tools.cpp.i
+
+.PHONY : src\com\jmc\test\main\cpp\tools.i
+
+# target to preprocess a source file
+src\com\jmc\test\main\cpp\tools.cpp.i:
+	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\src\com\jmc\test\main\cpp\tools.cpp.i
+.PHONY : src\com\jmc\test\main\cpp\tools.cpp.i
+
+src\com\jmc\test\main\cpp\tools.s: src\com\jmc\test\main\cpp\tools.cpp.s
+
+.PHONY : src\com\jmc\test\main\cpp\tools.s
+
+# target to generate assembly for a file
+src\com\jmc\test\main\cpp\tools.cpp.s:
+	$(MAKE) -f CMakeFiles\CTest.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CTest.dir\src\com\jmc\test\main\cpp\tools.cpp.s
+.PHONY : src\com\jmc\test\main\cpp\tools.cpp.s
 
 # Help Target
 help:
@@ -1809,186 +1809,186 @@ help:
 	@echo ... com_jmc_test_clms
 	@echo ... com_jmc_test_main
 	@echo ... com_jmc_test_learn
-	@echo ... com/jmc/io/cpp/file.obj
-	@echo ... com/jmc/io/cpp/file.i
-	@echo ... com/jmc/io/cpp/file.s
-	@echo ... com/jmc/test/clms/cpp/admin.obj
-	@echo ... com/jmc/test/clms/cpp/admin.i
-	@echo ... com/jmc/test/clms/cpp/admin.s
-	@echo ... com/jmc/test/clms/cpp/global_vars.obj
-	@echo ... com/jmc/test/clms/cpp/global_vars.i
-	@echo ... com/jmc/test/clms/cpp/global_vars.s
-	@echo ... com/jmc/test/clms/cpp/start.obj
-	@echo ... com/jmc/test/clms/cpp/start.i
-	@echo ... com/jmc/test/clms/cpp/start.s
-	@echo ... com/jmc/test/clms/cpp/stu.obj
-	@echo ... com/jmc/test/clms/cpp/stu.i
-	@echo ... com/jmc/test/clms/cpp/stu.s
-	@echo ... com/jmc/test/clms/cpp/teacher.obj
-	@echo ... com/jmc/test/clms/cpp/teacher.i
-	@echo ... com/jmc/test/clms/cpp/teacher.s
-	@echo ... com/jmc/test/learn/cpp/algorithm.obj
-	@echo ... com/jmc/test/learn/cpp/algorithm.i
-	@echo ... com/jmc/test/learn/cpp/algorithm.s
-	@echo ... com/jmc/test/learn/cpp/alias.obj
-	@echo ... com/jmc/test/learn/cpp/alias.i
-	@echo ... com/jmc/test/learn/cpp/alias.s
-	@echo ... com/jmc/test/learn/cpp/arr.obj
-	@echo ... com/jmc/test/learn/cpp/arr.i
-	@echo ... com/jmc/test/learn/cpp/arr.s
-	@echo ... com/jmc/test/learn/cpp/arr2.obj
-	@echo ... com/jmc/test/learn/cpp/arr2.i
-	@echo ... com/jmc/test/learn/cpp/arr2.s
-	@echo ... com/jmc/test/learn/cpp/arr3.obj
-	@echo ... com/jmc/test/learn/cpp/arr3.i
-	@echo ... com/jmc/test/learn/cpp/arr3.s
-	@echo ... com/jmc/test/learn/cpp/cin.obj
-	@echo ... com/jmc/test/learn/cpp/cin.i
-	@echo ... com/jmc/test/learn/cpp/cin.s
-	@echo ... com/jmc/test/learn/cpp/class.obj
-	@echo ... com/jmc/test/learn/cpp/class.i
-	@echo ... com/jmc/test/learn/cpp/class.s
-	@echo ... com/jmc/test/learn/cpp/const.obj
-	@echo ... com/jmc/test/learn/cpp/const.i
-	@echo ... com/jmc/test/learn/cpp/const.s
-	@echo ... com/jmc/test/learn/cpp/decltype.obj
-	@echo ... com/jmc/test/learn/cpp/decltype.i
-	@echo ... com/jmc/test/learn/cpp/decltype.s
-	@echo ... com/jmc/test/learn/cpp/default_parms.obj
-	@echo ... com/jmc/test/learn/cpp/default_parms.i
-	@echo ... com/jmc/test/learn/cpp/default_parms.s
-	@echo ... com/jmc/test/learn/cpp/deque.obj
-	@echo ... com/jmc/test/learn/cpp/deque.i
-	@echo ... com/jmc/test/learn/cpp/deque.s
-	@echo ... com/jmc/test/learn/cpp/exception.obj
-	@echo ... com/jmc/test/learn/cpp/exception.i
-	@echo ... com/jmc/test/learn/cpp/exception.s
-	@echo ... com/jmc/test/learn/cpp/exception2.obj
-	@echo ... com/jmc/test/learn/cpp/exception2.i
-	@echo ... com/jmc/test/learn/cpp/exception2.s
-	@echo ... com/jmc/test/learn/cpp/extends.obj
-	@echo ... com/jmc/test/learn/cpp/extends.i
-	@echo ... com/jmc/test/learn/cpp/extends.s
-	@echo ... com/jmc/test/learn/cpp/extends2.obj
-	@echo ... com/jmc/test/learn/cpp/extends2.i
-	@echo ... com/jmc/test/learn/cpp/extends2.s
-	@echo ... com/jmc/test/learn/cpp/extends3.obj
-	@echo ... com/jmc/test/learn/cpp/extends3.i
-	@echo ... com/jmc/test/learn/cpp/extends3.s
-	@echo ... com/jmc/test/learn/cpp/extends4.obj
-	@echo ... com/jmc/test/learn/cpp/extends4.i
-	@echo ... com/jmc/test/learn/cpp/extends4.s
-	@echo ... com/jmc/test/learn/cpp/file_.obj
-	@echo ... com/jmc/test/learn/cpp/file_.i
-	@echo ... com/jmc/test/learn/cpp/file_.s
-	@echo ... com/jmc/test/learn/cpp/file_2.obj
-	@echo ... com/jmc/test/learn/cpp/file_2.i
-	@echo ... com/jmc/test/learn/cpp/file_2.s
-	@echo ... com/jmc/test/learn/cpp/fixed.obj
-	@echo ... com/jmc/test/learn/cpp/fixed.i
-	@echo ... com/jmc/test/learn/cpp/fixed.s
-	@echo ... com/jmc/test/learn/cpp/friend.obj
-	@echo ... com/jmc/test/learn/cpp/friend.i
-	@echo ... com/jmc/test/learn/cpp/friend.s
-	@echo ... com/jmc/test/learn/cpp/init_list.obj
-	@echo ... com/jmc/test/learn/cpp/init_list.i
-	@echo ... com/jmc/test/learn/cpp/init_list.s
-	@echo ... com/jmc/test/learn/cpp/javaStyle.obj
-	@echo ... com/jmc/test/learn/cpp/javaStyle.i
-	@echo ... com/jmc/test/learn/cpp/javaStyle.s
-	@echo ... com/jmc/test/learn/cpp/lambda.obj
-	@echo ... com/jmc/test/learn/cpp/lambda.i
-	@echo ... com/jmc/test/learn/cpp/lambda.s
-	@echo ... com/jmc/test/learn/cpp/list.obj
-	@echo ... com/jmc/test/learn/cpp/list.i
-	@echo ... com/jmc/test/learn/cpp/list.s
-	@echo ... com/jmc/test/learn/cpp/main.obj
-	@echo ... com/jmc/test/learn/cpp/main.i
-	@echo ... com/jmc/test/learn/cpp/main.s
-	@echo ... com/jmc/test/learn/cpp/map.obj
-	@echo ... com/jmc/test/learn/cpp/map.i
-	@echo ... com/jmc/test/learn/cpp/map.s
-	@echo ... com/jmc/test/learn/cpp/memory.obj
-	@echo ... com/jmc/test/learn/cpp/memory.i
-	@echo ... com/jmc/test/learn/cpp/memory.s
-	@echo ... com/jmc/test/learn/cpp/news.obj
-	@echo ... com/jmc/test/learn/cpp/news.i
-	@echo ... com/jmc/test/learn/cpp/news.s
-	@echo ... com/jmc/test/learn/cpp/operator.obj
-	@echo ... com/jmc/test/learn/cpp/operator.i
-	@echo ... com/jmc/test/learn/cpp/operator.s
-	@echo ... com/jmc/test/learn/cpp/override&final.obj
-	@echo ... com/jmc/test/learn/cpp/override&final.i
-	@echo ... com/jmc/test/learn/cpp/override&final.s
-	@echo ... com/jmc/test/learn/cpp/pair.obj
-	@echo ... com/jmc/test/learn/cpp/pair.i
-	@echo ... com/jmc/test/learn/cpp/pair.s
-	@echo ... com/jmc/test/learn/cpp/ptr.obj
-	@echo ... com/jmc/test/learn/cpp/ptr.i
-	@echo ... com/jmc/test/learn/cpp/ptr.s
-	@echo ... com/jmc/test/learn/cpp/ptr2.obj
-	@echo ... com/jmc/test/learn/cpp/ptr2.i
-	@echo ... com/jmc/test/learn/cpp/ptr2.s
-	@echo ... com/jmc/test/learn/cpp/ptr3.obj
-	@echo ... com/jmc/test/learn/cpp/ptr3.i
-	@echo ... com/jmc/test/learn/cpp/ptr3.s
-	@echo ... com/jmc/test/learn/cpp/rand.obj
-	@echo ... com/jmc/test/learn/cpp/rand.i
-	@echo ... com/jmc/test/learn/cpp/rand.s
-	@echo ... com/jmc/test/learn/cpp/rvalue.obj
-	@echo ... com/jmc/test/learn/cpp/rvalue.i
-	@echo ... com/jmc/test/learn/cpp/rvalue.s
-	@echo ... com/jmc/test/learn/cpp/set.obj
-	@echo ... com/jmc/test/learn/cpp/set.i
-	@echo ... com/jmc/test/learn/cpp/set.s
-	@echo ... com/jmc/test/learn/cpp/stack&queue.obj
-	@echo ... com/jmc/test/learn/cpp/stack&queue.i
-	@echo ... com/jmc/test/learn/cpp/stack&queue.s
-	@echo ... com/jmc/test/learn/cpp/static.obj
-	@echo ... com/jmc/test/learn/cpp/static.i
-	@echo ... com/jmc/test/learn/cpp/static.s
-	@echo ... com/jmc/test/learn/cpp/string.obj
-	@echo ... com/jmc/test/learn/cpp/string.i
-	@echo ... com/jmc/test/learn/cpp/string.s
-	@echo ... com/jmc/test/learn/cpp/string2.obj
-	@echo ... com/jmc/test/learn/cpp/string2.i
-	@echo ... com/jmc/test/learn/cpp/string2.s
-	@echo ... com/jmc/test/learn/cpp/struct.obj
-	@echo ... com/jmc/test/learn/cpp/struct.i
-	@echo ... com/jmc/test/learn/cpp/struct.s
-	@echo ... com/jmc/test/learn/cpp/template.obj
-	@echo ... com/jmc/test/learn/cpp/template.i
-	@echo ... com/jmc/test/learn/cpp/template.s
-	@echo ... com/jmc/test/learn/cpp/template2.obj
-	@echo ... com/jmc/test/learn/cpp/template2.i
-	@echo ... com/jmc/test/learn/cpp/template2.s
-	@echo ... com/jmc/test/learn/cpp/template3.obj
-	@echo ... com/jmc/test/learn/cpp/template3.i
-	@echo ... com/jmc/test/learn/cpp/template3.s
-	@echo ... com/jmc/test/learn/cpp/template4.obj
-	@echo ... com/jmc/test/learn/cpp/template4.i
-	@echo ... com/jmc/test/learn/cpp/template4.s
-	@echo ... com/jmc/test/learn/cpp/thread.obj
-	@echo ... com/jmc/test/learn/cpp/thread.i
-	@echo ... com/jmc/test/learn/cpp/thread.s
-	@echo ... com/jmc/test/learn/cpp/thread2.obj
-	@echo ... com/jmc/test/learn/cpp/thread2.i
-	@echo ... com/jmc/test/learn/cpp/thread2.s
-	@echo ... com/jmc/test/learn/cpp/try.obj
-	@echo ... com/jmc/test/learn/cpp/try.i
-	@echo ... com/jmc/test/learn/cpp/try.s
-	@echo ... com/jmc/test/learn/cpp/typedef.obj
-	@echo ... com/jmc/test/learn/cpp/typedef.i
-	@echo ... com/jmc/test/learn/cpp/typedef.s
-	@echo ... com/jmc/test/learn/cpp/vectors.obj
-	@echo ... com/jmc/test/learn/cpp/vectors.i
-	@echo ... com/jmc/test/learn/cpp/vectors.s
-	@echo ... com/jmc/test/main/cpp/main.obj
-	@echo ... com/jmc/test/main/cpp/main.i
-	@echo ... com/jmc/test/main/cpp/main.s
-	@echo ... com/jmc/test/main/cpp/tools.obj
-	@echo ... com/jmc/test/main/cpp/tools.i
-	@echo ... com/jmc/test/main/cpp/tools.s
+	@echo ... src/com/jmc/io/cpp/file.obj
+	@echo ... src/com/jmc/io/cpp/file.i
+	@echo ... src/com/jmc/io/cpp/file.s
+	@echo ... src/com/jmc/test/clms/cpp/admin.obj
+	@echo ... src/com/jmc/test/clms/cpp/admin.i
+	@echo ... src/com/jmc/test/clms/cpp/admin.s
+	@echo ... src/com/jmc/test/clms/cpp/global_vars.obj
+	@echo ... src/com/jmc/test/clms/cpp/global_vars.i
+	@echo ... src/com/jmc/test/clms/cpp/global_vars.s
+	@echo ... src/com/jmc/test/clms/cpp/start.obj
+	@echo ... src/com/jmc/test/clms/cpp/start.i
+	@echo ... src/com/jmc/test/clms/cpp/start.s
+	@echo ... src/com/jmc/test/clms/cpp/stu.obj
+	@echo ... src/com/jmc/test/clms/cpp/stu.i
+	@echo ... src/com/jmc/test/clms/cpp/stu.s
+	@echo ... src/com/jmc/test/clms/cpp/teacher.obj
+	@echo ... src/com/jmc/test/clms/cpp/teacher.i
+	@echo ... src/com/jmc/test/clms/cpp/teacher.s
+	@echo ... src/com/jmc/test/learn/cpp/algorithm.obj
+	@echo ... src/com/jmc/test/learn/cpp/algorithm.i
+	@echo ... src/com/jmc/test/learn/cpp/algorithm.s
+	@echo ... src/com/jmc/test/learn/cpp/alias.obj
+	@echo ... src/com/jmc/test/learn/cpp/alias.i
+	@echo ... src/com/jmc/test/learn/cpp/alias.s
+	@echo ... src/com/jmc/test/learn/cpp/arr.obj
+	@echo ... src/com/jmc/test/learn/cpp/arr.i
+	@echo ... src/com/jmc/test/learn/cpp/arr.s
+	@echo ... src/com/jmc/test/learn/cpp/arr2.obj
+	@echo ... src/com/jmc/test/learn/cpp/arr2.i
+	@echo ... src/com/jmc/test/learn/cpp/arr2.s
+	@echo ... src/com/jmc/test/learn/cpp/arr3.obj
+	@echo ... src/com/jmc/test/learn/cpp/arr3.i
+	@echo ... src/com/jmc/test/learn/cpp/arr3.s
+	@echo ... src/com/jmc/test/learn/cpp/cin.obj
+	@echo ... src/com/jmc/test/learn/cpp/cin.i
+	@echo ... src/com/jmc/test/learn/cpp/cin.s
+	@echo ... src/com/jmc/test/learn/cpp/class.obj
+	@echo ... src/com/jmc/test/learn/cpp/class.i
+	@echo ... src/com/jmc/test/learn/cpp/class.s
+	@echo ... src/com/jmc/test/learn/cpp/const.obj
+	@echo ... src/com/jmc/test/learn/cpp/const.i
+	@echo ... src/com/jmc/test/learn/cpp/const.s
+	@echo ... src/com/jmc/test/learn/cpp/decltype.obj
+	@echo ... src/com/jmc/test/learn/cpp/decltype.i
+	@echo ... src/com/jmc/test/learn/cpp/decltype.s
+	@echo ... src/com/jmc/test/learn/cpp/default_parms.obj
+	@echo ... src/com/jmc/test/learn/cpp/default_parms.i
+	@echo ... src/com/jmc/test/learn/cpp/default_parms.s
+	@echo ... src/com/jmc/test/learn/cpp/deque.obj
+	@echo ... src/com/jmc/test/learn/cpp/deque.i
+	@echo ... src/com/jmc/test/learn/cpp/deque.s
+	@echo ... src/com/jmc/test/learn/cpp/exception.obj
+	@echo ... src/com/jmc/test/learn/cpp/exception.i
+	@echo ... src/com/jmc/test/learn/cpp/exception.s
+	@echo ... src/com/jmc/test/learn/cpp/exception2.obj
+	@echo ... src/com/jmc/test/learn/cpp/exception2.i
+	@echo ... src/com/jmc/test/learn/cpp/exception2.s
+	@echo ... src/com/jmc/test/learn/cpp/extends.obj
+	@echo ... src/com/jmc/test/learn/cpp/extends.i
+	@echo ... src/com/jmc/test/learn/cpp/extends.s
+	@echo ... src/com/jmc/test/learn/cpp/extends2.obj
+	@echo ... src/com/jmc/test/learn/cpp/extends2.i
+	@echo ... src/com/jmc/test/learn/cpp/extends2.s
+	@echo ... src/com/jmc/test/learn/cpp/extends3.obj
+	@echo ... src/com/jmc/test/learn/cpp/extends3.i
+	@echo ... src/com/jmc/test/learn/cpp/extends3.s
+	@echo ... src/com/jmc/test/learn/cpp/extends4.obj
+	@echo ... src/com/jmc/test/learn/cpp/extends4.i
+	@echo ... src/com/jmc/test/learn/cpp/extends4.s
+	@echo ... src/com/jmc/test/learn/cpp/file_.obj
+	@echo ... src/com/jmc/test/learn/cpp/file_.i
+	@echo ... src/com/jmc/test/learn/cpp/file_.s
+	@echo ... src/com/jmc/test/learn/cpp/file_2.obj
+	@echo ... src/com/jmc/test/learn/cpp/file_2.i
+	@echo ... src/com/jmc/test/learn/cpp/file_2.s
+	@echo ... src/com/jmc/test/learn/cpp/fixed.obj
+	@echo ... src/com/jmc/test/learn/cpp/fixed.i
+	@echo ... src/com/jmc/test/learn/cpp/fixed.s
+	@echo ... src/com/jmc/test/learn/cpp/friend.obj
+	@echo ... src/com/jmc/test/learn/cpp/friend.i
+	@echo ... src/com/jmc/test/learn/cpp/friend.s
+	@echo ... src/com/jmc/test/learn/cpp/init_list.obj
+	@echo ... src/com/jmc/test/learn/cpp/init_list.i
+	@echo ... src/com/jmc/test/learn/cpp/init_list.s
+	@echo ... src/com/jmc/test/learn/cpp/javaStyle.obj
+	@echo ... src/com/jmc/test/learn/cpp/javaStyle.i
+	@echo ... src/com/jmc/test/learn/cpp/javaStyle.s
+	@echo ... src/com/jmc/test/learn/cpp/lambda.obj
+	@echo ... src/com/jmc/test/learn/cpp/lambda.i
+	@echo ... src/com/jmc/test/learn/cpp/lambda.s
+	@echo ... src/com/jmc/test/learn/cpp/list.obj
+	@echo ... src/com/jmc/test/learn/cpp/list.i
+	@echo ... src/com/jmc/test/learn/cpp/list.s
+	@echo ... src/com/jmc/test/learn/cpp/main.obj
+	@echo ... src/com/jmc/test/learn/cpp/main.i
+	@echo ... src/com/jmc/test/learn/cpp/main.s
+	@echo ... src/com/jmc/test/learn/cpp/map.obj
+	@echo ... src/com/jmc/test/learn/cpp/map.i
+	@echo ... src/com/jmc/test/learn/cpp/map.s
+	@echo ... src/com/jmc/test/learn/cpp/memory.obj
+	@echo ... src/com/jmc/test/learn/cpp/memory.i
+	@echo ... src/com/jmc/test/learn/cpp/memory.s
+	@echo ... src/com/jmc/test/learn/cpp/news.obj
+	@echo ... src/com/jmc/test/learn/cpp/news.i
+	@echo ... src/com/jmc/test/learn/cpp/news.s
+	@echo ... src/com/jmc/test/learn/cpp/operator.obj
+	@echo ... src/com/jmc/test/learn/cpp/operator.i
+	@echo ... src/com/jmc/test/learn/cpp/operator.s
+	@echo ... src/com/jmc/test/learn/cpp/override&final.obj
+	@echo ... src/com/jmc/test/learn/cpp/override&final.i
+	@echo ... src/com/jmc/test/learn/cpp/override&final.s
+	@echo ... src/com/jmc/test/learn/cpp/pair.obj
+	@echo ... src/com/jmc/test/learn/cpp/pair.i
+	@echo ... src/com/jmc/test/learn/cpp/pair.s
+	@echo ... src/com/jmc/test/learn/cpp/ptr.obj
+	@echo ... src/com/jmc/test/learn/cpp/ptr.i
+	@echo ... src/com/jmc/test/learn/cpp/ptr.s
+	@echo ... src/com/jmc/test/learn/cpp/ptr2.obj
+	@echo ... src/com/jmc/test/learn/cpp/ptr2.i
+	@echo ... src/com/jmc/test/learn/cpp/ptr2.s
+	@echo ... src/com/jmc/test/learn/cpp/ptr3.obj
+	@echo ... src/com/jmc/test/learn/cpp/ptr3.i
+	@echo ... src/com/jmc/test/learn/cpp/ptr3.s
+	@echo ... src/com/jmc/test/learn/cpp/rand.obj
+	@echo ... src/com/jmc/test/learn/cpp/rand.i
+	@echo ... src/com/jmc/test/learn/cpp/rand.s
+	@echo ... src/com/jmc/test/learn/cpp/rvalue.obj
+	@echo ... src/com/jmc/test/learn/cpp/rvalue.i
+	@echo ... src/com/jmc/test/learn/cpp/rvalue.s
+	@echo ... src/com/jmc/test/learn/cpp/set.obj
+	@echo ... src/com/jmc/test/learn/cpp/set.i
+	@echo ... src/com/jmc/test/learn/cpp/set.s
+	@echo ... src/com/jmc/test/learn/cpp/stack&queue.obj
+	@echo ... src/com/jmc/test/learn/cpp/stack&queue.i
+	@echo ... src/com/jmc/test/learn/cpp/stack&queue.s
+	@echo ... src/com/jmc/test/learn/cpp/static.obj
+	@echo ... src/com/jmc/test/learn/cpp/static.i
+	@echo ... src/com/jmc/test/learn/cpp/static.s
+	@echo ... src/com/jmc/test/learn/cpp/string.obj
+	@echo ... src/com/jmc/test/learn/cpp/string.i
+	@echo ... src/com/jmc/test/learn/cpp/string.s
+	@echo ... src/com/jmc/test/learn/cpp/string2.obj
+	@echo ... src/com/jmc/test/learn/cpp/string2.i
+	@echo ... src/com/jmc/test/learn/cpp/string2.s
+	@echo ... src/com/jmc/test/learn/cpp/struct.obj
+	@echo ... src/com/jmc/test/learn/cpp/struct.i
+	@echo ... src/com/jmc/test/learn/cpp/struct.s
+	@echo ... src/com/jmc/test/learn/cpp/template.obj
+	@echo ... src/com/jmc/test/learn/cpp/template.i
+	@echo ... src/com/jmc/test/learn/cpp/template.s
+	@echo ... src/com/jmc/test/learn/cpp/template2.obj
+	@echo ... src/com/jmc/test/learn/cpp/template2.i
+	@echo ... src/com/jmc/test/learn/cpp/template2.s
+	@echo ... src/com/jmc/test/learn/cpp/template3.obj
+	@echo ... src/com/jmc/test/learn/cpp/template3.i
+	@echo ... src/com/jmc/test/learn/cpp/template3.s
+	@echo ... src/com/jmc/test/learn/cpp/template4.obj
+	@echo ... src/com/jmc/test/learn/cpp/template4.i
+	@echo ... src/com/jmc/test/learn/cpp/template4.s
+	@echo ... src/com/jmc/test/learn/cpp/thread.obj
+	@echo ... src/com/jmc/test/learn/cpp/thread.i
+	@echo ... src/com/jmc/test/learn/cpp/thread.s
+	@echo ... src/com/jmc/test/learn/cpp/thread2.obj
+	@echo ... src/com/jmc/test/learn/cpp/thread2.i
+	@echo ... src/com/jmc/test/learn/cpp/thread2.s
+	@echo ... src/com/jmc/test/learn/cpp/try.obj
+	@echo ... src/com/jmc/test/learn/cpp/try.i
+	@echo ... src/com/jmc/test/learn/cpp/try.s
+	@echo ... src/com/jmc/test/learn/cpp/typedef.obj
+	@echo ... src/com/jmc/test/learn/cpp/typedef.i
+	@echo ... src/com/jmc/test/learn/cpp/typedef.s
+	@echo ... src/com/jmc/test/learn/cpp/vectors.obj
+	@echo ... src/com/jmc/test/learn/cpp/vectors.i
+	@echo ... src/com/jmc/test/learn/cpp/vectors.s
+	@echo ... src/com/jmc/test/main/cpp/main.obj
+	@echo ... src/com/jmc/test/main/cpp/main.i
+	@echo ... src/com/jmc/test/main/cpp/main.s
+	@echo ... src/com/jmc/test/main/cpp/tools.obj
+	@echo ... src/com/jmc/test/main/cpp/tools.i
+	@echo ... src/com/jmc/test/main/cpp/tools.s
 .PHONY : help
 
 

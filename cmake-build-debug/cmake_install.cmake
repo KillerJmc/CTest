@@ -1,4 +1,4 @@
-# Install script for directory: D:/Programs/JetBrains/CProjects/CTest
+# Install script for directory: D:/Programs/JetBrains/Projects/CProjects/CTest
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,22 +34,22 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("D:/Programs/JetBrains/CProjects/CTest/cmake-build-debug/com/jmc/io/cmake_install.cmake")
+  include("D:/Programs/JetBrains/Projects/CProjects/CTest/cmake-build-debug/src/com/jmc/io/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("D:/Programs/JetBrains/CProjects/CTest/cmake-build-debug/com/jmc/test/clms/cmake_install.cmake")
+  include("D:/Programs/JetBrains/Projects/CProjects/CTest/cmake-build-debug/src/com/jmc/test/clms/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("D:/Programs/JetBrains/CProjects/CTest/cmake-build-debug/com/jmc/test/main/cmake_install.cmake")
+  include("D:/Programs/JetBrains/Projects/CProjects/CTest/cmake-build-debug/src/com/jmc/test/main/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("D:/Programs/JetBrains/CProjects/CTest/cmake-build-debug/com/jmc/test/learn/cmake_install.cmake")
+  include("D:/Programs/JetBrains/Projects/CProjects/CTest/cmake-build-debug/src/com/jmc/test/learn/cmake_install.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -60,5 +60,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "D:/Programs/JetBrains/CProjects/CTest/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "D:/Programs/JetBrains/Projects/CProjects/CTest/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

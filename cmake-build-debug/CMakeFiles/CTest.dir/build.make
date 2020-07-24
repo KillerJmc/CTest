@@ -35,19 +35,19 @@ NULL=nul
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "D:\Programs\JetBrains\CLion 2020.1.3\bin\cmake\win\bin\cmake.exe"
+CMAKE_COMMAND = "D:\Programs\JetBrains\CLion 2020.1\bin\cmake\win\bin\cmake.exe"
 
 # The command to remove a file.
-RM = "D:\Programs\JetBrains\CLion 2020.1.3\bin\cmake\win\bin\cmake.exe" -E remove -f
+RM = "D:\Programs\JetBrains\CLion 2020.1\bin\cmake\win\bin\cmake.exe" -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = D:\Programs\JetBrains\CProjects\CTest
+CMAKE_SOURCE_DIR = D:\Programs\JetBrains\Projects\CProjects\CTest
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = D:\Programs\JetBrains\CProjects\CTest\cmake-build-debug
+CMAKE_BINARY_DIR = D:\Programs\JetBrains\Projects\CProjects\CTest\cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles\CTest.dir\depend.make
@@ -58,1277 +58,1277 @@ include CMakeFiles\CTest.dir\progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles\CTest.dir\flags.make
 
-CMakeFiles\CTest.dir\com\jmc\io\cpp\file.cpp.obj: CMakeFiles\CTest.dir\flags.make
-CMakeFiles\CTest.dir\com\jmc\io\cpp\file.cpp.obj: ..\com\jmc\io\cpp\file.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Programs\JetBrains\CProjects\CTest\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/CTest.dir/com/jmc/io/cpp/file.cpp.obj"
+CMakeFiles\CTest.dir\src\com\jmc\io\cpp\file.cpp.obj: CMakeFiles\CTest.dir\flags.make
+CMakeFiles\CTest.dir\src\com\jmc\io\cpp\file.cpp.obj: ..\src\com\jmc\io\cpp\file.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Programs\JetBrains\Projects\CProjects\CTest\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/CTest.dir/src/com/jmc/io/cpp/file.cpp.obj"
 	D:\Programs\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1426~1.288\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\CTest.dir\com\jmc\io\cpp\file.cpp.obj /FdCMakeFiles\CTest.dir\ /FS -c D:\Programs\JetBrains\CProjects\CTest\com\jmc\io\cpp\file.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\CTest.dir\src\com\jmc\io\cpp\file.cpp.obj /FdCMakeFiles\CTest.dir\ /FS -c D:\Programs\JetBrains\Projects\CProjects\CTest\src\com\jmc\io\cpp\file.cpp
 <<
 
-CMakeFiles\CTest.dir\com\jmc\io\cpp\file.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CTest.dir/com/jmc/io/cpp/file.cpp.i"
-	D:\Programs\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1426~1.288\bin\Hostx86\x86\cl.exe > CMakeFiles\CTest.dir\com\jmc\io\cpp\file.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Programs\JetBrains\CProjects\CTest\com\jmc\io\cpp\file.cpp
+CMakeFiles\CTest.dir\src\com\jmc\io\cpp\file.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CTest.dir/src/com/jmc/io/cpp/file.cpp.i"
+	D:\Programs\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1426~1.288\bin\Hostx86\x86\cl.exe > CMakeFiles\CTest.dir\src\com\jmc\io\cpp\file.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Programs\JetBrains\Projects\CProjects\CTest\src\com\jmc\io\cpp\file.cpp
 <<
 
-CMakeFiles\CTest.dir\com\jmc\io\cpp\file.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CTest.dir/com/jmc/io/cpp/file.cpp.s"
+CMakeFiles\CTest.dir\src\com\jmc\io\cpp\file.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CTest.dir/src/com/jmc/io/cpp/file.cpp.s"
 	D:\Programs\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1426~1.288\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\CTest.dir\com\jmc\io\cpp\file.cpp.s /c D:\Programs\JetBrains\CProjects\CTest\com\jmc\io\cpp\file.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\CTest.dir\src\com\jmc\io\cpp\file.cpp.s /c D:\Programs\JetBrains\Projects\CProjects\CTest\src\com\jmc\io\cpp\file.cpp
 <<
 
-CMakeFiles\CTest.dir\com\jmc\test\main\cpp\main.cpp.obj: CMakeFiles\CTest.dir\flags.make
-CMakeFiles\CTest.dir\com\jmc\test\main\cpp\main.cpp.obj: ..\com\jmc\test\main\cpp\main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Programs\JetBrains\CProjects\CTest\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/CTest.dir/com/jmc/test/main/cpp/main.cpp.obj"
+CMakeFiles\CTest.dir\src\com\jmc\test\main\cpp\main.cpp.obj: CMakeFiles\CTest.dir\flags.make
+CMakeFiles\CTest.dir\src\com\jmc\test\main\cpp\main.cpp.obj: ..\src\com\jmc\test\main\cpp\main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Programs\JetBrains\Projects\CProjects\CTest\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/CTest.dir/src/com/jmc/test/main/cpp/main.cpp.obj"
 	D:\Programs\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1426~1.288\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\CTest.dir\com\jmc\test\main\cpp\main.cpp.obj /FdCMakeFiles\CTest.dir\ /FS -c D:\Programs\JetBrains\CProjects\CTest\com\jmc\test\main\cpp\main.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\CTest.dir\src\com\jmc\test\main\cpp\main.cpp.obj /FdCMakeFiles\CTest.dir\ /FS -c D:\Programs\JetBrains\Projects\CProjects\CTest\src\com\jmc\test\main\cpp\main.cpp
 <<
 
-CMakeFiles\CTest.dir\com\jmc\test\main\cpp\main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CTest.dir/com/jmc/test/main/cpp/main.cpp.i"
-	D:\Programs\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1426~1.288\bin\Hostx86\x86\cl.exe > CMakeFiles\CTest.dir\com\jmc\test\main\cpp\main.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Programs\JetBrains\CProjects\CTest\com\jmc\test\main\cpp\main.cpp
+CMakeFiles\CTest.dir\src\com\jmc\test\main\cpp\main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CTest.dir/src/com/jmc/test/main/cpp/main.cpp.i"
+	D:\Programs\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1426~1.288\bin\Hostx86\x86\cl.exe > CMakeFiles\CTest.dir\src\com\jmc\test\main\cpp\main.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Programs\JetBrains\Projects\CProjects\CTest\src\com\jmc\test\main\cpp\main.cpp
 <<
 
-CMakeFiles\CTest.dir\com\jmc\test\main\cpp\main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CTest.dir/com/jmc/test/main/cpp/main.cpp.s"
+CMakeFiles\CTest.dir\src\com\jmc\test\main\cpp\main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CTest.dir/src/com/jmc/test/main/cpp/main.cpp.s"
 	D:\Programs\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1426~1.288\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\CTest.dir\com\jmc\test\main\cpp\main.cpp.s /c D:\Programs\JetBrains\CProjects\CTest\com\jmc\test\main\cpp\main.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\CTest.dir\src\com\jmc\test\main\cpp\main.cpp.s /c D:\Programs\JetBrains\Projects\CProjects\CTest\src\com\jmc\test\main\cpp\main.cpp
 <<
 
-CMakeFiles\CTest.dir\com\jmc\test\main\cpp\tools.cpp.obj: CMakeFiles\CTest.dir\flags.make
-CMakeFiles\CTest.dir\com\jmc\test\main\cpp\tools.cpp.obj: ..\com\jmc\test\main\cpp\tools.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Programs\JetBrains\CProjects\CTest\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/CTest.dir/com/jmc/test/main/cpp/tools.cpp.obj"
+CMakeFiles\CTest.dir\src\com\jmc\test\main\cpp\tools.cpp.obj: CMakeFiles\CTest.dir\flags.make
+CMakeFiles\CTest.dir\src\com\jmc\test\main\cpp\tools.cpp.obj: ..\src\com\jmc\test\main\cpp\tools.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Programs\JetBrains\Projects\CProjects\CTest\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/CTest.dir/src/com/jmc/test/main/cpp/tools.cpp.obj"
 	D:\Programs\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1426~1.288\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\CTest.dir\com\jmc\test\main\cpp\tools.cpp.obj /FdCMakeFiles\CTest.dir\ /FS -c D:\Programs\JetBrains\CProjects\CTest\com\jmc\test\main\cpp\tools.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\CTest.dir\src\com\jmc\test\main\cpp\tools.cpp.obj /FdCMakeFiles\CTest.dir\ /FS -c D:\Programs\JetBrains\Projects\CProjects\CTest\src\com\jmc\test\main\cpp\tools.cpp
 <<
 
-CMakeFiles\CTest.dir\com\jmc\test\main\cpp\tools.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CTest.dir/com/jmc/test/main/cpp/tools.cpp.i"
-	D:\Programs\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1426~1.288\bin\Hostx86\x86\cl.exe > CMakeFiles\CTest.dir\com\jmc\test\main\cpp\tools.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Programs\JetBrains\CProjects\CTest\com\jmc\test\main\cpp\tools.cpp
+CMakeFiles\CTest.dir\src\com\jmc\test\main\cpp\tools.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CTest.dir/src/com/jmc/test/main/cpp/tools.cpp.i"
+	D:\Programs\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1426~1.288\bin\Hostx86\x86\cl.exe > CMakeFiles\CTest.dir\src\com\jmc\test\main\cpp\tools.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Programs\JetBrains\Projects\CProjects\CTest\src\com\jmc\test\main\cpp\tools.cpp
 <<
 
-CMakeFiles\CTest.dir\com\jmc\test\main\cpp\tools.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CTest.dir/com/jmc/test/main/cpp/tools.cpp.s"
+CMakeFiles\CTest.dir\src\com\jmc\test\main\cpp\tools.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CTest.dir/src/com/jmc/test/main/cpp/tools.cpp.s"
 	D:\Programs\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1426~1.288\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\CTest.dir\com\jmc\test\main\cpp\tools.cpp.s /c D:\Programs\JetBrains\CProjects\CTest\com\jmc\test\main\cpp\tools.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\CTest.dir\src\com\jmc\test\main\cpp\tools.cpp.s /c D:\Programs\JetBrains\Projects\CProjects\CTest\src\com\jmc\test\main\cpp\tools.cpp
 <<
 
-CMakeFiles\CTest.dir\com\jmc\test\clms\cpp\admin.cpp.obj: CMakeFiles\CTest.dir\flags.make
-CMakeFiles\CTest.dir\com\jmc\test\clms\cpp\admin.cpp.obj: ..\com\jmc\test\clms\cpp\admin.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Programs\JetBrains\CProjects\CTest\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/CTest.dir/com/jmc/test/clms/cpp/admin.cpp.obj"
+CMakeFiles\CTest.dir\src\com\jmc\test\clms\cpp\admin.cpp.obj: CMakeFiles\CTest.dir\flags.make
+CMakeFiles\CTest.dir\src\com\jmc\test\clms\cpp\admin.cpp.obj: ..\src\com\jmc\test\clms\cpp\admin.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Programs\JetBrains\Projects\CProjects\CTest\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/CTest.dir/src/com/jmc/test/clms/cpp/admin.cpp.obj"
 	D:\Programs\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1426~1.288\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\CTest.dir\com\jmc\test\clms\cpp\admin.cpp.obj /FdCMakeFiles\CTest.dir\ /FS -c D:\Programs\JetBrains\CProjects\CTest\com\jmc\test\clms\cpp\admin.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\CTest.dir\src\com\jmc\test\clms\cpp\admin.cpp.obj /FdCMakeFiles\CTest.dir\ /FS -c D:\Programs\JetBrains\Projects\CProjects\CTest\src\com\jmc\test\clms\cpp\admin.cpp
 <<
 
-CMakeFiles\CTest.dir\com\jmc\test\clms\cpp\admin.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CTest.dir/com/jmc/test/clms/cpp/admin.cpp.i"
-	D:\Programs\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1426~1.288\bin\Hostx86\x86\cl.exe > CMakeFiles\CTest.dir\com\jmc\test\clms\cpp\admin.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Programs\JetBrains\CProjects\CTest\com\jmc\test\clms\cpp\admin.cpp
+CMakeFiles\CTest.dir\src\com\jmc\test\clms\cpp\admin.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CTest.dir/src/com/jmc/test/clms/cpp/admin.cpp.i"
+	D:\Programs\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1426~1.288\bin\Hostx86\x86\cl.exe > CMakeFiles\CTest.dir\src\com\jmc\test\clms\cpp\admin.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Programs\JetBrains\Projects\CProjects\CTest\src\com\jmc\test\clms\cpp\admin.cpp
 <<
 
-CMakeFiles\CTest.dir\com\jmc\test\clms\cpp\admin.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CTest.dir/com/jmc/test/clms/cpp/admin.cpp.s"
+CMakeFiles\CTest.dir\src\com\jmc\test\clms\cpp\admin.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CTest.dir/src/com/jmc/test/clms/cpp/admin.cpp.s"
 	D:\Programs\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1426~1.288\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\CTest.dir\com\jmc\test\clms\cpp\admin.cpp.s /c D:\Programs\JetBrains\CProjects\CTest\com\jmc\test\clms\cpp\admin.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\CTest.dir\src\com\jmc\test\clms\cpp\admin.cpp.s /c D:\Programs\JetBrains\Projects\CProjects\CTest\src\com\jmc\test\clms\cpp\admin.cpp
 <<
 
-CMakeFiles\CTest.dir\com\jmc\test\clms\cpp\global_vars.cpp.obj: CMakeFiles\CTest.dir\flags.make
-CMakeFiles\CTest.dir\com\jmc\test\clms\cpp\global_vars.cpp.obj: ..\com\jmc\test\clms\cpp\global_vars.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Programs\JetBrains\CProjects\CTest\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/CTest.dir/com/jmc/test/clms/cpp/global_vars.cpp.obj"
+CMakeFiles\CTest.dir\src\com\jmc\test\clms\cpp\global_vars.cpp.obj: CMakeFiles\CTest.dir\flags.make
+CMakeFiles\CTest.dir\src\com\jmc\test\clms\cpp\global_vars.cpp.obj: ..\src\com\jmc\test\clms\cpp\global_vars.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Programs\JetBrains\Projects\CProjects\CTest\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/CTest.dir/src/com/jmc/test/clms/cpp/global_vars.cpp.obj"
 	D:\Programs\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1426~1.288\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\CTest.dir\com\jmc\test\clms\cpp\global_vars.cpp.obj /FdCMakeFiles\CTest.dir\ /FS -c D:\Programs\JetBrains\CProjects\CTest\com\jmc\test\clms\cpp\global_vars.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\CTest.dir\src\com\jmc\test\clms\cpp\global_vars.cpp.obj /FdCMakeFiles\CTest.dir\ /FS -c D:\Programs\JetBrains\Projects\CProjects\CTest\src\com\jmc\test\clms\cpp\global_vars.cpp
 <<
 
-CMakeFiles\CTest.dir\com\jmc\test\clms\cpp\global_vars.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CTest.dir/com/jmc/test/clms/cpp/global_vars.cpp.i"
-	D:\Programs\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1426~1.288\bin\Hostx86\x86\cl.exe > CMakeFiles\CTest.dir\com\jmc\test\clms\cpp\global_vars.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Programs\JetBrains\CProjects\CTest\com\jmc\test\clms\cpp\global_vars.cpp
+CMakeFiles\CTest.dir\src\com\jmc\test\clms\cpp\global_vars.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CTest.dir/src/com/jmc/test/clms/cpp/global_vars.cpp.i"
+	D:\Programs\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1426~1.288\bin\Hostx86\x86\cl.exe > CMakeFiles\CTest.dir\src\com\jmc\test\clms\cpp\global_vars.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Programs\JetBrains\Projects\CProjects\CTest\src\com\jmc\test\clms\cpp\global_vars.cpp
 <<
 
-CMakeFiles\CTest.dir\com\jmc\test\clms\cpp\global_vars.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CTest.dir/com/jmc/test/clms/cpp/global_vars.cpp.s"
+CMakeFiles\CTest.dir\src\com\jmc\test\clms\cpp\global_vars.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CTest.dir/src/com/jmc/test/clms/cpp/global_vars.cpp.s"
 	D:\Programs\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1426~1.288\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\CTest.dir\com\jmc\test\clms\cpp\global_vars.cpp.s /c D:\Programs\JetBrains\CProjects\CTest\com\jmc\test\clms\cpp\global_vars.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\CTest.dir\src\com\jmc\test\clms\cpp\global_vars.cpp.s /c D:\Programs\JetBrains\Projects\CProjects\CTest\src\com\jmc\test\clms\cpp\global_vars.cpp
 <<
 
-CMakeFiles\CTest.dir\com\jmc\test\clms\cpp\start.cpp.obj: CMakeFiles\CTest.dir\flags.make
-CMakeFiles\CTest.dir\com\jmc\test\clms\cpp\start.cpp.obj: ..\com\jmc\test\clms\cpp\start.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Programs\JetBrains\CProjects\CTest\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/CTest.dir/com/jmc/test/clms/cpp/start.cpp.obj"
+CMakeFiles\CTest.dir\src\com\jmc\test\clms\cpp\start.cpp.obj: CMakeFiles\CTest.dir\flags.make
+CMakeFiles\CTest.dir\src\com\jmc\test\clms\cpp\start.cpp.obj: ..\src\com\jmc\test\clms\cpp\start.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Programs\JetBrains\Projects\CProjects\CTest\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/CTest.dir/src/com/jmc/test/clms/cpp/start.cpp.obj"
 	D:\Programs\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1426~1.288\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\CTest.dir\com\jmc\test\clms\cpp\start.cpp.obj /FdCMakeFiles\CTest.dir\ /FS -c D:\Programs\JetBrains\CProjects\CTest\com\jmc\test\clms\cpp\start.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\CTest.dir\src\com\jmc\test\clms\cpp\start.cpp.obj /FdCMakeFiles\CTest.dir\ /FS -c D:\Programs\JetBrains\Projects\CProjects\CTest\src\com\jmc\test\clms\cpp\start.cpp
 <<
 
-CMakeFiles\CTest.dir\com\jmc\test\clms\cpp\start.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CTest.dir/com/jmc/test/clms/cpp/start.cpp.i"
-	D:\Programs\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1426~1.288\bin\Hostx86\x86\cl.exe > CMakeFiles\CTest.dir\com\jmc\test\clms\cpp\start.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Programs\JetBrains\CProjects\CTest\com\jmc\test\clms\cpp\start.cpp
+CMakeFiles\CTest.dir\src\com\jmc\test\clms\cpp\start.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CTest.dir/src/com/jmc/test/clms/cpp/start.cpp.i"
+	D:\Programs\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1426~1.288\bin\Hostx86\x86\cl.exe > CMakeFiles\CTest.dir\src\com\jmc\test\clms\cpp\start.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Programs\JetBrains\Projects\CProjects\CTest\src\com\jmc\test\clms\cpp\start.cpp
 <<
 
-CMakeFiles\CTest.dir\com\jmc\test\clms\cpp\start.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CTest.dir/com/jmc/test/clms/cpp/start.cpp.s"
+CMakeFiles\CTest.dir\src\com\jmc\test\clms\cpp\start.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CTest.dir/src/com/jmc/test/clms/cpp/start.cpp.s"
 	D:\Programs\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1426~1.288\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\CTest.dir\com\jmc\test\clms\cpp\start.cpp.s /c D:\Programs\JetBrains\CProjects\CTest\com\jmc\test\clms\cpp\start.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\CTest.dir\src\com\jmc\test\clms\cpp\start.cpp.s /c D:\Programs\JetBrains\Projects\CProjects\CTest\src\com\jmc\test\clms\cpp\start.cpp
 <<
 
-CMakeFiles\CTest.dir\com\jmc\test\clms\cpp\stu.cpp.obj: CMakeFiles\CTest.dir\flags.make
-CMakeFiles\CTest.dir\com\jmc\test\clms\cpp\stu.cpp.obj: ..\com\jmc\test\clms\cpp\stu.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Programs\JetBrains\CProjects\CTest\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/CTest.dir/com/jmc/test/clms/cpp/stu.cpp.obj"
+CMakeFiles\CTest.dir\src\com\jmc\test\clms\cpp\stu.cpp.obj: CMakeFiles\CTest.dir\flags.make
+CMakeFiles\CTest.dir\src\com\jmc\test\clms\cpp\stu.cpp.obj: ..\src\com\jmc\test\clms\cpp\stu.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Programs\JetBrains\Projects\CProjects\CTest\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/CTest.dir/src/com/jmc/test/clms/cpp/stu.cpp.obj"
 	D:\Programs\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1426~1.288\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\CTest.dir\com\jmc\test\clms\cpp\stu.cpp.obj /FdCMakeFiles\CTest.dir\ /FS -c D:\Programs\JetBrains\CProjects\CTest\com\jmc\test\clms\cpp\stu.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\CTest.dir\src\com\jmc\test\clms\cpp\stu.cpp.obj /FdCMakeFiles\CTest.dir\ /FS -c D:\Programs\JetBrains\Projects\CProjects\CTest\src\com\jmc\test\clms\cpp\stu.cpp
 <<
 
-CMakeFiles\CTest.dir\com\jmc\test\clms\cpp\stu.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CTest.dir/com/jmc/test/clms/cpp/stu.cpp.i"
-	D:\Programs\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1426~1.288\bin\Hostx86\x86\cl.exe > CMakeFiles\CTest.dir\com\jmc\test\clms\cpp\stu.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Programs\JetBrains\CProjects\CTest\com\jmc\test\clms\cpp\stu.cpp
+CMakeFiles\CTest.dir\src\com\jmc\test\clms\cpp\stu.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CTest.dir/src/com/jmc/test/clms/cpp/stu.cpp.i"
+	D:\Programs\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1426~1.288\bin\Hostx86\x86\cl.exe > CMakeFiles\CTest.dir\src\com\jmc\test\clms\cpp\stu.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Programs\JetBrains\Projects\CProjects\CTest\src\com\jmc\test\clms\cpp\stu.cpp
 <<
 
-CMakeFiles\CTest.dir\com\jmc\test\clms\cpp\stu.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CTest.dir/com/jmc/test/clms/cpp/stu.cpp.s"
+CMakeFiles\CTest.dir\src\com\jmc\test\clms\cpp\stu.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CTest.dir/src/com/jmc/test/clms/cpp/stu.cpp.s"
 	D:\Programs\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1426~1.288\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\CTest.dir\com\jmc\test\clms\cpp\stu.cpp.s /c D:\Programs\JetBrains\CProjects\CTest\com\jmc\test\clms\cpp\stu.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\CTest.dir\src\com\jmc\test\clms\cpp\stu.cpp.s /c D:\Programs\JetBrains\Projects\CProjects\CTest\src\com\jmc\test\clms\cpp\stu.cpp
 <<
 
-CMakeFiles\CTest.dir\com\jmc\test\clms\cpp\teacher.cpp.obj: CMakeFiles\CTest.dir\flags.make
-CMakeFiles\CTest.dir\com\jmc\test\clms\cpp\teacher.cpp.obj: ..\com\jmc\test\clms\cpp\teacher.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Programs\JetBrains\CProjects\CTest\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/CTest.dir/com/jmc/test/clms/cpp/teacher.cpp.obj"
+CMakeFiles\CTest.dir\src\com\jmc\test\clms\cpp\teacher.cpp.obj: CMakeFiles\CTest.dir\flags.make
+CMakeFiles\CTest.dir\src\com\jmc\test\clms\cpp\teacher.cpp.obj: ..\src\com\jmc\test\clms\cpp\teacher.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Programs\JetBrains\Projects\CProjects\CTest\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/CTest.dir/src/com/jmc/test/clms/cpp/teacher.cpp.obj"
 	D:\Programs\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1426~1.288\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\CTest.dir\com\jmc\test\clms\cpp\teacher.cpp.obj /FdCMakeFiles\CTest.dir\ /FS -c D:\Programs\JetBrains\CProjects\CTest\com\jmc\test\clms\cpp\teacher.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\CTest.dir\src\com\jmc\test\clms\cpp\teacher.cpp.obj /FdCMakeFiles\CTest.dir\ /FS -c D:\Programs\JetBrains\Projects\CProjects\CTest\src\com\jmc\test\clms\cpp\teacher.cpp
 <<
 
-CMakeFiles\CTest.dir\com\jmc\test\clms\cpp\teacher.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CTest.dir/com/jmc/test/clms/cpp/teacher.cpp.i"
-	D:\Programs\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1426~1.288\bin\Hostx86\x86\cl.exe > CMakeFiles\CTest.dir\com\jmc\test\clms\cpp\teacher.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Programs\JetBrains\CProjects\CTest\com\jmc\test\clms\cpp\teacher.cpp
+CMakeFiles\CTest.dir\src\com\jmc\test\clms\cpp\teacher.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CTest.dir/src/com/jmc/test/clms/cpp/teacher.cpp.i"
+	D:\Programs\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1426~1.288\bin\Hostx86\x86\cl.exe > CMakeFiles\CTest.dir\src\com\jmc\test\clms\cpp\teacher.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Programs\JetBrains\Projects\CProjects\CTest\src\com\jmc\test\clms\cpp\teacher.cpp
 <<
 
-CMakeFiles\CTest.dir\com\jmc\test\clms\cpp\teacher.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CTest.dir/com/jmc/test/clms/cpp/teacher.cpp.s"
+CMakeFiles\CTest.dir\src\com\jmc\test\clms\cpp\teacher.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CTest.dir/src/com/jmc/test/clms/cpp/teacher.cpp.s"
 	D:\Programs\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1426~1.288\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\CTest.dir\com\jmc\test\clms\cpp\teacher.cpp.s /c D:\Programs\JetBrains\CProjects\CTest\com\jmc\test\clms\cpp\teacher.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\CTest.dir\src\com\jmc\test\clms\cpp\teacher.cpp.s /c D:\Programs\JetBrains\Projects\CProjects\CTest\src\com\jmc\test\clms\cpp\teacher.cpp
 <<
 
-CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\algorithm.cpp.obj: CMakeFiles\CTest.dir\flags.make
-CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\algorithm.cpp.obj: ..\com\jmc\test\learn\cpp\algorithm.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Programs\JetBrains\CProjects\CTest\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/CTest.dir/com/jmc/test/learn/cpp/algorithm.cpp.obj"
+CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\algorithm.cpp.obj: CMakeFiles\CTest.dir\flags.make
+CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\algorithm.cpp.obj: ..\src\com\jmc\test\learn\cpp\algorithm.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Programs\JetBrains\Projects\CProjects\CTest\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/CTest.dir/src/com/jmc/test/learn/cpp/algorithm.cpp.obj"
 	D:\Programs\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1426~1.288\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\CTest.dir\com\jmc\test\learn\cpp\algorithm.cpp.obj /FdCMakeFiles\CTest.dir\ /FS -c D:\Programs\JetBrains\CProjects\CTest\com\jmc\test\learn\cpp\algorithm.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\algorithm.cpp.obj /FdCMakeFiles\CTest.dir\ /FS -c D:\Programs\JetBrains\Projects\CProjects\CTest\src\com\jmc\test\learn\cpp\algorithm.cpp
 <<
 
-CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\algorithm.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CTest.dir/com/jmc/test/learn/cpp/algorithm.cpp.i"
-	D:\Programs\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1426~1.288\bin\Hostx86\x86\cl.exe > CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\algorithm.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Programs\JetBrains\CProjects\CTest\com\jmc\test\learn\cpp\algorithm.cpp
+CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\algorithm.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CTest.dir/src/com/jmc/test/learn/cpp/algorithm.cpp.i"
+	D:\Programs\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1426~1.288\bin\Hostx86\x86\cl.exe > CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\algorithm.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Programs\JetBrains\Projects\CProjects\CTest\src\com\jmc\test\learn\cpp\algorithm.cpp
 <<
 
-CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\algorithm.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CTest.dir/com/jmc/test/learn/cpp/algorithm.cpp.s"
+CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\algorithm.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CTest.dir/src/com/jmc/test/learn/cpp/algorithm.cpp.s"
 	D:\Programs\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1426~1.288\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\CTest.dir\com\jmc\test\learn\cpp\algorithm.cpp.s /c D:\Programs\JetBrains\CProjects\CTest\com\jmc\test\learn\cpp\algorithm.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\algorithm.cpp.s /c D:\Programs\JetBrains\Projects\CProjects\CTest\src\com\jmc\test\learn\cpp\algorithm.cpp
 <<
 
-CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\alias.cpp.obj: CMakeFiles\CTest.dir\flags.make
-CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\alias.cpp.obj: ..\com\jmc\test\learn\cpp\alias.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Programs\JetBrains\CProjects\CTest\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/CTest.dir/com/jmc/test/learn/cpp/alias.cpp.obj"
+CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\alias.cpp.obj: CMakeFiles\CTest.dir\flags.make
+CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\alias.cpp.obj: ..\src\com\jmc\test\learn\cpp\alias.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Programs\JetBrains\Projects\CProjects\CTest\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/CTest.dir/src/com/jmc/test/learn/cpp/alias.cpp.obj"
 	D:\Programs\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1426~1.288\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\CTest.dir\com\jmc\test\learn\cpp\alias.cpp.obj /FdCMakeFiles\CTest.dir\ /FS -c D:\Programs\JetBrains\CProjects\CTest\com\jmc\test\learn\cpp\alias.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\alias.cpp.obj /FdCMakeFiles\CTest.dir\ /FS -c D:\Programs\JetBrains\Projects\CProjects\CTest\src\com\jmc\test\learn\cpp\alias.cpp
 <<
 
-CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\alias.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CTest.dir/com/jmc/test/learn/cpp/alias.cpp.i"
-	D:\Programs\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1426~1.288\bin\Hostx86\x86\cl.exe > CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\alias.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Programs\JetBrains\CProjects\CTest\com\jmc\test\learn\cpp\alias.cpp
+CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\alias.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CTest.dir/src/com/jmc/test/learn/cpp/alias.cpp.i"
+	D:\Programs\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1426~1.288\bin\Hostx86\x86\cl.exe > CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\alias.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Programs\JetBrains\Projects\CProjects\CTest\src\com\jmc\test\learn\cpp\alias.cpp
 <<
 
-CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\alias.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CTest.dir/com/jmc/test/learn/cpp/alias.cpp.s"
+CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\alias.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CTest.dir/src/com/jmc/test/learn/cpp/alias.cpp.s"
 	D:\Programs\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1426~1.288\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\CTest.dir\com\jmc\test\learn\cpp\alias.cpp.s /c D:\Programs\JetBrains\CProjects\CTest\com\jmc\test\learn\cpp\alias.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\alias.cpp.s /c D:\Programs\JetBrains\Projects\CProjects\CTest\src\com\jmc\test\learn\cpp\alias.cpp
 <<
 
-CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\arr.cpp.obj: CMakeFiles\CTest.dir\flags.make
-CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\arr.cpp.obj: ..\com\jmc\test\learn\cpp\arr.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Programs\JetBrains\CProjects\CTest\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/CTest.dir/com/jmc/test/learn/cpp/arr.cpp.obj"
+CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\arr.cpp.obj: CMakeFiles\CTest.dir\flags.make
+CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\arr.cpp.obj: ..\src\com\jmc\test\learn\cpp\arr.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Programs\JetBrains\Projects\CProjects\CTest\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/CTest.dir/src/com/jmc/test/learn/cpp/arr.cpp.obj"
 	D:\Programs\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1426~1.288\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\CTest.dir\com\jmc\test\learn\cpp\arr.cpp.obj /FdCMakeFiles\CTest.dir\ /FS -c D:\Programs\JetBrains\CProjects\CTest\com\jmc\test\learn\cpp\arr.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\arr.cpp.obj /FdCMakeFiles\CTest.dir\ /FS -c D:\Programs\JetBrains\Projects\CProjects\CTest\src\com\jmc\test\learn\cpp\arr.cpp
 <<
 
-CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\arr.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CTest.dir/com/jmc/test/learn/cpp/arr.cpp.i"
-	D:\Programs\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1426~1.288\bin\Hostx86\x86\cl.exe > CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\arr.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Programs\JetBrains\CProjects\CTest\com\jmc\test\learn\cpp\arr.cpp
+CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\arr.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CTest.dir/src/com/jmc/test/learn/cpp/arr.cpp.i"
+	D:\Programs\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1426~1.288\bin\Hostx86\x86\cl.exe > CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\arr.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Programs\JetBrains\Projects\CProjects\CTest\src\com\jmc\test\learn\cpp\arr.cpp
 <<
 
-CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\arr.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CTest.dir/com/jmc/test/learn/cpp/arr.cpp.s"
+CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\arr.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CTest.dir/src/com/jmc/test/learn/cpp/arr.cpp.s"
 	D:\Programs\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1426~1.288\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\CTest.dir\com\jmc\test\learn\cpp\arr.cpp.s /c D:\Programs\JetBrains\CProjects\CTest\com\jmc\test\learn\cpp\arr.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\arr.cpp.s /c D:\Programs\JetBrains\Projects\CProjects\CTest\src\com\jmc\test\learn\cpp\arr.cpp
 <<
 
-CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\arr2.cpp.obj: CMakeFiles\CTest.dir\flags.make
-CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\arr2.cpp.obj: ..\com\jmc\test\learn\cpp\arr2.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Programs\JetBrains\CProjects\CTest\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/CTest.dir/com/jmc/test/learn/cpp/arr2.cpp.obj"
+CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\arr2.cpp.obj: CMakeFiles\CTest.dir\flags.make
+CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\arr2.cpp.obj: ..\src\com\jmc\test\learn\cpp\arr2.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Programs\JetBrains\Projects\CProjects\CTest\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/CTest.dir/src/com/jmc/test/learn/cpp/arr2.cpp.obj"
 	D:\Programs\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1426~1.288\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\CTest.dir\com\jmc\test\learn\cpp\arr2.cpp.obj /FdCMakeFiles\CTest.dir\ /FS -c D:\Programs\JetBrains\CProjects\CTest\com\jmc\test\learn\cpp\arr2.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\arr2.cpp.obj /FdCMakeFiles\CTest.dir\ /FS -c D:\Programs\JetBrains\Projects\CProjects\CTest\src\com\jmc\test\learn\cpp\arr2.cpp
 <<
 
-CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\arr2.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CTest.dir/com/jmc/test/learn/cpp/arr2.cpp.i"
-	D:\Programs\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1426~1.288\bin\Hostx86\x86\cl.exe > CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\arr2.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Programs\JetBrains\CProjects\CTest\com\jmc\test\learn\cpp\arr2.cpp
+CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\arr2.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CTest.dir/src/com/jmc/test/learn/cpp/arr2.cpp.i"
+	D:\Programs\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1426~1.288\bin\Hostx86\x86\cl.exe > CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\arr2.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Programs\JetBrains\Projects\CProjects\CTest\src\com\jmc\test\learn\cpp\arr2.cpp
 <<
 
-CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\arr2.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CTest.dir/com/jmc/test/learn/cpp/arr2.cpp.s"
+CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\arr2.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CTest.dir/src/com/jmc/test/learn/cpp/arr2.cpp.s"
 	D:\Programs\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1426~1.288\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\CTest.dir\com\jmc\test\learn\cpp\arr2.cpp.s /c D:\Programs\JetBrains\CProjects\CTest\com\jmc\test\learn\cpp\arr2.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\arr2.cpp.s /c D:\Programs\JetBrains\Projects\CProjects\CTest\src\com\jmc\test\learn\cpp\arr2.cpp
 <<
 
-CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\arr3.cpp.obj: CMakeFiles\CTest.dir\flags.make
-CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\arr3.cpp.obj: ..\com\jmc\test\learn\cpp\arr3.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Programs\JetBrains\CProjects\CTest\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/CTest.dir/com/jmc/test/learn/cpp/arr3.cpp.obj"
+CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\arr3.cpp.obj: CMakeFiles\CTest.dir\flags.make
+CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\arr3.cpp.obj: ..\src\com\jmc\test\learn\cpp\arr3.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Programs\JetBrains\Projects\CProjects\CTest\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/CTest.dir/src/com/jmc/test/learn/cpp/arr3.cpp.obj"
 	D:\Programs\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1426~1.288\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\CTest.dir\com\jmc\test\learn\cpp\arr3.cpp.obj /FdCMakeFiles\CTest.dir\ /FS -c D:\Programs\JetBrains\CProjects\CTest\com\jmc\test\learn\cpp\arr3.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\arr3.cpp.obj /FdCMakeFiles\CTest.dir\ /FS -c D:\Programs\JetBrains\Projects\CProjects\CTest\src\com\jmc\test\learn\cpp\arr3.cpp
 <<
 
-CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\arr3.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CTest.dir/com/jmc/test/learn/cpp/arr3.cpp.i"
-	D:\Programs\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1426~1.288\bin\Hostx86\x86\cl.exe > CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\arr3.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Programs\JetBrains\CProjects\CTest\com\jmc\test\learn\cpp\arr3.cpp
+CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\arr3.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CTest.dir/src/com/jmc/test/learn/cpp/arr3.cpp.i"
+	D:\Programs\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1426~1.288\bin\Hostx86\x86\cl.exe > CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\arr3.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Programs\JetBrains\Projects\CProjects\CTest\src\com\jmc\test\learn\cpp\arr3.cpp
 <<
 
-CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\arr3.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CTest.dir/com/jmc/test/learn/cpp/arr3.cpp.s"
+CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\arr3.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CTest.dir/src/com/jmc/test/learn/cpp/arr3.cpp.s"
 	D:\Programs\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1426~1.288\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\CTest.dir\com\jmc\test\learn\cpp\arr3.cpp.s /c D:\Programs\JetBrains\CProjects\CTest\com\jmc\test\learn\cpp\arr3.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\arr3.cpp.s /c D:\Programs\JetBrains\Projects\CProjects\CTest\src\com\jmc\test\learn\cpp\arr3.cpp
 <<
 
-CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\cin.cpp.obj: CMakeFiles\CTest.dir\flags.make
-CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\cin.cpp.obj: ..\com\jmc\test\learn\cpp\cin.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Programs\JetBrains\CProjects\CTest\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/CTest.dir/com/jmc/test/learn/cpp/cin.cpp.obj"
+CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\cin.cpp.obj: CMakeFiles\CTest.dir\flags.make
+CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\cin.cpp.obj: ..\src\com\jmc\test\learn\cpp\cin.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Programs\JetBrains\Projects\CProjects\CTest\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/CTest.dir/src/com/jmc/test/learn/cpp/cin.cpp.obj"
 	D:\Programs\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1426~1.288\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\CTest.dir\com\jmc\test\learn\cpp\cin.cpp.obj /FdCMakeFiles\CTest.dir\ /FS -c D:\Programs\JetBrains\CProjects\CTest\com\jmc\test\learn\cpp\cin.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\cin.cpp.obj /FdCMakeFiles\CTest.dir\ /FS -c D:\Programs\JetBrains\Projects\CProjects\CTest\src\com\jmc\test\learn\cpp\cin.cpp
 <<
 
-CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\cin.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CTest.dir/com/jmc/test/learn/cpp/cin.cpp.i"
-	D:\Programs\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1426~1.288\bin\Hostx86\x86\cl.exe > CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\cin.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Programs\JetBrains\CProjects\CTest\com\jmc\test\learn\cpp\cin.cpp
+CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\cin.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CTest.dir/src/com/jmc/test/learn/cpp/cin.cpp.i"
+	D:\Programs\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1426~1.288\bin\Hostx86\x86\cl.exe > CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\cin.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Programs\JetBrains\Projects\CProjects\CTest\src\com\jmc\test\learn\cpp\cin.cpp
 <<
 
-CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\cin.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CTest.dir/com/jmc/test/learn/cpp/cin.cpp.s"
+CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\cin.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CTest.dir/src/com/jmc/test/learn/cpp/cin.cpp.s"
 	D:\Programs\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1426~1.288\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\CTest.dir\com\jmc\test\learn\cpp\cin.cpp.s /c D:\Programs\JetBrains\CProjects\CTest\com\jmc\test\learn\cpp\cin.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\cin.cpp.s /c D:\Programs\JetBrains\Projects\CProjects\CTest\src\com\jmc\test\learn\cpp\cin.cpp
 <<
 
-CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\class.cpp.obj: CMakeFiles\CTest.dir\flags.make
-CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\class.cpp.obj: ..\com\jmc\test\learn\cpp\class.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Programs\JetBrains\CProjects\CTest\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/CTest.dir/com/jmc/test/learn/cpp/class.cpp.obj"
+CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\class.cpp.obj: CMakeFiles\CTest.dir\flags.make
+CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\class.cpp.obj: ..\src\com\jmc\test\learn\cpp\class.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Programs\JetBrains\Projects\CProjects\CTest\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/CTest.dir/src/com/jmc/test/learn/cpp/class.cpp.obj"
 	D:\Programs\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1426~1.288\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\CTest.dir\com\jmc\test\learn\cpp\class.cpp.obj /FdCMakeFiles\CTest.dir\ /FS -c D:\Programs\JetBrains\CProjects\CTest\com\jmc\test\learn\cpp\class.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\class.cpp.obj /FdCMakeFiles\CTest.dir\ /FS -c D:\Programs\JetBrains\Projects\CProjects\CTest\src\com\jmc\test\learn\cpp\class.cpp
 <<
 
-CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\class.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CTest.dir/com/jmc/test/learn/cpp/class.cpp.i"
-	D:\Programs\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1426~1.288\bin\Hostx86\x86\cl.exe > CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\class.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Programs\JetBrains\CProjects\CTest\com\jmc\test\learn\cpp\class.cpp
+CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\class.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CTest.dir/src/com/jmc/test/learn/cpp/class.cpp.i"
+	D:\Programs\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1426~1.288\bin\Hostx86\x86\cl.exe > CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\class.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Programs\JetBrains\Projects\CProjects\CTest\src\com\jmc\test\learn\cpp\class.cpp
 <<
 
-CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\class.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CTest.dir/com/jmc/test/learn/cpp/class.cpp.s"
+CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\class.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CTest.dir/src/com/jmc/test/learn/cpp/class.cpp.s"
 	D:\Programs\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1426~1.288\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\CTest.dir\com\jmc\test\learn\cpp\class.cpp.s /c D:\Programs\JetBrains\CProjects\CTest\com\jmc\test\learn\cpp\class.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\class.cpp.s /c D:\Programs\JetBrains\Projects\CProjects\CTest\src\com\jmc\test\learn\cpp\class.cpp
 <<
 
-CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\const.cpp.obj: CMakeFiles\CTest.dir\flags.make
-CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\const.cpp.obj: ..\com\jmc\test\learn\cpp\const.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Programs\JetBrains\CProjects\CTest\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/CTest.dir/com/jmc/test/learn/cpp/const.cpp.obj"
+CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\const.cpp.obj: CMakeFiles\CTest.dir\flags.make
+CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\const.cpp.obj: ..\src\com\jmc\test\learn\cpp\const.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Programs\JetBrains\Projects\CProjects\CTest\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/CTest.dir/src/com/jmc/test/learn/cpp/const.cpp.obj"
 	D:\Programs\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1426~1.288\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\CTest.dir\com\jmc\test\learn\cpp\const.cpp.obj /FdCMakeFiles\CTest.dir\ /FS -c D:\Programs\JetBrains\CProjects\CTest\com\jmc\test\learn\cpp\const.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\const.cpp.obj /FdCMakeFiles\CTest.dir\ /FS -c D:\Programs\JetBrains\Projects\CProjects\CTest\src\com\jmc\test\learn\cpp\const.cpp
 <<
 
-CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\const.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CTest.dir/com/jmc/test/learn/cpp/const.cpp.i"
-	D:\Programs\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1426~1.288\bin\Hostx86\x86\cl.exe > CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\const.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Programs\JetBrains\CProjects\CTest\com\jmc\test\learn\cpp\const.cpp
+CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\const.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CTest.dir/src/com/jmc/test/learn/cpp/const.cpp.i"
+	D:\Programs\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1426~1.288\bin\Hostx86\x86\cl.exe > CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\const.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Programs\JetBrains\Projects\CProjects\CTest\src\com\jmc\test\learn\cpp\const.cpp
 <<
 
-CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\const.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CTest.dir/com/jmc/test/learn/cpp/const.cpp.s"
+CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\const.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CTest.dir/src/com/jmc/test/learn/cpp/const.cpp.s"
 	D:\Programs\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1426~1.288\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\CTest.dir\com\jmc\test\learn\cpp\const.cpp.s /c D:\Programs\JetBrains\CProjects\CTest\com\jmc\test\learn\cpp\const.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\const.cpp.s /c D:\Programs\JetBrains\Projects\CProjects\CTest\src\com\jmc\test\learn\cpp\const.cpp
 <<
 
-CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\decltype.cpp.obj: CMakeFiles\CTest.dir\flags.make
-CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\decltype.cpp.obj: ..\com\jmc\test\learn\cpp\decltype.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Programs\JetBrains\CProjects\CTest\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/CTest.dir/com/jmc/test/learn/cpp/decltype.cpp.obj"
+CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\decltype.cpp.obj: CMakeFiles\CTest.dir\flags.make
+CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\decltype.cpp.obj: ..\src\com\jmc\test\learn\cpp\decltype.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Programs\JetBrains\Projects\CProjects\CTest\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/CTest.dir/src/com/jmc/test/learn/cpp/decltype.cpp.obj"
 	D:\Programs\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1426~1.288\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\CTest.dir\com\jmc\test\learn\cpp\decltype.cpp.obj /FdCMakeFiles\CTest.dir\ /FS -c D:\Programs\JetBrains\CProjects\CTest\com\jmc\test\learn\cpp\decltype.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\decltype.cpp.obj /FdCMakeFiles\CTest.dir\ /FS -c D:\Programs\JetBrains\Projects\CProjects\CTest\src\com\jmc\test\learn\cpp\decltype.cpp
 <<
 
-CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\decltype.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CTest.dir/com/jmc/test/learn/cpp/decltype.cpp.i"
-	D:\Programs\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1426~1.288\bin\Hostx86\x86\cl.exe > CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\decltype.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Programs\JetBrains\CProjects\CTest\com\jmc\test\learn\cpp\decltype.cpp
+CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\decltype.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CTest.dir/src/com/jmc/test/learn/cpp/decltype.cpp.i"
+	D:\Programs\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1426~1.288\bin\Hostx86\x86\cl.exe > CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\decltype.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Programs\JetBrains\Projects\CProjects\CTest\src\com\jmc\test\learn\cpp\decltype.cpp
 <<
 
-CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\decltype.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CTest.dir/com/jmc/test/learn/cpp/decltype.cpp.s"
+CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\decltype.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CTest.dir/src/com/jmc/test/learn/cpp/decltype.cpp.s"
 	D:\Programs\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1426~1.288\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\CTest.dir\com\jmc\test\learn\cpp\decltype.cpp.s /c D:\Programs\JetBrains\CProjects\CTest\com\jmc\test\learn\cpp\decltype.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\decltype.cpp.s /c D:\Programs\JetBrains\Projects\CProjects\CTest\src\com\jmc\test\learn\cpp\decltype.cpp
 <<
 
-CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\default_parms.cpp.obj: CMakeFiles\CTest.dir\flags.make
-CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\default_parms.cpp.obj: ..\com\jmc\test\learn\cpp\default_parms.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Programs\JetBrains\CProjects\CTest\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/CTest.dir/com/jmc/test/learn/cpp/default_parms.cpp.obj"
+CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\default_parms.cpp.obj: CMakeFiles\CTest.dir\flags.make
+CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\default_parms.cpp.obj: ..\src\com\jmc\test\learn\cpp\default_parms.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Programs\JetBrains\Projects\CProjects\CTest\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/CTest.dir/src/com/jmc/test/learn/cpp/default_parms.cpp.obj"
 	D:\Programs\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1426~1.288\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\CTest.dir\com\jmc\test\learn\cpp\default_parms.cpp.obj /FdCMakeFiles\CTest.dir\ /FS -c D:\Programs\JetBrains\CProjects\CTest\com\jmc\test\learn\cpp\default_parms.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\default_parms.cpp.obj /FdCMakeFiles\CTest.dir\ /FS -c D:\Programs\JetBrains\Projects\CProjects\CTest\src\com\jmc\test\learn\cpp\default_parms.cpp
 <<
 
-CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\default_parms.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CTest.dir/com/jmc/test/learn/cpp/default_parms.cpp.i"
-	D:\Programs\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1426~1.288\bin\Hostx86\x86\cl.exe > CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\default_parms.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Programs\JetBrains\CProjects\CTest\com\jmc\test\learn\cpp\default_parms.cpp
+CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\default_parms.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CTest.dir/src/com/jmc/test/learn/cpp/default_parms.cpp.i"
+	D:\Programs\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1426~1.288\bin\Hostx86\x86\cl.exe > CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\default_parms.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Programs\JetBrains\Projects\CProjects\CTest\src\com\jmc\test\learn\cpp\default_parms.cpp
 <<
 
-CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\default_parms.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CTest.dir/com/jmc/test/learn/cpp/default_parms.cpp.s"
+CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\default_parms.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CTest.dir/src/com/jmc/test/learn/cpp/default_parms.cpp.s"
 	D:\Programs\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1426~1.288\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\CTest.dir\com\jmc\test\learn\cpp\default_parms.cpp.s /c D:\Programs\JetBrains\CProjects\CTest\com\jmc\test\learn\cpp\default_parms.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\default_parms.cpp.s /c D:\Programs\JetBrains\Projects\CProjects\CTest\src\com\jmc\test\learn\cpp\default_parms.cpp
 <<
 
-CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\deque.cpp.obj: CMakeFiles\CTest.dir\flags.make
-CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\deque.cpp.obj: ..\com\jmc\test\learn\cpp\deque.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Programs\JetBrains\CProjects\CTest\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/CTest.dir/com/jmc/test/learn/cpp/deque.cpp.obj"
+CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\deque.cpp.obj: CMakeFiles\CTest.dir\flags.make
+CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\deque.cpp.obj: ..\src\com\jmc\test\learn\cpp\deque.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Programs\JetBrains\Projects\CProjects\CTest\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/CTest.dir/src/com/jmc/test/learn/cpp/deque.cpp.obj"
 	D:\Programs\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1426~1.288\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\CTest.dir\com\jmc\test\learn\cpp\deque.cpp.obj /FdCMakeFiles\CTest.dir\ /FS -c D:\Programs\JetBrains\CProjects\CTest\com\jmc\test\learn\cpp\deque.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\deque.cpp.obj /FdCMakeFiles\CTest.dir\ /FS -c D:\Programs\JetBrains\Projects\CProjects\CTest\src\com\jmc\test\learn\cpp\deque.cpp
 <<
 
-CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\deque.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CTest.dir/com/jmc/test/learn/cpp/deque.cpp.i"
-	D:\Programs\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1426~1.288\bin\Hostx86\x86\cl.exe > CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\deque.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Programs\JetBrains\CProjects\CTest\com\jmc\test\learn\cpp\deque.cpp
+CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\deque.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CTest.dir/src/com/jmc/test/learn/cpp/deque.cpp.i"
+	D:\Programs\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1426~1.288\bin\Hostx86\x86\cl.exe > CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\deque.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Programs\JetBrains\Projects\CProjects\CTest\src\com\jmc\test\learn\cpp\deque.cpp
 <<
 
-CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\deque.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CTest.dir/com/jmc/test/learn/cpp/deque.cpp.s"
+CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\deque.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CTest.dir/src/com/jmc/test/learn/cpp/deque.cpp.s"
 	D:\Programs\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1426~1.288\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\CTest.dir\com\jmc\test\learn\cpp\deque.cpp.s /c D:\Programs\JetBrains\CProjects\CTest\com\jmc\test\learn\cpp\deque.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\deque.cpp.s /c D:\Programs\JetBrains\Projects\CProjects\CTest\src\com\jmc\test\learn\cpp\deque.cpp
 <<
 
-CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\exception.cpp.obj: CMakeFiles\CTest.dir\flags.make
-CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\exception.cpp.obj: ..\com\jmc\test\learn\cpp\exception.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Programs\JetBrains\CProjects\CTest\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/CTest.dir/com/jmc/test/learn/cpp/exception.cpp.obj"
+CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\exception.cpp.obj: CMakeFiles\CTest.dir\flags.make
+CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\exception.cpp.obj: ..\src\com\jmc\test\learn\cpp\exception.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Programs\JetBrains\Projects\CProjects\CTest\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/CTest.dir/src/com/jmc/test/learn/cpp/exception.cpp.obj"
 	D:\Programs\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1426~1.288\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\CTest.dir\com\jmc\test\learn\cpp\exception.cpp.obj /FdCMakeFiles\CTest.dir\ /FS -c D:\Programs\JetBrains\CProjects\CTest\com\jmc\test\learn\cpp\exception.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\exception.cpp.obj /FdCMakeFiles\CTest.dir\ /FS -c D:\Programs\JetBrains\Projects\CProjects\CTest\src\com\jmc\test\learn\cpp\exception.cpp
 <<
 
-CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\exception.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CTest.dir/com/jmc/test/learn/cpp/exception.cpp.i"
-	D:\Programs\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1426~1.288\bin\Hostx86\x86\cl.exe > CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\exception.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Programs\JetBrains\CProjects\CTest\com\jmc\test\learn\cpp\exception.cpp
+CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\exception.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CTest.dir/src/com/jmc/test/learn/cpp/exception.cpp.i"
+	D:\Programs\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1426~1.288\bin\Hostx86\x86\cl.exe > CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\exception.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Programs\JetBrains\Projects\CProjects\CTest\src\com\jmc\test\learn\cpp\exception.cpp
 <<
 
-CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\exception.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CTest.dir/com/jmc/test/learn/cpp/exception.cpp.s"
+CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\exception.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CTest.dir/src/com/jmc/test/learn/cpp/exception.cpp.s"
 	D:\Programs\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1426~1.288\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\CTest.dir\com\jmc\test\learn\cpp\exception.cpp.s /c D:\Programs\JetBrains\CProjects\CTest\com\jmc\test\learn\cpp\exception.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\exception.cpp.s /c D:\Programs\JetBrains\Projects\CProjects\CTest\src\com\jmc\test\learn\cpp\exception.cpp
 <<
 
-CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\exception2.cpp.obj: CMakeFiles\CTest.dir\flags.make
-CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\exception2.cpp.obj: ..\com\jmc\test\learn\cpp\exception2.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Programs\JetBrains\CProjects\CTest\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/CTest.dir/com/jmc/test/learn/cpp/exception2.cpp.obj"
+CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\exception2.cpp.obj: CMakeFiles\CTest.dir\flags.make
+CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\exception2.cpp.obj: ..\src\com\jmc\test\learn\cpp\exception2.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Programs\JetBrains\Projects\CProjects\CTest\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/CTest.dir/src/com/jmc/test/learn/cpp/exception2.cpp.obj"
 	D:\Programs\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1426~1.288\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\CTest.dir\com\jmc\test\learn\cpp\exception2.cpp.obj /FdCMakeFiles\CTest.dir\ /FS -c D:\Programs\JetBrains\CProjects\CTest\com\jmc\test\learn\cpp\exception2.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\exception2.cpp.obj /FdCMakeFiles\CTest.dir\ /FS -c D:\Programs\JetBrains\Projects\CProjects\CTest\src\com\jmc\test\learn\cpp\exception2.cpp
 <<
 
-CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\exception2.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CTest.dir/com/jmc/test/learn/cpp/exception2.cpp.i"
-	D:\Programs\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1426~1.288\bin\Hostx86\x86\cl.exe > CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\exception2.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Programs\JetBrains\CProjects\CTest\com\jmc\test\learn\cpp\exception2.cpp
+CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\exception2.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CTest.dir/src/com/jmc/test/learn/cpp/exception2.cpp.i"
+	D:\Programs\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1426~1.288\bin\Hostx86\x86\cl.exe > CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\exception2.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Programs\JetBrains\Projects\CProjects\CTest\src\com\jmc\test\learn\cpp\exception2.cpp
 <<
 
-CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\exception2.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CTest.dir/com/jmc/test/learn/cpp/exception2.cpp.s"
+CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\exception2.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CTest.dir/src/com/jmc/test/learn/cpp/exception2.cpp.s"
 	D:\Programs\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1426~1.288\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\CTest.dir\com\jmc\test\learn\cpp\exception2.cpp.s /c D:\Programs\JetBrains\CProjects\CTest\com\jmc\test\learn\cpp\exception2.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\exception2.cpp.s /c D:\Programs\JetBrains\Projects\CProjects\CTest\src\com\jmc\test\learn\cpp\exception2.cpp
 <<
 
-CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\extends.cpp.obj: CMakeFiles\CTest.dir\flags.make
-CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\extends.cpp.obj: ..\com\jmc\test\learn\cpp\extends.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Programs\JetBrains\CProjects\CTest\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/CTest.dir/com/jmc/test/learn/cpp/extends.cpp.obj"
+CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\extends.cpp.obj: CMakeFiles\CTest.dir\flags.make
+CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\extends.cpp.obj: ..\src\com\jmc\test\learn\cpp\extends.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Programs\JetBrains\Projects\CProjects\CTest\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/CTest.dir/src/com/jmc/test/learn/cpp/extends.cpp.obj"
 	D:\Programs\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1426~1.288\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\CTest.dir\com\jmc\test\learn\cpp\extends.cpp.obj /FdCMakeFiles\CTest.dir\ /FS -c D:\Programs\JetBrains\CProjects\CTest\com\jmc\test\learn\cpp\extends.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\extends.cpp.obj /FdCMakeFiles\CTest.dir\ /FS -c D:\Programs\JetBrains\Projects\CProjects\CTest\src\com\jmc\test\learn\cpp\extends.cpp
 <<
 
-CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\extends.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CTest.dir/com/jmc/test/learn/cpp/extends.cpp.i"
-	D:\Programs\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1426~1.288\bin\Hostx86\x86\cl.exe > CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\extends.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Programs\JetBrains\CProjects\CTest\com\jmc\test\learn\cpp\extends.cpp
+CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\extends.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CTest.dir/src/com/jmc/test/learn/cpp/extends.cpp.i"
+	D:\Programs\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1426~1.288\bin\Hostx86\x86\cl.exe > CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\extends.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Programs\JetBrains\Projects\CProjects\CTest\src\com\jmc\test\learn\cpp\extends.cpp
 <<
 
-CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\extends.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CTest.dir/com/jmc/test/learn/cpp/extends.cpp.s"
+CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\extends.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CTest.dir/src/com/jmc/test/learn/cpp/extends.cpp.s"
 	D:\Programs\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1426~1.288\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\CTest.dir\com\jmc\test\learn\cpp\extends.cpp.s /c D:\Programs\JetBrains\CProjects\CTest\com\jmc\test\learn\cpp\extends.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\extends.cpp.s /c D:\Programs\JetBrains\Projects\CProjects\CTest\src\com\jmc\test\learn\cpp\extends.cpp
 <<
 
-CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\extends2.cpp.obj: CMakeFiles\CTest.dir\flags.make
-CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\extends2.cpp.obj: ..\com\jmc\test\learn\cpp\extends2.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Programs\JetBrains\CProjects\CTest\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/CTest.dir/com/jmc/test/learn/cpp/extends2.cpp.obj"
+CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\extends2.cpp.obj: CMakeFiles\CTest.dir\flags.make
+CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\extends2.cpp.obj: ..\src\com\jmc\test\learn\cpp\extends2.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Programs\JetBrains\Projects\CProjects\CTest\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/CTest.dir/src/com/jmc/test/learn/cpp/extends2.cpp.obj"
 	D:\Programs\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1426~1.288\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\CTest.dir\com\jmc\test\learn\cpp\extends2.cpp.obj /FdCMakeFiles\CTest.dir\ /FS -c D:\Programs\JetBrains\CProjects\CTest\com\jmc\test\learn\cpp\extends2.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\extends2.cpp.obj /FdCMakeFiles\CTest.dir\ /FS -c D:\Programs\JetBrains\Projects\CProjects\CTest\src\com\jmc\test\learn\cpp\extends2.cpp
 <<
 
-CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\extends2.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CTest.dir/com/jmc/test/learn/cpp/extends2.cpp.i"
-	D:\Programs\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1426~1.288\bin\Hostx86\x86\cl.exe > CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\extends2.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Programs\JetBrains\CProjects\CTest\com\jmc\test\learn\cpp\extends2.cpp
+CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\extends2.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CTest.dir/src/com/jmc/test/learn/cpp/extends2.cpp.i"
+	D:\Programs\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1426~1.288\bin\Hostx86\x86\cl.exe > CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\extends2.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Programs\JetBrains\Projects\CProjects\CTest\src\com\jmc\test\learn\cpp\extends2.cpp
 <<
 
-CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\extends2.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CTest.dir/com/jmc/test/learn/cpp/extends2.cpp.s"
+CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\extends2.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CTest.dir/src/com/jmc/test/learn/cpp/extends2.cpp.s"
 	D:\Programs\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1426~1.288\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\CTest.dir\com\jmc\test\learn\cpp\extends2.cpp.s /c D:\Programs\JetBrains\CProjects\CTest\com\jmc\test\learn\cpp\extends2.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\extends2.cpp.s /c D:\Programs\JetBrains\Projects\CProjects\CTest\src\com\jmc\test\learn\cpp\extends2.cpp
 <<
 
-CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\extends3.cpp.obj: CMakeFiles\CTest.dir\flags.make
-CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\extends3.cpp.obj: ..\com\jmc\test\learn\cpp\extends3.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Programs\JetBrains\CProjects\CTest\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/CTest.dir/com/jmc/test/learn/cpp/extends3.cpp.obj"
+CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\extends3.cpp.obj: CMakeFiles\CTest.dir\flags.make
+CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\extends3.cpp.obj: ..\src\com\jmc\test\learn\cpp\extends3.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Programs\JetBrains\Projects\CProjects\CTest\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/CTest.dir/src/com/jmc/test/learn/cpp/extends3.cpp.obj"
 	D:\Programs\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1426~1.288\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\CTest.dir\com\jmc\test\learn\cpp\extends3.cpp.obj /FdCMakeFiles\CTest.dir\ /FS -c D:\Programs\JetBrains\CProjects\CTest\com\jmc\test\learn\cpp\extends3.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\extends3.cpp.obj /FdCMakeFiles\CTest.dir\ /FS -c D:\Programs\JetBrains\Projects\CProjects\CTest\src\com\jmc\test\learn\cpp\extends3.cpp
 <<
 
-CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\extends3.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CTest.dir/com/jmc/test/learn/cpp/extends3.cpp.i"
-	D:\Programs\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1426~1.288\bin\Hostx86\x86\cl.exe > CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\extends3.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Programs\JetBrains\CProjects\CTest\com\jmc\test\learn\cpp\extends3.cpp
+CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\extends3.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CTest.dir/src/com/jmc/test/learn/cpp/extends3.cpp.i"
+	D:\Programs\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1426~1.288\bin\Hostx86\x86\cl.exe > CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\extends3.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Programs\JetBrains\Projects\CProjects\CTest\src\com\jmc\test\learn\cpp\extends3.cpp
 <<
 
-CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\extends3.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CTest.dir/com/jmc/test/learn/cpp/extends3.cpp.s"
+CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\extends3.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CTest.dir/src/com/jmc/test/learn/cpp/extends3.cpp.s"
 	D:\Programs\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1426~1.288\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\CTest.dir\com\jmc\test\learn\cpp\extends3.cpp.s /c D:\Programs\JetBrains\CProjects\CTest\com\jmc\test\learn\cpp\extends3.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\extends3.cpp.s /c D:\Programs\JetBrains\Projects\CProjects\CTest\src\com\jmc\test\learn\cpp\extends3.cpp
 <<
 
-CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\extends4.cpp.obj: CMakeFiles\CTest.dir\flags.make
-CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\extends4.cpp.obj: ..\com\jmc\test\learn\cpp\extends4.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Programs\JetBrains\CProjects\CTest\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object CMakeFiles/CTest.dir/com/jmc/test/learn/cpp/extends4.cpp.obj"
+CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\extends4.cpp.obj: CMakeFiles\CTest.dir\flags.make
+CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\extends4.cpp.obj: ..\src\com\jmc\test\learn\cpp\extends4.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Programs\JetBrains\Projects\CProjects\CTest\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object CMakeFiles/CTest.dir/src/com/jmc/test/learn/cpp/extends4.cpp.obj"
 	D:\Programs\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1426~1.288\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\CTest.dir\com\jmc\test\learn\cpp\extends4.cpp.obj /FdCMakeFiles\CTest.dir\ /FS -c D:\Programs\JetBrains\CProjects\CTest\com\jmc\test\learn\cpp\extends4.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\extends4.cpp.obj /FdCMakeFiles\CTest.dir\ /FS -c D:\Programs\JetBrains\Projects\CProjects\CTest\src\com\jmc\test\learn\cpp\extends4.cpp
 <<
 
-CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\extends4.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CTest.dir/com/jmc/test/learn/cpp/extends4.cpp.i"
-	D:\Programs\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1426~1.288\bin\Hostx86\x86\cl.exe > CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\extends4.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Programs\JetBrains\CProjects\CTest\com\jmc\test\learn\cpp\extends4.cpp
+CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\extends4.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CTest.dir/src/com/jmc/test/learn/cpp/extends4.cpp.i"
+	D:\Programs\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1426~1.288\bin\Hostx86\x86\cl.exe > CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\extends4.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Programs\JetBrains\Projects\CProjects\CTest\src\com\jmc\test\learn\cpp\extends4.cpp
 <<
 
-CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\extends4.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CTest.dir/com/jmc/test/learn/cpp/extends4.cpp.s"
+CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\extends4.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CTest.dir/src/com/jmc/test/learn/cpp/extends4.cpp.s"
 	D:\Programs\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1426~1.288\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\CTest.dir\com\jmc\test\learn\cpp\extends4.cpp.s /c D:\Programs\JetBrains\CProjects\CTest\com\jmc\test\learn\cpp\extends4.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\extends4.cpp.s /c D:\Programs\JetBrains\Projects\CProjects\CTest\src\com\jmc\test\learn\cpp\extends4.cpp
 <<
 
-CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\file_.cpp.obj: CMakeFiles\CTest.dir\flags.make
-CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\file_.cpp.obj: ..\com\jmc\test\learn\cpp\file_.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Programs\JetBrains\CProjects\CTest\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object CMakeFiles/CTest.dir/com/jmc/test/learn/cpp/file_.cpp.obj"
+CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\file_.cpp.obj: CMakeFiles\CTest.dir\flags.make
+CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\file_.cpp.obj: ..\src\com\jmc\test\learn\cpp\file_.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Programs\JetBrains\Projects\CProjects\CTest\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object CMakeFiles/CTest.dir/src/com/jmc/test/learn/cpp/file_.cpp.obj"
 	D:\Programs\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1426~1.288\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\CTest.dir\com\jmc\test\learn\cpp\file_.cpp.obj /FdCMakeFiles\CTest.dir\ /FS -c D:\Programs\JetBrains\CProjects\CTest\com\jmc\test\learn\cpp\file_.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\file_.cpp.obj /FdCMakeFiles\CTest.dir\ /FS -c D:\Programs\JetBrains\Projects\CProjects\CTest\src\com\jmc\test\learn\cpp\file_.cpp
 <<
 
-CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\file_.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CTest.dir/com/jmc/test/learn/cpp/file_.cpp.i"
-	D:\Programs\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1426~1.288\bin\Hostx86\x86\cl.exe > CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\file_.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Programs\JetBrains\CProjects\CTest\com\jmc\test\learn\cpp\file_.cpp
+CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\file_.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CTest.dir/src/com/jmc/test/learn/cpp/file_.cpp.i"
+	D:\Programs\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1426~1.288\bin\Hostx86\x86\cl.exe > CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\file_.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Programs\JetBrains\Projects\CProjects\CTest\src\com\jmc\test\learn\cpp\file_.cpp
 <<
 
-CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\file_.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CTest.dir/com/jmc/test/learn/cpp/file_.cpp.s"
+CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\file_.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CTest.dir/src/com/jmc/test/learn/cpp/file_.cpp.s"
 	D:\Programs\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1426~1.288\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\CTest.dir\com\jmc\test\learn\cpp\file_.cpp.s /c D:\Programs\JetBrains\CProjects\CTest\com\jmc\test\learn\cpp\file_.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\file_.cpp.s /c D:\Programs\JetBrains\Projects\CProjects\CTest\src\com\jmc\test\learn\cpp\file_.cpp
 <<
 
-CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\file_2.cpp.obj: CMakeFiles\CTest.dir\flags.make
-CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\file_2.cpp.obj: ..\com\jmc\test\learn\cpp\file_2.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Programs\JetBrains\CProjects\CTest\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object CMakeFiles/CTest.dir/com/jmc/test/learn/cpp/file_2.cpp.obj"
+CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\file_2.cpp.obj: CMakeFiles\CTest.dir\flags.make
+CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\file_2.cpp.obj: ..\src\com\jmc\test\learn\cpp\file_2.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Programs\JetBrains\Projects\CProjects\CTest\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object CMakeFiles/CTest.dir/src/com/jmc/test/learn/cpp/file_2.cpp.obj"
 	D:\Programs\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1426~1.288\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\CTest.dir\com\jmc\test\learn\cpp\file_2.cpp.obj /FdCMakeFiles\CTest.dir\ /FS -c D:\Programs\JetBrains\CProjects\CTest\com\jmc\test\learn\cpp\file_2.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\file_2.cpp.obj /FdCMakeFiles\CTest.dir\ /FS -c D:\Programs\JetBrains\Projects\CProjects\CTest\src\com\jmc\test\learn\cpp\file_2.cpp
 <<
 
-CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\file_2.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CTest.dir/com/jmc/test/learn/cpp/file_2.cpp.i"
-	D:\Programs\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1426~1.288\bin\Hostx86\x86\cl.exe > CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\file_2.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Programs\JetBrains\CProjects\CTest\com\jmc\test\learn\cpp\file_2.cpp
+CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\file_2.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CTest.dir/src/com/jmc/test/learn/cpp/file_2.cpp.i"
+	D:\Programs\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1426~1.288\bin\Hostx86\x86\cl.exe > CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\file_2.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Programs\JetBrains\Projects\CProjects\CTest\src\com\jmc\test\learn\cpp\file_2.cpp
 <<
 
-CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\file_2.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CTest.dir/com/jmc/test/learn/cpp/file_2.cpp.s"
+CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\file_2.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CTest.dir/src/com/jmc/test/learn/cpp/file_2.cpp.s"
 	D:\Programs\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1426~1.288\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\CTest.dir\com\jmc\test\learn\cpp\file_2.cpp.s /c D:\Programs\JetBrains\CProjects\CTest\com\jmc\test\learn\cpp\file_2.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\file_2.cpp.s /c D:\Programs\JetBrains\Projects\CProjects\CTest\src\com\jmc\test\learn\cpp\file_2.cpp
 <<
 
-CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\fixed.cpp.obj: CMakeFiles\CTest.dir\flags.make
-CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\fixed.cpp.obj: ..\com\jmc\test\learn\cpp\fixed.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Programs\JetBrains\CProjects\CTest\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object CMakeFiles/CTest.dir/com/jmc/test/learn/cpp/fixed.cpp.obj"
+CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\fixed.cpp.obj: CMakeFiles\CTest.dir\flags.make
+CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\fixed.cpp.obj: ..\src\com\jmc\test\learn\cpp\fixed.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Programs\JetBrains\Projects\CProjects\CTest\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object CMakeFiles/CTest.dir/src/com/jmc/test/learn/cpp/fixed.cpp.obj"
 	D:\Programs\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1426~1.288\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\CTest.dir\com\jmc\test\learn\cpp\fixed.cpp.obj /FdCMakeFiles\CTest.dir\ /FS -c D:\Programs\JetBrains\CProjects\CTest\com\jmc\test\learn\cpp\fixed.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\fixed.cpp.obj /FdCMakeFiles\CTest.dir\ /FS -c D:\Programs\JetBrains\Projects\CProjects\CTest\src\com\jmc\test\learn\cpp\fixed.cpp
 <<
 
-CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\fixed.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CTest.dir/com/jmc/test/learn/cpp/fixed.cpp.i"
-	D:\Programs\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1426~1.288\bin\Hostx86\x86\cl.exe > CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\fixed.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Programs\JetBrains\CProjects\CTest\com\jmc\test\learn\cpp\fixed.cpp
+CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\fixed.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CTest.dir/src/com/jmc/test/learn/cpp/fixed.cpp.i"
+	D:\Programs\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1426~1.288\bin\Hostx86\x86\cl.exe > CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\fixed.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Programs\JetBrains\Projects\CProjects\CTest\src\com\jmc\test\learn\cpp\fixed.cpp
 <<
 
-CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\fixed.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CTest.dir/com/jmc/test/learn/cpp/fixed.cpp.s"
+CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\fixed.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CTest.dir/src/com/jmc/test/learn/cpp/fixed.cpp.s"
 	D:\Programs\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1426~1.288\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\CTest.dir\com\jmc\test\learn\cpp\fixed.cpp.s /c D:\Programs\JetBrains\CProjects\CTest\com\jmc\test\learn\cpp\fixed.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\fixed.cpp.s /c D:\Programs\JetBrains\Projects\CProjects\CTest\src\com\jmc\test\learn\cpp\fixed.cpp
 <<
 
-CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\friend.cpp.obj: CMakeFiles\CTest.dir\flags.make
-CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\friend.cpp.obj: ..\com\jmc\test\learn\cpp\friend.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Programs\JetBrains\CProjects\CTest\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object CMakeFiles/CTest.dir/com/jmc/test/learn/cpp/friend.cpp.obj"
+CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\friend.cpp.obj: CMakeFiles\CTest.dir\flags.make
+CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\friend.cpp.obj: ..\src\com\jmc\test\learn\cpp\friend.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Programs\JetBrains\Projects\CProjects\CTest\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object CMakeFiles/CTest.dir/src/com/jmc/test/learn/cpp/friend.cpp.obj"
 	D:\Programs\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1426~1.288\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\CTest.dir\com\jmc\test\learn\cpp\friend.cpp.obj /FdCMakeFiles\CTest.dir\ /FS -c D:\Programs\JetBrains\CProjects\CTest\com\jmc\test\learn\cpp\friend.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\friend.cpp.obj /FdCMakeFiles\CTest.dir\ /FS -c D:\Programs\JetBrains\Projects\CProjects\CTest\src\com\jmc\test\learn\cpp\friend.cpp
 <<
 
-CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\friend.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CTest.dir/com/jmc/test/learn/cpp/friend.cpp.i"
-	D:\Programs\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1426~1.288\bin\Hostx86\x86\cl.exe > CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\friend.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Programs\JetBrains\CProjects\CTest\com\jmc\test\learn\cpp\friend.cpp
+CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\friend.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CTest.dir/src/com/jmc/test/learn/cpp/friend.cpp.i"
+	D:\Programs\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1426~1.288\bin\Hostx86\x86\cl.exe > CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\friend.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Programs\JetBrains\Projects\CProjects\CTest\src\com\jmc\test\learn\cpp\friend.cpp
 <<
 
-CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\friend.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CTest.dir/com/jmc/test/learn/cpp/friend.cpp.s"
+CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\friend.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CTest.dir/src/com/jmc/test/learn/cpp/friend.cpp.s"
 	D:\Programs\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1426~1.288\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\CTest.dir\com\jmc\test\learn\cpp\friend.cpp.s /c D:\Programs\JetBrains\CProjects\CTest\com\jmc\test\learn\cpp\friend.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\friend.cpp.s /c D:\Programs\JetBrains\Projects\CProjects\CTest\src\com\jmc\test\learn\cpp\friend.cpp
 <<
 
-CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\init_list.cpp.obj: CMakeFiles\CTest.dir\flags.make
-CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\init_list.cpp.obj: ..\com\jmc\test\learn\cpp\init_list.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Programs\JetBrains\CProjects\CTest\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object CMakeFiles/CTest.dir/com/jmc/test/learn/cpp/init_list.cpp.obj"
+CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\init_list.cpp.obj: CMakeFiles\CTest.dir\flags.make
+CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\init_list.cpp.obj: ..\src\com\jmc\test\learn\cpp\init_list.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Programs\JetBrains\Projects\CProjects\CTest\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object CMakeFiles/CTest.dir/src/com/jmc/test/learn/cpp/init_list.cpp.obj"
 	D:\Programs\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1426~1.288\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\CTest.dir\com\jmc\test\learn\cpp\init_list.cpp.obj /FdCMakeFiles\CTest.dir\ /FS -c D:\Programs\JetBrains\CProjects\CTest\com\jmc\test\learn\cpp\init_list.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\init_list.cpp.obj /FdCMakeFiles\CTest.dir\ /FS -c D:\Programs\JetBrains\Projects\CProjects\CTest\src\com\jmc\test\learn\cpp\init_list.cpp
 <<
 
-CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\init_list.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CTest.dir/com/jmc/test/learn/cpp/init_list.cpp.i"
-	D:\Programs\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1426~1.288\bin\Hostx86\x86\cl.exe > CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\init_list.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Programs\JetBrains\CProjects\CTest\com\jmc\test\learn\cpp\init_list.cpp
+CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\init_list.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CTest.dir/src/com/jmc/test/learn/cpp/init_list.cpp.i"
+	D:\Programs\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1426~1.288\bin\Hostx86\x86\cl.exe > CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\init_list.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Programs\JetBrains\Projects\CProjects\CTest\src\com\jmc\test\learn\cpp\init_list.cpp
 <<
 
-CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\init_list.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CTest.dir/com/jmc/test/learn/cpp/init_list.cpp.s"
+CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\init_list.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CTest.dir/src/com/jmc/test/learn/cpp/init_list.cpp.s"
 	D:\Programs\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1426~1.288\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\CTest.dir\com\jmc\test\learn\cpp\init_list.cpp.s /c D:\Programs\JetBrains\CProjects\CTest\com\jmc\test\learn\cpp\init_list.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\init_list.cpp.s /c D:\Programs\JetBrains\Projects\CProjects\CTest\src\com\jmc\test\learn\cpp\init_list.cpp
 <<
 
-CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\javaStyle.cpp.obj: CMakeFiles\CTest.dir\flags.make
-CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\javaStyle.cpp.obj: ..\com\jmc\test\learn\cpp\javaStyle.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Programs\JetBrains\CProjects\CTest\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object CMakeFiles/CTest.dir/com/jmc/test/learn/cpp/javaStyle.cpp.obj"
+CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\javaStyle.cpp.obj: CMakeFiles\CTest.dir\flags.make
+CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\javaStyle.cpp.obj: ..\src\com\jmc\test\learn\cpp\javaStyle.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Programs\JetBrains\Projects\CProjects\CTest\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object CMakeFiles/CTest.dir/src/com/jmc/test/learn/cpp/javaStyle.cpp.obj"
 	D:\Programs\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1426~1.288\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\CTest.dir\com\jmc\test\learn\cpp\javaStyle.cpp.obj /FdCMakeFiles\CTest.dir\ /FS -c D:\Programs\JetBrains\CProjects\CTest\com\jmc\test\learn\cpp\javaStyle.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\javaStyle.cpp.obj /FdCMakeFiles\CTest.dir\ /FS -c D:\Programs\JetBrains\Projects\CProjects\CTest\src\com\jmc\test\learn\cpp\javaStyle.cpp
 <<
 
-CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\javaStyle.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CTest.dir/com/jmc/test/learn/cpp/javaStyle.cpp.i"
-	D:\Programs\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1426~1.288\bin\Hostx86\x86\cl.exe > CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\javaStyle.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Programs\JetBrains\CProjects\CTest\com\jmc\test\learn\cpp\javaStyle.cpp
+CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\javaStyle.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CTest.dir/src/com/jmc/test/learn/cpp/javaStyle.cpp.i"
+	D:\Programs\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1426~1.288\bin\Hostx86\x86\cl.exe > CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\javaStyle.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Programs\JetBrains\Projects\CProjects\CTest\src\com\jmc\test\learn\cpp\javaStyle.cpp
 <<
 
-CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\javaStyle.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CTest.dir/com/jmc/test/learn/cpp/javaStyle.cpp.s"
+CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\javaStyle.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CTest.dir/src/com/jmc/test/learn/cpp/javaStyle.cpp.s"
 	D:\Programs\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1426~1.288\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\CTest.dir\com\jmc\test\learn\cpp\javaStyle.cpp.s /c D:\Programs\JetBrains\CProjects\CTest\com\jmc\test\learn\cpp\javaStyle.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\javaStyle.cpp.s /c D:\Programs\JetBrains\Projects\CProjects\CTest\src\com\jmc\test\learn\cpp\javaStyle.cpp
 <<
 
-CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\lambda.cpp.obj: CMakeFiles\CTest.dir\flags.make
-CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\lambda.cpp.obj: ..\com\jmc\test\learn\cpp\lambda.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Programs\JetBrains\CProjects\CTest\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building CXX object CMakeFiles/CTest.dir/com/jmc/test/learn/cpp/lambda.cpp.obj"
+CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\lambda.cpp.obj: CMakeFiles\CTest.dir\flags.make
+CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\lambda.cpp.obj: ..\src\com\jmc\test\learn\cpp\lambda.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Programs\JetBrains\Projects\CProjects\CTest\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building CXX object CMakeFiles/CTest.dir/src/com/jmc/test/learn/cpp/lambda.cpp.obj"
 	D:\Programs\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1426~1.288\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\CTest.dir\com\jmc\test\learn\cpp\lambda.cpp.obj /FdCMakeFiles\CTest.dir\ /FS -c D:\Programs\JetBrains\CProjects\CTest\com\jmc\test\learn\cpp\lambda.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\lambda.cpp.obj /FdCMakeFiles\CTest.dir\ /FS -c D:\Programs\JetBrains\Projects\CProjects\CTest\src\com\jmc\test\learn\cpp\lambda.cpp
 <<
 
-CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\lambda.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CTest.dir/com/jmc/test/learn/cpp/lambda.cpp.i"
-	D:\Programs\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1426~1.288\bin\Hostx86\x86\cl.exe > CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\lambda.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Programs\JetBrains\CProjects\CTest\com\jmc\test\learn\cpp\lambda.cpp
+CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\lambda.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CTest.dir/src/com/jmc/test/learn/cpp/lambda.cpp.i"
+	D:\Programs\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1426~1.288\bin\Hostx86\x86\cl.exe > CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\lambda.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Programs\JetBrains\Projects\CProjects\CTest\src\com\jmc\test\learn\cpp\lambda.cpp
 <<
 
-CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\lambda.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CTest.dir/com/jmc/test/learn/cpp/lambda.cpp.s"
+CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\lambda.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CTest.dir/src/com/jmc/test/learn/cpp/lambda.cpp.s"
 	D:\Programs\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1426~1.288\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\CTest.dir\com\jmc\test\learn\cpp\lambda.cpp.s /c D:\Programs\JetBrains\CProjects\CTest\com\jmc\test\learn\cpp\lambda.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\lambda.cpp.s /c D:\Programs\JetBrains\Projects\CProjects\CTest\src\com\jmc\test\learn\cpp\lambda.cpp
 <<
 
-CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\list.cpp.obj: CMakeFiles\CTest.dir\flags.make
-CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\list.cpp.obj: ..\com\jmc\test\learn\cpp\list.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Programs\JetBrains\CProjects\CTest\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building CXX object CMakeFiles/CTest.dir/com/jmc/test/learn/cpp/list.cpp.obj"
+CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\list.cpp.obj: CMakeFiles\CTest.dir\flags.make
+CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\list.cpp.obj: ..\src\com\jmc\test\learn\cpp\list.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Programs\JetBrains\Projects\CProjects\CTest\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building CXX object CMakeFiles/CTest.dir/src/com/jmc/test/learn/cpp/list.cpp.obj"
 	D:\Programs\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1426~1.288\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\CTest.dir\com\jmc\test\learn\cpp\list.cpp.obj /FdCMakeFiles\CTest.dir\ /FS -c D:\Programs\JetBrains\CProjects\CTest\com\jmc\test\learn\cpp\list.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\list.cpp.obj /FdCMakeFiles\CTest.dir\ /FS -c D:\Programs\JetBrains\Projects\CProjects\CTest\src\com\jmc\test\learn\cpp\list.cpp
 <<
 
-CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\list.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CTest.dir/com/jmc/test/learn/cpp/list.cpp.i"
-	D:\Programs\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1426~1.288\bin\Hostx86\x86\cl.exe > CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\list.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Programs\JetBrains\CProjects\CTest\com\jmc\test\learn\cpp\list.cpp
+CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\list.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CTest.dir/src/com/jmc/test/learn/cpp/list.cpp.i"
+	D:\Programs\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1426~1.288\bin\Hostx86\x86\cl.exe > CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\list.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Programs\JetBrains\Projects\CProjects\CTest\src\com\jmc\test\learn\cpp\list.cpp
 <<
 
-CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\list.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CTest.dir/com/jmc/test/learn/cpp/list.cpp.s"
+CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\list.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CTest.dir/src/com/jmc/test/learn/cpp/list.cpp.s"
 	D:\Programs\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1426~1.288\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\CTest.dir\com\jmc\test\learn\cpp\list.cpp.s /c D:\Programs\JetBrains\CProjects\CTest\com\jmc\test\learn\cpp\list.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\list.cpp.s /c D:\Programs\JetBrains\Projects\CProjects\CTest\src\com\jmc\test\learn\cpp\list.cpp
 <<
 
-CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\main.cpp.obj: CMakeFiles\CTest.dir\flags.make
-CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\main.cpp.obj: ..\com\jmc\test\learn\cpp\main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Programs\JetBrains\CProjects\CTest\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building CXX object CMakeFiles/CTest.dir/com/jmc/test/learn/cpp/main.cpp.obj"
+CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\main.cpp.obj: CMakeFiles\CTest.dir\flags.make
+CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\main.cpp.obj: ..\src\com\jmc\test\learn\cpp\main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Programs\JetBrains\Projects\CProjects\CTest\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building CXX object CMakeFiles/CTest.dir/src/com/jmc/test/learn/cpp/main.cpp.obj"
 	D:\Programs\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1426~1.288\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\CTest.dir\com\jmc\test\learn\cpp\main.cpp.obj /FdCMakeFiles\CTest.dir\ /FS -c D:\Programs\JetBrains\CProjects\CTest\com\jmc\test\learn\cpp\main.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\main.cpp.obj /FdCMakeFiles\CTest.dir\ /FS -c D:\Programs\JetBrains\Projects\CProjects\CTest\src\com\jmc\test\learn\cpp\main.cpp
 <<
 
-CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CTest.dir/com/jmc/test/learn/cpp/main.cpp.i"
-	D:\Programs\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1426~1.288\bin\Hostx86\x86\cl.exe > CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\main.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Programs\JetBrains\CProjects\CTest\com\jmc\test\learn\cpp\main.cpp
+CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CTest.dir/src/com/jmc/test/learn/cpp/main.cpp.i"
+	D:\Programs\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1426~1.288\bin\Hostx86\x86\cl.exe > CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\main.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Programs\JetBrains\Projects\CProjects\CTest\src\com\jmc\test\learn\cpp\main.cpp
 <<
 
-CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CTest.dir/com/jmc/test/learn/cpp/main.cpp.s"
+CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CTest.dir/src/com/jmc/test/learn/cpp/main.cpp.s"
 	D:\Programs\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1426~1.288\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\CTest.dir\com\jmc\test\learn\cpp\main.cpp.s /c D:\Programs\JetBrains\CProjects\CTest\com\jmc\test\learn\cpp\main.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\main.cpp.s /c D:\Programs\JetBrains\Projects\CProjects\CTest\src\com\jmc\test\learn\cpp\main.cpp
 <<
 
-CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\map.cpp.obj: CMakeFiles\CTest.dir\flags.make
-CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\map.cpp.obj: ..\com\jmc\test\learn\cpp\map.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Programs\JetBrains\CProjects\CTest\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building CXX object CMakeFiles/CTest.dir/com/jmc/test/learn/cpp/map.cpp.obj"
+CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\map.cpp.obj: CMakeFiles\CTest.dir\flags.make
+CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\map.cpp.obj: ..\src\com\jmc\test\learn\cpp\map.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Programs\JetBrains\Projects\CProjects\CTest\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building CXX object CMakeFiles/CTest.dir/src/com/jmc/test/learn/cpp/map.cpp.obj"
 	D:\Programs\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1426~1.288\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\CTest.dir\com\jmc\test\learn\cpp\map.cpp.obj /FdCMakeFiles\CTest.dir\ /FS -c D:\Programs\JetBrains\CProjects\CTest\com\jmc\test\learn\cpp\map.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\map.cpp.obj /FdCMakeFiles\CTest.dir\ /FS -c D:\Programs\JetBrains\Projects\CProjects\CTest\src\com\jmc\test\learn\cpp\map.cpp
 <<
 
-CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\map.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CTest.dir/com/jmc/test/learn/cpp/map.cpp.i"
-	D:\Programs\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1426~1.288\bin\Hostx86\x86\cl.exe > CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\map.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Programs\JetBrains\CProjects\CTest\com\jmc\test\learn\cpp\map.cpp
+CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\map.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CTest.dir/src/com/jmc/test/learn/cpp/map.cpp.i"
+	D:\Programs\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1426~1.288\bin\Hostx86\x86\cl.exe > CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\map.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Programs\JetBrains\Projects\CProjects\CTest\src\com\jmc\test\learn\cpp\map.cpp
 <<
 
-CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\map.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CTest.dir/com/jmc/test/learn/cpp/map.cpp.s"
+CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\map.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CTest.dir/src/com/jmc/test/learn/cpp/map.cpp.s"
 	D:\Programs\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1426~1.288\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\CTest.dir\com\jmc\test\learn\cpp\map.cpp.s /c D:\Programs\JetBrains\CProjects\CTest\com\jmc\test\learn\cpp\map.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\map.cpp.s /c D:\Programs\JetBrains\Projects\CProjects\CTest\src\com\jmc\test\learn\cpp\map.cpp
 <<
 
-CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\memory.cpp.obj: CMakeFiles\CTest.dir\flags.make
-CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\memory.cpp.obj: ..\com\jmc\test\learn\cpp\memory.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Programs\JetBrains\CProjects\CTest\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building CXX object CMakeFiles/CTest.dir/com/jmc/test/learn/cpp/memory.cpp.obj"
+CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\memory.cpp.obj: CMakeFiles\CTest.dir\flags.make
+CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\memory.cpp.obj: ..\src\com\jmc\test\learn\cpp\memory.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Programs\JetBrains\Projects\CProjects\CTest\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building CXX object CMakeFiles/CTest.dir/src/com/jmc/test/learn/cpp/memory.cpp.obj"
 	D:\Programs\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1426~1.288\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\CTest.dir\com\jmc\test\learn\cpp\memory.cpp.obj /FdCMakeFiles\CTest.dir\ /FS -c D:\Programs\JetBrains\CProjects\CTest\com\jmc\test\learn\cpp\memory.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\memory.cpp.obj /FdCMakeFiles\CTest.dir\ /FS -c D:\Programs\JetBrains\Projects\CProjects\CTest\src\com\jmc\test\learn\cpp\memory.cpp
 <<
 
-CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\memory.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CTest.dir/com/jmc/test/learn/cpp/memory.cpp.i"
-	D:\Programs\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1426~1.288\bin\Hostx86\x86\cl.exe > CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\memory.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Programs\JetBrains\CProjects\CTest\com\jmc\test\learn\cpp\memory.cpp
+CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\memory.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CTest.dir/src/com/jmc/test/learn/cpp/memory.cpp.i"
+	D:\Programs\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1426~1.288\bin\Hostx86\x86\cl.exe > CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\memory.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Programs\JetBrains\Projects\CProjects\CTest\src\com\jmc\test\learn\cpp\memory.cpp
 <<
 
-CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\memory.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CTest.dir/com/jmc/test/learn/cpp/memory.cpp.s"
+CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\memory.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CTest.dir/src/com/jmc/test/learn/cpp/memory.cpp.s"
 	D:\Programs\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1426~1.288\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\CTest.dir\com\jmc\test\learn\cpp\memory.cpp.s /c D:\Programs\JetBrains\CProjects\CTest\com\jmc\test\learn\cpp\memory.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\memory.cpp.s /c D:\Programs\JetBrains\Projects\CProjects\CTest\src\com\jmc\test\learn\cpp\memory.cpp
 <<
 
-CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\news.cpp.obj: CMakeFiles\CTest.dir\flags.make
-CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\news.cpp.obj: ..\com\jmc\test\learn\cpp\news.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Programs\JetBrains\CProjects\CTest\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building CXX object CMakeFiles/CTest.dir/com/jmc/test/learn/cpp/news.cpp.obj"
+CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\news.cpp.obj: CMakeFiles\CTest.dir\flags.make
+CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\news.cpp.obj: ..\src\com\jmc\test\learn\cpp\news.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Programs\JetBrains\Projects\CProjects\CTest\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building CXX object CMakeFiles/CTest.dir/src/com/jmc/test/learn/cpp/news.cpp.obj"
 	D:\Programs\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1426~1.288\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\CTest.dir\com\jmc\test\learn\cpp\news.cpp.obj /FdCMakeFiles\CTest.dir\ /FS -c D:\Programs\JetBrains\CProjects\CTest\com\jmc\test\learn\cpp\news.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\news.cpp.obj /FdCMakeFiles\CTest.dir\ /FS -c D:\Programs\JetBrains\Projects\CProjects\CTest\src\com\jmc\test\learn\cpp\news.cpp
 <<
 
-CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\news.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CTest.dir/com/jmc/test/learn/cpp/news.cpp.i"
-	D:\Programs\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1426~1.288\bin\Hostx86\x86\cl.exe > CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\news.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Programs\JetBrains\CProjects\CTest\com\jmc\test\learn\cpp\news.cpp
+CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\news.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CTest.dir/src/com/jmc/test/learn/cpp/news.cpp.i"
+	D:\Programs\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1426~1.288\bin\Hostx86\x86\cl.exe > CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\news.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Programs\JetBrains\Projects\CProjects\CTest\src\com\jmc\test\learn\cpp\news.cpp
 <<
 
-CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\news.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CTest.dir/com/jmc/test/learn/cpp/news.cpp.s"
+CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\news.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CTest.dir/src/com/jmc/test/learn/cpp/news.cpp.s"
 	D:\Programs\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1426~1.288\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\CTest.dir\com\jmc\test\learn\cpp\news.cpp.s /c D:\Programs\JetBrains\CProjects\CTest\com\jmc\test\learn\cpp\news.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\news.cpp.s /c D:\Programs\JetBrains\Projects\CProjects\CTest\src\com\jmc\test\learn\cpp\news.cpp
 <<
 
-CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\operator.cpp.obj: CMakeFiles\CTest.dir\flags.make
-CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\operator.cpp.obj: ..\com\jmc\test\learn\cpp\operator.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Programs\JetBrains\CProjects\CTest\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building CXX object CMakeFiles/CTest.dir/com/jmc/test/learn/cpp/operator.cpp.obj"
+CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\operator.cpp.obj: CMakeFiles\CTest.dir\flags.make
+CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\operator.cpp.obj: ..\src\com\jmc\test\learn\cpp\operator.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Programs\JetBrains\Projects\CProjects\CTest\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building CXX object CMakeFiles/CTest.dir/src/com/jmc/test/learn/cpp/operator.cpp.obj"
 	D:\Programs\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1426~1.288\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\CTest.dir\com\jmc\test\learn\cpp\operator.cpp.obj /FdCMakeFiles\CTest.dir\ /FS -c D:\Programs\JetBrains\CProjects\CTest\com\jmc\test\learn\cpp\operator.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\operator.cpp.obj /FdCMakeFiles\CTest.dir\ /FS -c D:\Programs\JetBrains\Projects\CProjects\CTest\src\com\jmc\test\learn\cpp\operator.cpp
 <<
 
-CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\operator.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CTest.dir/com/jmc/test/learn/cpp/operator.cpp.i"
-	D:\Programs\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1426~1.288\bin\Hostx86\x86\cl.exe > CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\operator.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Programs\JetBrains\CProjects\CTest\com\jmc\test\learn\cpp\operator.cpp
+CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\operator.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CTest.dir/src/com/jmc/test/learn/cpp/operator.cpp.i"
+	D:\Programs\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1426~1.288\bin\Hostx86\x86\cl.exe > CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\operator.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Programs\JetBrains\Projects\CProjects\CTest\src\com\jmc\test\learn\cpp\operator.cpp
 <<
 
-CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\operator.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CTest.dir/com/jmc/test/learn/cpp/operator.cpp.s"
+CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\operator.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CTest.dir/src/com/jmc/test/learn/cpp/operator.cpp.s"
 	D:\Programs\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1426~1.288\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\CTest.dir\com\jmc\test\learn\cpp\operator.cpp.s /c D:\Programs\JetBrains\CProjects\CTest\com\jmc\test\learn\cpp\operator.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\operator.cpp.s /c D:\Programs\JetBrains\Projects\CProjects\CTest\src\com\jmc\test\learn\cpp\operator.cpp
 <<
 
-CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\override&final.cpp.obj: CMakeFiles\CTest.dir\flags.make
-CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\override&final.cpp.obj: ..\com\jmc\test\learn\cpp\override&final.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Programs\JetBrains\CProjects\CTest\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building CXX object CMakeFiles/CTest.dir/com/jmc/test/learn/cpp/override&final.cpp.obj"
+CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\override&final.cpp.obj: CMakeFiles\CTest.dir\flags.make
+CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\override&final.cpp.obj: ..\src\com\jmc\test\learn\cpp\override&final.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Programs\JetBrains\Projects\CProjects\CTest\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building CXX object CMakeFiles/CTest.dir/src/com/jmc/test/learn/cpp/override&final.cpp.obj"
 	D:\Programs\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1426~1.288\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /Fo"CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\override&final.cpp.obj" /FdCMakeFiles\CTest.dir\ /FS -c "D:\Programs\JetBrains\CProjects\CTest\com\jmc\test\learn\cpp\override&final.cpp"
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /Fo"CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\override&final.cpp.obj" /FdCMakeFiles\CTest.dir\ /FS -c "D:\Programs\JetBrains\Projects\CProjects\CTest\src\com\jmc\test\learn\cpp\override&final.cpp"
 <<
 
-CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\override&final.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CTest.dir/com/jmc/test/learn/cpp/override&final.cpp.i"
-	D:\Programs\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1426~1.288\bin\Hostx86\x86\cl.exe > "CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\override&final.cpp.i" @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\Programs\JetBrains\CProjects\CTest\com\jmc\test\learn\cpp\override&final.cpp"
+CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\override&final.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CTest.dir/src/com/jmc/test/learn/cpp/override&final.cpp.i"
+	D:\Programs\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1426~1.288\bin\Hostx86\x86\cl.exe > "CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\override&final.cpp.i" @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\Programs\JetBrains\Projects\CProjects\CTest\src\com\jmc\test\learn\cpp\override&final.cpp"
 <<
 
-CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\override&final.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CTest.dir/com/jmc/test/learn/cpp/override&final.cpp.s"
+CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\override&final.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CTest.dir/src/com/jmc/test/learn/cpp/override&final.cpp.s"
 	D:\Programs\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1426~1.288\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /Fa"CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\override&final.cpp.s" /c "D:\Programs\JetBrains\CProjects\CTest\com\jmc\test\learn\cpp\override&final.cpp"
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /Fa"CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\override&final.cpp.s" /c "D:\Programs\JetBrains\Projects\CProjects\CTest\src\com\jmc\test\learn\cpp\override&final.cpp"
 <<
 
-CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\pair.cpp.obj: CMakeFiles\CTest.dir\flags.make
-CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\pair.cpp.obj: ..\com\jmc\test\learn\cpp\pair.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Programs\JetBrains\CProjects\CTest\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building CXX object CMakeFiles/CTest.dir/com/jmc/test/learn/cpp/pair.cpp.obj"
+CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\pair.cpp.obj: CMakeFiles\CTest.dir\flags.make
+CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\pair.cpp.obj: ..\src\com\jmc\test\learn\cpp\pair.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Programs\JetBrains\Projects\CProjects\CTest\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building CXX object CMakeFiles/CTest.dir/src/com/jmc/test/learn/cpp/pair.cpp.obj"
 	D:\Programs\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1426~1.288\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\CTest.dir\com\jmc\test\learn\cpp\pair.cpp.obj /FdCMakeFiles\CTest.dir\ /FS -c D:\Programs\JetBrains\CProjects\CTest\com\jmc\test\learn\cpp\pair.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\pair.cpp.obj /FdCMakeFiles\CTest.dir\ /FS -c D:\Programs\JetBrains\Projects\CProjects\CTest\src\com\jmc\test\learn\cpp\pair.cpp
 <<
 
-CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\pair.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CTest.dir/com/jmc/test/learn/cpp/pair.cpp.i"
-	D:\Programs\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1426~1.288\bin\Hostx86\x86\cl.exe > CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\pair.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Programs\JetBrains\CProjects\CTest\com\jmc\test\learn\cpp\pair.cpp
+CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\pair.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CTest.dir/src/com/jmc/test/learn/cpp/pair.cpp.i"
+	D:\Programs\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1426~1.288\bin\Hostx86\x86\cl.exe > CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\pair.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Programs\JetBrains\Projects\CProjects\CTest\src\com\jmc\test\learn\cpp\pair.cpp
 <<
 
-CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\pair.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CTest.dir/com/jmc/test/learn/cpp/pair.cpp.s"
+CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\pair.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CTest.dir/src/com/jmc/test/learn/cpp/pair.cpp.s"
 	D:\Programs\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1426~1.288\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\CTest.dir\com\jmc\test\learn\cpp\pair.cpp.s /c D:\Programs\JetBrains\CProjects\CTest\com\jmc\test\learn\cpp\pair.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\pair.cpp.s /c D:\Programs\JetBrains\Projects\CProjects\CTest\src\com\jmc\test\learn\cpp\pair.cpp
 <<
 
-CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\ptr.cpp.obj: CMakeFiles\CTest.dir\flags.make
-CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\ptr.cpp.obj: ..\com\jmc\test\learn\cpp\ptr.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Programs\JetBrains\CProjects\CTest\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building CXX object CMakeFiles/CTest.dir/com/jmc/test/learn/cpp/ptr.cpp.obj"
+CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\ptr.cpp.obj: CMakeFiles\CTest.dir\flags.make
+CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\ptr.cpp.obj: ..\src\com\jmc\test\learn\cpp\ptr.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Programs\JetBrains\Projects\CProjects\CTest\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building CXX object CMakeFiles/CTest.dir/src/com/jmc/test/learn/cpp/ptr.cpp.obj"
 	D:\Programs\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1426~1.288\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\CTest.dir\com\jmc\test\learn\cpp\ptr.cpp.obj /FdCMakeFiles\CTest.dir\ /FS -c D:\Programs\JetBrains\CProjects\CTest\com\jmc\test\learn\cpp\ptr.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\ptr.cpp.obj /FdCMakeFiles\CTest.dir\ /FS -c D:\Programs\JetBrains\Projects\CProjects\CTest\src\com\jmc\test\learn\cpp\ptr.cpp
 <<
 
-CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\ptr.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CTest.dir/com/jmc/test/learn/cpp/ptr.cpp.i"
-	D:\Programs\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1426~1.288\bin\Hostx86\x86\cl.exe > CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\ptr.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Programs\JetBrains\CProjects\CTest\com\jmc\test\learn\cpp\ptr.cpp
+CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\ptr.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CTest.dir/src/com/jmc/test/learn/cpp/ptr.cpp.i"
+	D:\Programs\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1426~1.288\bin\Hostx86\x86\cl.exe > CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\ptr.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Programs\JetBrains\Projects\CProjects\CTest\src\com\jmc\test\learn\cpp\ptr.cpp
 <<
 
-CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\ptr.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CTest.dir/com/jmc/test/learn/cpp/ptr.cpp.s"
+CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\ptr.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CTest.dir/src/com/jmc/test/learn/cpp/ptr.cpp.s"
 	D:\Programs\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1426~1.288\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\CTest.dir\com\jmc\test\learn\cpp\ptr.cpp.s /c D:\Programs\JetBrains\CProjects\CTest\com\jmc\test\learn\cpp\ptr.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\ptr.cpp.s /c D:\Programs\JetBrains\Projects\CProjects\CTest\src\com\jmc\test\learn\cpp\ptr.cpp
 <<
 
-CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\ptr2.cpp.obj: CMakeFiles\CTest.dir\flags.make
-CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\ptr2.cpp.obj: ..\com\jmc\test\learn\cpp\ptr2.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Programs\JetBrains\CProjects\CTest\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building CXX object CMakeFiles/CTest.dir/com/jmc/test/learn/cpp/ptr2.cpp.obj"
+CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\ptr2.cpp.obj: CMakeFiles\CTest.dir\flags.make
+CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\ptr2.cpp.obj: ..\src\com\jmc\test\learn\cpp\ptr2.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Programs\JetBrains\Projects\CProjects\CTest\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building CXX object CMakeFiles/CTest.dir/src/com/jmc/test/learn/cpp/ptr2.cpp.obj"
 	D:\Programs\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1426~1.288\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\CTest.dir\com\jmc\test\learn\cpp\ptr2.cpp.obj /FdCMakeFiles\CTest.dir\ /FS -c D:\Programs\JetBrains\CProjects\CTest\com\jmc\test\learn\cpp\ptr2.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\ptr2.cpp.obj /FdCMakeFiles\CTest.dir\ /FS -c D:\Programs\JetBrains\Projects\CProjects\CTest\src\com\jmc\test\learn\cpp\ptr2.cpp
 <<
 
-CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\ptr2.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CTest.dir/com/jmc/test/learn/cpp/ptr2.cpp.i"
-	D:\Programs\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1426~1.288\bin\Hostx86\x86\cl.exe > CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\ptr2.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Programs\JetBrains\CProjects\CTest\com\jmc\test\learn\cpp\ptr2.cpp
+CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\ptr2.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CTest.dir/src/com/jmc/test/learn/cpp/ptr2.cpp.i"
+	D:\Programs\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1426~1.288\bin\Hostx86\x86\cl.exe > CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\ptr2.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Programs\JetBrains\Projects\CProjects\CTest\src\com\jmc\test\learn\cpp\ptr2.cpp
 <<
 
-CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\ptr2.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CTest.dir/com/jmc/test/learn/cpp/ptr2.cpp.s"
+CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\ptr2.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CTest.dir/src/com/jmc/test/learn/cpp/ptr2.cpp.s"
 	D:\Programs\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1426~1.288\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\CTest.dir\com\jmc\test\learn\cpp\ptr2.cpp.s /c D:\Programs\JetBrains\CProjects\CTest\com\jmc\test\learn\cpp\ptr2.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\ptr2.cpp.s /c D:\Programs\JetBrains\Projects\CProjects\CTest\src\com\jmc\test\learn\cpp\ptr2.cpp
 <<
 
-CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\ptr3.cpp.obj: CMakeFiles\CTest.dir\flags.make
-CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\ptr3.cpp.obj: ..\com\jmc\test\learn\cpp\ptr3.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Programs\JetBrains\CProjects\CTest\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building CXX object CMakeFiles/CTest.dir/com/jmc/test/learn/cpp/ptr3.cpp.obj"
+CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\ptr3.cpp.obj: CMakeFiles\CTest.dir\flags.make
+CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\ptr3.cpp.obj: ..\src\com\jmc\test\learn\cpp\ptr3.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Programs\JetBrains\Projects\CProjects\CTest\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building CXX object CMakeFiles/CTest.dir/src/com/jmc/test/learn/cpp/ptr3.cpp.obj"
 	D:\Programs\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1426~1.288\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\CTest.dir\com\jmc\test\learn\cpp\ptr3.cpp.obj /FdCMakeFiles\CTest.dir\ /FS -c D:\Programs\JetBrains\CProjects\CTest\com\jmc\test\learn\cpp\ptr3.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\ptr3.cpp.obj /FdCMakeFiles\CTest.dir\ /FS -c D:\Programs\JetBrains\Projects\CProjects\CTest\src\com\jmc\test\learn\cpp\ptr3.cpp
 <<
 
-CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\ptr3.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CTest.dir/com/jmc/test/learn/cpp/ptr3.cpp.i"
-	D:\Programs\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1426~1.288\bin\Hostx86\x86\cl.exe > CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\ptr3.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Programs\JetBrains\CProjects\CTest\com\jmc\test\learn\cpp\ptr3.cpp
+CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\ptr3.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CTest.dir/src/com/jmc/test/learn/cpp/ptr3.cpp.i"
+	D:\Programs\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1426~1.288\bin\Hostx86\x86\cl.exe > CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\ptr3.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Programs\JetBrains\Projects\CProjects\CTest\src\com\jmc\test\learn\cpp\ptr3.cpp
 <<
 
-CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\ptr3.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CTest.dir/com/jmc/test/learn/cpp/ptr3.cpp.s"
+CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\ptr3.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CTest.dir/src/com/jmc/test/learn/cpp/ptr3.cpp.s"
 	D:\Programs\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1426~1.288\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\CTest.dir\com\jmc\test\learn\cpp\ptr3.cpp.s /c D:\Programs\JetBrains\CProjects\CTest\com\jmc\test\learn\cpp\ptr3.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\ptr3.cpp.s /c D:\Programs\JetBrains\Projects\CProjects\CTest\src\com\jmc\test\learn\cpp\ptr3.cpp
 <<
 
-CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\rand.cpp.obj: CMakeFiles\CTest.dir\flags.make
-CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\rand.cpp.obj: ..\com\jmc\test\learn\cpp\rand.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Programs\JetBrains\CProjects\CTest\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building CXX object CMakeFiles/CTest.dir/com/jmc/test/learn/cpp/rand.cpp.obj"
+CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\rand.cpp.obj: CMakeFiles\CTest.dir\flags.make
+CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\rand.cpp.obj: ..\src\com\jmc\test\learn\cpp\rand.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Programs\JetBrains\Projects\CProjects\CTest\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building CXX object CMakeFiles/CTest.dir/src/com/jmc/test/learn/cpp/rand.cpp.obj"
 	D:\Programs\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1426~1.288\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\CTest.dir\com\jmc\test\learn\cpp\rand.cpp.obj /FdCMakeFiles\CTest.dir\ /FS -c D:\Programs\JetBrains\CProjects\CTest\com\jmc\test\learn\cpp\rand.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\rand.cpp.obj /FdCMakeFiles\CTest.dir\ /FS -c D:\Programs\JetBrains\Projects\CProjects\CTest\src\com\jmc\test\learn\cpp\rand.cpp
 <<
 
-CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\rand.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CTest.dir/com/jmc/test/learn/cpp/rand.cpp.i"
-	D:\Programs\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1426~1.288\bin\Hostx86\x86\cl.exe > CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\rand.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Programs\JetBrains\CProjects\CTest\com\jmc\test\learn\cpp\rand.cpp
+CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\rand.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CTest.dir/src/com/jmc/test/learn/cpp/rand.cpp.i"
+	D:\Programs\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1426~1.288\bin\Hostx86\x86\cl.exe > CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\rand.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Programs\JetBrains\Projects\CProjects\CTest\src\com\jmc\test\learn\cpp\rand.cpp
 <<
 
-CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\rand.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CTest.dir/com/jmc/test/learn/cpp/rand.cpp.s"
+CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\rand.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CTest.dir/src/com/jmc/test/learn/cpp/rand.cpp.s"
 	D:\Programs\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1426~1.288\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\CTest.dir\com\jmc\test\learn\cpp\rand.cpp.s /c D:\Programs\JetBrains\CProjects\CTest\com\jmc\test\learn\cpp\rand.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\rand.cpp.s /c D:\Programs\JetBrains\Projects\CProjects\CTest\src\com\jmc\test\learn\cpp\rand.cpp
 <<
 
-CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\rvalue.cpp.obj: CMakeFiles\CTest.dir\flags.make
-CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\rvalue.cpp.obj: ..\com\jmc\test\learn\cpp\rvalue.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Programs\JetBrains\CProjects\CTest\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building CXX object CMakeFiles/CTest.dir/com/jmc/test/learn/cpp/rvalue.cpp.obj"
+CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\rvalue.cpp.obj: CMakeFiles\CTest.dir\flags.make
+CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\rvalue.cpp.obj: ..\src\com\jmc\test\learn\cpp\rvalue.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Programs\JetBrains\Projects\CProjects\CTest\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building CXX object CMakeFiles/CTest.dir/src/com/jmc/test/learn/cpp/rvalue.cpp.obj"
 	D:\Programs\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1426~1.288\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\CTest.dir\com\jmc\test\learn\cpp\rvalue.cpp.obj /FdCMakeFiles\CTest.dir\ /FS -c D:\Programs\JetBrains\CProjects\CTest\com\jmc\test\learn\cpp\rvalue.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\rvalue.cpp.obj /FdCMakeFiles\CTest.dir\ /FS -c D:\Programs\JetBrains\Projects\CProjects\CTest\src\com\jmc\test\learn\cpp\rvalue.cpp
 <<
 
-CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\rvalue.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CTest.dir/com/jmc/test/learn/cpp/rvalue.cpp.i"
-	D:\Programs\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1426~1.288\bin\Hostx86\x86\cl.exe > CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\rvalue.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Programs\JetBrains\CProjects\CTest\com\jmc\test\learn\cpp\rvalue.cpp
+CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\rvalue.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CTest.dir/src/com/jmc/test/learn/cpp/rvalue.cpp.i"
+	D:\Programs\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1426~1.288\bin\Hostx86\x86\cl.exe > CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\rvalue.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Programs\JetBrains\Projects\CProjects\CTest\src\com\jmc\test\learn\cpp\rvalue.cpp
 <<
 
-CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\rvalue.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CTest.dir/com/jmc/test/learn/cpp/rvalue.cpp.s"
+CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\rvalue.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CTest.dir/src/com/jmc/test/learn/cpp/rvalue.cpp.s"
 	D:\Programs\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1426~1.288\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\CTest.dir\com\jmc\test\learn\cpp\rvalue.cpp.s /c D:\Programs\JetBrains\CProjects\CTest\com\jmc\test\learn\cpp\rvalue.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\rvalue.cpp.s /c D:\Programs\JetBrains\Projects\CProjects\CTest\src\com\jmc\test\learn\cpp\rvalue.cpp
 <<
 
-CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\set.cpp.obj: CMakeFiles\CTest.dir\flags.make
-CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\set.cpp.obj: ..\com\jmc\test\learn\cpp\set.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Programs\JetBrains\CProjects\CTest\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building CXX object CMakeFiles/CTest.dir/com/jmc/test/learn/cpp/set.cpp.obj"
+CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\set.cpp.obj: CMakeFiles\CTest.dir\flags.make
+CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\set.cpp.obj: ..\src\com\jmc\test\learn\cpp\set.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Programs\JetBrains\Projects\CProjects\CTest\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building CXX object CMakeFiles/CTest.dir/src/com/jmc/test/learn/cpp/set.cpp.obj"
 	D:\Programs\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1426~1.288\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\CTest.dir\com\jmc\test\learn\cpp\set.cpp.obj /FdCMakeFiles\CTest.dir\ /FS -c D:\Programs\JetBrains\CProjects\CTest\com\jmc\test\learn\cpp\set.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\set.cpp.obj /FdCMakeFiles\CTest.dir\ /FS -c D:\Programs\JetBrains\Projects\CProjects\CTest\src\com\jmc\test\learn\cpp\set.cpp
 <<
 
-CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\set.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CTest.dir/com/jmc/test/learn/cpp/set.cpp.i"
-	D:\Programs\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1426~1.288\bin\Hostx86\x86\cl.exe > CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\set.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Programs\JetBrains\CProjects\CTest\com\jmc\test\learn\cpp\set.cpp
+CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\set.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CTest.dir/src/com/jmc/test/learn/cpp/set.cpp.i"
+	D:\Programs\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1426~1.288\bin\Hostx86\x86\cl.exe > CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\set.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Programs\JetBrains\Projects\CProjects\CTest\src\com\jmc\test\learn\cpp\set.cpp
 <<
 
-CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\set.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CTest.dir/com/jmc/test/learn/cpp/set.cpp.s"
+CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\set.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CTest.dir/src/com/jmc/test/learn/cpp/set.cpp.s"
 	D:\Programs\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1426~1.288\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\CTest.dir\com\jmc\test\learn\cpp\set.cpp.s /c D:\Programs\JetBrains\CProjects\CTest\com\jmc\test\learn\cpp\set.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\set.cpp.s /c D:\Programs\JetBrains\Projects\CProjects\CTest\src\com\jmc\test\learn\cpp\set.cpp
 <<
 
-CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\stack&queue.cpp.obj: CMakeFiles\CTest.dir\flags.make
-CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\stack&queue.cpp.obj: ..\com\jmc\test\learn\cpp\stack&queue.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Programs\JetBrains\CProjects\CTest\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building CXX object CMakeFiles/CTest.dir/com/jmc/test/learn/cpp/stack&queue.cpp.obj"
+CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\stack&queue.cpp.obj: CMakeFiles\CTest.dir\flags.make
+CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\stack&queue.cpp.obj: ..\src\com\jmc\test\learn\cpp\stack&queue.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Programs\JetBrains\Projects\CProjects\CTest\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building CXX object CMakeFiles/CTest.dir/src/com/jmc/test/learn/cpp/stack&queue.cpp.obj"
 	D:\Programs\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1426~1.288\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /Fo"CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\stack&queue.cpp.obj" /FdCMakeFiles\CTest.dir\ /FS -c "D:\Programs\JetBrains\CProjects\CTest\com\jmc\test\learn\cpp\stack&queue.cpp"
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /Fo"CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\stack&queue.cpp.obj" /FdCMakeFiles\CTest.dir\ /FS -c "D:\Programs\JetBrains\Projects\CProjects\CTest\src\com\jmc\test\learn\cpp\stack&queue.cpp"
 <<
 
-CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\stack&queue.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CTest.dir/com/jmc/test/learn/cpp/stack&queue.cpp.i"
-	D:\Programs\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1426~1.288\bin\Hostx86\x86\cl.exe > "CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\stack&queue.cpp.i" @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\Programs\JetBrains\CProjects\CTest\com\jmc\test\learn\cpp\stack&queue.cpp"
+CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\stack&queue.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CTest.dir/src/com/jmc/test/learn/cpp/stack&queue.cpp.i"
+	D:\Programs\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1426~1.288\bin\Hostx86\x86\cl.exe > "CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\stack&queue.cpp.i" @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\Programs\JetBrains\Projects\CProjects\CTest\src\com\jmc\test\learn\cpp\stack&queue.cpp"
 <<
 
-CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\stack&queue.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CTest.dir/com/jmc/test/learn/cpp/stack&queue.cpp.s"
+CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\stack&queue.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CTest.dir/src/com/jmc/test/learn/cpp/stack&queue.cpp.s"
 	D:\Programs\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1426~1.288\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /Fa"CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\stack&queue.cpp.s" /c "D:\Programs\JetBrains\CProjects\CTest\com\jmc\test\learn\cpp\stack&queue.cpp"
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /Fa"CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\stack&queue.cpp.s" /c "D:\Programs\JetBrains\Projects\CProjects\CTest\src\com\jmc\test\learn\cpp\stack&queue.cpp"
 <<
 
-CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\static.cpp.obj: CMakeFiles\CTest.dir\flags.make
-CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\static.cpp.obj: ..\com\jmc\test\learn\cpp\static.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Programs\JetBrains\CProjects\CTest\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building CXX object CMakeFiles/CTest.dir/com/jmc/test/learn/cpp/static.cpp.obj"
+CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\static.cpp.obj: CMakeFiles\CTest.dir\flags.make
+CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\static.cpp.obj: ..\src\com\jmc\test\learn\cpp\static.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Programs\JetBrains\Projects\CProjects\CTest\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building CXX object CMakeFiles/CTest.dir/src/com/jmc/test/learn/cpp/static.cpp.obj"
 	D:\Programs\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1426~1.288\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\CTest.dir\com\jmc\test\learn\cpp\static.cpp.obj /FdCMakeFiles\CTest.dir\ /FS -c D:\Programs\JetBrains\CProjects\CTest\com\jmc\test\learn\cpp\static.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\static.cpp.obj /FdCMakeFiles\CTest.dir\ /FS -c D:\Programs\JetBrains\Projects\CProjects\CTest\src\com\jmc\test\learn\cpp\static.cpp
 <<
 
-CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\static.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CTest.dir/com/jmc/test/learn/cpp/static.cpp.i"
-	D:\Programs\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1426~1.288\bin\Hostx86\x86\cl.exe > CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\static.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Programs\JetBrains\CProjects\CTest\com\jmc\test\learn\cpp\static.cpp
+CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\static.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CTest.dir/src/com/jmc/test/learn/cpp/static.cpp.i"
+	D:\Programs\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1426~1.288\bin\Hostx86\x86\cl.exe > CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\static.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Programs\JetBrains\Projects\CProjects\CTest\src\com\jmc\test\learn\cpp\static.cpp
 <<
 
-CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\static.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CTest.dir/com/jmc/test/learn/cpp/static.cpp.s"
+CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\static.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CTest.dir/src/com/jmc/test/learn/cpp/static.cpp.s"
 	D:\Programs\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1426~1.288\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\CTest.dir\com\jmc\test\learn\cpp\static.cpp.s /c D:\Programs\JetBrains\CProjects\CTest\com\jmc\test\learn\cpp\static.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\static.cpp.s /c D:\Programs\JetBrains\Projects\CProjects\CTest\src\com\jmc\test\learn\cpp\static.cpp
 <<
 
-CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\string.cpp.obj: CMakeFiles\CTest.dir\flags.make
-CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\string.cpp.obj: ..\com\jmc\test\learn\cpp\string.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Programs\JetBrains\CProjects\CTest\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building CXX object CMakeFiles/CTest.dir/com/jmc/test/learn/cpp/string.cpp.obj"
+CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\string.cpp.obj: CMakeFiles\CTest.dir\flags.make
+CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\string.cpp.obj: ..\src\com\jmc\test\learn\cpp\string.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Programs\JetBrains\Projects\CProjects\CTest\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building CXX object CMakeFiles/CTest.dir/src/com/jmc/test/learn/cpp/string.cpp.obj"
 	D:\Programs\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1426~1.288\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\CTest.dir\com\jmc\test\learn\cpp\string.cpp.obj /FdCMakeFiles\CTest.dir\ /FS -c D:\Programs\JetBrains\CProjects\CTest\com\jmc\test\learn\cpp\string.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\string.cpp.obj /FdCMakeFiles\CTest.dir\ /FS -c D:\Programs\JetBrains\Projects\CProjects\CTest\src\com\jmc\test\learn\cpp\string.cpp
 <<
 
-CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\string.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CTest.dir/com/jmc/test/learn/cpp/string.cpp.i"
-	D:\Programs\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1426~1.288\bin\Hostx86\x86\cl.exe > CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\string.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Programs\JetBrains\CProjects\CTest\com\jmc\test\learn\cpp\string.cpp
+CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\string.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CTest.dir/src/com/jmc/test/learn/cpp/string.cpp.i"
+	D:\Programs\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1426~1.288\bin\Hostx86\x86\cl.exe > CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\string.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Programs\JetBrains\Projects\CProjects\CTest\src\com\jmc\test\learn\cpp\string.cpp
 <<
 
-CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\string.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CTest.dir/com/jmc/test/learn/cpp/string.cpp.s"
+CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\string.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CTest.dir/src/com/jmc/test/learn/cpp/string.cpp.s"
 	D:\Programs\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1426~1.288\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\CTest.dir\com\jmc\test\learn\cpp\string.cpp.s /c D:\Programs\JetBrains\CProjects\CTest\com\jmc\test\learn\cpp\string.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\string.cpp.s /c D:\Programs\JetBrains\Projects\CProjects\CTest\src\com\jmc\test\learn\cpp\string.cpp
 <<
 
-CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\string2.cpp.obj: CMakeFiles\CTest.dir\flags.make
-CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\string2.cpp.obj: ..\com\jmc\test\learn\cpp\string2.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Programs\JetBrains\CProjects\CTest\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building CXX object CMakeFiles/CTest.dir/com/jmc/test/learn/cpp/string2.cpp.obj"
+CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\string2.cpp.obj: CMakeFiles\CTest.dir\flags.make
+CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\string2.cpp.obj: ..\src\com\jmc\test\learn\cpp\string2.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Programs\JetBrains\Projects\CProjects\CTest\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building CXX object CMakeFiles/CTest.dir/src/com/jmc/test/learn/cpp/string2.cpp.obj"
 	D:\Programs\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1426~1.288\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\CTest.dir\com\jmc\test\learn\cpp\string2.cpp.obj /FdCMakeFiles\CTest.dir\ /FS -c D:\Programs\JetBrains\CProjects\CTest\com\jmc\test\learn\cpp\string2.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\string2.cpp.obj /FdCMakeFiles\CTest.dir\ /FS -c D:\Programs\JetBrains\Projects\CProjects\CTest\src\com\jmc\test\learn\cpp\string2.cpp
 <<
 
-CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\string2.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CTest.dir/com/jmc/test/learn/cpp/string2.cpp.i"
-	D:\Programs\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1426~1.288\bin\Hostx86\x86\cl.exe > CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\string2.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Programs\JetBrains\CProjects\CTest\com\jmc\test\learn\cpp\string2.cpp
+CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\string2.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CTest.dir/src/com/jmc/test/learn/cpp/string2.cpp.i"
+	D:\Programs\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1426~1.288\bin\Hostx86\x86\cl.exe > CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\string2.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Programs\JetBrains\Projects\CProjects\CTest\src\com\jmc\test\learn\cpp\string2.cpp
 <<
 
-CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\string2.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CTest.dir/com/jmc/test/learn/cpp/string2.cpp.s"
+CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\string2.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CTest.dir/src/com/jmc/test/learn/cpp/string2.cpp.s"
 	D:\Programs\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1426~1.288\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\CTest.dir\com\jmc\test\learn\cpp\string2.cpp.s /c D:\Programs\JetBrains\CProjects\CTest\com\jmc\test\learn\cpp\string2.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\string2.cpp.s /c D:\Programs\JetBrains\Projects\CProjects\CTest\src\com\jmc\test\learn\cpp\string2.cpp
 <<
 
-CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\struct.cpp.obj: CMakeFiles\CTest.dir\flags.make
-CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\struct.cpp.obj: ..\com\jmc\test\learn\cpp\struct.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Programs\JetBrains\CProjects\CTest\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building CXX object CMakeFiles/CTest.dir/com/jmc/test/learn/cpp/struct.cpp.obj"
+CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\struct.cpp.obj: CMakeFiles\CTest.dir\flags.make
+CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\struct.cpp.obj: ..\src\com\jmc\test\learn\cpp\struct.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Programs\JetBrains\Projects\CProjects\CTest\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building CXX object CMakeFiles/CTest.dir/src/com/jmc/test/learn/cpp/struct.cpp.obj"
 	D:\Programs\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1426~1.288\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\CTest.dir\com\jmc\test\learn\cpp\struct.cpp.obj /FdCMakeFiles\CTest.dir\ /FS -c D:\Programs\JetBrains\CProjects\CTest\com\jmc\test\learn\cpp\struct.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\struct.cpp.obj /FdCMakeFiles\CTest.dir\ /FS -c D:\Programs\JetBrains\Projects\CProjects\CTest\src\com\jmc\test\learn\cpp\struct.cpp
 <<
 
-CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\struct.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CTest.dir/com/jmc/test/learn/cpp/struct.cpp.i"
-	D:\Programs\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1426~1.288\bin\Hostx86\x86\cl.exe > CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\struct.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Programs\JetBrains\CProjects\CTest\com\jmc\test\learn\cpp\struct.cpp
+CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\struct.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CTest.dir/src/com/jmc/test/learn/cpp/struct.cpp.i"
+	D:\Programs\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1426~1.288\bin\Hostx86\x86\cl.exe > CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\struct.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Programs\JetBrains\Projects\CProjects\CTest\src\com\jmc\test\learn\cpp\struct.cpp
 <<
 
-CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\struct.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CTest.dir/com/jmc/test/learn/cpp/struct.cpp.s"
+CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\struct.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CTest.dir/src/com/jmc/test/learn/cpp/struct.cpp.s"
 	D:\Programs\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1426~1.288\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\CTest.dir\com\jmc\test\learn\cpp\struct.cpp.s /c D:\Programs\JetBrains\CProjects\CTest\com\jmc\test\learn\cpp\struct.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\struct.cpp.s /c D:\Programs\JetBrains\Projects\CProjects\CTest\src\com\jmc\test\learn\cpp\struct.cpp
 <<
 
-CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\template.cpp.obj: CMakeFiles\CTest.dir\flags.make
-CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\template.cpp.obj: ..\com\jmc\test\learn\cpp\template.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Programs\JetBrains\CProjects\CTest\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building CXX object CMakeFiles/CTest.dir/com/jmc/test/learn/cpp/template.cpp.obj"
+CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\template.cpp.obj: CMakeFiles\CTest.dir\flags.make
+CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\template.cpp.obj: ..\src\com\jmc\test\learn\cpp\template.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Programs\JetBrains\Projects\CProjects\CTest\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building CXX object CMakeFiles/CTest.dir/src/com/jmc/test/learn/cpp/template.cpp.obj"
 	D:\Programs\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1426~1.288\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\CTest.dir\com\jmc\test\learn\cpp\template.cpp.obj /FdCMakeFiles\CTest.dir\ /FS -c D:\Programs\JetBrains\CProjects\CTest\com\jmc\test\learn\cpp\template.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\template.cpp.obj /FdCMakeFiles\CTest.dir\ /FS -c D:\Programs\JetBrains\Projects\CProjects\CTest\src\com\jmc\test\learn\cpp\template.cpp
 <<
 
-CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\template.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CTest.dir/com/jmc/test/learn/cpp/template.cpp.i"
-	D:\Programs\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1426~1.288\bin\Hostx86\x86\cl.exe > CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\template.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Programs\JetBrains\CProjects\CTest\com\jmc\test\learn\cpp\template.cpp
+CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\template.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CTest.dir/src/com/jmc/test/learn/cpp/template.cpp.i"
+	D:\Programs\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1426~1.288\bin\Hostx86\x86\cl.exe > CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\template.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Programs\JetBrains\Projects\CProjects\CTest\src\com\jmc\test\learn\cpp\template.cpp
 <<
 
-CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\template.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CTest.dir/com/jmc/test/learn/cpp/template.cpp.s"
+CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\template.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CTest.dir/src/com/jmc/test/learn/cpp/template.cpp.s"
 	D:\Programs\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1426~1.288\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\CTest.dir\com\jmc\test\learn\cpp\template.cpp.s /c D:\Programs\JetBrains\CProjects\CTest\com\jmc\test\learn\cpp\template.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\template.cpp.s /c D:\Programs\JetBrains\Projects\CProjects\CTest\src\com\jmc\test\learn\cpp\template.cpp
 <<
 
-CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\template2.cpp.obj: CMakeFiles\CTest.dir\flags.make
-CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\template2.cpp.obj: ..\com\jmc\test\learn\cpp\template2.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Programs\JetBrains\CProjects\CTest\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building CXX object CMakeFiles/CTest.dir/com/jmc/test/learn/cpp/template2.cpp.obj"
+CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\template2.cpp.obj: CMakeFiles\CTest.dir\flags.make
+CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\template2.cpp.obj: ..\src\com\jmc\test\learn\cpp\template2.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Programs\JetBrains\Projects\CProjects\CTest\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building CXX object CMakeFiles/CTest.dir/src/com/jmc/test/learn/cpp/template2.cpp.obj"
 	D:\Programs\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1426~1.288\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\CTest.dir\com\jmc\test\learn\cpp\template2.cpp.obj /FdCMakeFiles\CTest.dir\ /FS -c D:\Programs\JetBrains\CProjects\CTest\com\jmc\test\learn\cpp\template2.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\template2.cpp.obj /FdCMakeFiles\CTest.dir\ /FS -c D:\Programs\JetBrains\Projects\CProjects\CTest\src\com\jmc\test\learn\cpp\template2.cpp
 <<
 
-CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\template2.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CTest.dir/com/jmc/test/learn/cpp/template2.cpp.i"
-	D:\Programs\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1426~1.288\bin\Hostx86\x86\cl.exe > CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\template2.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Programs\JetBrains\CProjects\CTest\com\jmc\test\learn\cpp\template2.cpp
+CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\template2.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CTest.dir/src/com/jmc/test/learn/cpp/template2.cpp.i"
+	D:\Programs\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1426~1.288\bin\Hostx86\x86\cl.exe > CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\template2.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Programs\JetBrains\Projects\CProjects\CTest\src\com\jmc\test\learn\cpp\template2.cpp
 <<
 
-CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\template2.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CTest.dir/com/jmc/test/learn/cpp/template2.cpp.s"
+CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\template2.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CTest.dir/src/com/jmc/test/learn/cpp/template2.cpp.s"
 	D:\Programs\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1426~1.288\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\CTest.dir\com\jmc\test\learn\cpp\template2.cpp.s /c D:\Programs\JetBrains\CProjects\CTest\com\jmc\test\learn\cpp\template2.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\template2.cpp.s /c D:\Programs\JetBrains\Projects\CProjects\CTest\src\com\jmc\test\learn\cpp\template2.cpp
 <<
 
-CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\template3.cpp.obj: CMakeFiles\CTest.dir\flags.make
-CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\template3.cpp.obj: ..\com\jmc\test\learn\cpp\template3.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Programs\JetBrains\CProjects\CTest\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building CXX object CMakeFiles/CTest.dir/com/jmc/test/learn/cpp/template3.cpp.obj"
+CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\template3.cpp.obj: CMakeFiles\CTest.dir\flags.make
+CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\template3.cpp.obj: ..\src\com\jmc\test\learn\cpp\template3.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Programs\JetBrains\Projects\CProjects\CTest\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building CXX object CMakeFiles/CTest.dir/src/com/jmc/test/learn/cpp/template3.cpp.obj"
 	D:\Programs\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1426~1.288\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\CTest.dir\com\jmc\test\learn\cpp\template3.cpp.obj /FdCMakeFiles\CTest.dir\ /FS -c D:\Programs\JetBrains\CProjects\CTest\com\jmc\test\learn\cpp\template3.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\template3.cpp.obj /FdCMakeFiles\CTest.dir\ /FS -c D:\Programs\JetBrains\Projects\CProjects\CTest\src\com\jmc\test\learn\cpp\template3.cpp
 <<
 
-CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\template3.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CTest.dir/com/jmc/test/learn/cpp/template3.cpp.i"
-	D:\Programs\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1426~1.288\bin\Hostx86\x86\cl.exe > CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\template3.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Programs\JetBrains\CProjects\CTest\com\jmc\test\learn\cpp\template3.cpp
+CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\template3.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CTest.dir/src/com/jmc/test/learn/cpp/template3.cpp.i"
+	D:\Programs\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1426~1.288\bin\Hostx86\x86\cl.exe > CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\template3.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Programs\JetBrains\Projects\CProjects\CTest\src\com\jmc\test\learn\cpp\template3.cpp
 <<
 
-CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\template3.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CTest.dir/com/jmc/test/learn/cpp/template3.cpp.s"
+CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\template3.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CTest.dir/src/com/jmc/test/learn/cpp/template3.cpp.s"
 	D:\Programs\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1426~1.288\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\CTest.dir\com\jmc\test\learn\cpp\template3.cpp.s /c D:\Programs\JetBrains\CProjects\CTest\com\jmc\test\learn\cpp\template3.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\template3.cpp.s /c D:\Programs\JetBrains\Projects\CProjects\CTest\src\com\jmc\test\learn\cpp\template3.cpp
 <<
 
-CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\template4.cpp.obj: CMakeFiles\CTest.dir\flags.make
-CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\template4.cpp.obj: ..\com\jmc\test\learn\cpp\template4.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Programs\JetBrains\CProjects\CTest\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building CXX object CMakeFiles/CTest.dir/com/jmc/test/learn/cpp/template4.cpp.obj"
+CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\template4.cpp.obj: CMakeFiles\CTest.dir\flags.make
+CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\template4.cpp.obj: ..\src\com\jmc\test\learn\cpp\template4.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Programs\JetBrains\Projects\CProjects\CTest\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building CXX object CMakeFiles/CTest.dir/src/com/jmc/test/learn/cpp/template4.cpp.obj"
 	D:\Programs\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1426~1.288\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\CTest.dir\com\jmc\test\learn\cpp\template4.cpp.obj /FdCMakeFiles\CTest.dir\ /FS -c D:\Programs\JetBrains\CProjects\CTest\com\jmc\test\learn\cpp\template4.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\template4.cpp.obj /FdCMakeFiles\CTest.dir\ /FS -c D:\Programs\JetBrains\Projects\CProjects\CTest\src\com\jmc\test\learn\cpp\template4.cpp
 <<
 
-CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\template4.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CTest.dir/com/jmc/test/learn/cpp/template4.cpp.i"
-	D:\Programs\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1426~1.288\bin\Hostx86\x86\cl.exe > CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\template4.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Programs\JetBrains\CProjects\CTest\com\jmc\test\learn\cpp\template4.cpp
+CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\template4.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CTest.dir/src/com/jmc/test/learn/cpp/template4.cpp.i"
+	D:\Programs\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1426~1.288\bin\Hostx86\x86\cl.exe > CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\template4.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Programs\JetBrains\Projects\CProjects\CTest\src\com\jmc\test\learn\cpp\template4.cpp
 <<
 
-CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\template4.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CTest.dir/com/jmc/test/learn/cpp/template4.cpp.s"
+CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\template4.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CTest.dir/src/com/jmc/test/learn/cpp/template4.cpp.s"
 	D:\Programs\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1426~1.288\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\CTest.dir\com\jmc\test\learn\cpp\template4.cpp.s /c D:\Programs\JetBrains\CProjects\CTest\com\jmc\test\learn\cpp\template4.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\template4.cpp.s /c D:\Programs\JetBrains\Projects\CProjects\CTest\src\com\jmc\test\learn\cpp\template4.cpp
 <<
 
-CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\thread.cpp.obj: CMakeFiles\CTest.dir\flags.make
-CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\thread.cpp.obj: ..\com\jmc\test\learn\cpp\thread.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Programs\JetBrains\CProjects\CTest\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building CXX object CMakeFiles/CTest.dir/com/jmc/test/learn/cpp/thread.cpp.obj"
+CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\thread.cpp.obj: CMakeFiles\CTest.dir\flags.make
+CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\thread.cpp.obj: ..\src\com\jmc\test\learn\cpp\thread.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Programs\JetBrains\Projects\CProjects\CTest\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building CXX object CMakeFiles/CTest.dir/src/com/jmc/test/learn/cpp/thread.cpp.obj"
 	D:\Programs\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1426~1.288\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\CTest.dir\com\jmc\test\learn\cpp\thread.cpp.obj /FdCMakeFiles\CTest.dir\ /FS -c D:\Programs\JetBrains\CProjects\CTest\com\jmc\test\learn\cpp\thread.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\thread.cpp.obj /FdCMakeFiles\CTest.dir\ /FS -c D:\Programs\JetBrains\Projects\CProjects\CTest\src\com\jmc\test\learn\cpp\thread.cpp
 <<
 
-CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\thread.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CTest.dir/com/jmc/test/learn/cpp/thread.cpp.i"
-	D:\Programs\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1426~1.288\bin\Hostx86\x86\cl.exe > CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\thread.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Programs\JetBrains\CProjects\CTest\com\jmc\test\learn\cpp\thread.cpp
+CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\thread.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CTest.dir/src/com/jmc/test/learn/cpp/thread.cpp.i"
+	D:\Programs\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1426~1.288\bin\Hostx86\x86\cl.exe > CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\thread.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Programs\JetBrains\Projects\CProjects\CTest\src\com\jmc\test\learn\cpp\thread.cpp
 <<
 
-CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\thread.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CTest.dir/com/jmc/test/learn/cpp/thread.cpp.s"
+CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\thread.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CTest.dir/src/com/jmc/test/learn/cpp/thread.cpp.s"
 	D:\Programs\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1426~1.288\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\CTest.dir\com\jmc\test\learn\cpp\thread.cpp.s /c D:\Programs\JetBrains\CProjects\CTest\com\jmc\test\learn\cpp\thread.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\thread.cpp.s /c D:\Programs\JetBrains\Projects\CProjects\CTest\src\com\jmc\test\learn\cpp\thread.cpp
 <<
 
-CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\thread2.cpp.obj: CMakeFiles\CTest.dir\flags.make
-CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\thread2.cpp.obj: ..\com\jmc\test\learn\cpp\thread2.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Programs\JetBrains\CProjects\CTest\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building CXX object CMakeFiles/CTest.dir/com/jmc/test/learn/cpp/thread2.cpp.obj"
+CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\thread2.cpp.obj: CMakeFiles\CTest.dir\flags.make
+CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\thread2.cpp.obj: ..\src\com\jmc\test\learn\cpp\thread2.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Programs\JetBrains\Projects\CProjects\CTest\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building CXX object CMakeFiles/CTest.dir/src/com/jmc/test/learn/cpp/thread2.cpp.obj"
 	D:\Programs\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1426~1.288\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\CTest.dir\com\jmc\test\learn\cpp\thread2.cpp.obj /FdCMakeFiles\CTest.dir\ /FS -c D:\Programs\JetBrains\CProjects\CTest\com\jmc\test\learn\cpp\thread2.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\thread2.cpp.obj /FdCMakeFiles\CTest.dir\ /FS -c D:\Programs\JetBrains\Projects\CProjects\CTest\src\com\jmc\test\learn\cpp\thread2.cpp
 <<
 
-CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\thread2.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CTest.dir/com/jmc/test/learn/cpp/thread2.cpp.i"
-	D:\Programs\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1426~1.288\bin\Hostx86\x86\cl.exe > CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\thread2.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Programs\JetBrains\CProjects\CTest\com\jmc\test\learn\cpp\thread2.cpp
+CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\thread2.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CTest.dir/src/com/jmc/test/learn/cpp/thread2.cpp.i"
+	D:\Programs\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1426~1.288\bin\Hostx86\x86\cl.exe > CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\thread2.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Programs\JetBrains\Projects\CProjects\CTest\src\com\jmc\test\learn\cpp\thread2.cpp
 <<
 
-CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\thread2.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CTest.dir/com/jmc/test/learn/cpp/thread2.cpp.s"
+CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\thread2.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CTest.dir/src/com/jmc/test/learn/cpp/thread2.cpp.s"
 	D:\Programs\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1426~1.288\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\CTest.dir\com\jmc\test\learn\cpp\thread2.cpp.s /c D:\Programs\JetBrains\CProjects\CTest\com\jmc\test\learn\cpp\thread2.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\thread2.cpp.s /c D:\Programs\JetBrains\Projects\CProjects\CTest\src\com\jmc\test\learn\cpp\thread2.cpp
 <<
 
-CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\try.cpp.obj: CMakeFiles\CTest.dir\flags.make
-CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\try.cpp.obj: ..\com\jmc\test\learn\cpp\try.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Programs\JetBrains\CProjects\CTest\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building CXX object CMakeFiles/CTest.dir/com/jmc/test/learn/cpp/try.cpp.obj"
+CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\try.cpp.obj: CMakeFiles\CTest.dir\flags.make
+CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\try.cpp.obj: ..\src\com\jmc\test\learn\cpp\try.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Programs\JetBrains\Projects\CProjects\CTest\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building CXX object CMakeFiles/CTest.dir/src/com/jmc/test/learn/cpp/try.cpp.obj"
 	D:\Programs\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1426~1.288\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\CTest.dir\com\jmc\test\learn\cpp\try.cpp.obj /FdCMakeFiles\CTest.dir\ /FS -c D:\Programs\JetBrains\CProjects\CTest\com\jmc\test\learn\cpp\try.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\try.cpp.obj /FdCMakeFiles\CTest.dir\ /FS -c D:\Programs\JetBrains\Projects\CProjects\CTest\src\com\jmc\test\learn\cpp\try.cpp
 <<
 
-CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\try.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CTest.dir/com/jmc/test/learn/cpp/try.cpp.i"
-	D:\Programs\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1426~1.288\bin\Hostx86\x86\cl.exe > CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\try.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Programs\JetBrains\CProjects\CTest\com\jmc\test\learn\cpp\try.cpp
+CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\try.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CTest.dir/src/com/jmc/test/learn/cpp/try.cpp.i"
+	D:\Programs\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1426~1.288\bin\Hostx86\x86\cl.exe > CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\try.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Programs\JetBrains\Projects\CProjects\CTest\src\com\jmc\test\learn\cpp\try.cpp
 <<
 
-CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\try.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CTest.dir/com/jmc/test/learn/cpp/try.cpp.s"
+CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\try.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CTest.dir/src/com/jmc/test/learn/cpp/try.cpp.s"
 	D:\Programs\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1426~1.288\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\CTest.dir\com\jmc\test\learn\cpp\try.cpp.s /c D:\Programs\JetBrains\CProjects\CTest\com\jmc\test\learn\cpp\try.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\try.cpp.s /c D:\Programs\JetBrains\Projects\CProjects\CTest\src\com\jmc\test\learn\cpp\try.cpp
 <<
 
-CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\typedef.cpp.obj: CMakeFiles\CTest.dir\flags.make
-CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\typedef.cpp.obj: ..\com\jmc\test\learn\cpp\typedef.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Programs\JetBrains\CProjects\CTest\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building CXX object CMakeFiles/CTest.dir/com/jmc/test/learn/cpp/typedef.cpp.obj"
+CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\typedef.cpp.obj: CMakeFiles\CTest.dir\flags.make
+CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\typedef.cpp.obj: ..\src\com\jmc\test\learn\cpp\typedef.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Programs\JetBrains\Projects\CProjects\CTest\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building CXX object CMakeFiles/CTest.dir/src/com/jmc/test/learn/cpp/typedef.cpp.obj"
 	D:\Programs\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1426~1.288\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\CTest.dir\com\jmc\test\learn\cpp\typedef.cpp.obj /FdCMakeFiles\CTest.dir\ /FS -c D:\Programs\JetBrains\CProjects\CTest\com\jmc\test\learn\cpp\typedef.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\typedef.cpp.obj /FdCMakeFiles\CTest.dir\ /FS -c D:\Programs\JetBrains\Projects\CProjects\CTest\src\com\jmc\test\learn\cpp\typedef.cpp
 <<
 
-CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\typedef.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CTest.dir/com/jmc/test/learn/cpp/typedef.cpp.i"
-	D:\Programs\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1426~1.288\bin\Hostx86\x86\cl.exe > CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\typedef.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Programs\JetBrains\CProjects\CTest\com\jmc\test\learn\cpp\typedef.cpp
+CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\typedef.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CTest.dir/src/com/jmc/test/learn/cpp/typedef.cpp.i"
+	D:\Programs\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1426~1.288\bin\Hostx86\x86\cl.exe > CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\typedef.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Programs\JetBrains\Projects\CProjects\CTest\src\com\jmc\test\learn\cpp\typedef.cpp
 <<
 
-CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\typedef.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CTest.dir/com/jmc/test/learn/cpp/typedef.cpp.s"
+CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\typedef.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CTest.dir/src/com/jmc/test/learn/cpp/typedef.cpp.s"
 	D:\Programs\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1426~1.288\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\CTest.dir\com\jmc\test\learn\cpp\typedef.cpp.s /c D:\Programs\JetBrains\CProjects\CTest\com\jmc\test\learn\cpp\typedef.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\typedef.cpp.s /c D:\Programs\JetBrains\Projects\CProjects\CTest\src\com\jmc\test\learn\cpp\typedef.cpp
 <<
 
-CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\vectors.cpp.obj: CMakeFiles\CTest.dir\flags.make
-CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\vectors.cpp.obj: ..\com\jmc\test\learn\cpp\vectors.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Programs\JetBrains\CProjects\CTest\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building CXX object CMakeFiles/CTest.dir/com/jmc/test/learn/cpp/vectors.cpp.obj"
+CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\vectors.cpp.obj: CMakeFiles\CTest.dir\flags.make
+CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\vectors.cpp.obj: ..\src\com\jmc\test\learn\cpp\vectors.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Programs\JetBrains\Projects\CProjects\CTest\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building CXX object CMakeFiles/CTest.dir/src/com/jmc/test/learn/cpp/vectors.cpp.obj"
 	D:\Programs\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1426~1.288\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\CTest.dir\com\jmc\test\learn\cpp\vectors.cpp.obj /FdCMakeFiles\CTest.dir\ /FS -c D:\Programs\JetBrains\CProjects\CTest\com\jmc\test\learn\cpp\vectors.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\vectors.cpp.obj /FdCMakeFiles\CTest.dir\ /FS -c D:\Programs\JetBrains\Projects\CProjects\CTest\src\com\jmc\test\learn\cpp\vectors.cpp
 <<
 
-CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\vectors.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CTest.dir/com/jmc/test/learn/cpp/vectors.cpp.i"
-	D:\Programs\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1426~1.288\bin\Hostx86\x86\cl.exe > CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\vectors.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Programs\JetBrains\CProjects\CTest\com\jmc\test\learn\cpp\vectors.cpp
+CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\vectors.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CTest.dir/src/com/jmc/test/learn/cpp/vectors.cpp.i"
+	D:\Programs\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1426~1.288\bin\Hostx86\x86\cl.exe > CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\vectors.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Programs\JetBrains\Projects\CProjects\CTest\src\com\jmc\test\learn\cpp\vectors.cpp
 <<
 
-CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\vectors.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CTest.dir/com/jmc/test/learn/cpp/vectors.cpp.s"
+CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\vectors.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CTest.dir/src/com/jmc/test/learn/cpp/vectors.cpp.s"
 	D:\Programs\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1426~1.288\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\CTest.dir\com\jmc\test\learn\cpp\vectors.cpp.s /c D:\Programs\JetBrains\CProjects\CTest\com\jmc\test\learn\cpp\vectors.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\vectors.cpp.s /c D:\Programs\JetBrains\Projects\CProjects\CTest\src\com\jmc\test\learn\cpp\vectors.cpp
 <<
 
 # Object files for target CTest
 CTest_OBJECTS = \
-"CMakeFiles\CTest.dir\com\jmc\io\cpp\file.cpp.obj" \
-"CMakeFiles\CTest.dir\com\jmc\test\main\cpp\main.cpp.obj" \
-"CMakeFiles\CTest.dir\com\jmc\test\main\cpp\tools.cpp.obj" \
-"CMakeFiles\CTest.dir\com\jmc\test\clms\cpp\admin.cpp.obj" \
-"CMakeFiles\CTest.dir\com\jmc\test\clms\cpp\global_vars.cpp.obj" \
-"CMakeFiles\CTest.dir\com\jmc\test\clms\cpp\start.cpp.obj" \
-"CMakeFiles\CTest.dir\com\jmc\test\clms\cpp\stu.cpp.obj" \
-"CMakeFiles\CTest.dir\com\jmc\test\clms\cpp\teacher.cpp.obj" \
-"CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\algorithm.cpp.obj" \
-"CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\alias.cpp.obj" \
-"CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\arr.cpp.obj" \
-"CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\arr2.cpp.obj" \
-"CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\arr3.cpp.obj" \
-"CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\cin.cpp.obj" \
-"CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\class.cpp.obj" \
-"CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\const.cpp.obj" \
-"CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\decltype.cpp.obj" \
-"CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\default_parms.cpp.obj" \
-"CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\deque.cpp.obj" \
-"CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\exception.cpp.obj" \
-"CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\exception2.cpp.obj" \
-"CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\extends.cpp.obj" \
-"CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\extends2.cpp.obj" \
-"CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\extends3.cpp.obj" \
-"CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\extends4.cpp.obj" \
-"CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\file_.cpp.obj" \
-"CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\file_2.cpp.obj" \
-"CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\fixed.cpp.obj" \
-"CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\friend.cpp.obj" \
-"CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\init_list.cpp.obj" \
-"CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\javaStyle.cpp.obj" \
-"CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\lambda.cpp.obj" \
-"CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\list.cpp.obj" \
-"CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\main.cpp.obj" \
-"CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\map.cpp.obj" \
-"CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\memory.cpp.obj" \
-"CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\news.cpp.obj" \
-"CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\operator.cpp.obj" \
-"CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\override&final.cpp.obj" \
-"CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\pair.cpp.obj" \
-"CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\ptr.cpp.obj" \
-"CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\ptr2.cpp.obj" \
-"CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\ptr3.cpp.obj" \
-"CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\rand.cpp.obj" \
-"CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\rvalue.cpp.obj" \
-"CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\set.cpp.obj" \
-"CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\stack&queue.cpp.obj" \
-"CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\static.cpp.obj" \
-"CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\string.cpp.obj" \
-"CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\string2.cpp.obj" \
-"CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\struct.cpp.obj" \
-"CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\template.cpp.obj" \
-"CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\template2.cpp.obj" \
-"CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\template3.cpp.obj" \
-"CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\template4.cpp.obj" \
-"CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\thread.cpp.obj" \
-"CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\thread2.cpp.obj" \
-"CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\try.cpp.obj" \
-"CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\typedef.cpp.obj" \
-"CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\vectors.cpp.obj"
+"CMakeFiles\CTest.dir\src\com\jmc\io\cpp\file.cpp.obj" \
+"CMakeFiles\CTest.dir\src\com\jmc\test\main\cpp\main.cpp.obj" \
+"CMakeFiles\CTest.dir\src\com\jmc\test\main\cpp\tools.cpp.obj" \
+"CMakeFiles\CTest.dir\src\com\jmc\test\clms\cpp\admin.cpp.obj" \
+"CMakeFiles\CTest.dir\src\com\jmc\test\clms\cpp\global_vars.cpp.obj" \
+"CMakeFiles\CTest.dir\src\com\jmc\test\clms\cpp\start.cpp.obj" \
+"CMakeFiles\CTest.dir\src\com\jmc\test\clms\cpp\stu.cpp.obj" \
+"CMakeFiles\CTest.dir\src\com\jmc\test\clms\cpp\teacher.cpp.obj" \
+"CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\algorithm.cpp.obj" \
+"CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\alias.cpp.obj" \
+"CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\arr.cpp.obj" \
+"CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\arr2.cpp.obj" \
+"CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\arr3.cpp.obj" \
+"CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\cin.cpp.obj" \
+"CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\class.cpp.obj" \
+"CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\const.cpp.obj" \
+"CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\decltype.cpp.obj" \
+"CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\default_parms.cpp.obj" \
+"CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\deque.cpp.obj" \
+"CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\exception.cpp.obj" \
+"CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\exception2.cpp.obj" \
+"CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\extends.cpp.obj" \
+"CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\extends2.cpp.obj" \
+"CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\extends3.cpp.obj" \
+"CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\extends4.cpp.obj" \
+"CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\file_.cpp.obj" \
+"CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\file_2.cpp.obj" \
+"CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\fixed.cpp.obj" \
+"CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\friend.cpp.obj" \
+"CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\init_list.cpp.obj" \
+"CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\javaStyle.cpp.obj" \
+"CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\lambda.cpp.obj" \
+"CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\list.cpp.obj" \
+"CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\main.cpp.obj" \
+"CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\map.cpp.obj" \
+"CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\memory.cpp.obj" \
+"CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\news.cpp.obj" \
+"CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\operator.cpp.obj" \
+"CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\override&final.cpp.obj" \
+"CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\pair.cpp.obj" \
+"CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\ptr.cpp.obj" \
+"CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\ptr2.cpp.obj" \
+"CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\ptr3.cpp.obj" \
+"CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\rand.cpp.obj" \
+"CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\rvalue.cpp.obj" \
+"CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\set.cpp.obj" \
+"CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\stack&queue.cpp.obj" \
+"CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\static.cpp.obj" \
+"CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\string.cpp.obj" \
+"CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\string2.cpp.obj" \
+"CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\struct.cpp.obj" \
+"CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\template.cpp.obj" \
+"CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\template2.cpp.obj" \
+"CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\template3.cpp.obj" \
+"CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\template4.cpp.obj" \
+"CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\thread.cpp.obj" \
+"CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\thread2.cpp.obj" \
+"CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\try.cpp.obj" \
+"CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\typedef.cpp.obj" \
+"CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\vectors.cpp.obj"
 
 # External object files for target CTest
 CTest_EXTERNAL_OBJECTS =
 
-CTest.exe: CMakeFiles\CTest.dir\com\jmc\io\cpp\file.cpp.obj
-CTest.exe: CMakeFiles\CTest.dir\com\jmc\test\main\cpp\main.cpp.obj
-CTest.exe: CMakeFiles\CTest.dir\com\jmc\test\main\cpp\tools.cpp.obj
-CTest.exe: CMakeFiles\CTest.dir\com\jmc\test\clms\cpp\admin.cpp.obj
-CTest.exe: CMakeFiles\CTest.dir\com\jmc\test\clms\cpp\global_vars.cpp.obj
-CTest.exe: CMakeFiles\CTest.dir\com\jmc\test\clms\cpp\start.cpp.obj
-CTest.exe: CMakeFiles\CTest.dir\com\jmc\test\clms\cpp\stu.cpp.obj
-CTest.exe: CMakeFiles\CTest.dir\com\jmc\test\clms\cpp\teacher.cpp.obj
-CTest.exe: CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\algorithm.cpp.obj
-CTest.exe: CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\alias.cpp.obj
-CTest.exe: CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\arr.cpp.obj
-CTest.exe: CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\arr2.cpp.obj
-CTest.exe: CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\arr3.cpp.obj
-CTest.exe: CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\cin.cpp.obj
-CTest.exe: CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\class.cpp.obj
-CTest.exe: CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\const.cpp.obj
-CTest.exe: CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\decltype.cpp.obj
-CTest.exe: CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\default_parms.cpp.obj
-CTest.exe: CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\deque.cpp.obj
-CTest.exe: CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\exception.cpp.obj
-CTest.exe: CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\exception2.cpp.obj
-CTest.exe: CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\extends.cpp.obj
-CTest.exe: CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\extends2.cpp.obj
-CTest.exe: CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\extends3.cpp.obj
-CTest.exe: CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\extends4.cpp.obj
-CTest.exe: CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\file_.cpp.obj
-CTest.exe: CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\file_2.cpp.obj
-CTest.exe: CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\fixed.cpp.obj
-CTest.exe: CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\friend.cpp.obj
-CTest.exe: CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\init_list.cpp.obj
-CTest.exe: CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\javaStyle.cpp.obj
-CTest.exe: CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\lambda.cpp.obj
-CTest.exe: CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\list.cpp.obj
-CTest.exe: CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\main.cpp.obj
-CTest.exe: CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\map.cpp.obj
-CTest.exe: CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\memory.cpp.obj
-CTest.exe: CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\news.cpp.obj
-CTest.exe: CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\operator.cpp.obj
-CTest.exe: CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\override&final.cpp.obj
-CTest.exe: CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\pair.cpp.obj
-CTest.exe: CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\ptr.cpp.obj
-CTest.exe: CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\ptr2.cpp.obj
-CTest.exe: CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\ptr3.cpp.obj
-CTest.exe: CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\rand.cpp.obj
-CTest.exe: CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\rvalue.cpp.obj
-CTest.exe: CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\set.cpp.obj
-CTest.exe: CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\stack&queue.cpp.obj
-CTest.exe: CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\static.cpp.obj
-CTest.exe: CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\string.cpp.obj
-CTest.exe: CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\string2.cpp.obj
-CTest.exe: CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\struct.cpp.obj
-CTest.exe: CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\template.cpp.obj
-CTest.exe: CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\template2.cpp.obj
-CTest.exe: CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\template3.cpp.obj
-CTest.exe: CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\template4.cpp.obj
-CTest.exe: CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\thread.cpp.obj
-CTest.exe: CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\thread2.cpp.obj
-CTest.exe: CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\try.cpp.obj
-CTest.exe: CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\typedef.cpp.obj
-CTest.exe: CMakeFiles\CTest.dir\com\jmc\test\learn\cpp\vectors.cpp.obj
+CTest.exe: CMakeFiles\CTest.dir\src\com\jmc\io\cpp\file.cpp.obj
+CTest.exe: CMakeFiles\CTest.dir\src\com\jmc\test\main\cpp\main.cpp.obj
+CTest.exe: CMakeFiles\CTest.dir\src\com\jmc\test\main\cpp\tools.cpp.obj
+CTest.exe: CMakeFiles\CTest.dir\src\com\jmc\test\clms\cpp\admin.cpp.obj
+CTest.exe: CMakeFiles\CTest.dir\src\com\jmc\test\clms\cpp\global_vars.cpp.obj
+CTest.exe: CMakeFiles\CTest.dir\src\com\jmc\test\clms\cpp\start.cpp.obj
+CTest.exe: CMakeFiles\CTest.dir\src\com\jmc\test\clms\cpp\stu.cpp.obj
+CTest.exe: CMakeFiles\CTest.dir\src\com\jmc\test\clms\cpp\teacher.cpp.obj
+CTest.exe: CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\algorithm.cpp.obj
+CTest.exe: CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\alias.cpp.obj
+CTest.exe: CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\arr.cpp.obj
+CTest.exe: CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\arr2.cpp.obj
+CTest.exe: CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\arr3.cpp.obj
+CTest.exe: CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\cin.cpp.obj
+CTest.exe: CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\class.cpp.obj
+CTest.exe: CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\const.cpp.obj
+CTest.exe: CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\decltype.cpp.obj
+CTest.exe: CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\default_parms.cpp.obj
+CTest.exe: CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\deque.cpp.obj
+CTest.exe: CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\exception.cpp.obj
+CTest.exe: CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\exception2.cpp.obj
+CTest.exe: CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\extends.cpp.obj
+CTest.exe: CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\extends2.cpp.obj
+CTest.exe: CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\extends3.cpp.obj
+CTest.exe: CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\extends4.cpp.obj
+CTest.exe: CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\file_.cpp.obj
+CTest.exe: CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\file_2.cpp.obj
+CTest.exe: CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\fixed.cpp.obj
+CTest.exe: CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\friend.cpp.obj
+CTest.exe: CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\init_list.cpp.obj
+CTest.exe: CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\javaStyle.cpp.obj
+CTest.exe: CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\lambda.cpp.obj
+CTest.exe: CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\list.cpp.obj
+CTest.exe: CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\main.cpp.obj
+CTest.exe: CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\map.cpp.obj
+CTest.exe: CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\memory.cpp.obj
+CTest.exe: CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\news.cpp.obj
+CTest.exe: CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\operator.cpp.obj
+CTest.exe: CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\override&final.cpp.obj
+CTest.exe: CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\pair.cpp.obj
+CTest.exe: CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\ptr.cpp.obj
+CTest.exe: CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\ptr2.cpp.obj
+CTest.exe: CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\ptr3.cpp.obj
+CTest.exe: CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\rand.cpp.obj
+CTest.exe: CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\rvalue.cpp.obj
+CTest.exe: CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\set.cpp.obj
+CTest.exe: CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\stack&queue.cpp.obj
+CTest.exe: CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\static.cpp.obj
+CTest.exe: CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\string.cpp.obj
+CTest.exe: CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\string2.cpp.obj
+CTest.exe: CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\struct.cpp.obj
+CTest.exe: CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\template.cpp.obj
+CTest.exe: CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\template2.cpp.obj
+CTest.exe: CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\template3.cpp.obj
+CTest.exe: CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\template4.cpp.obj
+CTest.exe: CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\thread.cpp.obj
+CTest.exe: CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\thread2.cpp.obj
+CTest.exe: CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\try.cpp.obj
+CTest.exe: CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\typedef.cpp.obj
+CTest.exe: CMakeFiles\CTest.dir\src\com\jmc\test\learn\cpp\vectors.cpp.obj
 CTest.exe: CMakeFiles\CTest.dir\build.make
 CTest.exe: CMakeFiles\CTest.dir\objects1.rsp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\Programs\JetBrains\CProjects\CTest\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Linking CXX executable CTest.exe"
-	"D:\Programs\JetBrains\CLion 2020.1.3\bin\cmake\win\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\CTest.dir --rc=D:\WINDOW~1\10\bin\100183~1.0\x86\rc.exe --mt=D:\WINDOW~1\10\bin\100183~1.0\x86\mt.exe --manifests  -- D:\Programs\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1426~1.288\bin\Hostx86\x86\link.exe /nologo @CMakeFiles\CTest.dir\objects1.rsp @<<
- /out:CTest.exe /implib:CTest.lib /pdb:D:\Programs\JetBrains\CProjects\CTest\cmake-build-debug\CTest.pdb /version:0.0  /machine:X86 /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib 
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\Programs\JetBrains\Projects\CProjects\CTest\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Linking CXX executable CTest.exe"
+	"D:\Programs\JetBrains\CLion 2020.1\bin\cmake\win\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\CTest.dir --rc=D:\WINDOW~1\10\bin\100183~1.0\x86\rc.exe --mt=D:\WINDOW~1\10\bin\100183~1.0\x86\mt.exe --manifests  -- D:\Programs\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1426~1.288\bin\Hostx86\x86\link.exe /nologo @CMakeFiles\CTest.dir\objects1.rsp @<<
+ /out:CTest.exe /implib:CTest.lib /pdb:D:\Programs\JetBrains\Projects\CProjects\CTest\cmake-build-debug\CTest.pdb /version:0.0  /machine:X86 /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib 
 <<
 
 # Rule to build all files generated by this target.
@@ -1341,6 +1341,6 @@ CMakeFiles\CTest.dir\clean:
 .PHONY : CMakeFiles\CTest.dir\clean
 
 CMakeFiles\CTest.dir\depend:
-	$(CMAKE_COMMAND) -E cmake_depends "NMake Makefiles" D:\Programs\JetBrains\CProjects\CTest D:\Programs\JetBrains\CProjects\CTest D:\Programs\JetBrains\CProjects\CTest\cmake-build-debug D:\Programs\JetBrains\CProjects\CTest\cmake-build-debug D:\Programs\JetBrains\CProjects\CTest\cmake-build-debug\CMakeFiles\CTest.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "NMake Makefiles" D:\Programs\JetBrains\Projects\CProjects\CTest D:\Programs\JetBrains\Projects\CProjects\CTest D:\Programs\JetBrains\Projects\CProjects\CTest\cmake-build-debug D:\Programs\JetBrains\Projects\CProjects\CTest\cmake-build-debug D:\Programs\JetBrains\Projects\CProjects\CTest\cmake-build-debug\CMakeFiles\CTest.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles\CTest.dir\depend
 
