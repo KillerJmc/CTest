@@ -45,3 +45,8 @@ void thread2_main()
     AA a(i);
     thread(&AA::work, &a, p).detach();
 }
+
+int main()
+{
+    thread2_main();
+}
