@@ -13,7 +13,7 @@ void print_arr(const int a[], int len)
     cout << "\b\b ]" << endl;
 }
 
-void sort(int a[], int len)
+void sort_(int a[], int len)
 {
     for (int i = 0; i < len - 1; i++)
         for (int k = 0; k < len - 1 - i; k++)
@@ -36,7 +36,7 @@ void add(int ** a, int * len, int t)
     delete[] *a;
     *a = temp;
     (*len)++;
-    sort(*a, *len);
+    sort_(*a, *len);
 }
 
 //C++引用写法
@@ -51,7 +51,7 @@ void remove(int * & a, int & len, int t)
         {
             a[i] = INT_MAX;
             exist = true;
-            sort(a, len);
+            sort_(a, len);
         }
     }
         

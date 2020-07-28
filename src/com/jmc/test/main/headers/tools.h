@@ -15,6 +15,7 @@
 #include <sstream>
 #include <cmath>
 #include <thread>
+#include <cstring>
 
 #include "file.h"
 

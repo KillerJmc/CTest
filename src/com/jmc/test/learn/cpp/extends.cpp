@@ -5,7 +5,7 @@ using namespace std;
 
 typedef string s;
 
-class Base {
+class Bases {
     public:
         s p1 = "public";
         static int sta;
@@ -15,7 +15,7 @@ class Base {
         s p3 = "private";
 };
 
-int Base::sta = 3;
+int Bases::sta = 3;
 
 //公共继承，保护基础，私有继承
 
@@ -23,7 +23,7 @@ int Base::sta = 3;
 //权限不变
 //继承所有非静态成员
 //私有属性被编译器隐藏无法访问
-class Aa : public Base {
+class Aa : public Bases {
     public:
         static int sta;
 };
@@ -32,11 +32,11 @@ int Aa::sta = 10;
 
 //将父类public, protected, static内容转换为
 //protected内容储存
-class B : protected Base{};
+class B : protected Bases{};
 
 //将父类public, portected, static内容转化为
 //private内容储存
-class C : private Base{};
+class C : private Bases{};
 
 class What : public Aa, protected B, private C{};
 
@@ -47,10 +47,10 @@ void extends_main()
     
     cout << a.sta << endl;
     //访问父类的属性要加作用域
-    //表示访问a下Base作用域
+    //表示访问a下Bases作用域
     //下的sta属性
-    cout << a.Base::sta << endl;
+    cout << a.Bases::sta << endl;
     cout << Aa::sta << endl;
               //通过类名方式访问，通过父类作用域访问
-    cout << Aa::Base::sta << endl;
+    cout << Aa::Bases::sta << endl;
 }

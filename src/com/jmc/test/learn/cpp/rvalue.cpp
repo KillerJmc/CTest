@@ -12,7 +12,7 @@ class str
         static long moveCpy;
         static long defaultCpy;
         
-        char * initV(char * v)
+        static char * initV(char * v)
         {
             char * cs = new char[strlen(v)];
             return strcpy(cs, v);
@@ -20,11 +20,11 @@ class str
         
     public:
         //ctor
-        str(): _value(NULL), _len(0) {}
+        str(): _value(nullptr), _len(0) {}
         str(char * v) : _value(initV(v)), _len(strlen(v)) {}
         
         //copy
-        str(str & s): _value(initV(s._value)), _len(s._len) 
+        str(const str& s): _value(initV(s._value)), _len(s._len)
         {
             defaultCpy++;
         }
@@ -37,7 +37,7 @@ class str
             moveCpy++;
             //断开指针指向
             s._len = 0;
-            s._value = NULL;
+            s._value = nullptr;
         }
         
         //assignment
@@ -62,7 +62,7 @@ class str
                 _value = s._value;
                 _len = s._len;
                 
-                s._value = NULL;
+                s._value = nullptr;
                 s._len = 0;
             }          
             return *this;
@@ -160,18 +160,17 @@ void testMovableStr()
     vector<str> movable;
     vector<normal_str> unmovable;
     char buf[] = "haha";
-    
+
     timer([unmovable, buf]() mutable {
         for (int i = 0; i < 3000000; i++)
-            unmovable.push_back
-             (normal_str(buf));
+            unmovable.emplace_back(buf);
         statistics(unmovable[0]);
-        
+
     }, "unmovable");
-    
+
     timer([movable, buf]() mutable {
         for (int i = 0; i < 3000000; i++)
-            movable.push_back(str(buf)); 
+            movable.emplace_back(buf);
         statistics(movable[0]);
     }, "movable");
 }

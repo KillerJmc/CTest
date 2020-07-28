@@ -34,23 +34,23 @@ Base::~Base()
     cout << "Base纯虚析构函数调用" << endl;
 }
 
-class A : public Base
+class A1 : public Base
 {
     public:
-        void fun() 
+        void fun()
         {
-            cout << "A.fun()..." << endl;
+            cout << "A1.fun()..." << endl;
         }
-        
-        ~A()
+
+        ~A1()
         {
             cout << "A析构函数调用" << endl;
         }
 };
 
 void extends4_main()
-{ 
-    Base * b = new A();
+{
+    Base * b = new A1();
     b -> fun();
     delete b;
 }
