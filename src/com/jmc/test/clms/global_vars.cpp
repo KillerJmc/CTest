@@ -1,6 +1,6 @@
 #include "global_vars.h"
 
-const string DATA_PATH = "test\\CLMSData\\";
+const string DATA_PATH = "..\\test\\CLMSDATA\\";
 const string ACCT_PATH = DATA_PATH + "acct\\";
 const string LAB_PATH = DATA_PATH + "lab\\";
 const string APPOINTMENT_PATH = DATA_PATH + "appointment\\";
@@ -22,7 +22,7 @@ file stu_acct_file(ACCT_PATH + "stu_acct");
 file lab_file(LAB_PATH + "lab_info");
 file stu_appointment_file(APPOINTMENT_PATH + "stu_appointment");
 
-bool AppointmentSingleLineRecord::operator==(AppointmentSingleLineRecord& another)
+bool AppointmentSingleLineRecord::operator==(AppointmentSingleLineRecord& another) const
 {
 	return this->date == another.date
 		&& this->time == another.time

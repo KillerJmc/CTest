@@ -1,41 +1,19 @@
-# init
 project(CTest)
 set(CMAKE_CXX_STANDARD 20)
-set(CMAKE_EXE_LINKER_FLAGS -static)
 cmake_minimum_required(VERSION 3.16)
 
-# set
-set(ROOT src/com/jmc)
-set(io ${ROOT}/io)
-set(test_main ${ROOT}/test/main)
-set(test_clms ${ROOT}/test/clms)
-set(test_learn ${ROOT}/test/learn)
+include_directories(${PROJECT_SOURCE_DIR}/include)
+set(LIBRARY_OUTPUT_PATH ${PROJECT_SOURCE_DIR}/lib)
 
-aux_source_directory(${io} io_src)
-aux_source_directory(${test_main} test_main_src)
-aux_source_directory(${test_clms} test_clms_src)
-aux_source_directory(${test_learn} test_learn_src)
+add_subdirectory(src)
 
-# include
-include_directories(${io} ${test_main} ${test_clms} ${test_learn})
+#file(GLOB_RECURSE SRCS CONFIGURE_DEPENDS src/*.cpp)
+#add_library(_jmc ${SRCS})
 
-# add src
-add_executable(CTest
-        ${io_src}
-        ${test_main_src}
-        ${test_clms_src}
-        ${test_learn_src}
-)
-
-# put the subdirs and create link libs
-add_subdirectory(${io})
-target_link_libraries(CTest com_jmc_io)
-
-add_subdirectory(${test_main})
-target_link_libraries(CTest com_jmc_test_main)
-
-add_subdirectory(${test_clms})
-target_link_libraries(CTest com_jmc_test_clms)
-
-add_subdirectory(${test_learn})
-target_link_libraries(CTest com_jmc_test_learn)
+#set(CMAKE_MODULE_PATH ${PROJECT_SOURCE_DIR}/module)
+#find_package(Jmc)
+#if (JMC_FOUND)
+#    include_directories(${JMC_INCLUDES})
+#    add_executable(CTest src/com/jmc/test/main/main.cpp)
+#    target_link_libraries(CTest ${JMC_LIBS})
+#endif (JMC_FOUND)

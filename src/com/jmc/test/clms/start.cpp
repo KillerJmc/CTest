@@ -69,6 +69,7 @@ void init()
 
 void start()
 {
+    init();
 	while (true)
 	{
 		cout << "学生机房管理系统\n请选择登录身份：\n\n"
@@ -109,12 +110,5 @@ void start()
 			break;
 		}
 	}
-}
-
-int man()
-{
-	init();
-	start();
-	return 0;
 }
 

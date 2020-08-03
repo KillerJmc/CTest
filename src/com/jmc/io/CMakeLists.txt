@@ -1,2 +1,2 @@
-aux_source_directory(. cpp_list)
-add_library(com_jmc_io ${cpp_list})
+aux_source_directory(. SRC_LIST)
+add_library(_io ${SRC_LIST})

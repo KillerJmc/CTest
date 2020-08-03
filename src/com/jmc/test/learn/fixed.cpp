@@ -1,5 +1,5 @@
 #include <iostream>
-#include "../main/tools.h"
+#include "tools.h"
 #include <iomanip>
 
 using namespace std;

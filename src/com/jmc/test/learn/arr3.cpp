@@ -1,5 +1,5 @@
 #include <iostream>
-#include "../main/tools.h"
+#include "tools.h"
 
 #define len(x) sizeof(x) / sizeof(x[0])
 

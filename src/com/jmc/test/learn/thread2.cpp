@@ -1,5 +1,5 @@
 #include <iostream>
-#include "../main/tools.h"
+#include "tools.h"
 
 using namespace std;
 
@@ -44,9 +44,4 @@ void thread2_main()
     int p = 3;
     AA a(i);
     thread(&AA::work, &a, p).detach();
-}
-
-int main()
-{
-    thread2_main();
 }
