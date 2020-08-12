@@ -27,5 +27,3 @@ private:
     mutex m;
     mutex m1, m2;
 };
-
-int t_p_main();

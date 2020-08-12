@@ -16,4 +16,3 @@ void get(int a, int b, int c)
 {
     printf("%d    %d    %d", a, b, c);
 }
-

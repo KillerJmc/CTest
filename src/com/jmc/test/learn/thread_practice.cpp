@@ -1,6 +1,6 @@
 #include "thread_practice.h"
 
-int main() {
+int thread_practice_main() {
     CollectCmds obj;
     thread inObj(&CollectCmds::inMsgRecvQueue3, &obj);
     thread outObj(&CollectCmds::outMsgRecvQueue3, &obj);
