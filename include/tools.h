@@ -20,6 +20,7 @@
 #include "file.h"
 
 #define len(x) sizeof(x) / sizeof(x[0])
+static bool has_rand_seed = false;
 
 using namespace std; 
 
@@ -106,3 +107,6 @@ void out_sth_endl(T t, Ts... ts)
     out_sth(ts...);
 }
 
+int rand(int start, int end);
+
+int rand(int end);

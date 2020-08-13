@@ -60,8 +60,3 @@ static void start()
     cout << "\n本场游戏共耗时" << time << "ms!" << endl;
     system("pause");
 }
-
-int main()
-{
-    start();
-}
