@@ -69,7 +69,7 @@ void stu_function(string& stu_id, string& stu_name)
 		switch (input)
 		{
 			case 1:
-				request_appiontment(stu_id, stu_name);
+                request_appointment(stu_id, stu_name);
 				break;
 			case 2:
 				check_self_appointment_status(stu_name);
@@ -88,7 +88,7 @@ void stu_function(string& stu_id, string& stu_name)
 	}
 }
 
-void request_appiontment(string& stu_id, string& stu_name)
+void request_appointment(string& stu_id, string& stu_name)
 {
 	system("cls");
 

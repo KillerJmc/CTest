@@ -9,7 +9,7 @@ add_subdirectory(src)
 #file(GLOB_RECURSE SRCS CONFIGURE_DEPENDS src/*.cpp)
 #add_library(_jmc ${SRCS})
 
-#set(CMAKE_MODULE_PATH ${PROJECT_SOURCE_DIR}/module)
+#set(CMAKE_MODULE_PATH ${PROJECT_SOURCE_DIR}/modules)
 #find_package(Jmc)
 #if (JMC_FOUND)
 #    include_directories(${JMC_INCLUDES})

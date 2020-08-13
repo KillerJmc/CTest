@@ -23,22 +23,26 @@
 
 using namespace std; 
 
-//模板函数不能写在.cpp里，会链接不到
-/*
-clock()
-函数可以返回自程序开始执行到当前位置为止, 处理器走过的时钟打点数
-*/
 template<class Func>
-void timer(Func func, string msg)
+double timer(Func func)
 {
-    typedef clock_t ct;
-    ct start = clock();
+    typedef std::chrono::high_resolution_clock clock;
+    using std::chrono::milliseconds;
+
+    auto start = clock::now();
     func();
-    ct end = clock();
+    auto end = clock::now();
+
+    milliseconds m = chrono::duration_cast<milliseconds>(end - start);
+    return m.count();
+}
+
+template<class Func>
+void timer(Func func, const string& msg)
+{
     cout << msg
         << "耗时"
-        //Linux clock()返回值不是ms，所以需要先转化为秒再乘1000
-        << (double)(end - start) / CLOCKS_PER_SEC * 1000
+        << timer(func)
         << "ms\n"
         << endl;
 }

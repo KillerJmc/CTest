@@ -1,6 +1,6 @@
 #include "start.h"
 
-void init()
+static void init()
 {
 	//如果不存在创建数据文件夹
 	file installed_file(DATA_PATH + "installed");
@@ -67,7 +67,7 @@ void init()
 	}
 }
 
-void start()
+static void start()
 {
     init();
 	while (true)
@@ -111,7 +111,5 @@ void start()
 		}
 	}
 }
-
-
 
 

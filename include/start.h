@@ -21,6 +21,7 @@
 #include "teacher.h"
 #include "stu.h"
 
-void init();
+static void init();
 
-void start();
+static void start();
+
