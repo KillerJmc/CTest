@@ -22,6 +22,3 @@
 #include "stu.h"
 
 static void init();
-
-static void start();
-

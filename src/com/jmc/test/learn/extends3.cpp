@@ -51,7 +51,7 @@ void extends3_main()
     Animal & a = c;
     a.eat();
     Animal * a2 = &c;
-    a2->eat();
+    a2-> eat();
     
     Animal a3 = c;
     a3.eat();

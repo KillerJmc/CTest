@@ -76,7 +76,7 @@ void print_m(T t)
     }
     cout << "{ ";
     for (auto it = t.begin(); it != t.end(); ++it)
-        cout << it->first << "=" << it->second << ", ";
+        cout << it -> first << "=" << it -> second << ", ";
     cout << "\b\b }" << endl;
 }
 

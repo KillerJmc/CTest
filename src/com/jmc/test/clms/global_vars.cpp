@@ -24,10 +24,10 @@ file stu_appointment_file(APPOINTMENT_PATH + "stu_appointment");
 
 bool AppointmentSingleLineRecord::operator==(AppointmentSingleLineRecord& another) const
 {
-	return this->date == another.date
-		&& this->time == another.time
-		&& this->id == another.id
-		&& this->name == another.name
-		&& this->lab_id == another.lab_id
-		&& this->appointment_status == another.appointment_status;
+	return this -> date == another.date
+		&& this -> time == another.time
+		&& this -> id == another.id
+		&& this -> name == another.name
+		&& this -> lab_id == another.lab_id
+		&& this -> appointment_status == another.appointment_status;
 }

@@ -17,5 +17,3 @@ public:
     void fire();
     bool win = false;
 };
-
-static void start();

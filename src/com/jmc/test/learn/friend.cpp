@@ -24,7 +24,7 @@ class Person
 
 void Lover::comeIn(Person * p)
 {
-    cout << "我老婆进了我的" << p-> m_bedroom << endl;
+    cout << "我老婆进了我的" << p -> m_bedroom << endl;
 }
 
 class Police

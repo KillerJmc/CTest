@@ -1,25 +1,24 @@
 #include "cannon.h"
 
 void Cannon::load_bullets() {
-    if (this->canShoot)
+    if (this -> canShoot)
     {
         cout << "不能反复填充子弹！" << endl;
         return;
     }
-    this->canShoot = true;
+    this -> canShoot = true;
     cout << "已填充一颗子弹" << endl;
 }
 
 void Cannon::fire() {
-    if (!this->canShoot)
+    if (!this -> canShoot)
     {
         cout << "没有炮弹，发射失败！" << endl;
     }
     else
     {
-        srand((unsigned int) time(NULL));
-        int target_loc = rand() % (this->SCENE_SIZE + 1);
-        int shot_loc = rand() % (this->SCENE_SIZE + 1);
+        int target_loc = rand(this -> SCENE_SIZE);
+        int shot_loc = rand(this -> SCENE_SIZE);
         if (abs(target_loc - shot_loc) <= HIT_RANGE)
         {
             win = true;
@@ -29,7 +28,7 @@ void Cannon::fire() {
         {
             cout << "炮弹偏离目标，继续努力！" << endl;
         }
-        this->canShoot = false;
+        this -> canShoot = false;
     }
 }
 

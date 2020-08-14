@@ -13,7 +13,7 @@ class Integer
         
         int getValue()
         {
-            return this ->_value;
+            return this -> _value;
         }
         
         Integer operator+(const Integer & other) const
