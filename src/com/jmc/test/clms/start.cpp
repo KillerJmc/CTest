@@ -38,7 +38,7 @@ static void init()
 	string admin_name, admin_pwd;
 	string teacher_id, teacher_name, teacher_pwd;
 	string stu_id, stu_name, stu_pwd;
-	int lab_id, lab_max_size, lab_ocupied_size;
+	int lab_id, lab_max_size, lab_occupied_size;
 	string date, time, id, name, lab__id, appointment_status;
 
 	while (admin_acct_file.get(admin_name, admin_pwd))
@@ -56,14 +56,14 @@ static void init()
 		stu_map.insert(make_pair(stu_id, make_pair(stu_name, stu_pwd)));
 	}
 
-	while (lab_file.get(lab_id, lab_max_size, lab_ocupied_size))
+	while (lab_file.get(lab_id, lab_max_size, lab_occupied_size))
 	{
-		lab_map.insert(make_pair(lab_id, make_pair(lab_max_size, lab_ocupied_size)));
+		lab_map.insert(make_pair(lab_id, make_pair(lab_max_size, lab_occupied_size)));
 	}
 
 	while (stu_appointment_file.get(date, time, id, name, lab__id, appointment_status))
 	{
-		appointment_vec.push_back({ date, time, id, name, lab__id, appointment_status });	
+		appointment_vec.push_back({ date, time, id, name, lab__id, appointment_status });
 	}
 }
 
@@ -111,5 +111,3 @@ static void start()
 		}
 	}
 }
-
-
