@@ -1,6 +1,4 @@
 #include <iostream>
-#include "tools.h"
-#include <cstdio>
 #include <array>
 
 using namespace std;

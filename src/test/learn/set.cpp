@@ -1,5 +1,6 @@
 #include <iostream>
-#include "tools.h"
+#include <set>
+#include <tools>
 
 using namespace std;
 
@@ -23,7 +24,7 @@ void set_test01()
         s.insert(i + 1);
     }
         
-    print_a(s);
+    tools::print_stl(s);
     
     set<int>::iterator it = s.find(10);
     if (it != s.end()) 
@@ -36,18 +37,18 @@ void set_test01()
     multiset<int> ms;
     for (int i = 0; i < 5; i++) ms.insert(10);
     cout << ms.count(10) << endl;
-    print_a(ms);
+    tools::print_stl(ms);
 }
 
 void set_test02()
 {
     set<int> s;
     for (int i = 10; i <= 50; i += 10) s.insert(i);
-    print_a(s);
+    tools::print_stl(s);
     
     set<int, Comparator> s2;
     for (int i = 10; i <= 50; i += 10) s2.insert(i);
-    print_a(s2);
+    tools::print_stl(s2);
 }
 
 void set_main()

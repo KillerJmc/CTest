@@ -1,13 +1,13 @@
 #include <iostream>
-#include "tools.h"
+#include <tools>
 
 using namespace std;
 
 //很多类的初始化都是用这个初始化列表作为参数，可以接收不定参数
 //{elements}会被编译器直接当成initializer_list
-void print(initializer_list<int> l)
+void print(initializer_list<int> list)
 {
-    for (auto i : l) cout << i << '\t';
+    for (auto i : list) cout << i << '\t';
     cout << endl;
 }
 
@@ -32,12 +32,12 @@ class add
 
 void init_list_main()
 {
-    print({1, 2, 3, 4, 5});
+    tools::print({1, 2, 3, 4, 5});
     add(3, 4);
     add({3, 4});
     add({1, 2, 3, 4, 5});
     //很多函数支持可变参数了
-    cout << max({1, 2, 3, 4, 5}) << endl;
+//    cout << std::max({1, 2, 3, 4, 5}) << endl;
     cout << "-----------------------------------------------";
     
     //auto&不管元素多大，拿出的都

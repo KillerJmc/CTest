@@ -1,5 +1,6 @@
 #include <iostream>
-#include "tools.h"
+#include <vector>
+#include <tools>
 
 using namespace std;
 
@@ -21,5 +22,5 @@ void alias_main()
     //和typedef所不能做到的
     //事：包含模板
     V<int> v;
-    print_a(v);
+    tools::print_stl(v);
 }

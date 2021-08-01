@@ -1,5 +1,5 @@
 #include <iostream>
-#include "tools.h"
+#include <tools>
 
 using namespace std;
 
@@ -87,7 +87,7 @@ ostream & operator<<(ostream & out, Integer i)
 
 void operator_main()
 { 
-    Integer a = Integer(3);
+    auto a = Integer(3);
     Integer b = 4;
     Integer c(5);
     
@@ -118,6 +118,6 @@ void operator_main()
     cout << (a == c) << endl;
     
     
-    Integer i = NULL;
+    Integer i = 0;
     i("666");
 }

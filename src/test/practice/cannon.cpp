@@ -17,8 +17,8 @@ void Cannon::fire() {
     }
     else
     {
-        int target_loc = rand(this -> SCENE_SIZE);
-        int shot_loc = rand(this -> SCENE_SIZE);
+        int target_loc = tools::rand(0, this -> SCENE_SIZE);
+        int shot_loc = tools::rand(0, this -> SCENE_SIZE);
         if (abs(target_loc - shot_loc) <= HIT_RANGE)
         {
             win = true;
@@ -36,7 +36,7 @@ void start_cannon()
 {
     system("CHCP 65001 && cls");
 
-    double time = timer([] {
+    size_t time = tools::timer([] {
         Cannon cannon;
         cout << "炮弹游戏\n输入1填充子弹\n输入2击打目标" << endl;
         while (!cannon.win)

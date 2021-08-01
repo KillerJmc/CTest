@@ -1,5 +1,6 @@
 #include <iostream>
-#include "tools.h"
+#include <list>
+#include <tools>
 
 using namespace std;
 
@@ -19,20 +20,20 @@ void list_main()
         l.push_back((i + 1) * 10);
     }
 
-    print_a(l);
+    tools::print_stl(l);
     //移除所有与40相关的元素
     l.remove(40);
-    print_a(l);
+    tools::print_stl(l);
     cout << "-----------------------------------------------";
     
     l.clear();
     for (int i = 0; i < 5; i++)
         l.push_front((i + 1) * 10);
-    print_a(l);
+    tools::print_stl(l);
     l.reverse();
-    print_a(l);
+    tools::print_stl(l);
     //l.sort();
     l.sort(comparator);
-    print_a(l);
+    tools::print_stl(l);
    
 }

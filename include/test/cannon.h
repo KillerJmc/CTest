@@ -1,7 +1,7 @@
 #pragma once
 
 #include <iostream>
-#include "tools.h"
+#include <tools>
 
 using namespace std;
 

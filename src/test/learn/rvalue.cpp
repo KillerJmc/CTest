@@ -1,7 +1,8 @@
 #include <iostream>
-#include "tools.h"
+#include <tools>
+#include <cstring>
+#include <vector>
 
-using namespace std;
 
 class str
 {
@@ -31,7 +32,7 @@ class str
         
         //move copy
         //要写noexcept才能被自动调用
-        //可由vector等等自动调用
+        //可由std::vector等等自动调用
         str(str && s) noexcept : _value(s._value), _len(s._len)
         {
             moveCpy++;
@@ -128,47 +129,47 @@ long normal_str::defaultCpy = 0;
 template<class S>
 void statistics(S& s)
 {
-    cout << "moveCpy = " << s.moveCpy << "\ndefaultCpy = " << s.defaultCpy << endl;
+    std::cout << "moveCpy = " << s.moveCpy << "\ndefaultCpy = " << s.defaultCpy << std::endl;
 }
 
 void testMove()
 {
-    vector<int> v1, v2, v3;
+    std::vector<int> v1, v2, v3;
     for (int i = 0; i < 3000000; i++)
     {
         v1.push_back(i);
     }
     
-    timer([v1, v2]() mutable {
-        v2 = vector<int>(v1);
+    tools::timer([v1, v2]() mutable {
+        v2 = std::vector<int>(v1);
     }, "normal");
     
-    timer([v1, v3]() mutable {
-        v3 = vector<int>(move(v1));
+    tools::timer([v1, v3]() mutable {
+        v3 = std::vector<int>(move(v1));
     }, "move");
     
-    timer([v2, v3]() mutable {
+    tools::timer([v2, v3]() mutable {
         v2.swap(v3);
     }, "swap");
 }
 
-//move对vector影响最大
+//move对std::vector影响最大
 //deque如果从中间插入也会有很大影响
 //其他容器插入效率几乎不受影响
 void testMovableStr()
 {
-    vector<str> movable;
-    vector<normal_str> unmovable;
+    std::vector<str> movable;
+    std::vector<normal_str> unmovable;
     char buf[] = "haha";
 
-    timer([unmovable, buf]() mutable {
+    tools::timer([unmovable, buf]() mutable {
         for (int i = 0; i < 3000000; i++)
             unmovable.emplace_back(buf);
         statistics(unmovable[0]);
 
     }, "unmovable");
 
-    timer([movable, buf]() mutable {
+    tools::timer([movable, buf]() mutable {
         for (int i = 0; i < 3000000; i++)
             movable.emplace_back(buf);
         statistics(movable[0]);

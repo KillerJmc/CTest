@@ -1,5 +1,6 @@
 #include <iostream>
-#include "tools.h"
+#include <stack>
+#include <queue>
 
 using namespace std;
 

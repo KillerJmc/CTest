@@ -1,5 +1,5 @@
 #include <iostream>
-#include "tools.h"
+#include <tools>
 
 using namespace std;
 
@@ -18,7 +18,7 @@ void decltype_main()
     int i = 3;
     //decltype返回参数类型
     decltype(i) i2 = 4;
-    out_sth_endl(i, i2, add(i, i2));
+    tools::print({i, i2, add(i, i2)});
     
     //获取变量类型的名称
     cout << typeid(i).name() << endl;

@@ -1,5 +1,6 @@
 #include <iostream>
-#include "tools.h"
+#include <map>
+#include <tools>
 
 using namespace std;
 
@@ -18,17 +19,17 @@ void map_test01()
     map<string, int> m;
     for (int i = 0; i < 5; i++)
         m.insert(make_pair("Jmc", i + 1));
-    print_m(m);
+    tools::print_map(m);
     
     //自动排序，key可重复
     multimap<string, int> m2;
     for (int i = 0; i < 5; i++)
         m2.insert(make_pair("Jmc", i + 1));
-    print_m(m2);
+    tools::print_map(m2);
    
     //通过key删除
     m2.erase("Jmc");
-    print_m(m2);
+    tools::print_map(m2);
     
 }
 
@@ -37,13 +38,13 @@ void map_test02()
     map<int, int, less<int>> m;
     for (int i = 10; i <= 50; i += 10)
         m.insert(make_pair(i / 10, i));
-    print_m(m);
+    tools::print_map(m);
     
     //map<int, int, Comparator> m2;
     map<int, int, greater<int>> m2;
     for (int i = 10; i <= 50; i += 10)
         m2.insert(make_pair(i / 10, i));
-    print_m(m2);
+    tools::print_map(m2);
     
 }
 
@@ -52,7 +53,7 @@ void map_test03()
     multimap<int, int> m;
     for (int i = 10; i <= 100; i+= 10)
         m.insert(make_pair(i % 3, i));
-    print_m(m);
+    tools::print_map(m);
     
     cout << "key为1的有：" << endl;
     int count = m.count(1);
@@ -61,7 +62,7 @@ void map_test03()
     for (int i = 0; i < count; ++i) end++;
     m.erase(m.begin(), begin);
     m.erase(end, m.end());
-    print_m(m);
+    tools::print_map(m);
     
 }
 

@@ -1,11 +1,11 @@
 #include <iostream>
 #include <vector>
 #include <algorithm>
-#include "tools.h"
+#include <tools>
 
 using namespace std;
 
-void print(int i)
+void my_print(int i)
 {
     cout << i << endl;
 }
@@ -22,7 +22,7 @@ void vectors_test01()
     cout << "-----------------------------------------------";
     
     vector<int> v2 (10, 8848);
-    print_a(v2);
+    tools::print_stl(v2);
 
     cout << "-----------------------------------------------";
 
@@ -39,7 +39,7 @@ void vectors_test01()
     sort(v.begin(), v.end());
     reverse(v.begin(), v.end());
     //用for_each遍历
-    for_each(v.begin(), v.end(), print);
+    for_each(v.begin(), v.end(), my_print);
 
     cout << "-----------------------------------------------";
     cout << v.size() << endl;
@@ -58,9 +58,9 @@ void vectors_test02()
     cout << v.capacity() << endl;
     v.resize(5);
     cout << v.capacity() << endl;
-    print_a(v);
+    tools::print_stl(v);
     v.resize(10, 8848);
-    print_a(v);
+    tools::print_stl(v);
     cout << "-----------------------------------------------";
 }
 
@@ -68,13 +68,13 @@ void vectors_test03()
 {
     vector<int> v = {1, 2, 3, 4, 5};
     v.insert(v.begin(), 10);
-    print_a(v);
+    tools::print_stl(v);
     v.insert(v.begin(), 2, 8848);
-    print_a(v);
+    tools::print_stl(v);
     v.erase(v.begin() + 2);
-    print_a(v);
+    tools::print_stl(v);
     v.erase(v.begin(), v.begin() + 2);
-    print_a(v);
+    tools::print_stl(v);
     cout << "-----------------------------------------------";
 }
 
@@ -83,15 +83,15 @@ void vectors_test04()
     vector<int> v;
     for (int i = 0; i < 10000; i++) 
         v.push_back(i + 1);
-    out_sth_endl(v.size(), v.capacity());
+    tools::print({v.size(), v.capacity()});
     v.resize(3);
-    out_sth_endl(v.size(), v.capacity());
+    tools::print({v.size(), v.capacity()});
     
     //匿名对象掉用完即被销毁
     //初始化对象只拷贝用的部分
     //然后与原对象指针指向互换
     vector<int>(v).swap(v);
-    out_sth_endl(v.size(), v.capacity());
+    tools::print({v.size(), v.capacity()});
     cout << "-----------------------------------------------";
 }
 
@@ -125,7 +125,7 @@ void vectors_test05()
         }
     }
     
-    out_sth_endl(num, num2);
+    tools::print({num, num2});
     cout << "-----------------------------------------------";
         
 }

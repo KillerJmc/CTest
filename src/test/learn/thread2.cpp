@@ -1,5 +1,6 @@
 #include <iostream>
-#include "tools.h"
+#include <thread>
+#include <tools>
 
 using namespace std;
 

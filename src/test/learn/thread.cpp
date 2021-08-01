@@ -1,5 +1,6 @@
 #include <iostream>
-#include "tools.h"
+#include <thread>
+#include <tools>
 
 using namespace std;
 
@@ -26,7 +27,7 @@ void thread_main()
     //t.detach();
     
     
-    thread([] {out_sth_endl("NB", "Class");}).join();
+    thread([] {tools::print({"NB", "Class"});}).join();
     cout << "Hello World!" << endl;
 }
 

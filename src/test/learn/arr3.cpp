@@ -1,17 +1,7 @@
 #include <iostream>
-#include "tools.h"
-
-#define len(x) sizeof(x) / sizeof(x[0])
+#include <tools>
 
 using namespace std;
-
-void print_arr(const int a[], int len)
-{
-    cout << "[ ";
-    for (int i = 0; i < len; i++)
-        cout << a[i] << ", ";
-    cout << "\b\b ]" << endl;
-}
 
 void sort_(int a[], int len)
 {
@@ -73,13 +63,13 @@ void arr3_main()
 {
     int len = 5;
     int * a = new int[len] {5, 0, 4, 10, 8};
-    print_arr(a, len);
+    tools::print_arr(a, len);
     
     add(&a, &len, 6);
-    print_arr(a, len);
+    tools::print_arr(a, len);
     
     remove(a, len, 4);
-    print_arr(a, len);
+    tools::print_arr(a, len);
     
     delete[] a;
     a = NULL;

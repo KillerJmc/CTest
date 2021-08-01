@@ -1,5 +1,5 @@
 #include <iostream>
-#include "tools.h"
+#include <tools>
 
 using namespace std;
 
@@ -12,7 +12,7 @@ void string2_test01()
     
     int idx3 = s.find("h");
  
-    out_sth_endl(idx1, idx2, idx3);
+    tools::print({idx1, idx2, idx3});
     
     //范围替换
     s.replace(1, 3, "!!!oksir!!!");

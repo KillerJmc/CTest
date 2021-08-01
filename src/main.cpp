@@ -1,7 +1,11 @@
 #include <iostream>
+#include <tools>
+#include <functional>
 
-int main()
-{
-    std::cout << 666 << std::endl;
+using namespace basic_std;
+
+int main() {
+    auto add = [](auto a, auto b) { return a + b; };
+    cout << add(1, 2) << endl;
 }
 
