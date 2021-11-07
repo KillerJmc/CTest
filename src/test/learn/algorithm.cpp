@@ -3,6 +3,7 @@
 #include <tools>
 #include <algorithm>
 #include <numeric>
+#include <functional>
 
 using namespace std;
 

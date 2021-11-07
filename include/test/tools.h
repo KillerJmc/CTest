@@ -3,12 +3,6 @@
 #include <iostream>
 #include <chrono>
 
-namespace basic_std {
-    using std::cin;
-    using std::cout;
-    using std::endl;
-}
-
 namespace tools {
     template<class Func> size_t timer(Func func)
     {

@@ -5,17 +5,19 @@
 
 using namespace std;
 
-class Cannon
-{
-private:
-    bool canShoot = false;
-    const int SCENE_SIZE = 100;
-    const int HIT_RANGE = 5;
+namespace cannon {
+    class Cannon
+    {
+    private:
+        bool canShoot = false;
+        const int SCENE_SIZE = 100;
+        const int HIT_RANGE = 5;
 
-public:
-    void load_bullets();
-    void fire();
-    bool win = false;
-};
+    public:
+        void load_bullets();
+        void fire();
+        bool win = false;
+    };
 
-void start_cannon();
+    void start_cannon();
+}
