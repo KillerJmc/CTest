@@ -14,7 +14,6 @@ set(CMAKE_EXE_LINKER_FLAGS -static)
 # 导入jmc-libs库
 include(${PROJECT_SOURCE_DIR}/modules/jmc-libs/install.cmake)
 
-# 设置头文件路径
 include_directories(
 	${PROJECT_SOURCE_DIR}/include/clms
 	${PROJECT_SOURCE_DIR}/include/test

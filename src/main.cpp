@@ -1,6 +1,9 @@
 #include <iostream>
 #include <algorithm>
-#include <tools>
+#include <jmc-all>
+
+using std::cout;
+using std::endl;
 
 int main()
 {
