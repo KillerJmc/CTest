@@ -1,4 +1,4 @@
-#include <stu.h>
+#include <clms/stu.h>
 
 namespace clms {
 	namespace stu {

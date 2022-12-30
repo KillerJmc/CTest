@@ -1,6 +1,5 @@
 #include <iostream>
 #include <algorithm>
-#include <jmc-all>
 
 using std::cout;
 using std::endl;
@@ -10,27 +9,27 @@ namespace _forward
 
 	const char* judge(int& i)
 	{
-		return "×óÖµ";
+		return "å·¦å€¼";
 	}
 
 	const char* judge(int&& i)
 	{
-		return "ÓÒÖµ";
+		return "å³å€¼";
 	}
 
 	void m(int& i)
 	{
 		cout << "-----------m-----------" << endl;
-		cout << "´«ÈëµÄ±äÁ¿Îª×óÖµ" << endl;
-		cout << "º¯ÊıÖĞÕâ¸ö±äÁ¿Îª" << judge(i) << endl;
+		cout << "ä¼ å…¥çš„å˜é‡ä¸ºå·¦å€¼" << endl;
+		cout << "å‡½æ•°ä¸­è¿™ä¸ªå˜é‡ä¸º" << judge(i) << endl;
 		cout << "-----------m-----------\n" << endl;
 	}
 
 	void m(int&& i)
 	{
 		cout << "-----------m-----------" << endl;
-		cout << "´«ÈëµÄ±äÁ¿ÎªÓÒÖµ" << endl;
-		cout << "º¯ÊıÖĞÕâ¸ö±äÁ¿Îª" << judge(i) << endl;
+		cout << "ä¼ å…¥çš„å˜é‡ä¸ºå³å€¼" << endl;
+		cout << "å‡½æ•°ä¸­è¿™ä¸ªå˜é‡ä¸º" << judge(i) << endl;
 		cout << "-----------m-----------\n" << endl;
 	}
 
@@ -38,23 +37,23 @@ namespace _forward
 	void transfer(T&& t)
 	{
 		cout << "--------transfer--------" << endl;
-		cout << "º¯ÊıÖĞÕâ¸ö±äÁ¿Îª" << judge(t) << endl;
-		cout << "Ó¦×ªÎªÕıÈ·µÄTÀàĞÍ²ÅÄÜ×ª·¢" << endl;
+		cout << "å‡½æ•°ä¸­è¿™ä¸ªå˜é‡ä¸º" << judge(t) << endl;
+		cout << "åº”è½¬ä¸ºæ­£ç¡®çš„Tç±»å‹æ‰èƒ½è½¬å‘" << endl;
 		cout << "--------transfer--------\n" << endl;
-		// °ÑÀàĞÍÇ¿ÖÆ×ª»»ÎªÕıÈ·µÄTÀàĞÍ
+		// æŠŠç±»å‹å¼ºåˆ¶è½¬æ¢ä¸ºæ­£ç¡®çš„Tç±»å‹
 		m(std::forward<T>(t));
 	}
 
 	void main()
 	{
-		// ÓÒÖµ
+		// å³å€¼
 		cout << "m(33)" << endl;
 		m(33);
 		cout << "transfer(33)" << endl;
 		transfer(33);
 
 		int i = 666;
-		// ×óÖµ
+		// å·¦å€¼
 		cout << "m(i)" << endl;
 		m(i);
 		cout << "transfer(i)" << endl;

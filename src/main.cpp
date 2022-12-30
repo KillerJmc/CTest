@@ -1,11 +1,9 @@
 #include <iostream>
-#include <algorithm>
-#include <jmc-all>
+#include <jmc-libs/all.h>
 
-using std::cout;
-using std::endl;
+using std::cout, std::endl;
 
 int main()
 {
-	
+
 }

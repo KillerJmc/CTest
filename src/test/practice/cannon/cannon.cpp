@@ -1,4 +1,5 @@
-#include "cannon.h"
+#include <test/cannon.h>
+#include <jmc-libs/all.h>
 
 namespace cannon {
     void Cannon::load_bullets() {
@@ -18,8 +19,8 @@ namespace cannon {
         }
         else
         {
-            int target_loc = tools::rand(0, this->SCENE_SIZE);
-            int shot_loc = tools::rand(0, this->SCENE_SIZE);
+            int target_loc = jmc::rand::next_int(0, this->SCENE_SIZE);
+            int shot_loc = jmc::rand::next_int(0, this->SCENE_SIZE);
             if (abs(target_loc - shot_loc) <= HIT_RANGE)
             {
                 win = true;

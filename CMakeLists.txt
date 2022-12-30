@@ -1,30 +1,14 @@
-project(CTest)
-set(CMAKE_CXX_STANDARD 23)
-cmake_minimum_required(VERSION 3.20)
+cmake_minimum_required(VERSION 3.12)
+project(CTest LANGUAGES CXX VERSION 1.0.0)
 
-# 指定vs下为utf-8编码
-add_compile_options("/utf-8")
+set(CMAKE_CXX_STANDARD 20)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
+set(CMAKE_CXX_EXTENSIONS OFF)
 
-# 设置exe输出路径
-set(EXECUTABLE_OUTPUT_PATH ${PROJECT_SOURCE_DIR}/bin)
+include(cmake/internal_utils.cmake)
+add_compiler_args()
+init_internal_args()
 
-# 设置exe静态编译
-set(CMAKE_EXE_LINKER_FLAGS -static)
+include_directories(include)
 
-# 导入jmc-libs库
-include(${PROJECT_SOURCE_DIR}/modules/jmc-libs/install.cmake)
-
-include_directories(
-	${PROJECT_SOURCE_DIR}/include/clms
-	${PROJECT_SOURCE_DIR}/include/test
-)
-
-set(COMPILE_ALL, false)
-
-if (${COMPILE_ALL})
-	file(GLOB_RECURSE SRCS CONFIGURE_DEPENDS src/*.cpp)
-	add_executable(CTest ${SRCS} src/main.cpp)
-else()
-	add_executable(CTest src/main.cpp)
-endif()
-
+add_subdirectory(src)

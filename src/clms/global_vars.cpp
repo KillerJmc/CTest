@@ -1,8 +1,8 @@
-#include <global_vars.h>
+#include <clms/global_vars.h>
 
 namespace clms {
 	namespace global_vars {
-		const string DATA_PATH = "..\\test\\CLMSDATA\\";
+		const string DATA_PATH = "CLMSData\\";
 		const string ACCT_PATH = DATA_PATH + "acct\\";
 		const string LAB_PATH = DATA_PATH + "lab\\";
 		const string APPOINTMENT_PATH = DATA_PATH + "appointment\\";

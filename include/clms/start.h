@@ -16,10 +16,10 @@
 
 
 #pragma once
-#include <global_vars.h>
-#include <admin.h>
-#include <teacher.h>
-#include <stu.h>
+#include <clms/global_vars.h>
+#include <clms/admin.h>
+#include <clms/teacher.h>
+#include <clms/stu.h>
 
 namespace clms {
 	void init();

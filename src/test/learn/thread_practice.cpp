@@ -1,4 +1,4 @@
-#include "thread_practice.h"
+#include <test/thread_practice.h>
 
 int thread_practice_main() {
     CollectCmds obj;

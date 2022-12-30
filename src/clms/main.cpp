@@ -1,0 +1,6 @@
+#include "global_vars.cpp"
+#include "my_file.cpp"
+#include "admin.cpp"
+#include "stu.cpp"
+#include "teacher.cpp"
+#include "start.cpp"

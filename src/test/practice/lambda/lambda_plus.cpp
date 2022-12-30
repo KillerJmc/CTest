@@ -2,11 +2,11 @@
 #include <vector>
 #include <ranges>
 #include <algorithm>
-#include <jmc-all>
+#include <jmc-libs/all.h>
 
 namespace lambda_plus {
 	void main() {
-		auto names = jmc::file::lines("students.dat");
+		auto names = jmc::file::lines("../src/test/practice/lambda/students.dat");
 		auto tmp = names
 			| std::views::filter([](const auto& s) { return !s.starts_with("B") && !s.ends_with("n"); })
 			| std::views::transform(jmc::str::to_upper_case);

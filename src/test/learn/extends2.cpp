@@ -1,5 +1,5 @@
 #include <iostream>
-#include <tools>
+#include <test/tools.h>
 
 using namespace std;
 
@@ -10,7 +10,7 @@ class Animal
 };
 
 //虚继承，继承为一个指针变量，指向同一份数据（声明的类们共享基类）
-//用此方法解决菱形继承
+//用此方法解决菱形继承S
 class Sheep : virtual public Animal {};
 
 class Camel : virtual public Animal {};

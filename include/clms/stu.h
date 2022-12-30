@@ -1,5 +1,5 @@
 #pragma once
-#include <global_vars.h>
+#include <clms/global_vars.h>
 
 namespace clms {
 	namespace stu {

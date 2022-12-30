@@ -1,10 +1,13 @@
-#include <start.h>
+#include <clms/start.h>
 
 namespace clms {
 	using namespace global_vars;
 
 	void init()
 	{
+		// 强制使用UTF-8打印避免乱码
+		system("chcp 65001 > NUL");
+
 		//如果不存在创建数据文件夹
 		my_file installed_file(DATA_PATH + "installed");
 		if (!installed_file.is_open())
